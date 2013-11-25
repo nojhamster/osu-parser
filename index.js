@@ -60,7 +60,7 @@ Parser.prototype.parseLine = function (line) {
     if (members.length < 5) return;
 
     var sixth = members[5];
-    if (!sixth || /^(?:[0-9]+:)+?$/.test(sixth)) { this.beatmap.nbcircles++; }
+    if (!sixth || /^(?:[0-9]+:)+?/.test(sixth)) { this.beatmap.nbcircles++; }
     else if (/^[a-zA-Z]\|/.test(sixth))          { this.beatmap.nbsliders++; }
     else if (/^[0-9]+$/.test(sixth))             { this.beatmap.nbspinners++; }
     else return;
