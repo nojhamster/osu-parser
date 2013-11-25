@@ -155,6 +155,10 @@ exports.parseStream = function (stream, callback) {
   .lines
   .forEach(function (line) { parser.parseLine(line); });
 
+  lazy.on('error', function (err) {
+    callback(err);
+  });
+
   lazy.on('end', function () {
     var beatmap = parser.finalizeBeatmap();
     callback(null, beatmap);
