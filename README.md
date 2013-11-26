@@ -29,23 +29,29 @@ npm install osu-parser
   });
 ```
 
-## What it returns
+## The resulting object
 
-All key/value pairs are added to the resulting object with a lowercased key :
+It contains all key/value pairs with a **lowercased** key :
 ```
+...
 PreviewTime: 42860
+...
 ```
 ```
-beatmap: { previewtime: 42860 }
+beatmap: {
+  ...
+  previewtime: 42860,
+  ...
+}
 ```
 
-Additionnal infos are computed :  
+### Additionnal attributes :  
 `nbcircles` : number of circles.  
 `nbsliders` : number of sliders.  
 `nbspinners` : number of spinners.  
 `bpm` : a single number if constant (ex `150`), or min~max (ex `140~180`).  
-`totaltime` : total time in seconds between first timing line and last object offset.  
-`drainingtime` : song draining time in seconds.  
+`totaltime` : total time in seconds (between the first timing point and the last object).  
+`drainingtime` : draining time in seconds.  
 
 
 ## Methods
@@ -88,6 +94,7 @@ Parse the content of a file as a string or a buffer.
 - put hit objects into an array
 - put events into an array
 - evaluate map difficulty ? (probably too complicated)
+- make it usable in a browser ? (not sure that would be useful)
 - ...
 
 Feel free to post an issue if you want something else !
