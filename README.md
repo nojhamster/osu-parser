@@ -3,6 +3,15 @@ osu-parser
 
 A parser that converts osu files into javascript objects. Feel free to coment if you are interested !
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [What it returns](#what-it-returns)
+- [Methods](#methods)
+	- [parseFile(filepath, callback)](#parsefilefilepath-callback)
+	- [parseStream(stream, callback)](#parsestreamstream-callback)
+	- [parseContent(content)](#parsecontentcontent)
+- [TODO](#todo)
+
 ## Installation
 
 ```
