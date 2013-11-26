@@ -6,7 +6,7 @@ A parser that converts osu files into javascript objects. Feel free to comment i
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [What it returns](#what-it-returns)
+- [The resulting object](#the-resulting-object)
 - [Methods](#methods)
 	- [parseFile(filepath, callback)](#parsefilefilepath-callback)
 	- [parseStream(stream, callback)](#parsestreamstream-callback)
