@@ -2,7 +2,7 @@ osu-parser
 ==========
 [![Build Status](https://travis-ci.org/nojhamster/osu-parser.png?branch=master)](https://travis-ci.org/nojhamster/osu-parser)
 
-A parser that converts osu files into javascript objects. Feel free to coment if you are interested !
+A parser that converts osu files into javascript objects. Feel free to comment if you are interested !
 
 - [Installation](#installation)
 - [Usage](#usage)
