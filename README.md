@@ -1,7 +1,7 @@
 osu-parser
 ==========
 
-converts osu files into javascript objects
+A parser that converts osu files into javascript objects. Feel free to coment if you are interested !
 
 ## Installation
 
@@ -71,3 +71,13 @@ Parse the content of a file as a string or a buffer.
   
   var beatmap = parser.parseContent(content);
 ```
+
+## TODO
+- add file version (v8, v12...)
+- put timing points into an array
+- put hit objects into an array
+- put events into an array
+- evaluate map difficulty ? (probably too complicated)
+- ...
+
+Feel free to post an issue if you want something else !
