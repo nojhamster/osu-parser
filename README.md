@@ -94,6 +94,7 @@ Parse the content of a file as a string or a buffer.
 - put hit objects into an array
 - put events into an array
 - evaluate map difficulty ? (probably too complicated)
+- add a synchronous version of parseFile
 - make it usable in a browser ? (not sure that would be useful)
 - ...
 
