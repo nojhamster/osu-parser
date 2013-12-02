@@ -46,6 +46,7 @@ beatmap: {
 ```
 
 ### Additionnal attributes :  
+`fileformat` : osu file format (v7, v12...).  
 `nbcircles` : number of circles.  
 `nbsliders` : number of sliders.  
 `nbspinners` : number of spinners.  
@@ -89,7 +90,6 @@ Parse the content of a file as a string or a buffer.
 ```
 
 ## TODO
-- add file version (v8, v12...)
 - put timing points into an array
 - put hit objects into an array
 - put events into an array
