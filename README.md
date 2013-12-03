@@ -65,16 +65,16 @@ beatmap: {
 `soundType`: bitwise flags enum. `0` if no sound addition.  
 
 #### ObjectType bitwise flags
-  - 1: circle
-  - 2: slider
-  - 8: spinner
+1 : circle  
+2 : slider  
+8 : spinner  
 
-  Still need to find out the other flags.
+Still need to find out the other flags.
 
 #### SoundType bitwise flags
-  - 2: whistle
-  - 4: finish
-  - 8: clap
+2 : whistle  
+4 : finish  
+8 : clap  
 
 ### TimingPoint attributes
   `offset`: section offset in milliseconds.  
