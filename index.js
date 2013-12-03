@@ -5,14 +5,15 @@ var Lazy = require('lazy');
 
 function Parser() {
   this.beatmap = {
-    nbcircles: 0,
-    nbsliders: 0,
-    nbspinners: 0
+    nbCircles: 0,
+    nbSliders: 0,
+    nbSpinners: 0,
+    hitObjects: [],
+    timingPoints: []
   };
 
   this.sectionReg     = /^\[([a-zA-Z0-9]+)\]$/;
   this.keyValReg      = /^([a-zA-Z0-9]+)[ ]*:[ ]*(.+)$/;
-  this.lastOffset     = 0;
   this.totalBreakTime = 0;
 }
 
@@ -39,14 +40,26 @@ Parser.prototype.parseLine = function (line) {
     var members = line.split(',');
 
     if (/^([0-9\.\-]+)$/.test(members[0]) && /^([0-9\.\-]+)$/.test(members[1])) {
-      if (this.firstTimingOffset === undefined) { this.firstTimingOffset = members[0]; }
+      var timingPoint = {
+        offset: members[0],
+        beatLength: members[1],
+        timingSignature: members[2],
+        sampleSetId: members[3],
+        useCustomSamples: (members[4] == 1),
+        sampleVolume: members[5],
+        timingChange: (members[6] == 1),
+        kiaiTimeActive: (members[7] == 1)
+      };
 
-      var msPerBeat = parseFloat(members[1]);
+      var msPerBeat = parseFloat(timingPoint.beatLength);
       if (!isNaN(msPerBeat) && msPerBeat > 0) {
-        var bpm = Math.round((60 / msPerBeat) * 1000);
+        var bpm = Math.round(60000 / msPerBeat);
         if (!this.bpmMin || this.bpmMin > bpm) { this.bpmMin = bpm; }
         if (!this.bpmMax || this.bpmMax < bpm) { this.bpmMax = bpm; }
+        timingPoint.bpm = bpm;
       }
+
+      this.beatmap.timingPoints.push(timingPoint);
     }
     break;
   case 'hitobjects':
@@ -59,14 +72,30 @@ Parser.prototype.parseLine = function (line) {
     var members = line.split(',');
     if (members.length < 5) return;
 
-    var sixth = members[5];
-    if (!sixth || /^(?:[0-9]+:)+?/.test(sixth)) { this.beatmap.nbcircles++; }
-    else if (/^[a-zA-Z]\|/.test(sixth))          { this.beatmap.nbsliders++; }
-    else if (/^[0-9]+$/.test(sixth))             { this.beatmap.nbspinners++; }
-    else return;
+    var hitobject = {
+      x: members[0],
+      y: members[1],
+      startTime: members[2],
+      objectType: members[3],
+      soundType: members[4]
+    }
 
-    this.lastOffset = members[2];
-    if (this.firstObjectOffset === undefined) { this.firstObjectOffset = members[2]; }
+    var sixth = members[5];
+    if (!sixth || /^(?:[0-9]+:)+?/.test(sixth)) {
+      this.beatmap.nbCircles++;
+      hitobject.objectName = 'circle';
+    } else if (/^[a-zA-Z]\|/.test(sixth)) {
+      this.beatmap.nbSliders++;
+      hitobject.objectName = 'slider';
+    } else if (/^[0-9]+$/.test(sixth)) {
+      this.beatmap.nbSpinners++;
+      hitobject.endTime    = sixth;
+      hitobject.objectName = 'spinner';
+    } else {
+      hitobject.objectName = 'unknown';
+    }
+
+    this.beatmap.hitObjects.push(hitobject);
     break;
   case 'events':
     /**
@@ -80,7 +109,7 @@ Parser.prototype.parseLine = function (line) {
     var members = line.split(',');
 
     if (members[0] == '0' && members[1] == '0' && /^".*"$/.test(members[2])) {
-      this.beatmap.bgfilename = members[2].substring(1, members[2].length - 1);
+      this.beatmap.bgFilename = members[2].substring(1, members[2].length - 1);
     } else if (members[0] == '2' && /^[0-9]+$/.test(members[1]) && /^[0-9]+$/.test(members[2])) {
       this.totalBreakTime += (members[2] - members[1]);
     }
@@ -88,13 +117,13 @@ Parser.prototype.parseLine = function (line) {
   default:
     if (!this.section) {
       match = /^osu file format (v[0-9]+)$/.exec(line);
-      if (match) { this.beatmap.fileformat = match[1]; }
+      if (match) { this.beatmap.fileFormat = match[1]; }
     }
     /**
      * Exluding in events, timingpoints and hitobjects sections, lines are "key: value"
      */
     match = this.keyValReg.exec(line);
-    if (match) { this.beatmap[match[1].toLowerCase()] = match[2]; }
+    if (match) { this.beatmap[match[1]] = match[2]; }
   }
 }
 
@@ -110,11 +139,20 @@ Parser.prototype.finalizeBeatmap = function () {
       this.beatmap.bpm = this.bpmMax;
   }
 
-  this.firstTimingOffset = this.firstTimingOffset || 0;
-  this.firstObjectOffset = this.firstObjectOffset || 0;
+  var hitObjects   = this.beatmap.hitObjects;
+  var timingPoints = this.beatmap.timingPoints;
 
-  this.beatmap.totaltime    = Math.ceil((this.lastOffset - this.firstTimingOffset) / 1000);
-  this.beatmap.drainingtime = Math.ceil((this.lastOffset - this.firstObjectOffset - this.totalBreakTime) / 1000);
+  if (hitObjects.length && timingPoints.length) {
+    var firstTimingOffset     = timingPoints[0].offset;
+    var firstObjectOffset     = hitObjects[0].startTime;
+    var lastObjectOffset      = hitObjects[hitObjects.length-1].startTime;
+
+    this.beatmap.totalTime    = Math.ceil((lastObjectOffset - firstTimingOffset) / 1000);
+    this.beatmap.drainingTime = Math.ceil((lastObjectOffset - firstObjectOffset - this.totalBreakTime) / 1000);
+  } else {
+    this.beatmap.totalTime    = 0;
+    this.beatmap.drainingTime = 0;
+  }
 
   return this.beatmap;
 }
