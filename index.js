@@ -66,34 +66,53 @@ Parser.prototype.parseLine = function (line) {
     var members = line.split(',');
     if (members.length < 5) return;
 
+    var objectType = members[3];
+    var soundType  = members[4];
+
     var hitobject = {
       x: members[0],
       y: members[1],
       startTime: members[2],
       objectType: members[3],
-      soundType: members[4]
+      soundType: soundType,
+      newCombo: ((objectType & 4) == 4)
     }
 
-    // object type is a bitwise flag enum
-    // 1: circle
-    // 2: slider
-    // 8: spinner
-    var objectType = members[3];
+    /**
+     * object type is a bitwise flag enum
+     * 1: circle
+     * 2: slider
+     * 8: spinner
+     */
     if ((objectType & 1) == 1) {
+      // Circle
       this.beatmap.nbCircles++;
       hitobject.objectName = 'circle';
     } else if ((objectType & 2) == 2) {
+      // Slider
       this.beatmap.nbSliders++;
       hitobject.objectName = 'slider';
     } else if ((objectType & 8) == 8) {
+      // Spinner
       this.beatmap.nbSpinners++;
       hitobject.objectName = 'spinner';
       hitobject.endTime    = members[5];
     } else {
+      // Unknown
       hitobject.objectName = 'unknown';
     }
 
-    hitobject.newCombo = ((objectType & 4) == 4);
+
+    /**
+     * sound type is a bitwise flag enum
+     * 0 : normal -> always set
+     * 2 : whistle
+     * 4 : finish
+     * 8 : clap
+     */
+    hitobject.whistle = ((soundType & 2) == 2);
+    hitobject.finish  = ((soundType & 4) == 4);
+    hitobject.clap    = ((soundType & 8) == 8);
 
     this.beatmap.hitObjects.push(hitobject);
     break;
