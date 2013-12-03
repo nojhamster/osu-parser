@@ -9,7 +9,11 @@
       "startTime": "10853",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "320",
@@ -17,7 +21,11 @@
       "startTime": "11186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -25,7 +33,11 @@
       "startTime": "11519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "192",
@@ -33,7 +45,11 @@
       "startTime": "11853",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "192",
@@ -41,7 +57,11 @@
       "startTime": "12186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "64",
@@ -49,7 +69,11 @@
       "startTime": "12519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "64",
@@ -57,7 +81,11 @@
       "startTime": "12686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "136",
@@ -65,7 +93,11 @@
       "startTime": "12853",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "376",
@@ -73,7 +105,11 @@
       "startTime": "13186",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -81,7 +117,11 @@
       "startTime": "13519",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "408",
@@ -89,7 +129,11 @@
       "startTime": "13853",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "296",
@@ -97,7 +141,11 @@
       "startTime": "14186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "137",
@@ -105,7 +153,11 @@
       "startTime": "14519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "192",
@@ -113,7 +165,11 @@
       "startTime": "14853",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -121,7 +177,11 @@
       "startTime": "15186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "336",
@@ -129,7 +189,11 @@
       "startTime": "15353",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "336",
@@ -137,7 +201,11 @@
       "startTime": "15519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "352",
@@ -145,7 +213,11 @@
       "startTime": "15603",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "368",
@@ -153,7 +225,11 @@
       "startTime": "15686",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "384",
@@ -161,7 +237,11 @@
       "startTime": "15769",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "400",
@@ -169,7 +249,11 @@
       "startTime": "15853",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "416",
@@ -177,7 +261,11 @@
       "startTime": "15936",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "432",
@@ -185,7 +273,11 @@
       "startTime": "16019",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "448",
@@ -193,7 +285,11 @@
       "startTime": "16103",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "464",
@@ -201,7 +297,11 @@
       "startTime": "16186",
       "objectType": "6",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "416",
@@ -209,7 +309,11 @@
       "startTime": "16686",
       "objectType": "2",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "336",
@@ -217,7 +321,11 @@
       "startTime": "17186",
       "objectType": "2",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "97",
@@ -225,7 +333,11 @@
       "startTime": "17686",
       "objectType": "2",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "48",
@@ -233,7 +345,11 @@
       "startTime": "18186",
       "objectType": "5",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "16",
@@ -241,7 +357,11 @@
       "startTime": "18353",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "72",
@@ -249,7 +369,11 @@
       "startTime": "18519",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "160",
@@ -257,7 +381,11 @@
       "startTime": "18686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "216",
@@ -265,7 +393,11 @@
       "startTime": "18853",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "424",
@@ -273,7 +405,11 @@
       "startTime": "19186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "384",
@@ -281,7 +417,11 @@
       "startTime": "19519",
       "objectType": "2",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "208",
@@ -289,7 +429,11 @@
       "startTime": "20186",
       "objectType": "6",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "352",
@@ -297,7 +441,11 @@
       "startTime": "20686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "224",
@@ -305,7 +453,11 @@
       "startTime": "20852",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "152",
@@ -313,7 +465,11 @@
       "startTime": "21019",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "140",
@@ -321,7 +477,11 @@
       "startTime": "21102",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "132",
@@ -329,7 +489,11 @@
       "startTime": "21186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "128",
@@ -337,7 +501,11 @@
       "startTime": "21269",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "128",
@@ -345,7 +513,11 @@
       "startTime": "21352",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "128",
@@ -353,7 +525,11 @@
       "startTime": "21436",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "128",
@@ -361,7 +537,11 @@
       "startTime": "21519",
       "objectType": "2",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "416",
@@ -369,7 +549,11 @@
       "startTime": "22519",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "328",
@@ -377,7 +561,11 @@
       "startTime": "22686",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -385,7 +573,11 @@
       "startTime": "23019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "204",
@@ -393,7 +585,11 @@
       "startTime": "23186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "96",
@@ -401,7 +597,11 @@
       "startTime": "23519",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "96",
@@ -409,7 +609,11 @@
       "startTime": "23852",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "48",
@@ -417,7 +621,11 @@
       "startTime": "24352",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "120",
@@ -425,7 +633,11 @@
       "startTime": "24519",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "192",
@@ -433,7 +645,11 @@
       "startTime": "24686",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "368",
@@ -441,7 +657,11 @@
       "startTime": "25019",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "384",
@@ -449,7 +669,11 @@
       "startTime": "25519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "312",
@@ -457,7 +681,11 @@
       "startTime": "26352",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "240",
@@ -465,7 +693,11 @@
       "startTime": "26519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "152",
@@ -473,7 +705,11 @@
       "startTime": "27019",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "64",
@@ -481,7 +717,11 @@
       "startTime": "27186",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "48",
@@ -489,7 +729,11 @@
       "startTime": "27352",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -497,7 +741,11 @@
       "startTime": "27686",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -505,7 +753,11 @@
       "startTime": "28186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "332",
@@ -513,7 +765,11 @@
       "startTime": "28686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -521,7 +777,11 @@
       "startTime": "28852",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "180",
@@ -529,7 +789,11 @@
       "startTime": "29019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "172",
@@ -537,7 +801,11 @@
       "startTime": "29186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "88",
@@ -545,7 +813,11 @@
       "startTime": "29519",
       "objectType": "6",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "152",
@@ -553,7 +825,11 @@
       "startTime": "30186",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -561,7 +837,11 @@
       "startTime": "30519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "360",
@@ -569,7 +849,11 @@
       "startTime": "30852",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "444",
@@ -577,7 +861,11 @@
       "startTime": "31019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "376",
@@ -585,7 +873,11 @@
       "startTime": "31186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "460",
@@ -593,7 +885,11 @@
       "startTime": "31352",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "396",
@@ -601,7 +897,11 @@
       "startTime": "31519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "484",
@@ -609,7 +909,11 @@
       "startTime": "31686",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "484",
@@ -617,7 +921,11 @@
       "startTime": "31769",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "484",
@@ -625,7 +933,11 @@
       "startTime": "31852",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -633,7 +945,11 @@
       "startTime": "32352",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "176",
@@ -641,7 +957,11 @@
       "startTime": "32519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -649,7 +969,11 @@
       "startTime": "33019",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "368",
@@ -657,7 +981,11 @@
       "startTime": "33519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "328",
@@ -665,7 +993,11 @@
       "startTime": "34186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "336",
@@ -673,7 +1005,11 @@
       "startTime": "35019",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -681,7 +1017,11 @@
       "startTime": "35186",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "176",
@@ -689,7 +1029,11 @@
       "startTime": "35352",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "72",
@@ -697,7 +1041,11 @@
       "startTime": "35852",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -705,7 +1053,11 @@
       "startTime": "36519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -713,7 +1065,11 @@
       "startTime": "36686",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "336",
@@ -721,7 +1077,11 @@
       "startTime": "36852",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -729,7 +1089,11 @@
       "startTime": "37686",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "80",
@@ -737,7 +1101,11 @@
       "startTime": "38519",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "432",
@@ -745,7 +1113,11 @@
       "startTime": "39186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -753,7 +1125,11 @@
       "startTime": "39853",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "420",
@@ -761,7 +1137,11 @@
       "startTime": "40186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "264",
@@ -769,7 +1149,11 @@
       "startTime": "40519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -777,7 +1161,11 @@
       "startTime": "40686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "248",
@@ -785,7 +1173,11 @@
       "startTime": "40853",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -793,7 +1185,11 @@
       "startTime": "41019",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "248",
@@ -801,7 +1197,11 @@
       "startTime": "41519",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -809,7 +1209,11 @@
       "startTime": "41603",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -817,7 +1221,11 @@
       "startTime": "41686",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -825,7 +1233,11 @@
       "startTime": "41769",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -833,7 +1245,11 @@
       "startTime": "41853",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -841,7 +1257,11 @@
       "startTime": "41936",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -849,7 +1269,11 @@
       "startTime": "42019",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -857,7 +1281,11 @@
       "startTime": "42103",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -865,7 +1293,11 @@
       "startTime": "42186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -873,7 +1305,11 @@
       "startTime": "42269",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -881,7 +1317,11 @@
       "startTime": "42353",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -889,7 +1329,11 @@
       "startTime": "42436",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -897,7 +1341,11 @@
       "startTime": "42519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -905,7 +1353,11 @@
       "startTime": "42603",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "248",
@@ -913,7 +1365,11 @@
       "startTime": "42686",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "343",
@@ -921,7 +1377,11 @@
       "startTime": "42853",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "328",
@@ -929,7 +1389,11 @@
       "startTime": "43353",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "106",
@@ -937,7 +1401,11 @@
       "startTime": "43853",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "60",
@@ -945,7 +1413,11 @@
       "startTime": "44686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "60",
@@ -953,7 +1425,11 @@
       "startTime": "44769",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "60",
@@ -961,7 +1437,11 @@
       "startTime": "44853",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "124",
@@ -969,7 +1449,11 @@
       "startTime": "45019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "228",
@@ -977,7 +1461,11 @@
       "startTime": "45186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "332",
@@ -985,7 +1473,11 @@
       "startTime": "45353",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "432",
@@ -993,7 +1485,11 @@
       "startTime": "45519",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "344",
@@ -1001,7 +1497,11 @@
       "startTime": "46019",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "154",
@@ -1009,7 +1509,11 @@
       "startTime": "46519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "172",
@@ -1017,7 +1521,11 @@
       "startTime": "47353",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1025,7 +1533,11 @@
       "startTime": "47686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "340",
@@ -1033,7 +1545,11 @@
       "startTime": "47853",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "424",
@@ -1041,7 +1557,11 @@
       "startTime": "48186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1049,7 +1569,11 @@
       "startTime": "48686",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "88",
@@ -1057,7 +1581,11 @@
       "startTime": "49186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "120",
@@ -1065,7 +1593,11 @@
       "startTime": "50019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "136",
@@ -1073,7 +1605,11 @@
       "startTime": "50103",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "152",
@@ -1081,7 +1617,11 @@
       "startTime": "50186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -1089,7 +1629,11 @@
       "startTime": "50353",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "360",
@@ -1097,7 +1641,11 @@
       "startTime": "50519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "404",
@@ -1105,7 +1653,11 @@
       "startTime": "50686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "424",
@@ -1113,7 +1665,11 @@
       "startTime": "50853",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1121,7 +1677,11 @@
       "startTime": "51353",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "155",
@@ -1129,7 +1689,11 @@
       "startTime": "51519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "176",
@@ -1137,7 +1701,11 @@
       "startTime": "52019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "92",
@@ -1145,7 +1713,11 @@
       "startTime": "52186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "168",
@@ -1153,7 +1725,11 @@
       "startTime": "52436",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "180",
@@ -1161,7 +1737,11 @@
       "startTime": "52519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "192",
@@ -1169,7 +1749,11 @@
       "startTime": "52603",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "204",
@@ -1177,7 +1761,11 @@
       "startTime": "52686",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "216",
@@ -1185,7 +1773,11 @@
       "startTime": "52769",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "228",
@@ -1193,7 +1785,11 @@
       "startTime": "52853",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "240",
@@ -1201,7 +1797,11 @@
       "startTime": "52936",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "252",
@@ -1209,7 +1809,11 @@
       "startTime": "53019",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "264",
@@ -1217,7 +1821,11 @@
       "startTime": "53103",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "276",
@@ -1225,7 +1833,11 @@
       "startTime": "53186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "288",
@@ -1233,7 +1845,11 @@
       "startTime": "53269",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "300",
@@ -1241,7 +1857,11 @@
       "startTime": "53353",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "312",
@@ -1249,7 +1869,11 @@
       "startTime": "53436",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "324",
@@ -1257,7 +1881,11 @@
       "startTime": "53519",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "316",
@@ -1265,7 +1893,11 @@
       "startTime": "54019",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "142",
@@ -1273,7 +1905,11 @@
       "startTime": "54519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "96",
@@ -1281,7 +1917,11 @@
       "startTime": "55019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "88",
@@ -1289,7 +1929,11 @@
       "startTime": "55103",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "84",
@@ -1297,7 +1941,11 @@
       "startTime": "55186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "84",
@@ -1305,7 +1953,11 @@
       "startTime": "55353",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "180",
@@ -1313,7 +1965,11 @@
       "startTime": "55519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "288",
@@ -1321,7 +1977,11 @@
       "startTime": "55686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "384",
@@ -1329,7 +1989,11 @@
       "startTime": "55853",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "336",
@@ -1337,7 +2001,11 @@
       "startTime": "56686",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "128",
@@ -1345,7 +2013,11 @@
       "startTime": "57186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "188",
@@ -1353,7 +2025,11 @@
       "startTime": "58019",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1361,7 +2037,11 @@
       "startTime": "58353",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "324",
@@ -1369,7 +2049,11 @@
       "startTime": "58519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "468",
@@ -1377,7 +2061,11 @@
       "startTime": "58853",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "44",
@@ -1385,7 +2073,11 @@
       "startTime": "59353",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "299",
@@ -1393,7 +2085,11 @@
       "startTime": "59853",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "212",
@@ -1401,7 +2097,11 @@
       "startTime": "60353",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1409,7 +2109,11 @@
       "startTime": "60853",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -1417,7 +2121,11 @@
       "startTime": "60936",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1425,7 +2133,11 @@
       "startTime": "61019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "364",
@@ -1433,7 +2145,11 @@
       "startTime": "61186",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "148",
@@ -1441,7 +2157,11 @@
       "startTime": "61353",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1449,8 +2169,12 @@
       "startTime": "61519",
       "objectType": "12",
       "soundType": "0",
+      "newCombo": true,
+      "objectName": "spinner",
       "endTime": "63519",
-      "objectName": "spinner"
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1458,7 +2182,11 @@
       "startTime": "64186",
       "objectType": "5",
       "soundType": "4",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": true,
+      "clap": false
     },
     {
       "x": "256",
@@ -1466,8 +2194,12 @@
       "startTime": "72186",
       "objectType": "12",
       "soundType": "0",
+      "newCombo": true,
+      "objectName": "spinner",
       "endTime": "74519",
-      "objectName": "spinner"
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "328",
@@ -1475,7 +2207,11 @@
       "startTime": "74853",
       "objectType": "5",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "416",
@@ -1483,7 +2219,11 @@
       "startTime": "75019",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "420",
@@ -1491,7 +2231,11 @@
       "startTime": "75186",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "332",
@@ -1499,7 +2243,11 @@
       "startTime": "75353",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "216",
@@ -1507,7 +2255,11 @@
       "startTime": "75686",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "124",
@@ -1515,7 +2267,11 @@
       "startTime": "76186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "84",
@@ -1523,7 +2279,11 @@
       "startTime": "76853",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "428",
@@ -1531,7 +2291,11 @@
       "startTime": "77186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "84",
@@ -1539,7 +2303,11 @@
       "startTime": "77519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "428",
@@ -1547,7 +2315,11 @@
       "startTime": "77853",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1555,7 +2327,11 @@
       "startTime": "78353",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1563,7 +2339,11 @@
       "startTime": "78853",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1571,7 +2351,11 @@
       "startTime": "79519",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1579,7 +2363,11 @@
       "startTime": "79852",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "448",
@@ -1587,7 +2375,11 @@
       "startTime": "80352",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "380",
@@ -1595,7 +2387,11 @@
       "startTime": "80519",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "312",
@@ -1603,7 +2399,11 @@
       "startTime": "80686",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "200",
@@ -1611,7 +2411,11 @@
       "startTime": "81019",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "76",
@@ -1619,7 +2423,11 @@
       "startTime": "81519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "336",
@@ -1627,7 +2435,11 @@
       "startTime": "82186",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "452",
@@ -1635,7 +2447,11 @@
       "startTime": "82519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "336",
@@ -1643,7 +2459,11 @@
       "startTime": "82852",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "184",
@@ -1651,7 +2471,11 @@
       "startTime": "83186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "336",
@@ -1659,7 +2483,11 @@
       "startTime": "83519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "184",
@@ -1667,7 +2495,11 @@
       "startTime": "83852",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "184",
@@ -1675,7 +2507,11 @@
       "startTime": "84019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "320",
@@ -1683,7 +2519,11 @@
       "startTime": "84186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "412",
@@ -1691,7 +2531,11 @@
       "startTime": "84519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "488",
@@ -1699,7 +2543,11 @@
       "startTime": "84686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "488",
@@ -1707,7 +2555,11 @@
       "startTime": "84852",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "412",
@@ -1715,7 +2567,11 @@
       "startTime": "85019",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "412",
@@ -1723,7 +2579,11 @@
       "startTime": "85102",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "412",
@@ -1731,7 +2591,11 @@
       "startTime": "85186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1739,7 +2603,11 @@
       "startTime": "85686",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "176",
@@ -1747,7 +2615,11 @@
       "startTime": "85852",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1755,7 +2627,11 @@
       "startTime": "86019",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "368",
@@ -1763,7 +2639,11 @@
       "startTime": "86352",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -1771,7 +2651,11 @@
       "startTime": "86852",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "184",
@@ -1779,7 +2663,11 @@
       "startTime": "87519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "176",
@@ -1787,7 +2675,11 @@
       "startTime": "88352",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1795,7 +2687,11 @@
       "startTime": "88519",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "336",
@@ -1803,7 +2699,11 @@
       "startTime": "88686",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "440",
@@ -1811,7 +2711,11 @@
       "startTime": "89186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1819,7 +2723,11 @@
       "startTime": "89852",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -1827,7 +2735,11 @@
       "startTime": "90019",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "176",
@@ -1835,7 +2747,11 @@
       "startTime": "90186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1843,7 +2759,11 @@
       "startTime": "91019",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "432",
@@ -1851,7 +2771,11 @@
       "startTime": "91852",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "80",
@@ -1859,7 +2783,11 @@
       "startTime": "92519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -1867,7 +2795,11 @@
       "startTime": "93186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "380",
@@ -1875,7 +2807,11 @@
       "startTime": "93519",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "348",
@@ -1883,7 +2819,11 @@
       "startTime": "93852",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -1891,7 +2831,11 @@
       "startTime": "94019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "164",
@@ -1899,7 +2843,11 @@
       "startTime": "94186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "196",
@@ -1907,7 +2855,11 @@
       "startTime": "94352",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "208",
@@ -1915,7 +2867,11 @@
       "startTime": "94852",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "228",
@@ -1923,7 +2879,11 @@
       "startTime": "94936",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "260",
@@ -1931,7 +2891,11 @@
       "startTime": "95019",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "296",
@@ -1939,7 +2903,11 @@
       "startTime": "95102",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "328",
@@ -1947,7 +2915,11 @@
       "startTime": "95186",
       "objectType": "2",
       "soundType": "8",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "380",
@@ -1955,7 +2927,11 @@
       "startTime": "95519",
       "objectType": "2",
       "soundType": "8",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "408",
@@ -1963,7 +2939,11 @@
       "startTime": "95852",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "420",
@@ -1971,7 +2951,11 @@
       "startTime": "95936",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "432",
@@ -1979,7 +2963,11 @@
       "startTime": "96019",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "340",
@@ -1987,7 +2975,11 @@
       "startTime": "96186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "76",
@@ -1995,7 +2987,11 @@
       "startTime": "96686",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "177",
@@ -2003,7 +2999,11 @@
       "startTime": "97186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "232",
@@ -2011,7 +3011,11 @@
       "startTime": "98019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "232",
@@ -2019,7 +3023,11 @@
       "startTime": "98102",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "232",
@@ -2027,7 +3035,11 @@
       "startTime": "98186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -2035,7 +3047,11 @@
       "startTime": "98352",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "348",
@@ -2043,7 +3059,11 @@
       "startTime": "98519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "440",
@@ -2051,7 +3071,11 @@
       "startTime": "98686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "348",
@@ -2059,7 +3083,11 @@
       "startTime": "98852",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "164",
@@ -2067,7 +3095,11 @@
       "startTime": "99352",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "348",
@@ -2075,7 +3107,11 @@
       "startTime": "99852",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "320",
@@ -2083,7 +3119,11 @@
       "startTime": "100686",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2091,7 +3131,11 @@
       "startTime": "101019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "192",
@@ -2099,7 +3143,11 @@
       "startTime": "101186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "84",
@@ -2107,7 +3155,11 @@
       "startTime": "101519",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "192",
@@ -2115,7 +3167,11 @@
       "startTime": "102019",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "347",
@@ -2123,7 +3179,11 @@
       "startTime": "102519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2131,7 +3191,11 @@
       "startTime": "103352",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2139,7 +3203,11 @@
       "startTime": "103436",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2147,7 +3215,11 @@
       "startTime": "103519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -2155,7 +3227,11 @@
       "startTime": "103686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "324",
@@ -2163,7 +3239,11 @@
       "startTime": "103852",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "428",
@@ -2171,7 +3251,11 @@
       "startTime": "104019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "420",
@@ -2179,7 +3263,11 @@
       "startTime": "104186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2187,7 +3275,11 @@
       "startTime": "104686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "168",
@@ -2195,7 +3287,11 @@
       "startTime": "104852",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "64",
@@ -2203,7 +3299,11 @@
       "startTime": "105186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "64",
@@ -2211,7 +3311,11 @@
       "startTime": "105352",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "134",
@@ -2219,7 +3323,11 @@
       "startTime": "105519",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "184",
@@ -2227,7 +3335,11 @@
       "startTime": "105769",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "196",
@@ -2235,7 +3347,11 @@
       "startTime": "105852",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "208",
@@ -2243,7 +3359,11 @@
       "startTime": "105936",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "220",
@@ -2251,7 +3371,11 @@
       "startTime": "106019",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "232",
@@ -2259,7 +3383,11 @@
       "startTime": "106102",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "244",
@@ -2267,7 +3395,11 @@
       "startTime": "106186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -2275,7 +3407,11 @@
       "startTime": "106269",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "268",
@@ -2283,7 +3419,11 @@
       "startTime": "106352",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "280",
@@ -2291,7 +3431,11 @@
       "startTime": "106436",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "292",
@@ -2299,7 +3443,11 @@
       "startTime": "106519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "304",
@@ -2307,7 +3455,11 @@
       "startTime": "106602",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "316",
@@ -2315,7 +3467,11 @@
       "startTime": "106686",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "328",
@@ -2323,7 +3479,11 @@
       "startTime": "106769",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "340",
@@ -2331,7 +3491,11 @@
       "startTime": "106852",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "340",
@@ -2339,7 +3503,11 @@
       "startTime": "107352",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "87",
@@ -2347,7 +3515,11 @@
       "startTime": "107852",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "188",
@@ -2355,7 +3527,11 @@
       "startTime": "108352",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "188",
@@ -2363,7 +3539,11 @@
       "startTime": "108436",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "188",
@@ -2371,7 +3551,11 @@
       "startTime": "108519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "280",
@@ -2379,7 +3563,11 @@
       "startTime": "108686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "368",
@@ -2387,7 +3575,11 @@
       "startTime": "108852",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "460",
@@ -2395,7 +3587,11 @@
       "startTime": "109019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "368",
@@ -2403,7 +3599,11 @@
       "startTime": "109186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "368",
@@ -2411,7 +3611,11 @@
       "startTime": "110019",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -2419,7 +3623,11 @@
       "startTime": "110519",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "28",
@@ -2427,7 +3635,11 @@
       "startTime": "111352",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "28",
@@ -2435,7 +3647,11 @@
       "startTime": "111436",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "28",
@@ -2443,7 +3659,11 @@
       "startTime": "111519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "64",
@@ -2451,7 +3671,11 @@
       "startTime": "111686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "172",
@@ -2459,7 +3683,11 @@
       "startTime": "111852",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "172",
@@ -2467,7 +3695,11 @@
       "startTime": "111936",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "172",
@@ -2475,7 +3707,11 @@
       "startTime": "112019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "332",
@@ -2483,7 +3719,11 @@
       "startTime": "112186",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "501",
@@ -2491,7 +3731,11 @@
       "startTime": "112686",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "272",
@@ -2499,7 +3743,11 @@
       "startTime": "113186",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "180",
@@ -2507,7 +3755,11 @@
       "startTime": "114019",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "88",
@@ -2515,7 +3767,11 @@
       "startTime": "114186",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "88",
@@ -2523,7 +3779,11 @@
       "startTime": "114352",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "180",
@@ -2531,7 +3791,11 @@
       "startTime": "114519",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "268",
@@ -2539,7 +3803,11 @@
       "startTime": "114686",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2547,8 +3815,12 @@
       "startTime": "114852",
       "objectType": "12",
       "soundType": "0",
+      "newCombo": true,
+      "objectName": "spinner",
       "endTime": "116852",
-      "objectName": "spinner"
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2556,7 +3828,11 @@
       "startTime": "117519",
       "objectType": "5",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2564,7 +3840,11 @@
       "startTime": "117845",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2572,7 +3852,11 @@
       "startTime": "118171",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2580,7 +3864,11 @@
       "startTime": "118334",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "396",
@@ -2588,7 +3876,11 @@
       "startTime": "118660",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "336",
@@ -2596,7 +3888,11 @@
       "startTime": "119475",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "204",
@@ -2604,7 +3900,11 @@
       "startTime": "120127",
       "objectType": "5",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "204",
@@ -2612,7 +3912,11 @@
       "startTime": "120453",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -2620,7 +3924,11 @@
       "startTime": "120779",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -2628,7 +3936,11 @@
       "startTime": "120942",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "368",
@@ -2636,7 +3948,11 @@
       "startTime": "121268",
       "objectType": "5",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "368",
@@ -2644,7 +3960,11 @@
       "startTime": "121432",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -2652,7 +3972,11 @@
       "startTime": "122736",
       "objectType": "5",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -2660,7 +3984,11 @@
       "startTime": "123062",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2668,7 +3996,11 @@
       "startTime": "123877",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2676,7 +4008,11 @@
       "startTime": "124692",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2684,7 +4020,11 @@
       "startTime": "125671",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "84",
@@ -2692,7 +4032,11 @@
       "startTime": "125997",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "84",
@@ -2700,7 +4044,11 @@
       "startTime": "126160",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2708,7 +4056,11 @@
       "startTime": "126486",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2716,7 +4068,11 @@
       "startTime": "126649",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "308",
@@ -2724,7 +4080,11 @@
       "startTime": "127464",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2732,7 +4092,11 @@
       "startTime": "127627",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "204",
@@ -2740,7 +4104,11 @@
       "startTime": "127790",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "128",
@@ -2748,7 +4116,11 @@
       "startTime": "127953",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2756,8 +4128,12 @@
       "startTime": "128687",
       "objectType": "12",
       "soundType": "4",
+      "newCombo": true,
+      "objectName": "spinner",
       "endTime": "130562",
-      "objectName": "spinner"
+      "whistle": false,
+      "finish": true,
+      "clap": false
     },
     {
       "x": "48",
@@ -2765,7 +4141,11 @@
       "startTime": "139203",
       "objectType": "6",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "108",
@@ -2773,7 +4153,11 @@
       "startTime": "139692",
       "objectType": "2",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "288",
@@ -2781,7 +4165,11 @@
       "startTime": "140182",
       "objectType": "6",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "348",
@@ -2789,7 +4177,11 @@
       "startTime": "140671",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2797,8 +4189,12 @@
       "startTime": "141078",
       "objectType": "12",
       "soundType": "4",
+      "newCombo": true,
+      "objectName": "spinner",
       "endTime": "143605",
-      "objectName": "spinner"
+      "whistle": false,
+      "finish": true,
+      "clap": false
     },
     {
       "x": "256",
@@ -2806,7 +4202,11 @@
       "startTime": "143938",
       "objectType": "5",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "140",
@@ -2814,7 +4214,11 @@
       "startTime": "144271",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "372",
@@ -2822,7 +4226,11 @@
       "startTime": "144605",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "112",
@@ -2830,7 +4238,11 @@
       "startTime": "144938",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "400",
@@ -2838,7 +4250,11 @@
       "startTime": "145271",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2846,7 +4262,11 @@
       "startTime": "145605",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2854,7 +4274,11 @@
       "startTime": "145938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "56",
@@ -2862,7 +4286,11 @@
       "startTime": "146605",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "456",
@@ -2870,7 +4298,11 @@
       "startTime": "147271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "316",
@@ -2878,7 +4310,11 @@
       "startTime": "147938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "476",
@@ -2886,7 +4322,11 @@
       "startTime": "148938",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "324",
@@ -2894,7 +4334,11 @@
       "startTime": "149271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "188",
@@ -2902,7 +4346,11 @@
       "startTime": "149605",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "36",
@@ -2910,7 +4358,11 @@
       "startTime": "149938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "112",
@@ -2918,7 +4370,11 @@
       "startTime": "150271",
       "objectType": "5",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "108",
@@ -2926,7 +4382,11 @@
       "startTime": "150438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "188",
@@ -2934,7 +4394,11 @@
       "startTime": "150605",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "188",
@@ -2942,7 +4406,11 @@
       "startTime": "150771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "264",
@@ -2950,7 +4418,11 @@
       "startTime": "150938",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "424",
@@ -2958,7 +4430,11 @@
       "startTime": "151271",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "308",
@@ -2966,7 +4442,11 @@
       "startTime": "151605",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -2974,7 +4454,11 @@
       "startTime": "151938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "204",
@@ -2982,7 +4466,11 @@
       "startTime": "152271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "76",
@@ -2990,7 +4478,11 @@
       "startTime": "152605",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "92",
@@ -2998,7 +4490,11 @@
       "startTime": "152771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "140",
@@ -3006,7 +4502,11 @@
       "startTime": "152938",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "372",
@@ -3014,7 +4514,11 @@
       "startTime": "153271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3022,7 +4526,11 @@
       "startTime": "153605",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "300",
@@ -3030,7 +4538,11 @@
       "startTime": "153771",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "308",
@@ -3038,7 +4550,11 @@
       "startTime": "153855",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "320",
@@ -3046,7 +4562,11 @@
       "startTime": "153938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "332",
@@ -3054,7 +4574,11 @@
       "startTime": "154021",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "344",
@@ -3062,7 +4586,11 @@
       "startTime": "154105",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "356",
@@ -3070,7 +4598,11 @@
       "startTime": "154188",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "368",
@@ -3078,7 +4610,11 @@
       "startTime": "154271",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "388",
@@ -3086,7 +4622,11 @@
       "startTime": "154605",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "124",
@@ -3094,7 +4634,11 @@
       "startTime": "154938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -3102,7 +4646,11 @@
       "startTime": "155271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "40",
@@ -3110,7 +4658,11 @@
       "startTime": "155605",
       "objectType": "5",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "128",
@@ -3118,7 +4670,11 @@
       "startTime": "155771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3126,7 +4682,11 @@
       "startTime": "155938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "384",
@@ -3134,7 +4694,11 @@
       "startTime": "156105",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "472",
@@ -3142,7 +4706,11 @@
       "startTime": "156271",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3150,7 +4718,11 @@
       "startTime": "156605",
       "objectType": "1",
       "soundType": "2",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3158,7 +4730,11 @@
       "startTime": "156938",
       "objectType": "6",
       "soundType": "8",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "96",
@@ -3166,7 +4742,11 @@
       "startTime": "157438",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "96",
@@ -3174,7 +4754,11 @@
       "startTime": "157605",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "416",
@@ -3182,7 +4766,11 @@
       "startTime": "157938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "416",
@@ -3190,7 +4778,11 @@
       "startTime": "158105",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -3198,7 +4790,11 @@
       "startTime": "158438",
       "objectType": "2",
       "soundType": "8",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -3206,7 +4802,11 @@
       "startTime": "158938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "472",
@@ -3214,7 +4814,11 @@
       "startTime": "159605",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "340",
@@ -3222,7 +4826,11 @@
       "startTime": "160105",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "119",
@@ -3230,7 +4838,11 @@
       "startTime": "160605",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "92",
@@ -3238,7 +4850,11 @@
       "startTime": "161438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "100",
@@ -3246,7 +4862,11 @@
       "startTime": "161521",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "108",
@@ -3254,7 +4874,11 @@
       "startTime": "161605",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -3262,7 +4886,11 @@
       "startTime": "161771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3270,7 +4898,11 @@
       "startTime": "161938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "404",
@@ -3278,7 +4910,11 @@
       "startTime": "162105",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "428",
@@ -3286,7 +4922,11 @@
       "startTime": "162271",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "216",
@@ -3294,7 +4934,11 @@
       "startTime": "162771",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "20",
@@ -3302,7 +4946,11 @@
       "startTime": "163271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "128",
@@ -3310,7 +4958,11 @@
       "startTime": "164105",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3318,7 +4970,11 @@
       "startTime": "164438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "384",
@@ -3326,7 +4982,11 @@
       "startTime": "164605",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "484",
@@ -3334,7 +4994,11 @@
       "startTime": "164938",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "324",
@@ -3342,7 +5006,11 @@
       "startTime": "165438",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "168",
@@ -3350,7 +5018,11 @@
       "startTime": "165938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3358,7 +5030,11 @@
       "startTime": "166771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3366,7 +5042,11 @@
       "startTime": "166855",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3374,7 +5054,11 @@
       "startTime": "166938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "308",
@@ -3382,7 +5066,11 @@
       "startTime": "167105",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "416",
@@ -3390,7 +5078,11 @@
       "startTime": "167271",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "468",
@@ -3398,7 +5090,11 @@
       "startTime": "167438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "364",
@@ -3406,7 +5102,11 @@
       "startTime": "167605",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "192",
@@ -3414,7 +5114,11 @@
       "startTime": "168105",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "96",
@@ -3422,7 +5126,11 @@
       "startTime": "168271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "144",
@@ -3430,7 +5138,11 @@
       "startTime": "168771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "18",
@@ -3438,7 +5150,11 @@
       "startTime": "168938",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "108",
@@ -3446,7 +5162,11 @@
       "startTime": "169188",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "120",
@@ -3454,7 +5174,11 @@
       "startTime": "169271",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "132",
@@ -3462,7 +5186,11 @@
       "startTime": "169355",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "144",
@@ -3470,7 +5198,11 @@
       "startTime": "169438",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "156",
@@ -3478,7 +5210,11 @@
       "startTime": "169521",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "168",
@@ -3486,7 +5222,11 @@
       "startTime": "169605",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "180",
@@ -3494,7 +5234,11 @@
       "startTime": "169688",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "192",
@@ -3502,7 +5246,11 @@
       "startTime": "169771",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "204",
@@ -3510,7 +5258,11 @@
       "startTime": "169855",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "216",
@@ -3518,7 +5270,11 @@
       "startTime": "169938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "228",
@@ -3526,7 +5282,11 @@
       "startTime": "170021",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "240",
@@ -3534,7 +5294,11 @@
       "startTime": "170105",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "252",
@@ -3542,7 +5306,11 @@
       "startTime": "170188",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "264",
@@ -3550,7 +5318,11 @@
       "startTime": "170271",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "340",
@@ -3558,7 +5330,11 @@
       "startTime": "170771",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "180",
@@ -3566,7 +5342,11 @@
       "startTime": "171271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "392",
@@ -3574,7 +5354,11 @@
       "startTime": "171771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "420",
@@ -3582,7 +5366,11 @@
       "startTime": "171855",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "440",
@@ -3590,7 +5378,11 @@
       "startTime": "171938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "468",
@@ -3598,7 +5390,11 @@
       "startTime": "172105",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "420",
@@ -3606,7 +5402,11 @@
       "startTime": "172271",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "312",
@@ -3614,7 +5414,11 @@
       "startTime": "172438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "208",
@@ -3622,7 +5426,11 @@
       "startTime": "172605",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "204",
@@ -3630,7 +5438,11 @@
       "startTime": "173438",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "300",
@@ -3638,7 +5450,11 @@
       "startTime": "173938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3646,7 +5462,11 @@
       "startTime": "174771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3654,7 +5474,11 @@
       "startTime": "174855",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3662,7 +5486,11 @@
       "startTime": "174938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "124",
@@ -3670,7 +5498,11 @@
       "startTime": "175105",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "104",
@@ -3678,7 +5510,11 @@
       "startTime": "175271",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "104",
@@ -3686,7 +5522,11 @@
       "startTime": "175355",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "104",
@@ -3694,7 +5534,11 @@
       "startTime": "175438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3702,7 +5546,11 @@
       "startTime": "175605",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "373",
@@ -3710,7 +5558,11 @@
       "startTime": "176105",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "164",
@@ -3718,7 +5570,11 @@
       "startTime": "176605",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "80",
@@ -3726,7 +5582,11 @@
       "startTime": "177438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "40",
@@ -3734,7 +5594,11 @@
       "startTime": "177605",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "124",
@@ -3742,7 +5606,11 @@
       "startTime": "177771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "220",
@@ -3750,7 +5618,11 @@
       "startTime": "177938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "212",
@@ -3758,7 +5630,11 @@
       "startTime": "178105",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3766,8 +5642,12 @@
       "startTime": "178271",
       "objectType": "12",
       "soundType": "0",
+      "newCombo": true,
+      "objectName": "spinner",
       "endTime": "179605",
-      "objectName": "spinner"
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3775,8 +5655,12 @@
       "startTime": "179688",
       "objectType": "12",
       "soundType": "4",
+      "newCombo": true,
+      "objectName": "spinner",
       "endTime": "180938",
-      "objectName": "spinner"
+      "whistle": false,
+      "finish": true,
+      "clap": false
     },
     {
       "x": "212",
@@ -3784,7 +5668,11 @@
       "startTime": "181271",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "300",
@@ -3792,7 +5680,11 @@
       "startTime": "181605",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "344",
@@ -3800,7 +5692,11 @@
       "startTime": "181938",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3808,7 +5704,11 @@
       "startTime": "182105",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3816,7 +5716,11 @@
       "startTime": "182271",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -3824,7 +5728,11 @@
       "startTime": "182438",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "32",
@@ -3832,7 +5740,11 @@
       "startTime": "182938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "32",
@@ -3840,7 +5752,11 @@
       "startTime": "183105",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "40",
@@ -3848,7 +5764,11 @@
       "startTime": "183605",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "128",
@@ -3856,7 +5776,11 @@
       "startTime": "183938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "212",
@@ -3864,7 +5788,11 @@
       "startTime": "184271",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3872,7 +5800,11 @@
       "startTime": "184438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "304",
@@ -3880,7 +5812,11 @@
       "startTime": "184605",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "348",
@@ -3888,7 +5824,11 @@
       "startTime": "184771",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "412",
@@ -3896,7 +5836,11 @@
       "startTime": "184938",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "100",
@@ -3904,7 +5848,11 @@
       "startTime": "185271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "120",
@@ -3912,7 +5860,11 @@
       "startTime": "185605",
       "objectType": "2",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "340",
@@ -3920,7 +5872,11 @@
       "startTime": "186438",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "172",
@@ -3928,7 +5884,11 @@
       "startTime": "186771",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "332",
@@ -3936,7 +5896,11 @@
       "startTime": "187105",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "180",
@@ -3944,7 +5908,11 @@
       "startTime": "187271",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3952,7 +5920,11 @@
       "startTime": "187438",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -3960,7 +5932,11 @@
       "startTime": "187771",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -3968,7 +5944,11 @@
       "startTime": "188271",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -3976,7 +5956,11 @@
       "startTime": "188438",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "376",
@@ -3984,7 +5968,11 @@
       "startTime": "188938",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "136",
@@ -3992,7 +5980,11 @@
       "startTime": "189271",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "312",
@@ -4000,7 +5992,11 @@
       "startTime": "189605",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "200",
@@ -4008,7 +6004,11 @@
       "startTime": "189938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -4016,7 +6016,11 @@
       "startTime": "190271",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "400",
@@ -4024,7 +6028,11 @@
       "startTime": "190493",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "468",
@@ -4032,7 +6040,11 @@
       "startTime": "190716",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "384",
@@ -4040,7 +6052,11 @@
       "startTime": "190938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -4048,7 +6064,11 @@
       "startTime": "191160",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "128",
@@ -4056,7 +6076,11 @@
       "startTime": "191382",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "44",
@@ -4064,7 +6088,11 @@
       "startTime": "191605",
       "objectType": "5",
       "soundType": "4",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": true,
+      "clap": false
     },
     {
       "x": "152",
@@ -4072,7 +6100,11 @@
       "startTime": "191771",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "360",
@@ -4080,7 +6112,11 @@
       "startTime": "192105",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -4088,7 +6124,11 @@
       "startTime": "192438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -4096,7 +6136,11 @@
       "startTime": "192605",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "408",
@@ -4104,7 +6148,11 @@
       "startTime": "192938",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "408",
@@ -4112,7 +6160,11 @@
       "startTime": "193105",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "104",
@@ -4120,7 +6172,11 @@
       "startTime": "193605",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "104",
@@ -4128,7 +6184,11 @@
       "startTime": "193771",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "52",
@@ -4136,7 +6196,11 @@
       "startTime": "194271",
       "objectType": "5",
       "soundType": "4",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": true,
+      "clap": false
     },
     {
       "x": "112",
@@ -4144,7 +6208,11 @@
       "startTime": "194438",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "168",
@@ -4152,7 +6220,11 @@
       "startTime": "194605",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "257",
@@ -4160,7 +6232,11 @@
       "startTime": "194938",
       "objectType": "2",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "400",
@@ -4168,7 +6244,11 @@
       "startTime": "195271",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "460",
@@ -4176,7 +6256,11 @@
       "startTime": "195438",
       "objectType": "1",
       "soundType": "4",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": true,
+      "clap": false
     },
     {
       "x": "400",
@@ -4184,7 +6268,11 @@
       "startTime": "195605",
       "objectType": "6",
       "soundType": "0",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "112",
@@ -4192,7 +6280,11 @@
       "startTime": "196271",
       "objectType": "1",
       "soundType": "0",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "112",
@@ -4200,7 +6292,11 @@
       "startTime": "196438",
       "objectType": "2",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -4208,8 +6304,12 @@
       "startTime": "197021",
       "objectType": "12",
       "soundType": "8",
+      "newCombo": true,
+      "objectName": "spinner",
       "endTime": "198271",
-      "objectName": "spinner"
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -4217,7 +6317,11 @@
       "startTime": "198438",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -4225,7 +6329,11 @@
       "startTime": "198938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -4233,7 +6341,11 @@
       "startTime": "199105",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "256",
@@ -4241,8 +6353,12 @@
       "startTime": "199605",
       "objectType": "12",
       "soundType": "0",
+      "newCombo": true,
+      "objectName": "spinner",
       "endTime": "200938",
-      "objectName": "spinner"
+      "whistle": false,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "256",
@@ -4250,7 +6366,11 @@
       "startTime": "201105",
       "objectType": "6",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "396",
@@ -4258,7 +6378,11 @@
       "startTime": "201771",
       "objectType": "2",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": false,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "312",
@@ -4266,7 +6390,11 @@
       "startTime": "202271",
       "objectType": "5",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": true,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "156",
@@ -4274,7 +6402,11 @@
       "startTime": "202605",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "312",
@@ -4282,7 +6414,11 @@
       "startTime": "202938",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "312",
@@ -4290,7 +6426,11 @@
       "startTime": "203105",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "464",
@@ -4298,7 +6438,11 @@
       "startTime": "203438",
       "objectType": "6",
       "soundType": "2",
-      "objectName": "slider"
+      "newCombo": true,
+      "objectName": "slider",
+      "whistle": true,
+      "finish": false,
+      "clap": false
     },
     {
       "x": "148",
@@ -4306,7 +6450,11 @@
       "startTime": "204188",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     },
     {
       "x": "156",
@@ -4314,7 +6462,11 @@
       "startTime": "204271",
       "objectType": "1",
       "soundType": "8",
-      "objectName": "circle"
+      "newCombo": false,
+      "objectName": "circle",
+      "whistle": false,
+      "finish": false,
+      "clap": true
     }
   ],
   "timingPoints": [
