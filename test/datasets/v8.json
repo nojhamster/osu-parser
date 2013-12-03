@@ -1,38 +1,1385 @@
 {
-  "nbcircles": 60,
-  "nbsliders": 93,
-  "nbspinners": 2,
-  "fileformat": "v8",
-  "audiofilename": "01 Wake Up World.mp3",
-  "audioleadin": "1500",
-  "previewtime": "52919",
-  "countdown": "0",
-  "sampleset": "Soft",
-  "stackleniency": "0.7",
-  "mode": "0",
-  "letterboxinbreaks": "1",
-  "bookmarks": "71149",
-  "distancespacing": "1.70000004768372",
-  "beatdivisor": "4",
-  "gridsize": "8",
-  "title": "Wake Up World",
-  "artist": "CHiCO[ACE]",
-  "creator": "blissfulyoshi",
-  "version": "Hard",
-  "source": "Luminous Arc 3: Eyes",
-  "tags": "LA3",
-  "hpdrainrate": "6",
-  "circlesize": "4",
-  "overalldifficulty": "7",
-  "approachrate": "7",
-  "slidermultiplier": "1.8",
-  "slidertickrate": "1",
-  "bgfilename": "luminous arc 3.jpg",
-  "combo1": "34,79,255",
-  "combo2": "255,166,17",
-  "combo3": "91,0,204",
-  "combo4": "255,62,187",
+  "nbCircles": 60,
+  "nbSliders": 93,
+  "nbSpinners": 2,
+  "hitObjects": [
+    {
+      "x": "64",
+      "y": "40",
+      "startTime": "442",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "80",
+      "y": "184",
+      "startTime": "826",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "200",
+      "y": "232",
+      "startTime": "1403",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "392",
+      "y": "112",
+      "startTime": "1980",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "496",
+      "y": "208",
+      "startTime": "2365",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "448",
+      "y": "32",
+      "startTime": "3903",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "200",
+      "y": "192",
+      "startTime": "4672",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "32",
+      "y": "208",
+      "startTime": "5441",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "88",
+      "y": "336",
+      "startTime": "5826",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "232",
+      "y": "352",
+      "startTime": "6211",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "368",
+      "y": "312",
+      "startTime": "6595",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "472",
+      "y": "216",
+      "startTime": "6980",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "400",
+      "y": "16",
+      "startTime": "7557",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "472",
+      "y": "216",
+      "startTime": "8134",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "376",
+      "y": "336",
+      "startTime": "8518",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "240",
+      "y": "24",
+      "startTime": "9672",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "384",
+      "y": "72",
+      "startTime": "10057",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "504",
+      "y": "344",
+      "startTime": "10826",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "384",
+      "y": "72",
+      "startTime": "11595",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "240",
+      "y": "136",
+      "startTime": "11980",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "128",
+      "y": "32",
+      "startTime": "12365",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "64",
+      "y": "160",
+      "startTime": "12749",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "288",
+      "startTime": "13134",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "344",
+      "y": "320",
+      "startTime": "13711",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "128",
+      "y": "288",
+      "startTime": "14288",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "64",
+      "y": "160",
+      "startTime": "14672",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "296",
+      "startTime": "15826",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "112",
+      "y": "296",
+      "startTime": "16211",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "400",
+      "y": "296",
+      "startTime": "16980",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "392",
+      "y": "40",
+      "startTime": "17749",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "88",
+      "startTime": "18134",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "120",
+      "y": "40",
+      "startTime": "18518",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "24",
+      "y": "144",
+      "startTime": "18903",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "80",
+      "y": "280",
+      "startTime": "19288",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "296",
+      "y": "280",
+      "startTime": "19865",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "424",
+      "y": "208",
+      "startTime": "20442",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "320",
+      "y": "104",
+      "startTime": "20826",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "232",
+      "startTime": "21980",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "184",
+      "y": "360",
+      "startTime": "22365",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "328",
+      "y": "360",
+      "startTime": "23134",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "376",
+      "y": "208",
+      "startTime": "23903",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "288",
+      "startTime": "24288",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "136",
+      "y": "208",
+      "startTime": "24672",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "176",
+      "y": "144",
+      "startTime": "24865",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "192",
+      "y": "112",
+      "startTime": "24961",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "224",
+      "y": "96",
+      "startTime": "25057",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "88",
+      "startTime": "25153",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "288",
+      "y": "96",
+      "startTime": "25249",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "320",
+      "y": "112",
+      "startTime": "25345",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "336",
+      "y": "144",
+      "startTime": "25442",
+      "objectType": "1",
+      "soundType": "4",
+      "objectName": "circle"
+    },
+    {
+      "x": "48",
+      "y": "216",
+      "startTime": "26211",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "152",
+      "y": "296",
+      "startTime": "26595",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "48",
+      "y": "216",
+      "startTime": "26980",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "120",
+      "y": "88",
+      "startTime": "27365",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "248",
+      "y": "136",
+      "startTime": "27749",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "384",
+      "y": "192",
+      "startTime": "28134",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "440",
+      "y": "320",
+      "startTime": "28518",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "320",
+      "startTime": "28903",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "146",
+      "y": "279",
+      "startTime": "29288",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "40",
+      "y": "120",
+      "startTime": "30057",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "472",
+      "y": "120",
+      "startTime": "30826",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "64",
+      "y": "192",
+      "startTime": "32365",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "128",
+      "y": "192",
+      "startTime": "32749",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "192",
+      "y": "192",
+      "startTime": "33134",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "192",
+      "startTime": "33518",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "320",
+      "y": "192",
+      "startTime": "33903",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "384",
+      "y": "192",
+      "startTime": "34288",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "448",
+      "y": "192",
+      "startTime": "34672",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "192",
+      "startTime": "35442",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "64",
+      "y": "192",
+      "startTime": "36211",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "200",
+      "y": "120",
+      "startTime": "36980",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "152",
+      "y": "344",
+      "startTime": "38134",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "216",
+      "y": "296",
+      "startTime": "38518",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "296",
+      "y": "296",
+      "startTime": "38903",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "360",
+      "y": "344",
+      "startTime": "39288",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "112",
+      "y": "168",
+      "startTime": "40057",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "64",
+      "startTime": "40442",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "400",
+      "y": "168",
+      "startTime": "40826",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "120",
+      "y": "224",
+      "startTime": "41595",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "392",
+      "y": "224",
+      "startTime": "42365",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "120",
+      "y": "224",
+      "startTime": "43134",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "344",
+      "startTime": "44288",
+      "objectType": "5",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "48",
+      "y": "192",
+      "startTime": "44672",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "40",
+      "startTime": "45057",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "464",
+      "y": "192",
+      "startTime": "45442",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "24",
+      "y": "264",
+      "startTime": "46211",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "80",
+      "y": "96",
+      "startTime": "46595",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "136",
+      "y": "264",
+      "startTime": "46980",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "488",
+      "y": "264",
+      "startTime": "47749",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "432",
+      "y": "96",
+      "startTime": "48133",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "376",
+      "y": "264",
+      "startTime": "48518",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "152",
+      "y": "64",
+      "startTime": "49288",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "360",
+      "y": "64",
+      "startTime": "49672",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "192",
+      "startTime": "50056",
+      "objectType": "12",
+      "soundType": "0",
+      "endTime": "52365",
+      "objectName": "spinner"
+    },
+    {
+      "x": "24",
+      "y": "72",
+      "startTime": "52749",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "24",
+      "y": "72",
+      "startTime": "53134",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "248",
+      "y": "128",
+      "startTime": "53711",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "160",
+      "y": "280",
+      "startTime": "54288",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "248",
+      "y": "128",
+      "startTime": "54672",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "328",
+      "y": "256",
+      "startTime": "55826",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "144",
+      "y": "256",
+      "startTime": "56211",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "88",
+      "y": "56",
+      "startTime": "56788",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "144",
+      "y": "256",
+      "startTime": "57365",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "312",
+      "y": "312",
+      "startTime": "57749",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "168",
+      "y": "128",
+      "startTime": "58903",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "96",
+      "y": "296",
+      "startTime": "59288",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "24",
+      "y": "128",
+      "startTime": "59672",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "344",
+      "y": "296",
+      "startTime": "60442",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "416",
+      "y": "128",
+      "startTime": "60827",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "488",
+      "y": "296",
+      "startTime": "61211",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "32",
+      "startTime": "61980",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "184",
+      "y": "200",
+      "startTime": "62365",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "256",
+      "startTime": "62557",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "328",
+      "y": "200",
+      "startTime": "62749",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "480",
+      "y": "264",
+      "startTime": "63134",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "165",
+      "y": "365",
+      "startTime": "63903",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "360",
+      "y": "64",
+      "startTime": "65057",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "360",
+      "y": "248",
+      "startTime": "65442",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "360",
+      "y": "248",
+      "startTime": "66018",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "360",
+      "y": "64",
+      "startTime": "66788",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "168",
+      "y": "48",
+      "startTime": "68134",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "24",
+      "y": "152",
+      "startTime": "68518",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "96",
+      "y": "272",
+      "startTime": "69095",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "432",
+      "y": "328",
+      "startTime": "69865",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "64",
+      "y": "192",
+      "startTime": "71211",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "224",
+      "y": "192",
+      "startTime": "71595",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "144",
+      "y": "288",
+      "startTime": "71980",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "511",
+      "y": "255",
+      "startTime": "72749",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "224",
+      "y": "255",
+      "startTime": "73133",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "368",
+      "y": "6",
+      "startTime": "73518",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "224",
+      "y": "256",
+      "startTime": "74287",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "176",
+      "y": "328",
+      "startTime": "74480",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "88",
+      "y": "352",
+      "startTime": "74672",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "0",
+      "y": "192",
+      "startTime": "75057",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "80",
+      "y": "160",
+      "startTime": "75249",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "192",
+      "y": "24",
+      "startTime": "75633",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "192",
+      "startTime": "76018",
+      "objectType": "12",
+      "soundType": "0",
+      "endTime": "77749",
+      "objectName": "spinner"
+    },
+    {
+      "x": "120",
+      "y": "32",
+      "startTime": "78134",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "152",
+      "y": "160",
+      "startTime": "78518",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "312",
+      "y": "272",
+      "startTime": "78903",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "384",
+      "y": "336",
+      "startTime": "79288",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "416",
+      "y": "200",
+      "startTime": "79672",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "344",
+      "y": "112",
+      "startTime": "80057",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "264",
+      "y": "168",
+      "startTime": "80442",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "40",
+      "y": "296",
+      "startTime": "82365",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "40",
+      "startTime": "82749",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "472",
+      "y": "296",
+      "startTime": "83133",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "144",
+      "y": "56",
+      "startTime": "84288",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "104",
+      "y": "256",
+      "startTime": "84672",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "288",
+      "startTime": "85057",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "464",
+      "y": "264",
+      "startTime": "85442",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "112",
+      "y": "344",
+      "startTime": "87749",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "64",
+      "startTime": "88518",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "384",
+      "y": "160",
+      "startTime": "88903",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "256",
+      "startTime": "89288",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    }
+  ],
+  "timingPoints": [
+    {
+      "offset": "827",
+      "beatLength": "384.615384615385",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "70",
+      "timingChange": true,
+      "kiaiTimeActive": false,
+      "bpm": 156
+    },
+    {
+      "offset": "46019",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "80",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "47557",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "90",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "49096",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "100",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "49865",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "10",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "52557",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "100",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "53134",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "100",
+      "timingChange": false,
+      "kiaiTimeActive": true
+    },
+    {
+      "offset": "78134",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "100",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "88327",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "50",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "89961",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "20",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    }
+  ],
+  "fileFormat": "v8",
+  "AudioFilename": "01 Wake Up World.mp3",
+  "AudioLeadIn": "1500",
+  "PreviewTime": "52919",
+  "Countdown": "0",
+  "SampleSet": "Soft",
+  "StackLeniency": "0.7",
+  "Mode": "0",
+  "LetterboxInBreaks": "1",
+  "Bookmarks": "71149",
+  "DistanceSpacing": "1.70000004768372",
+  "BeatDivisor": "4",
+  "GridSize": "8",
+  "Title": "Wake Up World",
+  "Artist": "CHiCO[ACE]",
+  "Creator": "blissfulyoshi",
+  "Version": "Hard",
+  "Source": "Luminous Arc 3: Eyes",
+  "Tags": "LA3",
+  "HPDrainRate": "6",
+  "CircleSize": "4",
+  "OverallDifficulty": "7",
+  "ApproachRate": "7",
+  "SliderMultiplier": "1.8",
+  "SliderTickRate": "1",
+  "bgFilename": "luminous arc 3.jpg",
+  "Combo1": "34,79,255",
+  "Combo2": "255,166,17",
+  "Combo3": "91,0,204",
+  "Combo4": "255,62,187",
   "bpm": 156,
-  "totaltime": 89,
-  "drainingtime": 89
+  "totalTime": 89,
+  "drainingTime": 89
 }

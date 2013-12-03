@@ -7,13 +7,19 @@ var parser = require('..');
 
 var versions = [7, 8, 9, 10, 11, 12];
 
-function areSame(obj1, obj2) {
-  if (Object.keys(obj1).length != Object.keys(obj2).length) return false;
+function compareBeatmaps(obj1, obj2) {
+  assert.equal(Object.keys(obj1).length, Object.keys(obj2).length, 'the resulting beatmap does not have the good number of attributes');
 
   for (var p in obj1) {
-    if (obj1[p] != obj2[p]) return false;
+    switch (p) {
+      case 'hitObjects':
+      case 'timingPoints':
+        assert.deepEqual(obj1[p], obj2[p], 'an array is faulty');
+        break;
+      default:
+        assert.equal(obj1[p], obj2[p], p + ' is faulty');
+    }
   }
-  return true;
 }
 
 versions.forEach(function (version) {
@@ -25,19 +31,19 @@ versions.forEach(function (version) {
       it('should correctly parse it from its path', function (done) {
         parser.parseFile(file, function (err, beatmap) {
           assert.equal(err, undefined, 'an unexpected error occured');
-          assert(areSame(beatmap, result), 'the resulting beatmap is faulty');
+          compareBeatmaps(beatmap, result);
           done();
         });
       });
       it('should correctly parse its content as a buffer', function (done) {
         var beatmap = parser.parseContent(fs.readFileSync(file));
-        assert(areSame(beatmap, result), 'the resulting beatmap is faulty');
+        compareBeatmaps(beatmap, result);
         done();
       });
       it('should correctly parse its content as a stream', function (done) {
         parser.parseStream(fs.createReadStream(file), function (err, beatmap) {
           assert.equal(err, undefined, 'an unexpected error occured');
-          assert(areSame(beatmap, result), 'the resulting beatmap is faulty');
+          compareBeatmaps(beatmap, result);
           done();
         });
       });

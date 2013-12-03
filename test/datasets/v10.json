@@ -1,41 +1,2491 @@
 {
-  "nbcircles": 199,
-  "nbsliders": 77,
-  "nbspinners": 3,
-  "fileformat": "v10",
-  "audiofilename": "Crack.mp3",
-  "audioleadin": "2000",
-  "previewtime": "85113",
-  "countdown": "0",
-  "sampleset": "Soft",
-  "stackleniency": "0.6",
-  "mode": "0",
-  "letterboxinbreaks": "0",
-  "distancespacing": "0.8",
-  "beatdivisor": "4",
-  "gridsize": "4",
-  "title": "Crack",
-  "titleunicode": "Crack",
-  "artist": "keeno",
-  "artistunicode": "keeno",
-  "creator": "Azure",
-  "version": "Insane",
-  "source": "Vocaloid",
-  "tags": "append dark at dusk cut Hatsune Miku",
-  "beatmapid": "170428",
-  "beatmapsetid": "56348",
-  "hpdrainrate": "6",
-  "circlesize": "4",
-  "overalldifficulty": "6",
-  "approachrate": "6",
-  "slidermultiplier": "1.8",
-  "slidertickrate": "2",
-  "bgfilename": "bg.jpg",
-  "combo1": "251,164,85",
-  "combo2": "255,255,196",
-  "combo3": "190,62,58",
-  "sliderborder": "255,255,255",
+  "nbCircles": 199,
+  "nbSliders": 77,
+  "nbSpinners": 3,
+  "hitObjects": [
+    {
+      "x": "156",
+      "y": "108",
+      "startTime": "597",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "156",
+      "y": "108",
+      "startTime": "758",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "156",
+      "y": "108",
+      "startTime": "920",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "216",
+      "y": "176",
+      "startTime": "1887",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "248",
+      "y": "92",
+      "startTime": "2210",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "448",
+      "y": "228",
+      "startTime": "3178",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "440",
+      "y": "256",
+      "startTime": "3339",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "420",
+      "y": "272",
+      "startTime": "3501",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "332",
+      "y": "304",
+      "startTime": "3823",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "276",
+      "y": "232",
+      "startTime": "4791",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "152",
+      "y": "184",
+      "startTime": "5436",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "96",
+      "y": "252",
+      "startTime": "5758",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "96",
+      "y": "252",
+      "startTime": "5920",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "96",
+      "y": "252",
+      "startTime": "6081",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "152",
+      "y": "184",
+      "startTime": "7049",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "156",
+      "y": "156",
+      "startTime": "7210",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "268",
+      "y": "68",
+      "startTime": "7856",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "320",
+      "y": "152",
+      "startTime": "8661",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "400",
+      "y": "208",
+      "startTime": "9145",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "396",
+      "y": "236",
+      "startTime": "9307",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "288",
+      "y": "264",
+      "startTime": "9790",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "260",
+      "y": "264",
+      "startTime": "9952",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "196",
+      "y": "228",
+      "startTime": "10275",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "152",
+      "y": "172",
+      "startTime": "10598",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "48",
+      "startTime": "10920",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "48",
+      "startTime": "11081",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "48",
+      "startTime": "11242",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "364",
+      "y": "72",
+      "startTime": "11726",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "384",
+      "y": "88",
+      "startTime": "11887",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "400",
+      "y": "176",
+      "startTime": "12855",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "464",
+      "y": "228",
+      "startTime": "13178",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "380",
+      "y": "256",
+      "startTime": "13500",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "356",
+      "y": "264",
+      "startTime": "13661",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "328",
+      "y": "260",
+      "startTime": "13823",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "244",
+      "y": "288",
+      "startTime": "14145",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "188",
+      "y": "216",
+      "startTime": "15113",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "100",
+      "y": "224",
+      "startTime": "15436",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "152",
+      "y": "52",
+      "startTime": "16081",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "240",
+      "y": "44",
+      "startTime": "16403",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "468",
+      "y": "116",
+      "startTime": "17371",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "436",
+      "y": "192",
+      "startTime": "18017",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "460",
+      "y": "224",
+      "startTime": "18178",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "388",
+      "y": "312",
+      "startTime": "18823",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "236",
+      "y": "300",
+      "startTime": "19468",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "212",
+      "y": "272",
+      "startTime": "19629",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "196",
+      "y": "160",
+      "startTime": "20113",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "212",
+      "y": "128",
+      "startTime": "20274",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "284",
+      "y": "116",
+      "startTime": "20599",
+      "objectType": "5",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "300",
+      "y": "148",
+      "startTime": "20759",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "308",
+      "y": "184",
+      "startTime": "20920",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "300",
+      "y": "220",
+      "startTime": "21081",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "284",
+      "y": "252",
+      "startTime": "21243",
+      "objectType": "1",
+      "soundType": "12",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "192",
+      "startTime": "21565",
+      "objectType": "12",
+      "soundType": "0",
+      "endTime": "24145",
+      "objectName": "spinner"
+    },
+    {
+      "x": "384",
+      "y": "96",
+      "startTime": "41887",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "384",
+      "y": "144",
+      "startTime": "42049",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "368",
+      "y": "184",
+      "startTime": "42210",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "304",
+      "y": "120",
+      "startTime": "43178",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "368",
+      "y": "184",
+      "startTime": "43500",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "320",
+      "y": "292",
+      "startTime": "43984",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "292",
+      "y": "304",
+      "startTime": "44145",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "216",
+      "y": "348",
+      "startTime": "44468",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "148",
+      "y": "292",
+      "startTime": "44790",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "136",
+      "y": "204",
+      "startTime": "45436",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "88",
+      "y": "129",
+      "startTime": "45919",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "89",
+      "y": "129",
+      "startTime": "46081",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "176",
+      "y": "128",
+      "startTime": "46403",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "176",
+      "y": "128",
+      "startTime": "46565",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "176",
+      "y": "128",
+      "startTime": "46727",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "312",
+      "y": "200",
+      "startTime": "47371",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "452",
+      "y": "96",
+      "startTime": "48339",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "432",
+      "y": "72",
+      "startTime": "48500",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "404",
+      "y": "56",
+      "startTime": "48661",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "312",
+      "y": "56",
+      "startTime": "48985",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "280",
+      "y": "72",
+      "startTime": "49146",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "96",
+      "startTime": "49307",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "208",
+      "y": "172",
+      "startTime": "49629",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "252",
+      "y": "248",
+      "startTime": "49952",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "136",
+      "y": "240",
+      "startTime": "50436",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "112",
+      "y": "220",
+      "startTime": "50597",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "92",
+      "y": "140",
+      "startTime": "50919",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "168",
+      "y": "96",
+      "startTime": "51242",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "432",
+      "y": "176",
+      "startTime": "52210",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "416",
+      "y": "204",
+      "startTime": "52371",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "388",
+      "y": "224",
+      "startTime": "52532",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "244",
+      "y": "320",
+      "startTime": "53178",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "200",
+      "y": "244",
+      "startTime": "53823",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "156",
+      "y": "320",
+      "startTime": "54145",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "96",
+      "y": "256",
+      "startTime": "54790",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "72",
+      "y": "236",
+      "startTime": "54952",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "64",
+      "y": "208",
+      "startTime": "55113",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "36",
+      "y": "92",
+      "startTime": "55436",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "60",
+      "startTime": "55758",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "220",
+      "y": "28",
+      "startTime": "56081",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "60",
+      "startTime": "56403",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "168",
+      "y": "152",
+      "startTime": "56726",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "112",
+      "y": "64",
+      "startTime": "57049",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "180",
+      "y": "148",
+      "startTime": "57371",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "216",
+      "y": "32",
+      "startTime": "57694",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "112",
+      "startTime": "58661",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "132",
+      "startTime": "58823",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "152",
+      "startTime": "58984",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "360",
+      "y": "128",
+      "startTime": "59468",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "388",
+      "y": "148",
+      "startTime": "59629",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "380",
+      "y": "260",
+      "startTime": "60113",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "360",
+      "y": "280",
+      "startTime": "60274",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "260",
+      "y": "336",
+      "startTime": "60758",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "232",
+      "y": "328",
+      "startTime": "60919",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "288",
+      "startTime": "61242",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "200",
+      "startTime": "61565",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "208",
+      "y": "240",
+      "startTime": "61887",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "288",
+      "startTime": "62210",
+      "objectType": "5",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "288",
+      "startTime": "62372",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "288",
+      "startTime": "62533",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "72",
+      "y": "88",
+      "startTime": "63178",
+      "objectType": "2",
+      "soundType": "2",
+      "objectName": "slider"
+    },
+    {
+      "x": "192",
+      "y": "56",
+      "startTime": "63823",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "272",
+      "y": "128",
+      "startTime": "64145",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "192",
+      "y": "56",
+      "startTime": "64468",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "368",
+      "y": "88",
+      "startTime": "65113",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "272",
+      "y": "128",
+      "startTime": "65436",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "300",
+      "y": "212",
+      "startTime": "65919",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "300",
+      "y": "212",
+      "startTime": "66081",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "384",
+      "y": "280",
+      "startTime": "66403",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "408",
+      "y": "176",
+      "startTime": "66726",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "384",
+      "y": "280",
+      "startTime": "67694",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "280",
+      "y": "296",
+      "startTime": "68016",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "88",
+      "y": "320",
+      "startTime": "68661",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "144",
+      "y": "224",
+      "startTime": "68984",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "144",
+      "y": "128",
+      "startTime": "69629",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "124",
+      "y": "120",
+      "startTime": "69790",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "104",
+      "y": "112",
+      "startTime": "69952",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "64",
+      "y": "36",
+      "startTime": "70436",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "96",
+      "y": "20",
+      "startTime": "70597",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "304",
+      "y": "48",
+      "startTime": "71242",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "408",
+      "y": "48",
+      "startTime": "71565",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "416",
+      "y": "80",
+      "startTime": "71726",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "396",
+      "y": "104",
+      "startTime": "71887",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "352",
+      "y": "160",
+      "startTime": "72210",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "320",
+      "y": "160",
+      "startTime": "72371",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "292",
+      "y": "148",
+      "startTime": "72532",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "376",
+      "y": "208",
+      "startTime": "73500",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "472",
+      "y": "224",
+      "startTime": "73823",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "472",
+      "y": "224",
+      "startTime": "74145",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "376",
+      "y": "208",
+      "startTime": "74790",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "312",
+      "y": "104",
+      "startTime": "75436",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "312",
+      "y": "104",
+      "startTime": "75597",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "312",
+      "y": "104",
+      "startTime": "75758",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "240",
+      "y": "24",
+      "startTime": "76726",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "208",
+      "y": "128",
+      "startTime": "77049",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "56",
+      "startTime": "77371",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "208",
+      "y": "128",
+      "startTime": "77694",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "96",
+      "y": "168",
+      "startTime": "78016",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "208",
+      "y": "128",
+      "startTime": "78984",
+      "objectType": "5",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "200",
+      "y": "232",
+      "startTime": "79307",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "200",
+      "y": "232",
+      "startTime": "79468",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "200",
+      "y": "232",
+      "startTime": "79629",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "296",
+      "y": "192",
+      "startTime": "79952",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "192",
+      "startTime": "80758",
+      "objectType": "12",
+      "soundType": "0",
+      "endTime": "82855",
+      "objectName": "spinner"
+    },
+    {
+      "x": "256",
+      "y": "96",
+      "startTime": "83178",
+      "objectType": "5",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "96",
+      "startTime": "83340",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "96",
+      "startTime": "83500",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "200",
+      "y": "248",
+      "startTime": "83823",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "336",
+      "y": "152",
+      "startTime": "84145",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "176",
+      "y": "152",
+      "startTime": "84468",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "312",
+      "y": "248",
+      "startTime": "84790",
+      "objectType": "1",
+      "soundType": "4",
+      "objectName": "circle"
+    },
+    {
+      "x": "304",
+      "y": "48",
+      "startTime": "85113",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "424",
+      "y": "136",
+      "startTime": "85436",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "304",
+      "y": "224",
+      "startTime": "85758",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "88",
+      "startTime": "86081",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "240",
+      "y": "312",
+      "startTime": "86726",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "136",
+      "y": "240",
+      "startTime": "87049",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "152",
+      "y": "56",
+      "startTime": "87694",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "152",
+      "y": "56",
+      "startTime": "87855",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "152",
+      "y": "56",
+      "startTime": "88016",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "48",
+      "startTime": "88339",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "216",
+      "y": "144",
+      "startTime": "88661",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "152",
+      "y": "56",
+      "startTime": "89629",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "48",
+      "startTime": "90274",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "304",
+      "y": "40",
+      "startTime": "90436",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "352",
+      "y": "56",
+      "startTime": "90597",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "400",
+      "y": "232",
+      "startTime": "91242",
+      "objectType": "5",
+      "soundType": "4",
+      "objectName": "circle"
+    },
+    {
+      "x": "480",
+      "y": "320",
+      "startTime": "91565",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "400",
+      "y": "232",
+      "startTime": "91887",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "288",
+      "y": "232",
+      "startTime": "92855",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "248",
+      "y": "212",
+      "startTime": "93016",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "204",
+      "y": "232",
+      "startTime": "93178",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "112",
+      "y": "288",
+      "startTime": "93500",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "24",
+      "y": "104",
+      "startTime": "94145",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "24",
+      "y": "56",
+      "startTime": "94307",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "60",
+      "y": "28",
+      "startTime": "94468",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "128",
+      "y": "128",
+      "startTime": "94790",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "224",
+      "y": "80",
+      "startTime": "95436",
+      "objectType": "5",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "260",
+      "y": "52",
+      "startTime": "95597",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "300",
+      "y": "28",
+      "startTime": "95758",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "344",
+      "y": "20",
+      "startTime": "95920",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "388",
+      "y": "28",
+      "startTime": "96081",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "432",
+      "y": "52",
+      "startTime": "96242",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "472",
+      "y": "80",
+      "startTime": "96403",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "496",
+      "y": "176",
+      "startTime": "97371",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "400",
+      "y": "160",
+      "startTime": "97694",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "440",
+      "y": "272",
+      "startTime": "98017",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "412",
+      "y": "312",
+      "startTime": "98179",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "368",
+      "y": "324",
+      "startTime": "98340",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "264",
+      "y": "304",
+      "startTime": "98661",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "80",
+      "y": "288",
+      "startTime": "99307",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "84",
+      "y": "160",
+      "startTime": "99629",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "296",
+      "y": "140",
+      "startTime": "100274",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "264",
+      "y": "24",
+      "startTime": "100597",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "168",
+      "y": "104",
+      "startTime": "100920",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "84",
+      "y": "160",
+      "startTime": "101565",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "256",
+      "y": "160",
+      "startTime": "102210",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "336",
+      "y": "232",
+      "startTime": "102532",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "360",
+      "y": "128",
+      "startTime": "102855",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "336",
+      "y": "232",
+      "startTime": "103500",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "336",
+      "y": "232",
+      "startTime": "103823",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "216",
+      "y": "248",
+      "startTime": "104145",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "216",
+      "y": "248",
+      "startTime": "104468",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "232",
+      "y": "160",
+      "startTime": "105113",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "228",
+      "y": "112",
+      "startTime": "105275",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "264",
+      "y": "80",
+      "startTime": "105436",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "367",
+      "y": "43",
+      "startTime": "106403",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "367",
+      "y": "43",
+      "startTime": "106565",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "367",
+      "y": "43",
+      "startTime": "106726",
+      "objectType": "1",
+      "soundType": "4",
+      "objectName": "circle"
+    },
+    {
+      "x": "264",
+      "y": "80",
+      "startTime": "107049",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "344",
+      "y": "144",
+      "startTime": "108016",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "432",
+      "y": "192",
+      "startTime": "108340",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "344",
+      "y": "144",
+      "startTime": "109307",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "264",
+      "y": "184",
+      "startTime": "109630",
+      "objectType": "6",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "344",
+      "y": "144",
+      "startTime": "110274",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "408",
+      "y": "72",
+      "startTime": "110597",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "416",
+      "y": "80",
+      "startTime": "110758",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "424",
+      "y": "88",
+      "startTime": "110920",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "344",
+      "y": "144",
+      "startTime": "111887",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "312",
+      "y": "272",
+      "startTime": "112210",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "312",
+      "y": "272",
+      "startTime": "112371",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "312",
+      "y": "272",
+      "startTime": "112532",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "240",
+      "y": "192",
+      "startTime": "113500",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "312",
+      "y": "272",
+      "startTime": "113823",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "240",
+      "y": "192",
+      "startTime": "114145",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "312",
+      "y": "272",
+      "startTime": "115113",
+      "objectType": "5",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "352",
+      "y": "264",
+      "startTime": "115274",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "392",
+      "y": "248",
+      "startTime": "115436",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "424",
+      "y": "224",
+      "startTime": "115597",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "448",
+      "y": "192",
+      "startTime": "115758",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "464",
+      "y": "152",
+      "startTime": "115920",
+      "objectType": "1",
+      "soundType": "2",
+      "objectName": "circle"
+    },
+    {
+      "x": "464",
+      "y": "112",
+      "startTime": "116081",
+      "objectType": "1",
+      "soundType": "4",
+      "objectName": "circle"
+    },
+    {
+      "x": "384",
+      "y": "40",
+      "startTime": "116403",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "280",
+      "y": "64",
+      "startTime": "117371",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "200",
+      "y": "128",
+      "startTime": "117694",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "96",
+      "y": "144",
+      "startTime": "118661",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "48",
+      "y": "240",
+      "startTime": "118984",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "48",
+      "y": "240",
+      "startTime": "119145",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "48",
+      "y": "240",
+      "startTime": "119307",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "248",
+      "y": "328",
+      "startTime": "119952",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "408",
+      "y": "320",
+      "startTime": "120436",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "452",
+      "y": "336",
+      "startTime": "120597",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "456",
+      "y": "244",
+      "startTime": "120920",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "472",
+      "y": "200",
+      "startTime": "121081",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "472",
+      "y": "152",
+      "startTime": "121242",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "460",
+      "y": "108",
+      "startTime": "121403",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "428",
+      "y": "72",
+      "startTime": "121565",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "384",
+      "y": "56",
+      "startTime": "121726",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "360",
+      "y": "96",
+      "startTime": "121887",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "260",
+      "y": "132",
+      "startTime": "122532",
+      "objectType": "5",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "212",
+      "y": "124",
+      "startTime": "122694",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "168",
+      "y": "140",
+      "startTime": "122855",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "136",
+      "y": "240",
+      "startTime": "123178",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "336",
+      "y": "308",
+      "startTime": "123823",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "416",
+      "y": "208",
+      "startTime": "124146",
+      "objectType": "2",
+      "soundType": "0",
+      "objectName": "slider"
+    },
+    {
+      "x": "368",
+      "y": "112",
+      "startTime": "125113",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "264",
+      "y": "80",
+      "startTime": "125436",
+      "objectType": "5",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "288",
+      "y": "184",
+      "startTime": "125758",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "264",
+      "y": "80",
+      "startTime": "126081",
+      "objectType": "1",
+      "soundType": "0",
+      "objectName": "circle"
+    },
+    {
+      "x": "184",
+      "y": "152",
+      "startTime": "126403",
+      "objectType": "1",
+      "soundType": "4",
+      "objectName": "circle"
+    },
+    {
+      "x": "288",
+      "y": "184",
+      "startTime": "126726",
+      "objectType": "5",
+      "soundType": "10",
+      "objectName": "circle"
+    },
+    {
+      "x": "268",
+      "y": "220",
+      "startTime": "126887",
+      "objectType": "1",
+      "soundType": "10",
+      "objectName": "circle"
+    },
+    {
+      "x": "288",
+      "y": "256",
+      "startTime": "127049",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "268",
+      "y": "292",
+      "startTime": "127210",
+      "objectType": "1",
+      "soundType": "8",
+      "objectName": "circle"
+    },
+    {
+      "x": "288",
+      "y": "328",
+      "startTime": "127371",
+      "objectType": "1",
+      "soundType": "4",
+      "objectName": "circle"
+    },
+    {
+      "x": "256",
+      "y": "192",
+      "startTime": "127532",
+      "objectType": "12",
+      "soundType": "0",
+      "endTime": "130598",
+      "objectName": "spinner"
+    }
+  ],
+  "timingPoints": [
+    {
+      "offset": "-1660",
+      "beatLength": "645.161290322581",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "40",
+      "timingChange": true,
+      "kiaiTimeActive": false,
+      "bpm": 93
+    },
+    {
+      "offset": "19952",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "40",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "21243",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "65",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "24146",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "5",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "41726",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "60",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "63661",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "60",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "64307",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "60",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "64952",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "60",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "65274",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "60",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "86081",
+      "beatLength": "-76.9230769230769",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "80",
+      "timingChange": false,
+      "kiaiTimeActive": true
+    },
+    {
+      "offset": "95113",
+      "beatLength": "-76.9230769230769",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "80",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "96403",
+      "beatLength": "-76.9230769230769",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "80",
+      "timingChange": false,
+      "kiaiTimeActive": true
+    },
+    {
+      "offset": "96887",
+      "beatLength": "-76.9230769230769",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "80",
+      "timingChange": false,
+      "kiaiTimeActive": true
+    },
+    {
+      "offset": "106242",
+      "beatLength": "-76.9230769230769",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "80",
+      "timingChange": false,
+      "kiaiTimeActive": true
+    },
+    {
+      "offset": "106887",
+      "beatLength": "-76.9230769230769",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "90",
+      "timingChange": false,
+      "kiaiTimeActive": true
+    },
+    {
+      "offset": "114952",
+      "beatLength": "-76.9230769230769",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "80",
+      "timingChange": false,
+      "kiaiTimeActive": true
+    },
+    {
+      "offset": "116081",
+      "beatLength": "-76.9230769230769",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "80",
+      "timingChange": false,
+      "kiaiTimeActive": true
+    },
+    {
+      "offset": "127049",
+      "beatLength": "-76.9230769230769",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": true,
+      "sampleVolume": "80",
+      "timingChange": false,
+      "kiaiTimeActive": true
+    },
+    {
+      "offset": "127694",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "40",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "129952",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "20",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    },
+    {
+      "offset": "130598",
+      "beatLength": "-100",
+      "timingSignature": "4",
+      "sampleSetId": "2",
+      "useCustomSamples": false,
+      "sampleVolume": "5",
+      "timingChange": false,
+      "kiaiTimeActive": false
+    }
+  ],
+  "fileFormat": "v10",
+  "AudioFilename": "Crack.mp3",
+  "AudioLeadIn": "2000",
+  "PreviewTime": "85113",
+  "Countdown": "0",
+  "SampleSet": "Soft",
+  "StackLeniency": "0.6",
+  "Mode": "0",
+  "LetterboxInBreaks": "0",
+  "DistanceSpacing": "0.8",
+  "BeatDivisor": "4",
+  "GridSize": "4",
+  "Title": "Crack",
+  "TitleUnicode": "Crack",
+  "Artist": "keeno",
+  "ArtistUnicode": "keeno",
+  "Creator": "Azure",
+  "Version": "Insane",
+  "Source": "Vocaloid",
+  "Tags": "append dark at dusk cut Hatsune Miku",
+  "BeatmapID": "170428",
+  "BeatmapSetID": "56348",
+  "HPDrainRate": "6",
+  "CircleSize": "4",
+  "OverallDifficulty": "6",
+  "ApproachRate": "6",
+  "SliderMultiplier": "1.8",
+  "SliderTickRate": "2",
+  "bgFilename": "bg.jpg",
+  "Combo1": "251,164,85",
+  "Combo2": "255,255,196",
+  "Combo3": "190,62,58",
+  "SliderBorder": "255,255,255",
   "bpm": 93,
-  "totaltime": 130,
-  "drainingtime": 111
+  "totalTime": 130,
+  "drainingTime": 111
 }
