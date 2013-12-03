@@ -31,7 +31,7 @@ npm install osu-parser
 
 ## The resulting object
 
-It contains all key/value pairs with a **lowercased** key :
+It contains all key/value pairs :
 ```
 ...
 PreviewTime: 42860
@@ -40,20 +40,47 @@ PreviewTime: 42860
 ```
 beatmap: {
   ...
-  previewtime: 42860,
+  PreviewTime: 42860,
   ...
 }
 ```
 
 ### Additionnal attributes :  
-`fileformat` : osu file format (v7, v12...).  
-`nbcircles` : number of circles.  
-`nbsliders` : number of sliders.  
-`nbspinners` : number of spinners.  
+`fileFormat` : osu file format (v7, v12...).  
+`nbCircles` : number of circles.  
+`nbSliders` : number of sliders.  
+`nbSpinners` : number of spinners.  
 `bpm` : a single number if constant (ex `150`), or min~max (ex `140~180`).  
-`totaltime` : total time in seconds (between the first timing point and the last object).  
-`drainingtime` : draining time in seconds.  
+`totalTime` : total time in seconds (between the first timing point and the last object).  
+`drainingTime` : draining time in seconds.  
+`hitObjects` : list of all hit objects. See HitObject below.  
+`timingPoints` : list of all timing points. See TimingPoint below.  
 
+### HitObject attributes
+`x`: abscissa.  
+`y`: ordinate.  
+`startTime`: start offset.  
+`objectType`: integer involving bitwise enums, still need to figure out how to parse it.  
+`soundType`: sound effect type.  
+  - 0: none
+  - 2: whistle
+  - 4: finish
+  - 6: whistle-finish
+  - 8: clap
+  - 10: clap-whistle
+  - 12: clap-finish
+  - 14: clap-whistle-finish
+
+### TimingPoint attributes
+  `offset`: section offset in milliseconds.  
+  `beatLength`: length of a single beat in milliseconds (float). If negative, it's a change of velocity.  
+  `bpm`: number of beats per minute. (only if beatLength is positive)  
+  `timingSignature`: 3 = simple triple, 4 = simple quadruple (used in editor).  
+  `sampleSetId`: sound samples. None = 0, Normal = 1, Soft = 2.  
+  `useCustomSamples`: use skin localised samples? (boolean)  
+  `sampleVolume`: volume of the samples.  
+  `timingChange`: is there a beatLength change ? (boolean)  
+  `kiaiTimeActive`: is it a kiai section ? (boolean)  
 
 ## Methods
 
@@ -90,9 +117,10 @@ Parse the content of a file as a string or a buffer.
 ```
 
 ## TODO
-- put timing points into an array
-- put hit objects into an array
-- put events into an array
+- parse hitobjects additions
+- completely parse slider hitobjects
+- use bitwise flag enums to recognize object types
+- parse events
 - evaluate map difficulty ? (probably too complicated)
 - add a synchronous version of parseFile
 - make it usable in a browser ? (not sure that would be useful)
