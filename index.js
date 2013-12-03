@@ -80,17 +80,21 @@ Parser.prototype.parseLine = function (line) {
       soundType: members[4]
     }
 
-    var sixth = members[5];
-    if (!sixth || /^(?:[0-9]+:)+?/.test(sixth)) {
+    // object type is a bitwise flag enum
+    // 1: circle
+    // 2: slider
+    // 8: spinner
+    var objectType = members[3];
+    if ((objectType & 1) == 1) {
       this.beatmap.nbCircles++;
       hitobject.objectName = 'circle';
-    } else if (/^[a-zA-Z]\|/.test(sixth)) {
+    } else if ((objectType & 2) == 2) {
       this.beatmap.nbSliders++;
       hitobject.objectName = 'slider';
-    } else if (/^[0-9]+$/.test(sixth)) {
+    } else if ((objectType & 8) == 8) {
       this.beatmap.nbSpinners++;
-      hitobject.endTime    = sixth;
       hitobject.objectName = 'spinner';
+      hitobject.endTime    = members[5];
     } else {
       hitobject.objectName = 'unknown';
     }
