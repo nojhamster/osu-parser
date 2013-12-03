@@ -93,6 +93,8 @@ Parser.prototype.parseLine = function (line) {
       hitobject.objectName = 'unknown';
     }
 
+    hitobject.newCombo = ((objectType & 4) == 4);
+
     this.beatmap.hitObjects.push(hitobject);
     break;
   case 'events':
