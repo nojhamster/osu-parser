@@ -63,6 +63,10 @@ beatmap: {
 `startTime`: start offset.  
 `objectType`: bitwise flag enum, see flags below.  
 `soundType`: bitwise flag enum, see flags below.  
+`newCombo`: is it a new combo ? (boolean)  
+`whistle`: does it have a whistle effect ? (boolean)  
+`finish`: does it have a finish effect ? (boolean)  
+`clap`: does it have a clap effect ? (boolean)  
 
 #### ObjectType bitwise flags
 1 : circle  
