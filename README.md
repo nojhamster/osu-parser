@@ -57,19 +57,24 @@ beatmap: {
 `timingPoints` : list of all timing points. See TimingPoint below.  
 
 ### HitObject attributes
+`objectName`: circle, slider, spinner or unknown.  
 `x`: abscissa.  
 `y`: ordinate.  
 `startTime`: start offset.  
-`objectType`: integer involving bitwise enums, still need to figure out how to parse it.  
-`soundType`: sound effect type.  
-  - 0: none
-  - 2: whistle
-  - 4: finish
-  - 6: whistle-finish
-  - 8: clap
-  - 10: clap-whistle
-  - 12: clap-finish
-  - 14: clap-whistle-finish
+`objectType`: bitwise flags enum.  
+`soundType`: bitwise flags enum. `0` if no sound addition.  
+
+#### ObjectType bitwise flags
+1 : circle  
+2 : slider  
+8 : spinner  
+
+Still need to find out the other flags.
+
+#### SoundType bitwise flags
+2 : whistle  
+4 : finish  
+8 : clap  
 
 ### TimingPoint attributes
   `offset`: section offset in milliseconds.  
@@ -119,7 +124,7 @@ Parse the content of a file as a string or a buffer.
 ## TODO
 - parse hitobjects additions
 - completely parse slider hitobjects
-- use bitwise flag enums to recognize object types
+- detect new combos
 - parse events
 - evaluate map difficulty ? (probably too complicated)
 - add a synchronous version of parseFile

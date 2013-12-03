@@ -63,12 +63,6 @@ Parser.prototype.parseLine = function (line) {
     }
     break;
   case 'hitobjects':
-    /**
-     * The sixth member is used to differentiate object types
-     * For circles, it can either be absent or be of type "0:0:0:0:" (additions)
-     * For sliders, it starts with a letter and a pipe
-     * For spinners, it's an integer representing the ending offset
-     */
     var members = line.split(',');
     if (members.length < 5) return;
 
@@ -80,17 +74,21 @@ Parser.prototype.parseLine = function (line) {
       soundType: members[4]
     }
 
-    var sixth = members[5];
-    if (!sixth || /^(?:[0-9]+:)+?/.test(sixth)) {
+    // object type is a bitwise flag enum
+    // 1: circle
+    // 2: slider
+    // 8: spinner
+    var objectType = members[3];
+    if ((objectType & 1) == 1) {
       this.beatmap.nbCircles++;
       hitobject.objectName = 'circle';
-    } else if (/^[a-zA-Z]\|/.test(sixth)) {
+    } else if ((objectType & 2) == 2) {
       this.beatmap.nbSliders++;
       hitobject.objectName = 'slider';
-    } else if (/^[0-9]+$/.test(sixth)) {
+    } else if ((objectType & 8) == 8) {
       this.beatmap.nbSpinners++;
-      hitobject.endTime    = sixth;
       hitobject.objectName = 'spinner';
+      hitobject.endTime    = members[5];
     } else {
       hitobject.objectName = 'unknown';
     }
