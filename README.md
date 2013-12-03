@@ -61,17 +61,17 @@ beatmap: {
 `x`: abscissa.  
 `y`: ordinate.  
 `startTime`: start offset.  
-`objectType`: bitwise flags enum.  
-`soundType`: bitwise flags enum. `0` if no sound addition.  
+`objectType`: bitwise flag enum, see flags below.  
+`soundType`: bitwise flag enum, see flags below.  
 
 #### ObjectType bitwise flags
 1 : circle  
 2 : slider  
+4 : new combo  
 8 : spinner  
 
-Still need to find out the other flags.
-
 #### SoundType bitwise flags
+0 : normal
 2 : whistle  
 4 : finish  
 8 : clap  
