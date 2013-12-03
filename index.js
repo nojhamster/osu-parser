@@ -63,12 +63,6 @@ Parser.prototype.parseLine = function (line) {
     }
     break;
   case 'hitobjects':
-    /**
-     * The sixth member is used to differentiate object types
-     * For circles, it can either be absent or be of type "0:0:0:0:" (additions)
-     * For sliders, it starts with a letter and a pipe
-     * For spinners, it's an integer representing the ending offset
-     */
     var members = line.split(',');
     if (members.length < 5) return;
 
