@@ -53,8 +53,8 @@ beatmap: {
 `bpm` : a single number if constant (ex `150`), or min~max (ex `140~180`).  
 `totalTime` : total time in seconds (between the first timing point and the last object).  
 `drainingTime` : draining time in seconds.  
-`hitObjects` : list of all hit objects. See HitObject below.  
-`timingPoints` : list of all timing points. See TimingPoint below.  
+`hitObjects` : array of all hit objects. See HitObject below.  
+`timingPoints` : array of all timing points. See TimingPoint below.  
 
 ### HitObject attributes
 `objectName`: circle, slider, spinner or unknown.  
