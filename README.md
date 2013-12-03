@@ -75,7 +75,7 @@ beatmap: {
 8 : spinner  
 
 #### SoundType bitwise flags
-0 : normal
+0 : normal  
 2 : whistle  
 4 : finish  
 8 : clap  
@@ -128,7 +128,6 @@ Parse the content of a file as a string or a buffer.
 ## TODO
 - parse hitobjects additions
 - completely parse slider hitobjects
-- detect new combos
 - parse events
 - evaluate map difficulty ? (probably too complicated)
 - add a synchronous version of parseFile
