@@ -61,29 +61,16 @@ beatmap: {
 `x`: abscissa.  
 `y`: ordinate.  
 `startTime`: start offset.  
-`objectType`: bitwise flag enum, see flags below.  
-`soundType`: bitwise flag enum, see flags below.  
 `newCombo`: is it a new combo ? (boolean)  
 `whistle`: does it have a whistle effect ? (boolean)  
 `finish`: does it have a finish effect ? (boolean)  
 `clap`: does it have a clap effect ? (boolean)  
 
-#### ObjectType bitwise flags
-1 : circle  
-2 : slider  
-4 : new combo  
-8 : spinner  
-
-#### SoundType bitwise flags
-0 : normal  
-2 : whistle  
-4 : finish  
-8 : clap  
-
 ### TimingPoint attributes
   `offset`: section offset in milliseconds.  
   `beatLength`: length of a single beat in milliseconds (float). If negative, it's a change of velocity.  
   `bpm`: number of beats per minute. (only if beatLength is positive)  
+  `velocity`: velocity multiplicator. (only if beatLength is negative)  
   `timingSignature`: 3 = simple triple, 4 = simple quadruple (used in editor).  
   `sampleSetId`: sound samples. None = 0, Normal = 1, Soft = 2.  
   `useCustomSamples`: use skin localised samples? (boolean)  
