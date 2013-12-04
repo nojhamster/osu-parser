@@ -33,46 +33,56 @@ Parser.prototype.parseLine = function (line) {
 
   switch (this.section) {
   case 'timingpoints':
-    /**
-     * The first member is the offset
-     * If the second member is positive, it's a number of milliseconds per beat (bpm change)
-     */
     var members = line.split(',');
 
-    if (/^([0-9\.\-]+)$/.test(members[0]) && /^([0-9\.\-]+)$/.test(members[1])) {
-      var timingPoint = {
-        offset: members[0],
-        beatLength: members[1],
-        timingSignature: members[2],
-        sampleSetId: members[3],
-        useCustomSamples: (members[4] == 1),
-        sampleVolume: members[5],
-        timingChange: (members[6] == 1),
-        kiaiTimeActive: (members[7] == 1)
-      };
+    var timingPoint = {
+      offset:           members[0],
+      beatLength:       members[1],
+      timingSignature:  members[2],
+      sampleSetId:      members[3],
+      useCustomSamples: (members[4] == 1),
+      sampleVolume:     members[5],
+      timingChange:     (members[6] == 1),
+      kiaiTimeActive:   (members[7] == 1)
+    };
 
-      var msPerBeat = parseFloat(timingPoint.beatLength);
-      if (!isNaN(msPerBeat) && msPerBeat > 0) {
-        var bpm = Math.round(60000 / msPerBeat);
+    var beatLength = parseFloat(timingPoint.beatLength);
+    if (!isNaN(beatLength) && beatLength != 0) {
+      if (beatLength > 0) {
+        // If positive, beatLength is the length of a beat in milliseconds
+        var bpm = Math.round(60000 / beatLength);
         if (!this.bpmMin || this.bpmMin > bpm) { this.bpmMin = bpm; }
         if (!this.bpmMax || this.bpmMax < bpm) { this.bpmMax = bpm; }
         timingPoint.bpm = bpm;
+      } else {
+        // If negative, beatLength is a velocity change factor
+        timingPoint.velocityMultiplicator = Math.abs(100 / beatLength);
       }
-
-      this.beatmap.timingPoints.push(timingPoint);
     }
+    this.beatmap.timingPoints.push(timingPoint);
     break;
   case 'hitobjects':
     var members = line.split(',');
 
-    var objectType = members[3];
+    /**
+     * sound type is a bitwise flag enum
+     * 0 : normal -> always set
+     * 2 : whistle
+     * 4 : finish
+     * 8 : clap
+     */
     var soundType  = members[4];
+    var objectType = members[3];
 
     var hitobject = {
-      x: members[0],
-      y: members[1],
-      startTime: members[2],
-      newCombo: ((objectType & 4) == 4)
+      x:          members[0],
+      y:          members[1],
+      startTime:  members[2],
+      newCombo:   ((objectType & 4) == 4),
+      whistle:    ((soundType & 2) == 2),
+      finish:     ((soundType & 4) == 4),
+      clap:       ((soundType & 8) == 8)
+
     }
 
     /**
@@ -100,16 +110,6 @@ Parser.prototype.parseLine = function (line) {
     }
 
 
-    /**
-     * sound type is a bitwise flag enum
-     * 0 : normal -> always set
-     * 2 : whistle
-     * 4 : finish
-     * 8 : clap
-     */
-    hitobject.whistle = ((soundType & 2) == 2);
-    hitobject.finish  = ((soundType & 4) == 4);
-    hitobject.clap    = ((soundType & 8) == 8);
 
     this.beatmap.hitObjects.push(hitobject);
     break;
