@@ -97,7 +97,7 @@ Parser.prototype.parseLine = function (line) {
       hitobject.objectName  = 'slider';
       hitobject.repeatCount = members[6];
       hitobject.pixelLength = members[7];
-      hitobject.points      = [];
+      hitobject.pointsList  = [];
 
       var points = (members[5] || '').split('|');
       if (points.length) {
@@ -105,7 +105,7 @@ Parser.prototype.parseLine = function (line) {
 
         for (var i = 1, l = points.length; i < l; i++) {
           var coordinates = points[i].split(':');
-          hitobject.points.push({
+          hitobject.pointsList.push({
             x: coordinates[0],
             y: coordinates[1]
           });

@@ -69,7 +69,7 @@ beatmap: {
 `repeatCount`: number of repeats, starts at `1` for a single-way slider.  
 `pixelLength`: length in pixel.  
 `curveType`: can be catmull, bezier, linear or pass-through.  
-`points`: array of points excluding the very first. Each point is an object with `x` and `y` properties.  
+`pointsList`: array of all points excluding the very first. Each point has `x` and `y` properties.  
 
 ##### Spinner specific properties
 `endTime`: end offset.  
