@@ -2,7 +2,7 @@ osu-parser
 ==========
 [![Build Status](https://travis-ci.org/nojhamster/osu-parser.png?branch=master)](https://travis-ci.org/nojhamster/osu-parser)
 
-A parser that converts osu files into javascript objects. Feel free to comment if you are interested !
+A parser that converts osu files into javascript objects. It's still at **early stage** and might get backward incompatible changes, however you can give it a try and **post issues** to help me improve it ;)
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -127,11 +127,12 @@ Parse the content of a file as a string or a buffer.
 
 ## TODO
 - parse hitobjects additions
-- completely parse slider hitobjects
+- parse all slider properties
 - parse events
+- support taiko, CTB and osu!mania
 - evaluate map difficulty ? (probably too complicated)
 - add a synchronous version of parseFile
 - make it usable in a browser ? (not sure that would be useful)
 - ...
 
-Feel free to post an issue if you want something else !
+**Feel free to make suggestions !**
