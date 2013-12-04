@@ -64,7 +64,6 @@ Parser.prototype.parseLine = function (line) {
     break;
   case 'hitobjects':
     var members = line.split(',');
-    if (members.length < 5) return;
 
     var objectType = members[3];
     var soundType  = members[4];
@@ -73,8 +72,6 @@ Parser.prototype.parseLine = function (line) {
       x: members[0],
       y: members[1],
       startTime: members[2],
-      objectType: members[3],
-      soundType: soundType,
       newCombo: ((objectType & 4) == 4)
     }
 
