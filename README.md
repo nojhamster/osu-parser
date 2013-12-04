@@ -67,6 +67,7 @@ beatmap: {
 
 ##### Slider specific properties
 `repeatCount`: number of repeats, starts at `1` for a single-way slider.  
+`edgeSounds`: list of soundTypes arrays, one for each edge of the slider (including the very first).  
 `pixelLength`: length in pixel.  
 `curveType`: can be catmull, bezier, linear or pass-through.  
 `pointsList`: array of all points excluding the very first. Each point has `x` and `y` properties.  
