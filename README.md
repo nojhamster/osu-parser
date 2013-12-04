@@ -46,7 +46,7 @@ beatmap: {
 }
 ```
 
-### Additionnal attributes :  
+### Additionnal properties :  
 `fileFormat` : osu file format (v7, v12...).  
 `nbCircles` : number of circles.  
 `nbSliders` : number of sliders.  
@@ -57,7 +57,7 @@ beatmap: {
 `hitObjects` : array of all hit objects. See HitObject below.  
 `timingPoints` : array of all timing points. See TimingPoint below.  
 
-### HitObject attributes
+#### HitObject properties
 `objectName`: circle, slider, spinner or unknown.  
 `x`: abscissa.  
 `y`: ordinate.  
@@ -67,7 +67,13 @@ beatmap: {
 `finish`: does it have a finish effect ? (boolean)  
 `clap`: does it have a clap effect ? (boolean)  
 
-### TimingPoint attributes
+##### Slider specific properties
+Still need to parse them
+
+##### Spinner specific properties
+`endTime`: end offset.  
+
+#### TimingPoint properties
   `offset`: section offset in milliseconds.  
   `beatLength`: length of a single beat in milliseconds (float). If negative, it's a change of velocity.  
   `bpm`: number of beats per minute. (only if beatLength is positive)  
