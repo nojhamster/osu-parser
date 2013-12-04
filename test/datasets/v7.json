@@ -8,9 +8,9 @@
       "y": "104",
       "startTime": "6025",
       "newCombo": true,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -18,9 +18,9 @@
       "y": "200",
       "startTime": "6486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -28,9 +28,9 @@
       "y": "200",
       "startTime": "6717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -38,9 +38,9 @@
       "y": "120",
       "startTime": "7178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -48,9 +48,9 @@
       "y": "80",
       "startTime": "7409",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -58,9 +58,9 @@
       "y": "64",
       "startTime": "7640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -68,9 +68,9 @@
       "y": "56",
       "startTime": "7871",
       "newCombo": true,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -78,9 +78,9 @@
       "y": "56",
       "startTime": "8332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -88,9 +88,9 @@
       "y": "56",
       "startTime": "8563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -98,9 +98,9 @@
       "y": "56",
       "startTime": "9024",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -108,9 +108,9 @@
       "y": "56",
       "startTime": "9255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -118,9 +118,9 @@
       "y": "160",
       "startTime": "9717",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -128,9 +128,9 @@
       "y": "120",
       "startTime": "10178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -138,9 +138,9 @@
       "y": "120",
       "startTime": "10409",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -148,19 +148,33 @@
       "y": "120",
       "startTime": "10871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "126",
+          "y": "120"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "224",
       "y": "120",
       "startTime": "11563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -168,9 +182,9 @@
       "y": "216",
       "startTime": "12255",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -178,19 +192,33 @@
       "y": "248",
       "startTime": "12486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "3",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "256",
+          "y": "288"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "224",
       "y": "304",
       "startTime": "13409",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -198,19 +226,33 @@
       "y": "208",
       "startTime": "13871",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "176",
+          "y": "152"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "linear"
     },
     {
       "x": "144",
       "y": "64",
       "startTime": "14563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -218,29 +260,63 @@
       "y": "112",
       "startTime": "14794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "144",
+          "y": "176"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "144",
       "y": "264",
       "startTime": "15948",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "4",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "88",
+          "y": "264"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "192",
       "y": "264",
       "startTime": "17101",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -248,9 +324,9 @@
       "y": "264",
       "startTime": "17563",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -258,9 +334,9 @@
       "y": "264",
       "startTime": "17794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -268,19 +344,33 @@
       "y": "216",
       "startTime": "18255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "424",
+          "y": "160"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "424",
       "y": "264",
       "startTime": "18948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -288,9 +378,9 @@
       "y": "192",
       "startTime": "19640",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -298,9 +388,9 @@
       "y": "168",
       "startTime": "19871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -308,9 +398,9 @@
       "y": "168",
       "startTime": "20101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -318,9 +408,9 @@
       "y": "192",
       "startTime": "20332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -328,9 +418,9 @@
       "y": "232",
       "startTime": "20563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -338,9 +428,9 @@
       "y": "280",
       "startTime": "20794",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -348,9 +438,9 @@
       "y": "328",
       "startTime": "21255",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -358,9 +448,9 @@
       "y": "328",
       "startTime": "21486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -368,19 +458,33 @@
       "y": "240",
       "startTime": "21948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "344",
+          "y": "176"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "linear"
     },
     {
       "x": "344",
       "y": "288",
       "startTime": "22640",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -388,9 +492,9 @@
       "y": "288",
       "startTime": "23332",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -398,9 +502,9 @@
       "y": "256",
       "startTime": "23563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -408,9 +512,9 @@
       "y": "208",
       "startTime": "23794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -418,9 +522,9 @@
       "y": "160",
       "startTime": "24025",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -428,9 +532,9 @@
       "y": "112",
       "startTime": "24255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -438,9 +542,9 @@
       "y": "88",
       "startTime": "24486",
       "newCombo": false,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -448,19 +552,37 @@
       "y": "96",
       "startTime": "24948",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "56",
+          "y": "96"
+        },
+        {
+          "x": "32",
+          "y": "112"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "112",
       "y": "176",
       "startTime": "25640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -468,9 +590,9 @@
       "y": "216",
       "startTime": "25871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -478,29 +600,68 @@
       "y": "264",
       "startTime": "26101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "88",
+          "y": "288"
+        },
+        {
+          "x": "96",
+          "y": "314"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "240",
       "y": "288",
       "startTime": "27025",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "4",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "234",
+          "y": "320"
+        },
+        {
+          "x": "218",
+          "y": "332"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "240",
       "y": "240",
       "startTime": "28178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -508,29 +669,65 @@
       "y": "136",
       "startTime": "28640",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "234",
+          "y": "107"
+        },
+        {
+          "x": "200",
+          "y": "104"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "104",
       "y": "104",
       "startTime": "29332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "72",
+          "y": "96"
+        },
+        {
+          "x": "40",
+          "y": "112"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "152",
       "y": "104",
       "startTime": "30025",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -538,19 +735,37 @@
       "y": "136",
       "startTime": "30717",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "296",
+          "y": "104"
+        },
+        {
+          "x": "248",
+          "y": "104"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "216",
       "y": "104",
       "startTime": "31178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -558,9 +773,9 @@
       "y": "112",
       "startTime": "31409",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -568,9 +783,9 @@
       "y": "144",
       "startTime": "31640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -578,9 +793,9 @@
       "y": "192",
       "startTime": "31871",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -588,29 +803,65 @@
       "y": "288",
       "startTime": "32332",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "152",
+          "y": "312"
+        },
+        {
+          "x": "192",
+          "y": "312"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "72",
       "y": "288",
       "startTime": "33025",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "72",
+          "y": "320"
+        },
+        {
+          "x": "96",
+          "y": "344"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "72",
       "y": "240",
       "startTime": "33717",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -618,9 +869,9 @@
       "y": "120",
       "startTime": "34409",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -628,9 +879,9 @@
       "y": "88",
       "startTime": "34640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -638,9 +889,9 @@
       "y": "72",
       "startTime": "34871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -648,9 +899,9 @@
       "y": "72",
       "startTime": "35101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -658,9 +909,9 @@
       "y": "88",
       "startTime": "35332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -668,9 +919,9 @@
       "y": "120",
       "startTime": "35563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -678,9 +929,9 @@
       "y": "216",
       "startTime": "36025",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -688,9 +939,9 @@
       "y": "264",
       "startTime": "36255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -698,19 +949,46 @@
       "y": "264",
       "startTime": "36717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "3",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "256",
+          "y": "296"
+        },
+        {
+          "x": "216",
+          "y": "296"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "336",
       "y": "184",
       "startTime": "38101",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -718,9 +996,9 @@
       "y": "144",
       "startTime": "38332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -728,9 +1006,9 @@
       "y": "160",
       "startTime": "38563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -738,9 +1016,9 @@
       "y": "208",
       "startTime": "38794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -748,9 +1026,9 @@
       "y": "224",
       "startTime": "39025",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -758,19 +1036,37 @@
       "y": "184",
       "startTime": "39255",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "200",
+      "pointsList": [
+        {
+          "x": "192",
+          "y": "232"
+        },
+        {
+          "x": "312",
+          "y": "336"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "440",
       "y": "184",
       "startTime": "41563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -778,9 +1074,9 @@
       "y": "184",
       "startTime": "41794",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -788,9 +1084,9 @@
       "y": "184",
       "startTime": "42255",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -798,9 +1094,9 @@
       "y": "184",
       "startTime": "42486",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -808,19 +1104,37 @@
       "y": "184",
       "startTime": "42948",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "200",
+      "pointsList": [
+        {
+          "x": "72",
+          "y": "160"
+        },
+        {
+          "x": "72",
+          "y": "40"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "288",
       "y": "184",
       "startTime": "45255",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -828,9 +1142,9 @@
       "y": "184",
       "startTime": "45486",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -838,9 +1152,9 @@
       "y": "104",
       "startTime": "45948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -848,9 +1162,9 @@
       "y": "152",
       "startTime": "46178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -858,19 +1172,37 @@
       "y": "256",
       "startTime": "46640",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "200",
+      "pointsList": [
+        {
+          "x": "320",
+          "y": "344"
+        },
+        {
+          "x": "416",
+          "y": "256"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "232",
       "y": "152",
       "startTime": "48948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -878,9 +1210,9 @@
       "y": "152",
       "startTime": "49178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -888,9 +1220,9 @@
       "y": "152",
       "startTime": "49640",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -898,9 +1230,9 @@
       "y": "152",
       "startTime": "49871",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -908,9 +1240,9 @@
       "y": "192",
       "startTime": "50332",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "spinner",
       "endTime": "52178"
     },
@@ -919,29 +1251,65 @@
       "y": "320",
       "startTime": "52871",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "4",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "304",
+          "y": "312"
+        },
+        {
+          "x": "312",
+          "y": "280"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "232",
       "y": "320",
       "startTime": "54025",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "168",
+          "y": "320"
+        },
+        {
+          "x": "128",
+          "y": "264"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "256",
       "y": "280",
       "startTime": "55178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -949,9 +1317,9 @@
       "y": "232",
       "startTime": "55409",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -959,19 +1327,37 @@
       "y": "160",
       "startTime": "55871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "144",
+          "y": "120"
+        },
+        {
+          "x": "88",
+          "y": "144"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "216",
       "y": "200",
       "startTime": "57025",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -979,9 +1365,9 @@
       "y": "152",
       "startTime": "57255",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -989,39 +1375,93 @@
       "y": "112",
       "startTime": "57717",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "360",
+          "y": "104"
+        },
+        {
+          "x": "368",
+          "y": "64"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "376",
       "y": "200",
       "startTime": "58640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "400",
+          "y": "216"
+        },
+        {
+          "x": "448",
+          "y": "200"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "280",
       "y": "208",
       "startTime": "59563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "200",
+          "y": "216"
+        },
+        {
+          "x": "208",
+          "y": "152"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "207",
       "y": "162",
       "startTime": "60255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1029,9 +1469,9 @@
       "y": "136",
       "startTime": "60717",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1039,9 +1479,9 @@
       "y": "128",
       "startTime": "60948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1049,9 +1489,9 @@
       "y": "80",
       "startTime": "61178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1059,19 +1499,37 @@
       "y": "40",
       "startTime": "61409",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "296",
+          "y": "80"
+        },
+        {
+          "x": "232",
+          "y": "72"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "200",
       "y": "72",
       "startTime": "62101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1079,9 +1537,9 @@
       "y": "168",
       "startTime": "62563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1089,9 +1547,9 @@
       "y": "168",
       "startTime": "62794",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1099,19 +1557,37 @@
       "y": "168",
       "startTime": "63255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "144",
+          "y": "208"
+        },
+        {
+          "x": "200",
+          "y": "208"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "240",
       "y": "208",
       "startTime": "63948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1119,9 +1595,9 @@
       "y": "208",
       "startTime": "64409",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1129,9 +1605,9 @@
       "y": "264",
       "startTime": "64871",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1139,9 +1615,9 @@
       "y": "216",
       "startTime": "65101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1149,9 +1625,9 @@
       "y": "128",
       "startTime": "65563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1159,9 +1635,9 @@
       "y": "128",
       "startTime": "65794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1169,29 +1645,75 @@
       "y": "72",
       "startTime": "66255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "256",
+          "y": "64"
+        },
+        {
+          "x": "280",
+          "y": "72"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "208",
       "y": "120",
       "startTime": "66948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "232",
+          "y": "152"
+        },
+        {
+          "x": "168",
+          "y": "208"
+        },
+        {
+          "x": "216",
+          "y": "224"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "240",
       "y": "248",
       "startTime": "67640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1199,9 +1721,9 @@
       "y": "240",
       "startTime": "67871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1209,9 +1731,9 @@
       "y": "208",
       "startTime": "68101",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1219,9 +1741,9 @@
       "y": "160",
       "startTime": "68332",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1229,9 +1751,9 @@
       "y": "120",
       "startTime": "68563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1239,19 +1761,43 @@
       "y": "88",
       "startTime": "68794",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "192",
+          "y": "48"
+        },
+        {
+          "x": "136",
+          "y": "96"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "248",
       "y": "128",
       "startTime": "69948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1259,9 +1805,9 @@
       "y": "168",
       "startTime": "70178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1269,9 +1815,9 @@
       "y": "176",
       "startTime": "70409",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1279,19 +1825,43 @@
       "y": "184",
       "startTime": "70640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "48",
+          "y": "192"
+        },
+        {
+          "x": "16",
+          "y": "240"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "168",
       "y": "184",
       "startTime": "71794",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1299,9 +1869,9 @@
       "y": "184",
       "startTime": "72025",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1309,9 +1879,9 @@
       "y": "176",
       "startTime": "72255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1319,9 +1889,9 @@
       "y": "160",
       "startTime": "72486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1329,39 +1899,95 @@
       "y": "120",
       "startTime": "72948",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "424",
+          "y": "144"
+        },
+        {
+          "x": "408",
+          "y": "184"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "328",
       "y": "224",
       "startTime": "73640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "312",
+          "y": "296"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "linear"
     },
     {
       "x": "376",
       "y": "216",
       "startTime": "74332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "432",
+          "y": "224"
+        },
+        {
+          "x": "480",
+          "y": "184"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "328",
       "y": "208",
       "startTime": "75486",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1369,9 +1995,9 @@
       "y": "184",
       "startTime": "75717",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1379,9 +2005,9 @@
       "y": "152",
       "startTime": "75948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1389,19 +2015,37 @@
       "y": "104",
       "startTime": "76178",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "264",
+          "y": "56"
+        },
+        {
+          "x": "328",
+          "y": "56"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "352",
       "y": "64",
       "startTime": "76871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1409,9 +2053,9 @@
       "y": "152",
       "startTime": "77332",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1419,9 +2063,9 @@
       "y": "192",
       "startTime": "77563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1429,19 +2073,37 @@
       "y": "248",
       "startTime": "78025",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "224",
+          "y": "264"
+        },
+        {
+          "x": "176",
+          "y": "232"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "190",
       "y": "240",
       "startTime": "78717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1449,9 +2111,9 @@
       "y": "144",
       "startTime": "79178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1459,9 +2121,9 @@
       "y": "136",
       "startTime": "79409",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1469,9 +2131,9 @@
       "y": "144",
       "startTime": "79640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1479,9 +2141,9 @@
       "y": "184",
       "startTime": "79871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1489,9 +2151,9 @@
       "y": "280",
       "startTime": "80332",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1499,9 +2161,9 @@
       "y": "280",
       "startTime": "80563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1509,9 +2171,9 @@
       "y": "240",
       "startTime": "81024",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1519,9 +2181,9 @@
       "y": "240",
       "startTime": "81255",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1529,9 +2191,9 @@
       "y": "192",
       "startTime": "81717",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "spinner",
       "endTime": "83101"
     },
@@ -1540,9 +2202,9 @@
       "y": "192",
       "startTime": "85409",
       "newCombo": true,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1550,19 +2212,36 @@
       "y": "192",
       "startTime": "85871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "96",
+          "y": "192"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "104",
       "y": "88",
       "startTime": "86563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1570,9 +2249,9 @@
       "y": "72",
       "startTime": "86794",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1580,9 +2259,9 @@
       "y": "72",
       "startTime": "87024",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1590,9 +2269,9 @@
       "y": "88",
       "startTime": "87255",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1600,19 +2279,45 @@
       "y": "136",
       "startTime": "87948",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "4",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "456",
+          "y": "136"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "360",
       "y": "176",
       "startTime": "89101",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1620,29 +2325,70 @@
       "y": "240",
       "startTime": "89563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "224",
+          "y": "240"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "160",
       "y": "312",
       "startTime": "90255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "143",
+          "y": "326"
+        },
+        {
+          "x": "111",
+          "y": "310"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "208",
       "y": "296",
       "startTime": "90948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1650,9 +2396,9 @@
       "y": "296",
       "startTime": "91640",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1660,9 +2406,9 @@
       "y": "256",
       "startTime": "91871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1670,9 +2416,9 @@
       "y": "216",
       "startTime": "92101",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1680,9 +2426,9 @@
       "y": "176",
       "startTime": "92332",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1690,9 +2436,9 @@
       "y": "168",
       "startTime": "92563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1700,9 +2446,9 @@
       "y": "192",
       "startTime": "92794",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1710,29 +2456,71 @@
       "y": "304",
       "startTime": "93255",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "200",
+          "y": "312"
+        },
+        {
+          "x": "176",
+          "y": "304"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "168",
       "y": "208",
       "startTime": "93948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "150",
+      "pointsList": [
+        {
+          "x": "200",
+          "y": "288"
+        },
+        {
+          "x": "264",
+          "y": "328"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "344",
       "y": "272",
       "startTime": "95101",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1740,9 +2528,9 @@
       "y": "224",
       "startTime": "95332",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1750,9 +2538,9 @@
       "y": "128",
       "startTime": "95794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1760,9 +2548,9 @@
       "y": "88",
       "startTime": "96024",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1770,9 +2558,9 @@
       "y": "56",
       "startTime": "96486",
       "newCombo": true,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1780,29 +2568,74 @@
       "y": "96",
       "startTime": "96948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "136",
+          "y": "88"
+        },
+        {
+          "x": "110",
+          "y": "96"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "112",
       "y": "200",
       "startTime": "97640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "128",
+          "y": "224"
+        },
+        {
+          "x": "168",
+          "y": "232"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "104",
       "y": "152",
       "startTime": "98332",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1810,9 +2643,9 @@
       "y": "16",
       "startTime": "99024",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1820,9 +2653,9 @@
       "y": "32",
       "startTime": "99255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1830,9 +2663,9 @@
       "y": "80",
       "startTime": "99486",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1840,9 +2673,9 @@
       "y": "136",
       "startTime": "99717",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1850,9 +2683,9 @@
       "y": "184",
       "startTime": "99948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1860,9 +2693,10 @@
       "y": "216",
       "startTime": "100178",
       "newCombo": false,
-      "whistle": true,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "whistle",
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -1870,19 +2704,40 @@
       "y": "224",
       "startTime": "100640",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "32",
+          "y": "232"
+        },
+        {
+          "x": "40",
+          "y": "280"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "128",
       "y": "272",
       "startTime": "101332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1890,19 +2745,36 @@
       "y": "272",
       "startTime": "101563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "200",
+          "y": "272"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "232",
       "y": "272",
       "startTime": "102024",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1910,9 +2782,9 @@
       "y": "240",
       "startTime": "102486",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1920,9 +2792,9 @@
       "y": "192",
       "startTime": "102717",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1930,9 +2802,9 @@
       "y": "96",
       "startTime": "103178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1940,9 +2812,9 @@
       "y": "80",
       "startTime": "103409",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1950,9 +2822,9 @@
       "y": "104",
       "startTime": "103871",
       "newCombo": true,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -1960,29 +2832,71 @@
       "y": "128",
       "startTime": "104332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "304",
+          "y": "136"
+        },
+        {
+          "x": "320",
+          "y": "168"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "400",
       "y": "104",
       "startTime": "105024",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "150",
+      "pointsList": [
+        {
+          "x": "360",
+          "y": "168"
+        },
+        {
+          "x": "280",
+          "y": "194"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "232",
       "y": "280",
       "startTime": "106178",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -1990,9 +2904,9 @@
       "y": "248",
       "startTime": "106409",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2000,9 +2914,9 @@
       "y": "144",
       "startTime": "106871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2010,9 +2924,9 @@
       "y": "112",
       "startTime": "107101",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2020,9 +2934,9 @@
       "y": "184",
       "startTime": "107563",
       "newCombo": true,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2030,29 +2944,74 @@
       "y": "88",
       "startTime": "108024",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "256",
+          "y": "88"
+        },
+        {
+          "x": "240",
+          "y": "112"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "144",
       "y": "136",
       "startTime": "108717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "136",
+          "y": "104"
+        },
+        {
+          "x": "160",
+          "y": "72"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "144",
       "y": "136",
       "startTime": "109409",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2060,9 +3019,9 @@
       "y": "224",
       "startTime": "109871",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2070,9 +3029,9 @@
       "y": "224",
       "startTime": "110101",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2080,9 +3039,9 @@
       "y": "224",
       "startTime": "110563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2090,9 +3049,9 @@
       "y": "224",
       "startTime": "110794",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2100,49 +3059,137 @@
       "y": "272",
       "startTime": "111255",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "400",
+          "y": "280"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "linear"
     },
     {
       "x": "336",
       "y": "168",
       "startTime": "112178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "383",
+          "y": "152"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "linear"
     },
     {
       "x": "240",
       "y": "208",
       "startTime": "113101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "150",
+      "pointsList": [
+        {
+          "x": "136",
+          "y": "192"
+        },
+        {
+          "x": "152",
+          "y": "296"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "240",
       "y": "208",
       "startTime": "114948",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "200",
+      "pointsList": [
+        {
+          "x": "376",
+          "y": "256"
+        },
+        {
+          "x": "384",
+          "y": "128"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "finish"
+        ],
+        [
+          "finish"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "144",
       "y": "208",
       "startTime": "117255",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2150,9 +3197,9 @@
       "y": "208",
       "startTime": "117486",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2160,9 +3207,9 @@
       "y": "104",
       "startTime": "117948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2170,9 +3217,9 @@
       "y": "104",
       "startTime": "118178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2180,19 +3227,43 @@
       "y": "104",
       "startTime": "118640",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "200",
+      "pointsList": [
+        {
+          "x": "328",
+          "y": "224"
+        },
+        {
+          "x": "224",
+          "y": "272"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "finish"
+        ],
+        [
+          "finish"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "192",
       "y": "104",
       "startTime": "120948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2200,9 +3271,9 @@
       "y": "104",
       "startTime": "121178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2210,9 +3281,9 @@
       "y": "208",
       "startTime": "121640",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2220,9 +3291,9 @@
       "y": "256",
       "startTime": "121871",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2230,19 +3301,43 @@
       "y": "336",
       "startTime": "122332",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "200",
+      "pointsList": [
+        {
+          "x": "376",
+          "y": "352"
+        },
+        {
+          "x": "400",
+          "y": "224"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "finish"
+        ],
+        [
+          "finish"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "152",
       "y": "336",
       "startTime": "124640",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2250,9 +3345,9 @@
       "y": "336",
       "startTime": "124871",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2260,9 +3355,9 @@
       "y": "248",
       "startTime": "125332",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2270,9 +3365,9 @@
       "y": "248",
       "startTime": "125563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2280,19 +3375,47 @@
       "y": "192",
       "startTime": "126024",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "200",
+      "pointsList": [
+        {
+          "x": "280",
+          "y": "104"
+        },
+        {
+          "x": "176",
+          "y": "88"
+        },
+        {
+          "x": "144",
+          "y": "176"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "finish"
+        ],
+        [
+          "finish"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "368",
       "y": "192",
       "startTime": "128332",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2300,9 +3423,9 @@
       "y": "192",
       "startTime": "128563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2310,19 +3433,40 @@
       "y": "96",
       "startTime": "129024",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "304",
+          "y": "80"
+        },
+        {
+          "x": "280",
+          "y": "112"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "129717",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2330,29 +3474,66 @@
       "y": "288",
       "startTime": "130178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "256",
+          "y": "352"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "160",
       "y": "304",
       "startTime": "130871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "120",
+          "y": "360"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "192",
       "y": "264",
       "startTime": "131563",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2360,19 +3541,36 @@
       "y": "192",
       "startTime": "132025",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "288",
+          "y": "152"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "320",
       "y": "120",
       "startTime": "132486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2380,19 +3578,39 @@
       "y": "80",
       "startTime": "132717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "384",
+          "y": "32"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "320",
       "y": "120",
       "startTime": "133409",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2400,29 +3618,66 @@
       "y": "192",
       "startTime": "133871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "442",
+          "y": "192"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "400",
       "y": "288",
       "startTime": "134563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "464",
+          "y": "328"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "360",
       "y": "264",
       "startTime": "135255",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2430,19 +3685,40 @@
       "y": "216",
       "startTime": "135717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "248",
+          "y": "184"
+        },
+        {
+          "x": "280",
+          "y": "160"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "304",
       "y": "136",
       "startTime": "136178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2450,19 +3726,39 @@
       "y": "104",
       "startTime": "136409",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "392",
+          "y": "64"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "384",
       "y": "136",
       "startTime": "137101",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2470,39 +3766,96 @@
       "y": "184",
       "startTime": "137563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "232",
+          "y": "224"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "160",
       "y": "256",
       "startTime": "138255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "3",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "96",
+          "y": "296"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "finish"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "32",
       "y": "336",
       "startTime": "139409",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "96",
+          "y": "296"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "160",
       "y": "256",
       "startTime": "140101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2510,9 +3863,9 @@
       "y": "232",
       "startTime": "140332",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2520,9 +3873,9 @@
       "y": "208",
       "startTime": "140563",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2530,9 +3883,9 @@
       "y": "184",
       "startTime": "140794",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2540,9 +3893,9 @@
       "y": "168",
       "startTime": "141024",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2550,9 +3903,9 @@
       "y": "184",
       "startTime": "141255",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2560,9 +3913,9 @@
       "y": "288",
       "startTime": "141717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2570,9 +3923,9 @@
       "y": "312",
       "startTime": "141948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2580,9 +3933,9 @@
       "y": "288",
       "startTime": "142178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2590,9 +3943,9 @@
       "y": "192",
       "startTime": "142640",
       "newCombo": true,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "spinner",
       "endTime": "144024"
     },
@@ -2601,9 +3954,9 @@
       "y": "192",
       "startTime": "144486",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2611,29 +3964,66 @@
       "y": "88",
       "startTime": "144948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "256",
+          "y": "38"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "160",
       "y": "72",
       "startTime": "145640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "128",
+          "y": "24"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "192",
       "y": "112",
       "startTime": "146332",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2641,19 +4031,36 @@
       "y": "184",
       "startTime": "146794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "170",
+          "y": "184"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "224",
       "y": "184",
       "startTime": "147255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2661,19 +4068,39 @@
       "y": "184",
       "startTime": "147486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "344",
+          "y": "184"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "224",
       "y": "184",
       "startTime": "148178",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2681,29 +4108,66 @@
       "y": "232",
       "startTime": "148640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "192",
+          "y": "208"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "264",
       "y": "168",
       "startTime": "149332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "328",
+          "y": "136"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "216",
       "y": "192",
       "startTime": "150024",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2711,19 +4175,40 @@
       "y": "192",
       "startTime": "150486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "80",
+          "y": "179"
+        },
+        {
+          "x": "120",
+          "y": "155"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "168",
       "y": "144",
       "startTime": "150948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2731,19 +4216,39 @@
       "y": "96",
       "startTime": "151178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "200",
+          "y": "48"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "128",
       "y": "112",
       "startTime": "151871",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -2751,39 +4256,96 @@
       "y": "160",
       "startTime": "152332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "280",
+          "y": "200"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "344",
       "y": "240",
       "startTime": "153024",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "3",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "400",
+          "y": "272"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "finish"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "472",
       "y": "320",
       "startTime": "154178",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "408",
+          "y": "280"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "344",
       "y": "240",
       "startTime": "154871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2791,9 +4353,9 @@
       "y": "208",
       "startTime": "155101",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2801,9 +4363,9 @@
       "y": "176",
       "startTime": "155332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2811,9 +4373,9 @@
       "y": "176",
       "startTime": "155563",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2821,9 +4383,9 @@
       "y": "208",
       "startTime": "155794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2831,9 +4393,9 @@
       "y": "176",
       "startTime": "156024",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2841,9 +4403,9 @@
       "y": "72",
       "startTime": "156486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2851,9 +4413,9 @@
       "y": "40",
       "startTime": "156717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2861,9 +4423,9 @@
       "y": "72",
       "startTime": "156948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2871,9 +4433,9 @@
       "y": "192",
       "startTime": "157409",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "spinner",
       "endTime": "159255"
     },
@@ -2882,9 +4444,9 @@
       "y": "256",
       "startTime": "170794",
       "newCombo": true,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2892,9 +4454,9 @@
       "y": "184",
       "startTime": "171255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2902,9 +4464,9 @@
       "y": "120",
       "startTime": "171717",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2912,19 +4474,57 @@
       "y": "184",
       "startTime": "172178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "8",
+      "pixelLength": "25",
+      "pointsList": [
+        {
+          "x": "384",
+          "y": "184"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "linear"
     },
     {
       "x": "248",
       "y": "184",
       "startTime": "173563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2932,9 +4532,9 @@
       "y": "184",
       "startTime": "174025",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2942,9 +4542,9 @@
       "y": "104",
       "startTime": "174486",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2952,9 +4552,9 @@
       "y": "184",
       "startTime": "174948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -2962,9 +4562,9 @@
       "y": "264",
       "startTime": "175409",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -2972,29 +4572,71 @@
       "y": "184",
       "startTime": "175871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "144",
+          "y": "160"
+        },
+        {
+          "x": "176",
+          "y": "160"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "280",
       "y": "184",
       "startTime": "176794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "312",
+          "y": "192"
+        },
+        {
+          "x": "312",
+          "y": "224"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "208",
       "y": "264",
       "startTime": "177717",
       "newCombo": false,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "circle"
     },
     {
@@ -3002,9 +4644,9 @@
       "y": "264",
       "startTime": "178409",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3012,9 +4654,9 @@
       "y": "232",
       "startTime": "178640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3022,9 +4664,9 @@
       "y": "184",
       "startTime": "178871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3032,9 +4674,9 @@
       "y": "136",
       "startTime": "179101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3042,19 +4684,43 @@
       "y": "104",
       "startTime": "179332",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "256",
+          "y": "88"
+        },
+        {
+          "x": "312",
+          "y": "104"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "224",
       "y": "152",
       "startTime": "180486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3062,9 +4728,9 @@
       "y": "200",
       "startTime": "180717",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3072,9 +4738,9 @@
       "y": "224",
       "startTime": "180948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3082,9 +4748,9 @@
       "y": "200",
       "startTime": "181178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3092,19 +4758,43 @@
       "y": "160",
       "startTime": "181409",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "368",
+          "y": "216"
+        },
+        {
+          "x": "432",
+          "y": "248"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "344",
       "y": "112",
       "startTime": "182563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3112,9 +4802,9 @@
       "y": "96",
       "startTime": "182794",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3122,89 +4812,254 @@
       "y": "152",
       "startTime": "183255",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "216",
+          "y": "144"
+        },
+        {
+          "x": "184",
+          "y": "152"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "296",
       "y": "208",
       "startTime": "183717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "288",
+          "y": "240"
+        },
+        {
+          "x": "296",
+          "y": "272"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "352",
       "y": "152",
       "startTime": "184178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "384",
+          "y": "160"
+        },
+        {
+          "x": "416",
+          "y": "152"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "296",
       "y": "96",
       "startTime": "184640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "304",
+          "y": "72"
+        },
+        {
+          "x": "296",
+          "y": "40"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "296",
       "y": "152",
       "startTime": "185101",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "4",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "240",
+          "y": "130"
+        },
+        {
+          "x": "184",
+          "y": "160"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "368",
       "y": "88",
       "startTime": "187409",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "376",
+          "y": "64"
+        },
+        {
+          "x": "408",
+          "y": "48"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "424",
       "y": "152",
       "startTime": "188101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "464",
+          "y": "160"
+        },
+        {
+          "x": "472",
+          "y": "192"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "368",
       "y": "200",
       "startTime": "188794",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "392",
+          "y": "248"
+        },
+        {
+          "x": "368",
+          "y": "320"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "328",
       "y": "296",
       "startTime": "189486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3212,9 +5067,9 @@
       "y": "280",
       "startTime": "189948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3222,9 +5077,9 @@
       "y": "240",
       "startTime": "190178",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3232,9 +5087,9 @@
       "y": "192",
       "startTime": "190409",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3242,9 +5097,9 @@
       "y": "144",
       "startTime": "190640",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3252,19 +5107,33 @@
       "y": "144",
       "startTime": "191101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "376",
+          "y": "144"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "linear"
     },
     {
       "x": "360",
       "y": "248",
       "startTime": "191794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3272,19 +5141,33 @@
       "y": "248",
       "startTime": "192255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "3",
+      "pixelLength": "50",
+      "pointsList": [
+        {
+          "x": "200",
+          "y": "248"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "linear"
     },
     {
       "x": "152",
       "y": "168",
       "startTime": "193178",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3292,9 +5175,9 @@
       "y": "80",
       "startTime": "193409",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3302,9 +5185,9 @@
       "y": "56",
       "startTime": "193640",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3312,9 +5195,9 @@
       "y": "80",
       "startTime": "193871",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3322,9 +5205,9 @@
       "y": "160",
       "startTime": "194101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3332,19 +5215,40 @@
       "y": "256",
       "startTime": "194332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "376",
+          "y": "277"
+        },
+        {
+          "x": "328",
+          "y": "253"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "400",
       "y": "320",
       "startTime": "195025",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3352,9 +5256,9 @@
       "y": "312",
       "startTime": "195255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3362,9 +5266,9 @@
       "y": "280",
       "startTime": "195486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3372,9 +5276,9 @@
       "y": "192",
       "startTime": "195717",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3382,9 +5286,9 @@
       "y": "96",
       "startTime": "195948",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3392,19 +5296,40 @@
       "y": "56",
       "startTime": "196178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "328",
+          "y": "32"
+        },
+        {
+          "x": "392",
+          "y": "56"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "369",
       "y": "49",
       "startTime": "196871",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3412,9 +5337,9 @@
       "y": "136",
       "startTime": "197101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3422,9 +5347,9 @@
       "y": "232",
       "startTime": "197332",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3432,9 +5357,9 @@
       "y": "288",
       "startTime": "197563",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3442,9 +5367,9 @@
       "y": "312",
       "startTime": "197794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3452,19 +5377,40 @@
       "y": "288",
       "startTime": "198025",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "90",
+          "y": "268"
+        },
+        {
+          "x": "74",
+          "y": "212"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "74",
       "y": "213",
       "startTime": "198717",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3472,9 +5418,9 @@
       "y": "56",
       "startTime": "199178",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3482,9 +5428,9 @@
       "y": "56",
       "startTime": "199409",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3492,19 +5438,43 @@
       "y": "88",
       "startTime": "199871",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "2",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "448",
+          "y": "104"
+        },
+        {
+          "x": "472",
+          "y": "152"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "296",
       "y": "80",
       "startTime": "201025",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3512,9 +5482,9 @@
       "y": "104",
       "startTime": "201255",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3522,9 +5492,9 @@
       "y": "184",
       "startTime": "201486",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3532,29 +5502,68 @@
       "y": "280",
       "startTime": "201717",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "200",
+          "y": "336"
+        },
+        {
+          "x": "256",
+          "y": "320"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "244",
       "y": "322",
       "startTime": "202409",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "304",
+          "y": "328"
+        },
+        {
+          "x": "344",
+          "y": "296"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "339",
       "y": "299",
       "startTime": "203101",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3562,29 +5571,68 @@
       "y": "96",
       "startTime": "203563",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "308",
+          "y": "59"
+        },
+        {
+          "x": "240",
+          "y": "56"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "finish"
+        ],
+        [
+          "whistle"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "254",
       "y": "57",
       "startTime": "204255",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "200",
+          "y": "60"
+        },
+        {
+          "x": "150",
+          "y": "97"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "161",
       "y": "90",
       "startTime": "204948",
       "newCombo": false,
-      "whistle": true,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "whistle"
+      ],
       "objectName": "circle"
     },
     {
@@ -3592,9 +5640,9 @@
       "y": "192",
       "startTime": "205409",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "spinner",
       "endTime": "207255"
     },
@@ -3603,9 +5651,9 @@
       "y": "296",
       "startTime": "208409",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3613,9 +5661,9 @@
       "y": "264",
       "startTime": "208640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3623,9 +5671,9 @@
       "y": "216",
       "startTime": "208871",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
+      "soundTypes": [
+        "normal"
+      ],
       "objectName": "circle"
     },
     {
@@ -3633,49 +5681,127 @@
       "y": "168",
       "startTime": "209101",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "144",
+          "y": "120"
+        },
+        {
+          "x": "224",
+          "y": "104"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "204",
       "y": "109",
       "startTime": "209794",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "257",
+          "y": "93"
+        },
+        {
+          "x": "310",
+          "y": "116"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "368",
       "y": "248",
       "startTime": "210948",
       "newCombo": true,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "369",
+          "y": "315"
+        },
+        {
+          "x": "304",
+          "y": "336"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "whistle"
+        ],
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "321",
       "y": "330",
       "startTime": "211640",
       "newCombo": false,
-      "whistle": false,
-      "finish": false,
-      "clap": false,
-      "objectName": "slider"
+      "soundTypes": [
+        "normal"
+      ],
+      "objectName": "slider",
+      "repeatCount": "1",
+      "pixelLength": "99.9999999999999",
+      "pointsList": [
+        {
+          "x": "272",
+          "y": "347"
+        },
+        {
+          "x": "209",
+          "y": "330"
+        }
+      ],
+      "edgeSounds": [
+        [
+          "normal"
+        ]
+      ],
+      "curveType": "bezier"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "212794",
       "newCombo": true,
-      "whistle": false,
-      "finish": true,
-      "clap": false,
+      "soundTypes": [
+        "finish"
+      ],
       "objectName": "spinner",
       "endTime": "218332"
     }
