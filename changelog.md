@@ -6,7 +6,7 @@ nothing
 - add velocity to timingPoints if beatLength is negative
 - removed booleans whistle, finish and clap and add soundTypes array instead
 - add repeatCount, pixelLength, curveType and pointsList to slider objects
-- add edgeSounds to slider objects which contain an list of soundTypes arrays
+- add edgeSounds to slider objects which contain a list of soundTypes arrays
 
 ## 0.0.4
 - objectType bitwise flag enum is used to identify hitobjects
