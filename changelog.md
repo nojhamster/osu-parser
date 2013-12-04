@@ -1,6 +1,6 @@
 ## last changes (not published on npm)
 - removed objectType and soundType properties from hitobjects as it's useless for the final user
-- add velocityMultiplicator if beatLength is negative
+- add velocity to timingPoints if beatLength is negative
 
 ## 0.0.4
 - objectType bitwise flag enum is used to identify hitobjects
