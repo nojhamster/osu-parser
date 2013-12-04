@@ -12,6 +12,7 @@ A parser that converts osu files into javascript objects. It's still at **early 
 	- [parseStream(stream, callback)](#parsestreamstream-callback)
 	- [parseContent(content)](#parsecontentcontent)
 - [TODO](#todo)
+- [Changelog](https://github.com/nojhamster/osu-parser/blob/master/changelog.md)
 
 ## Installation
 
