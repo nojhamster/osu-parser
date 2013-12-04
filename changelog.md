@@ -1,4 +1,7 @@
 ## last changes (not published on npm)
+nothing
+
+## 0.0.5
 - removed objectType and soundType properties from hitobjects as it's useless for the final user
 - add velocity to timingPoints if beatLength is negative
 - removed booleans whistle, finish and clap and add soundTypes array instead
