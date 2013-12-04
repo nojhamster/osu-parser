@@ -7,4411 +7,3677 @@
       "x": "120",
       "y": "104",
       "startTime": "6025",
-      "objectType": "5",
-      "soundType": "2",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "136",
       "y": "200",
       "startTime": "6486",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "136",
       "y": "200",
       "startTime": "6717",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "120",
       "startTime": "7178",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "80",
       "startTime": "7409",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "280",
       "y": "64",
       "startTime": "7640",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "328",
       "y": "56",
       "startTime": "7871",
-      "objectType": "5",
-      "soundType": "2",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "424",
       "y": "56",
       "startTime": "8332",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "424",
       "y": "56",
       "startTime": "8563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "424",
       "y": "56",
       "startTime": "9024",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "424",
       "y": "56",
       "startTime": "9255",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "424",
       "y": "160",
       "startTime": "9717",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "328",
       "y": "120",
       "startTime": "10178",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "280",
       "y": "120",
       "startTime": "10409",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "176",
       "y": "120",
       "startTime": "10871",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "224",
       "y": "120",
       "startTime": "11563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "344",
       "y": "216",
       "startTime": "12255",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "248",
       "startTime": "12486",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "224",
       "y": "304",
       "startTime": "13409",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "208",
       "startTime": "13871",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "144",
       "y": "64",
       "startTime": "14563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "144",
       "y": "112",
       "startTime": "14794",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "144",
       "y": "264",
       "startTime": "15948",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "192",
       "y": "264",
       "startTime": "17101",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "288",
       "y": "264",
       "startTime": "17563",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "336",
       "y": "264",
       "startTime": "17794",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "424",
       "y": "216",
       "startTime": "18255",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "424",
       "y": "264",
       "startTime": "18948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "288",
       "y": "192",
       "startTime": "19640",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "248",
       "y": "168",
       "startTime": "19871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "168",
       "startTime": "20101",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "160",
       "y": "192",
       "startTime": "20332",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "136",
       "y": "232",
       "startTime": "20563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "152",
       "y": "280",
       "startTime": "20794",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "328",
       "startTime": "21255",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "288",
       "y": "328",
       "startTime": "21486",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "344",
       "y": "240",
       "startTime": "21948",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "344",
       "y": "288",
       "startTime": "22640",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "288",
       "startTime": "23332",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "256",
       "startTime": "23563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "264",
       "y": "208",
       "startTime": "23794",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "160",
       "startTime": "24025",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "112",
       "startTime": "24255",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "88",
       "startTime": "24486",
-      "objectType": "1",
-      "soundType": "4",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "88",
       "y": "96",
       "startTime": "24948",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "112",
       "y": "176",
       "startTime": "25640",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "104",
       "y": "216",
       "startTime": "25871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "96",
       "y": "264",
       "startTime": "26101",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "240",
       "y": "288",
       "startTime": "27025",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "240",
       "y": "240",
       "startTime": "28178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "136",
       "startTime": "28640",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "104",
       "y": "104",
       "startTime": "29332",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "152",
       "y": "104",
       "startTime": "30025",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "136",
       "startTime": "30717",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "216",
       "y": "104",
       "startTime": "31178",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "168",
       "y": "112",
       "startTime": "31409",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "128",
       "y": "144",
       "startTime": "31640",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "112",
       "y": "192",
       "startTime": "31871",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "128",
       "y": "288",
       "startTime": "32332",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "72",
       "y": "288",
       "startTime": "33025",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "72",
       "y": "240",
       "startTime": "33717",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "160",
       "y": "120",
       "startTime": "34409",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "88",
       "startTime": "34640",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "72",
       "startTime": "34871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "288",
       "y": "72",
       "startTime": "35101",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "336",
       "y": "88",
       "startTime": "35332",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "368",
       "y": "120",
       "startTime": "35563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "400",
       "y": "216",
       "startTime": "36025",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "376",
       "y": "264",
       "startTime": "36255",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "272",
       "y": "264",
       "startTime": "36717",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "336",
       "y": "184",
       "startTime": "38101",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "360",
       "y": "144",
       "startTime": "38332",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "408",
       "y": "160",
       "startTime": "38563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "408",
       "y": "208",
       "startTime": "38794",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "360",
       "y": "224",
       "startTime": "39025",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "336",
       "y": "184",
       "startTime": "39255",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "440",
       "y": "184",
       "startTime": "41563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "440",
       "y": "184",
       "startTime": "41794",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "344",
       "y": "184",
       "startTime": "42255",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "296",
       "y": "184",
       "startTime": "42486",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "184",
       "startTime": "42948",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "288",
       "y": "184",
       "startTime": "45255",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "288",
       "y": "184",
       "startTime": "45486",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "104",
       "startTime": "45948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "152",
       "startTime": "46178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "256",
       "startTime": "46640",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "232",
       "y": "152",
       "startTime": "48948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "152",
       "startTime": "49178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "336",
       "y": "152",
       "startTime": "49640",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "384",
       "y": "152",
       "startTime": "49871",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "50332",
-      "objectType": "12",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "spinner",
-      "endTime": "52178",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "spinner",
+      "endTime": "52178"
     },
     {
       "x": "280",
       "y": "320",
       "startTime": "52871",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "232",
       "y": "320",
       "startTime": "54025",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "256",
       "y": "280",
       "startTime": "55178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "232",
       "startTime": "55409",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "184",
       "y": "160",
       "startTime": "55871",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "216",
       "y": "200",
       "startTime": "57025",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "152",
       "startTime": "57255",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "328",
       "y": "112",
       "startTime": "57717",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "376",
       "y": "200",
       "startTime": "58640",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "280",
       "y": "208",
       "startTime": "59563",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "207",
       "y": "162",
       "startTime": "60255",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "136",
       "startTime": "60717",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "352",
       "y": "128",
       "startTime": "60948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "376",
       "y": "80",
       "startTime": "61178",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "344",
       "y": "40",
       "startTime": "61409",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "200",
       "y": "72",
       "startTime": "62101",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "168",
       "startTime": "62563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "168",
       "startTime": "62794",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "104",
       "y": "168",
       "startTime": "63255",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "240",
       "y": "208",
       "startTime": "63948",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "208",
       "startTime": "64409",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "120",
       "y": "264",
       "startTime": "64871",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "96",
       "y": "216",
       "startTime": "65101",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "144",
       "y": "128",
       "startTime": "65563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "144",
       "y": "128",
       "startTime": "65794",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "224",
       "y": "72",
       "startTime": "66255",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "208",
       "y": "120",
       "startTime": "66948",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "240",
       "y": "248",
       "startTime": "67640",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "288",
       "y": "240",
       "startTime": "67871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "328",
       "y": "208",
       "startTime": "68101",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "320",
       "y": "160",
       "startTime": "68332",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "288",
       "y": "120",
       "startTime": "68563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "248",
       "y": "88",
       "startTime": "68794",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "248",
       "y": "128",
       "startTime": "69948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "216",
       "y": "168",
       "startTime": "70178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "168",
       "y": "176",
       "startTime": "70409",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "120",
       "y": "184",
       "startTime": "70640",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "168",
       "y": "184",
       "startTime": "71794",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "216",
       "y": "184",
       "startTime": "72025",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "264",
       "y": "176",
       "startTime": "72255",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "312",
       "y": "160",
       "startTime": "72486",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "408",
       "y": "120",
       "startTime": "72948",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "328",
       "y": "224",
       "startTime": "73640",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "376",
       "y": "216",
       "startTime": "74332",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "328",
       "y": "208",
       "startTime": "75486",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "280",
       "y": "184",
       "startTime": "75717",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "152",
       "startTime": "75948",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "216",
       "y": "104",
       "startTime": "76178",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "352",
       "y": "64",
       "startTime": "76871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "400",
       "y": "152",
       "startTime": "77332",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "368",
       "y": "192",
       "startTime": "77563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "288",
       "y": "248",
       "startTime": "78025",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "190",
       "y": "240",
       "startTime": "78717",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "224",
       "y": "144",
       "startTime": "79178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "176",
       "y": "136",
       "startTime": "79409",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "128",
       "y": "144",
       "startTime": "79640",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "96",
       "y": "184",
       "startTime": "79871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "96",
       "y": "280",
       "startTime": "80332",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "96",
       "y": "280",
       "startTime": "80563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "184",
       "y": "240",
       "startTime": "81024",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "184",
       "y": "240",
       "startTime": "81255",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "81717",
-      "objectType": "12",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "spinner",
-      "endTime": "83101",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "spinner",
+      "endTime": "83101"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "85409",
-      "objectType": "5",
-      "soundType": "2",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "152",
       "y": "192",
       "startTime": "85871",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "104",
       "y": "88",
       "startTime": "86563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "152",
       "y": "72",
       "startTime": "86794",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "72",
       "startTime": "87024",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "248",
       "y": "88",
       "startTime": "87255",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "392",
       "y": "136",
       "startTime": "87948",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "360",
       "y": "176",
       "startTime": "89101",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "280",
       "y": "240",
       "startTime": "89563",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "160",
       "y": "312",
       "startTime": "90255",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "208",
       "y": "296",
       "startTime": "90948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "360",
       "y": "296",
       "startTime": "91640",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "384",
       "y": "256",
       "startTime": "91871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "376",
       "y": "216",
       "startTime": "92101",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "352",
       "y": "176",
       "startTime": "92332",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "168",
       "startTime": "92563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "264",
       "y": "192",
       "startTime": "92794",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "304",
       "startTime": "93255",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "168",
       "y": "208",
       "startTime": "93948",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "344",
       "y": "272",
       "startTime": "95101",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "360",
       "y": "224",
       "startTime": "95332",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "376",
       "y": "128",
       "startTime": "95794",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "344",
       "y": "88",
       "startTime": "96024",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "248",
       "y": "56",
       "startTime": "96486",
-      "objectType": "5",
-      "soundType": "2",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "160",
       "y": "96",
       "startTime": "96948",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "112",
       "y": "200",
       "startTime": "97640",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "104",
       "y": "152",
       "startTime": "98332",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "160",
       "y": "16",
       "startTime": "99024",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "32",
       "startTime": "99255",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "80",
       "startTime": "99486",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "136",
       "startTime": "99717",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "184",
       "startTime": "99948",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "168",
       "y": "216",
       "startTime": "100178",
-      "objectType": "1",
-      "soundType": "6",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "72",
       "y": "224",
       "startTime": "100640",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "128",
       "y": "272",
       "startTime": "101332",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "128",
       "y": "272",
       "startTime": "101563",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "232",
       "y": "272",
       "startTime": "102024",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "328",
       "y": "240",
       "startTime": "102486",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "336",
       "y": "192",
       "startTime": "102717",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "320",
       "y": "96",
       "startTime": "103178",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "272",
       "y": "80",
       "startTime": "103409",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "176",
       "y": "104",
       "startTime": "103871",
-      "objectType": "5",
-      "soundType": "2",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "272",
       "y": "128",
       "startTime": "104332",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "400",
       "y": "104",
       "startTime": "105024",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "232",
       "y": "280",
       "startTime": "106178",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "248",
       "startTime": "106409",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "144",
       "startTime": "106871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "112",
       "startTime": "107101",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "184",
       "startTime": "107563",
-      "objectType": "5",
-      "soundType": "2",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "288",
       "y": "88",
       "startTime": "108024",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "144",
       "y": "136",
       "startTime": "108717",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "144",
       "y": "136",
       "startTime": "109409",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "104",
       "y": "224",
       "startTime": "109871",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "152",
       "y": "224",
       "startTime": "110101",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "248",
       "y": "224",
       "startTime": "110563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "248",
       "y": "224",
       "startTime": "110794",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "336",
       "y": "272",
       "startTime": "111255",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "336",
       "y": "168",
       "startTime": "112178",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "240",
       "y": "208",
       "startTime": "113101",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "240",
       "y": "208",
       "startTime": "114948",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "144",
       "y": "208",
       "startTime": "117255",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "144",
       "y": "208",
       "startTime": "117486",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "144",
       "y": "104",
       "startTime": "117948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "104",
       "startTime": "118178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "296",
       "y": "104",
       "startTime": "118640",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "192",
       "y": "104",
       "startTime": "120948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "104",
       "startTime": "121178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "208",
       "startTime": "121640",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "256",
       "startTime": "121871",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "336",
       "startTime": "122332",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "152",
       "y": "336",
       "startTime": "124640",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "152",
       "y": "336",
       "startTime": "124871",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "248",
       "startTime": "125332",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "248",
       "startTime": "125563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "272",
       "y": "192",
       "startTime": "126024",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "368",
       "y": "192",
       "startTime": "128332",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "368",
       "y": "192",
       "startTime": "128563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "344",
       "y": "96",
       "startTime": "129024",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "129717",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "288",
       "startTime": "130178",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "160",
       "y": "304",
       "startTime": "130871",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "192",
       "y": "264",
       "startTime": "131563",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "132025",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "320",
       "y": "120",
       "startTime": "132486",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "352",
       "y": "80",
       "startTime": "132717",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "320",
       "y": "120",
       "startTime": "133409",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "392",
       "y": "192",
       "startTime": "133871",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "400",
       "y": "288",
       "startTime": "134563",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "360",
       "y": "264",
       "startTime": "135255",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "272",
       "y": "216",
       "startTime": "135717",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "304",
       "y": "136",
       "startTime": "136178",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "344",
       "y": "104",
       "startTime": "136409",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "384",
       "y": "136",
       "startTime": "137101",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "296",
       "y": "184",
       "startTime": "137563",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "160",
       "y": "256",
       "startTime": "138255",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "32",
       "y": "336",
       "startTime": "139409",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "160",
       "y": "256",
       "startTime": "140101",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "232",
       "startTime": "140332",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "208",
       "startTime": "140563",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "184",
       "startTime": "140794",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "352",
       "y": "168",
       "startTime": "141024",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "400",
       "y": "184",
       "startTime": "141255",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "400",
       "y": "288",
       "startTime": "141717",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "352",
       "y": "312",
       "startTime": "141948",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "288",
       "startTime": "142178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "142640",
-      "objectType": "12",
-      "soundType": "2",
       "newCombo": true,
-      "objectName": "spinner",
-      "endTime": "144024",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "spinner",
+      "endTime": "144024"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "144486",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "88",
       "startTime": "144948",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "160",
       "y": "72",
       "startTime": "145640",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "192",
       "y": "112",
       "startTime": "146332",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "120",
       "y": "184",
       "startTime": "146794",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "224",
       "y": "184",
       "startTime": "147255",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "272",
       "y": "184",
       "startTime": "147486",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "224",
       "y": "184",
       "startTime": "148178",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "136",
       "y": "232",
       "startTime": "148640",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "264",
       "y": "168",
       "startTime": "149332",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "216",
       "y": "192",
       "startTime": "150024",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "112",
       "y": "192",
       "startTime": "150486",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "168",
       "y": "144",
       "startTime": "150948",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "176",
       "y": "96",
       "startTime": "151178",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "128",
       "y": "112",
       "startTime": "151871",
-      "objectType": "5",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "216",
       "y": "160",
       "startTime": "152332",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "344",
       "y": "240",
       "startTime": "153024",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "472",
       "y": "320",
       "startTime": "154178",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "344",
       "y": "240",
       "startTime": "154871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "208",
       "startTime": "155101",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "264",
       "y": "176",
       "startTime": "155332",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "216",
       "y": "176",
       "startTime": "155563",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "176",
       "y": "208",
       "startTime": "155794",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "136",
       "y": "176",
       "startTime": "156024",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "136",
       "y": "72",
       "startTime": "156486",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "176",
       "y": "40",
       "startTime": "156717",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "216",
       "y": "72",
       "startTime": "156948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "157409",
-      "objectType": "12",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "spinner",
-      "endTime": "159255",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "spinner",
+      "endTime": "159255"
     },
     {
       "x": "272",
       "y": "256",
       "startTime": "170794",
-      "objectType": "5",
-      "soundType": "2",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "184",
       "startTime": "171255",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "264",
       "y": "120",
       "startTime": "171717",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "352",
       "y": "184",
       "startTime": "172178",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "248",
       "y": "184",
       "startTime": "173563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "128",
       "y": "184",
       "startTime": "174025",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "104",
       "startTime": "174486",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "280",
       "y": "184",
       "startTime": "174948",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "264",
       "startTime": "175409",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "128",
       "y": "184",
       "startTime": "175871",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "280",
       "y": "184",
       "startTime": "176794",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "208",
       "y": "264",
       "startTime": "177717",
-      "objectType": "1",
-      "soundType": "4",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "264",
       "startTime": "178409",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "168",
       "y": "232",
       "startTime": "178640",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "160",
       "y": "184",
       "startTime": "178871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "176",
       "y": "136",
       "startTime": "179101",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "104",
       "startTime": "179332",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "224",
       "y": "152",
       "startTime": "180486",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "200",
       "startTime": "180717",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "280",
       "y": "224",
       "startTime": "180948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "328",
       "y": "200",
       "startTime": "181178",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "360",
       "y": "160",
       "startTime": "181409",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "344",
       "y": "112",
       "startTime": "182563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "296",
       "y": "96",
       "startTime": "182794",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "152",
       "startTime": "183255",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "296",
       "y": "208",
       "startTime": "183717",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "352",
       "y": "152",
       "startTime": "184178",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "296",
       "y": "96",
       "startTime": "184640",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "296",
       "y": "152",
       "startTime": "185101",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "368",
       "y": "88",
       "startTime": "187409",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "424",
       "y": "152",
       "startTime": "188101",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "368",
       "y": "200",
       "startTime": "188794",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "328",
       "y": "296",
       "startTime": "189486",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "240",
       "y": "280",
       "startTime": "189948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "240",
       "startTime": "190178",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "192",
       "startTime": "190409",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "144",
       "startTime": "190640",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "312",
       "y": "144",
       "startTime": "191101",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "360",
       "y": "248",
       "startTime": "191794",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "264",
       "y": "248",
       "startTime": "192255",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "152",
       "y": "168",
       "startTime": "193178",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "80",
       "startTime": "193409",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "56",
       "startTime": "193640",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "400",
       "y": "80",
       "startTime": "193871",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "456",
       "y": "160",
       "startTime": "194101",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "424",
       "y": "256",
       "startTime": "194332",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "400",
       "y": "320",
       "startTime": "195025",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "304",
       "y": "312",
       "startTime": "195255",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "208",
       "y": "280",
       "startTime": "195486",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "160",
       "y": "192",
       "startTime": "195717",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "184",
       "y": "96",
       "startTime": "195948",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "272",
       "y": "56",
       "startTime": "196178",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "369",
       "y": "49",
       "startTime": "196871",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "432",
       "y": "136",
       "startTime": "197101",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "408",
       "y": "232",
       "startTime": "197332",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "328",
       "y": "288",
       "startTime": "197563",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "232",
       "y": "312",
       "startTime": "197794",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "136",
       "y": "288",
       "startTime": "198025",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "74",
       "y": "213",
       "startTime": "198717",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "56",
       "startTime": "199178",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "192",
       "y": "56",
       "startTime": "199409",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "392",
       "y": "88",
       "startTime": "199871",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "296",
       "y": "80",
       "startTime": "201025",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "200",
       "y": "104",
       "startTime": "201255",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "136",
       "y": "184",
       "startTime": "201486",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "160",
       "y": "280",
       "startTime": "201717",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "244",
       "y": "322",
       "startTime": "202409",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "339",
       "y": "299",
       "startTime": "203101",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "344",
       "y": "96",
       "startTime": "203563",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "254",
       "y": "57",
       "startTime": "204255",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "161",
       "y": "90",
       "startTime": "204948",
-      "objectType": "1",
-      "soundType": "2",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": true,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "205409",
-      "objectType": "12",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "spinner",
-      "endTime": "207255",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "spinner",
+      "endTime": "207255"
     },
     {
       "x": "184",
       "y": "296",
       "startTime": "208409",
-      "objectType": "5",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "144",
       "y": "264",
       "startTime": "208640",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "120",
       "y": "216",
       "startTime": "208871",
-      "objectType": "1",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "circle",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "circle"
     },
     {
       "x": "128",
       "y": "168",
       "startTime": "209101",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "204",
       "y": "109",
       "startTime": "209794",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "368",
       "y": "248",
       "startTime": "210948",
-      "objectType": "6",
-      "soundType": "0",
       "newCombo": true,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "321",
       "y": "330",
       "startTime": "211640",
-      "objectType": "2",
-      "soundType": "0",
       "newCombo": false,
-      "objectName": "slider",
       "whistle": false,
       "finish": false,
-      "clap": false
+      "clap": false,
+      "objectName": "slider"
     },
     {
       "x": "256",
       "y": "192",
       "startTime": "212794",
-      "objectType": "12",
-      "soundType": "4",
       "newCombo": true,
-      "objectName": "spinner",
-      "endTime": "218332",
       "whistle": false,
       "finish": true,
-      "clap": false
+      "clap": false,
+      "objectName": "spinner",
+      "endTime": "218332"
     }
   ],
   "timingPoints": [
@@ -4434,7 +3700,8 @@
       "useCustomSamples": false,
       "sampleVolume": "49",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     },
     {
       "offset": "54011",
@@ -4444,7 +3711,8 @@
       "useCustomSamples": false,
       "sampleVolume": "47",
       "timingChange": false,
-      "kiaiTimeActive": true
+      "kiaiTimeActive": true,
+      "velocity": 1
     },
     {
       "offset": "83091",
@@ -4454,7 +3722,8 @@
       "useCustomSamples": false,
       "sampleVolume": "40",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     },
     {
       "offset": "83207",
@@ -4464,7 +3733,8 @@
       "useCustomSamples": true,
       "sampleVolume": "51",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     },
     {
       "offset": "129578",
@@ -4474,7 +3744,8 @@
       "useCustomSamples": true,
       "sampleVolume": "73",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     },
     {
       "offset": "129707",
@@ -4484,7 +3755,8 @@
       "useCustomSamples": true,
       "sampleVolume": "71",
       "timingChange": false,
-      "kiaiTimeActive": true
+      "kiaiTimeActive": true,
+      "velocity": 1
     },
     {
       "offset": "159255",
@@ -4494,7 +3766,8 @@
       "useCustomSamples": true,
       "sampleVolume": "58",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     },
     {
       "offset": "175630",
@@ -4504,7 +3777,8 @@
       "useCustomSamples": true,
       "sampleVolume": "58",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 0.5
     },
     {
       "offset": "178164",
@@ -4514,7 +3788,8 @@
       "useCustomSamples": false,
       "sampleVolume": "27",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     },
     {
       "offset": "186693",
@@ -4524,7 +3799,8 @@
       "useCustomSamples": false,
       "sampleVolume": "39",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     },
     {
       "offset": "193053",
@@ -4534,7 +3810,8 @@
       "useCustomSamples": true,
       "sampleVolume": "51",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     },
     {
       "offset": "194322",
@@ -4544,7 +3821,8 @@
       "useCustomSamples": true,
       "sampleVolume": "75",
       "timingChange": false,
-      "kiaiTimeActive": true
+      "kiaiTimeActive": true,
+      "velocity": 1
     },
     {
       "offset": "207255",
@@ -4554,7 +3832,8 @@
       "useCustomSamples": true,
       "sampleVolume": "51",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     },
     {
       "offset": "209003",
@@ -4564,7 +3843,8 @@
       "useCustomSamples": false,
       "sampleVolume": "35",
       "timingChange": false,
-      "kiaiTimeActive": false
+      "kiaiTimeActive": false,
+      "velocity": 1
     }
   ],
   "fileFormat": "v7",
