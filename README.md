@@ -63,12 +63,13 @@ beatmap: {
 `y`: ordinate.  
 `startTime`: start offset.  
 `newCombo`: is it a new combo ? (boolean)  
-`whistle`: does it have a whistle effect ? (boolean)  
-`finish`: does it have a finish effect ? (boolean)  
-`clap`: does it have a clap effect ? (boolean)  
+`soundTypes`: array of sound effects. It can contain : normal, whistle, finish, clap.
 
 ##### Slider specific properties
-Still need to parse them
+`repeatCount`: number of repeats, starts at `1` for a single-way slider.  
+`pixelLength`: length in pixel.  
+`curveType`: can be catmull, bezier, linear or pass-through.  
+`points`: array of points excluding the very first. Each point is an object with `x` and `y` properties.  
 
 ##### Spinner specific properties
 `endTime`: end offset.  

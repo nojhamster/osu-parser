@@ -1,6 +1,8 @@
 ## last changes (not published on npm)
 - removed objectType and soundType properties from hitobjects as it's useless for the final user
 - add velocity to timingPoints if beatLength is negative
+- removed booleans whistle, finish and clap and add soundTypes array instead
+- add repeatCount, pixelLength, curveType and points array to slider objects
 
 ## 0.0.4
 - objectType bitwise flag enum is used to identify hitobjects
