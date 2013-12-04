@@ -129,9 +129,9 @@ Parse the content of a file as a string or a buffer.
 - parse hitobjects additions
 - parse all slider properties
 - parse events
-- support taiko, CTB and osu!mania
 - evaluate map difficulty ? (probably too complicated)
 - add a synchronous version of parseFile
+- support taiko, CTB and osu!mania ? (not sure that would be useful)
 - make it usable in a browser ? (not sure that would be useful)
 - ...
 
