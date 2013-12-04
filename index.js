@@ -55,8 +55,8 @@ Parser.prototype.parseLine = function (line) {
         if (!this.bpmMax || this.bpmMax < bpm) { this.bpmMax = bpm; }
         timingPoint.bpm = bpm;
       } else {
-        // If negative, beatLength is a velocity change factor
-        timingPoint.velocityMultiplicator = Math.abs(100 / beatLength);
+        // If negative, beatLength is a velocity factor
+        timingPoint.velocity = Math.abs(100 / beatLength);
       }
     }
     this.beatmap.timingPoints.push(timingPoint);
