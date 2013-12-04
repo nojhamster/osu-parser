@@ -5,7 +5,7 @@ var Lazy = require('lazy');
 
 function Parser() {
   this.beatmap = {
-    nbCircles: 0,
+    nbircles: 0,
     nbSliders: 0,
     nbSpinners: 0,
     hitObjects: [],
@@ -15,6 +15,12 @@ function Parser() {
   this.sectionReg     = /^\[([a-zA-Z0-9]+)\]$/;
   this.keyValReg      = /^([a-zA-Z0-9]+)[ ]*:[ ]*(.+)$/;
   this.totalBreakTime = 0;
+  this.curveTypes     = {
+    C: "catmull",
+    B: "bezier",
+    L: "linear",
+    P: "pass-through"
+  };
 }
 
 /**
@@ -64,13 +70,6 @@ Parser.prototype.parseLine = function (line) {
   case 'hitobjects':
     var members = line.split(',');
 
-    /**
-     * sound type is a bitwise flag enum
-     * 0 : normal -> always set
-     * 2 : whistle
-     * 4 : finish
-     * 8 : clap
-     */
     var soundType  = members[4];
     var objectType = members[3];
 
@@ -79,10 +78,7 @@ Parser.prototype.parseLine = function (line) {
       y:          members[1],
       startTime:  members[2],
       newCombo:   ((objectType & 4) == 4),
-      whistle:    ((soundType & 2) == 2),
-      finish:     ((soundType & 4) == 4),
-      clap:       ((soundType & 8) == 8)
-
+      soundTypes: []
     }
 
     /**
@@ -98,7 +94,24 @@ Parser.prototype.parseLine = function (line) {
     } else if ((objectType & 2) == 2) {
       // Slider
       this.beatmap.nbSliders++;
-      hitobject.objectName = 'slider';
+      hitobject.objectName  = 'slider';
+      hitobject.repeatCount = members[6];
+      hitobject.pixelLength = members[7];
+      hitobject.points      = [];
+
+      var points = (members[5] || '').split('|');
+      if (points.length) {
+        hitobject.curveType = this.curveTypes[points[0]] || 'unknown';
+
+        for (var i = 1, l = points.length; i < l; i++) {
+          var coordinates = points[i].split(':');
+          hitobject.points.push({
+            x: coordinates[0],
+            y: coordinates[1]
+          });
+        }
+      }
+
     } else if ((objectType & 8) == 8) {
       // Spinner
       this.beatmap.nbSpinners++;
@@ -109,6 +122,17 @@ Parser.prototype.parseLine = function (line) {
       hitobject.objectName = 'unknown';
     }
 
+    /**
+     * sound type is a bitwise flag enum
+     * 0 : normal
+     * 2 : whistle
+     * 4 : finish
+     * 8 : clap
+     */
+    if ((soundType & 2) == 2) { hitobject.soundTypes.push('whistle'); }
+    if ((soundType & 4) == 4) { hitobject.soundTypes.push('finish');  }
+    if ((soundType & 8) == 8) { hitobject.soundTypes.push('clap');    }
+    if (hitobject.soundTypes.length === 0) { hitobject.soundTypes.push('normal'); }
 
 
     this.beatmap.hitObjects.push(hitobject);
