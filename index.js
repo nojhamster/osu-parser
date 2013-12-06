@@ -74,9 +74,9 @@ Parser.prototype.parseLine = function (line) {
     var objectType = members[3];
 
     var hitobject = {
-      x:          members[0],
-      y:          members[1],
-      startTime:  members[2],
+      x:          parseInt(members[0]),
+      y:          parseInt(members[1]),
+      startTime:  parseInt(members[2]),
       newCombo:   ((objectType & 4) == 4),
       soundTypes: []
     }
@@ -103,14 +103,22 @@ Parser.prototype.parseLine = function (line) {
       // Circle
       this.beatmap.nbCircles++;
       hitobject.objectName = 'circle';
+      hitobject.additions  = this.parseAdditions(members[5]);
+    } else if ((objectType & 8) == 8) {
+      // Spinner
+      this.beatmap.nbSpinners++;
+      hitobject.objectName = 'spinner';
+      hitobject.endTime    = parseInt(members[5]);
+      hitobject.additions  = this.parseAdditions(members[6]);
     } else if ((objectType & 2) == 2) {
       // Slider
       this.beatmap.nbSliders++;
       hitobject.objectName  = 'slider';
-      hitobject.repeatCount = members[6];
-      hitobject.pixelLength = members[7];
+      hitobject.repeatCount = parseInt(members[6]);
+      hitobject.pixelLength = parseInt(members[7]);
+      hitobject.additions   = this.parseAdditions(members[10]);
       hitobject.pointsList  = [];
-      hitobject.edgeSounds  = [];
+      hitobject.edges       = [];
 
       /**
        * Parse slider points
@@ -122,39 +130,38 @@ Parser.prototype.parseLine = function (line) {
         for (var i = 1, l = points.length; i < l; i++) {
           var coordinates = points[i].split(':');
           hitobject.pointsList.push({
-            x: coordinates[0],
-            y: coordinates[1]
+            x: parseInt(coordinates[0]),
+            y: parseInt(coordinates[1])
           });
         }
       }
 
+      var edgeSounds    = [];
+      var edgeAdditions = [];
+      if (members[8]) { edgeSounds    = members[8].split('|'); }
+      if (members[9]) { edgeAdditions = members[9].split('|'); }
+
       /**
-       * Get soundTypes on slider edges
+       Get soundTypes and additions for each slider edge
        */
-      if (members[8]) {
-        var edgeSounds = members[8].split('|');
+      for (var i = 0, l = hitobject.repeatCount + 1; i < l; i++) {
+        var edge = {
+          soundTypes: [],
+          additions: this.parseAdditions(edgeAdditions[i])
+        };
 
-        for (var i = 0, l = edgeSounds.length; i < l; i++) {
+        if (edgeSounds[i]) {
           var sound = edgeSounds[i];
-          var edge  = [];
-          if ((sound & 2) == 2)  { edge.push('whistle'); }
-          if ((sound & 4) == 4)  { edge.push('finish');  }
-          if ((sound & 8) == 8)  { edge.push('clap');    }
-          if (edge.length === 0) { edge.push('normal');  }
+          if ((sound & 2) == 2)             { edge.soundTypes.push('whistle'); }
+          if ((sound & 4) == 4)             { edge.soundTypes.push('finish');  }
+          if ((sound & 8) == 8)             { edge.soundTypes.push('clap');    }
+          if (edge.soundTypes.length === 0) { edge.soundTypes.push('normal');  }
+        } else {
+          edge.soundTypes.push('normal');
+        }
 
-          hitobject.edgeSounds.push(edge);
-        }
-      } else {
-        for (var i = hitobject.repeatCount; i >= 0; i--) {
-          hitobject.edgeSounds.push(['normal']);
-        }
+        hitobject.edges.push(edge);
       }
-
-    } else if ((objectType & 8) == 8) {
-      // Spinner
-      this.beatmap.nbSpinners++;
-      hitobject.objectName = 'spinner';
-      hitobject.endTime    = members[5];
     } else {
       // Unknown
       hitobject.objectName = 'unknown';
@@ -195,6 +202,55 @@ Parser.prototype.parseLine = function (line) {
   }
 }
 
+/**
+ * Parse additions member
+ * @param  {String} str         additions member (sample:add:customSampleIndex:Volume:hitsound)
+ * @return {Object} additions   a list of additions
+ */
+Parser.prototype.parseAdditions = function (str) {
+  if (!str) return {};
+
+  var additions = {};
+  var adds      = str.split(':');
+
+  if (adds[0] && adds[0] !== '0') {
+    var sample;
+    switch (adds[0]) {
+      case '1':
+        sample = 'normal';
+        break;
+      case '2':
+        sample = 'soft';
+        break;
+      case '3':
+        sample = 'drum';
+        break;
+    }
+    additions.sample = sample;
+  }
+
+  if (adds[1] && adds[1] !== '0') {
+    var addSample;
+    switch (adds[1]) {
+      case '1':
+        addSample = 'normal';
+        break;
+      case '2':
+        addSample = 'soft';
+        break;
+      case '3':
+        addSample = 'drum';
+        break;
+    }
+    additions.additionalSample = addSample;
+  }
+
+  if (adds[2] && adds[2] !== '0') { additions.customSampleIndex = parseInt(adds[2]); }
+  if (adds[3] && adds[3] !== '0') { additions.hitsoundVolume    = parseInt(adds[3]); }
+  if (adds[4])                    { additions.hitsound          = adds[4]; }
+
+  return additions;
+}
 /**
  * Compute everything that require the file to be completely parsed and return the beatmap
  * @return {Object} beatmap
