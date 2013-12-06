@@ -46,46 +46,97 @@ beatmap: {
 }
 ```
 
-### Additionnal properties :  
-`fileFormat` : osu file format (v7, v12...).  
-`nbCircles` : number of circles.  
-`nbSliders` : number of sliders.  
-`nbSpinners` : number of spinners.  
-`bpm` : a single number if constant (ex `150`), or min~max (ex `140~180`).  
-`totalTime` : total time in seconds (between the first timing point and the last object).  
-`drainingTime` : draining time in seconds.  
-`hitObjects` : array of all hit objects. See HitObject below.  
-`timingPoints` : array of all timing points. See TimingPoint below.  
+### Additionnal beatmap properties :  
+<table>
+  <tr>
+    <th>name</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+  <tr><td>fileFormat</td><td>String</td><td>osu file format (v7, v12...).</td></tr>
+  <tr><td>nbCircles</td><td>Integer</td><td>number of circles.</td></tr>
+  <tr><td>nbSliders</td><td>Integer</td><td>number of sliders.</td></tr>
+  <tr><td>nbSpinners</td><td>Integer</td><td>number of spinners.</td></tr>
+  <tr><td>bpm</td><td>Integer or String</td><td>a single number if constant (ex `150`), or min~max (ex `140~180`).<br/>This behaviour might change</td></tr>
+  <tr><td>totalTime</td><td>Integer</td><td>total time in seconds (between the first timing point and the last object).</td></tr>
+  <tr><td>drainingTime</td><td>Integer</td><td>draining time in seconds.</td></tr>
+  <tr><td>hitObjects</td><td>Array</td><td>list of all hit objects. See HitObject below.</td></tr>
+  <tr><td>timingPoints</td><td>Array</td><td>list of all timing points. See TimingPoint below.</td></tr>
+</table>
 
 #### HitObject properties
-`objectName`: circle, slider, spinner or unknown.  
-`x`: abscissa.  
-`y`: ordinate.  
-`startTime`: start offset.  
-`newCombo`: is it a new combo ? (boolean)  
-`soundTypes`: array of sound effects. It can contain : normal, whistle, finish, clap.  
+<table>
+  <tr>
+    <th>name</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+  <tr><td>objectName</td><td>String</td><td>circle, slider, spinner or unknown.</td></tr>
+  <tr><td>x</td><td>Integer</td><td>abscissa.</td></tr>
+  <tr><td>y</td><td>Integer</td><td>ordinate.</td></tr>
+  <tr><td>startTime</td><td>Integer</td><td>start offset.</td></tr>
+  <tr><td>newCombo</td><td>Boolean</td><td>is it a new combo ?</td></tr>
+  <tr><td>soundTypes</td><td>Array</td><td>list of sound effects. Those can be : <code>normal</code>, <code>whistle</code>, <code>finish</code>, <code>clap</code>.</td></tr>
+  <tr><td>additions</td><td>Object</td>
+    <td>
+      hitobject specific additions. It can have those properties :
+      <br/>-<code>sample</code>: object specific sample. It can be : <code>soft</code>, <code>normal</code>, <code>drum</code>.
+      <br/>-<code>additionalSample</code>: a sample to add along with the current one. It can be : <code>soft</code>, <code>normal</code>, <code>drum</code>.
+      <br/>-<code>customSampleIndex</code>: index of the custom sample to use (ex: normal-2).
+      <br/>-<code>hitsoundVolume</code>: specific volume for this object (require <code>hitsound</code> to be an existing file).
+      <br/>-<code>hitsound</code>: an file to use as hitsound. It disables all other hitsounds.
+    </td>
+  </tr>
+</table>
 
 ##### Slider specific properties
-`repeatCount`: number of repeats, starts at `1` for a single-way slider.  
-`edgeSounds`: list of soundTypes arrays, one for each edge of the slider (including the very first).  
-`pixelLength`: length in pixel.  
-`curveType`: can be catmull, bezier, linear or pass-through.  
-`pointsList`: array of all points excluding the very first. Each point has `x` and `y` properties.  
+<table>
+  <tr>
+    <th>name</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+  <tr><td>repeatCount</td><td>Integer</td><td>number of repeats, starts at <code>1</code> for a single-way slider.</td></tr>
+  <tr><td>pixelLength</td><td>Integer</td><td>length in pixel.</td></tr>
+  <tr><td>curveType</td><td>String</td><td>can be catmull, bezier, linear or pass-through.</td></tr>
+  <tr><td>pointsList</td><td>Array</td><td>list of all points excluding the very first. Each point has <code>x</code> and <code>y</code> properties.</td></tr>
+  <tr><td>edges</td><td>Array</td>
+    <td>
+      list of edges. The number of edges is <code>repeatCount + 1</code>. It has two properties :
+      <br/>-<code>soundTypes</code>: list of sound effects. Those can be : normal, whistle, finish, clap.
+      <br/>-<code>additions</code>: edge additions. Same as hitobject additions, but can only have <code>sample</code> and <code>additionalSample</code>.
+    </td>
+  </tr>
+</table>
 
 ##### Spinner specific properties
-`endTime`: end offset.  
+<table>
+  <tr>
+    <th>name</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+  <tr><td>endTime</td><td>Integer</td><td>end offset.</td></tr>
+</table>
 
 #### TimingPoint properties
-  `offset`: section offset in milliseconds.  
-  `beatLength`: length of a single beat in milliseconds (float). If negative, it's a change of velocity.  
-  `bpm`: number of beats per minute. (only if beatLength is positive)  
-  `velocity`: velocity multiplicator. (only if beatLength is negative)  
-  `timingSignature`: 3 = simple triple, 4 = simple quadruple (used in editor).  
-  `sampleSetId`: sound samples. None = 0, Normal = 1, Soft = 2.  
-  `useCustomSamples`: use skin localised samples? (boolean)  
-  `sampleVolume`: volume of the samples.  
-  `timingChange`: is there a beatLength change ? (boolean)  
-  `kiaiTimeActive`: is it a kiai section ? (boolean)  
+<table>
+  <tr>
+    <th>name</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+  <tr><td>offset</td><td>Integer</td><td>section offset in milliseconds.</td></tr>
+  <tr><td>beatLength</td><td>Integer</td><td>length of a single beat in milliseconds (float). If negative, it's a change of velocity.</td></tr>
+  <tr><td>bpm</td><td>Float</td><td>number of beats per minute. (only if beatLength is positive)</td></tr>
+  <tr><td>velocity</td><td>Float</td><td>velocity multiplicator. (only if beatLength is negative)</td></tr>
+  <tr><td>timingSignature</td><td>Integer</td><td>3 = simple triple, 4 = simple quadruple (used in editor).</td></tr>
+  <tr><td>sampleSetId</td><td>Integer</td><td>sound samples. None = 0, Normal = 1, Soft = 2.</td></tr>
+  <tr><td>useCustomSamples</td><td>Boolean</td><td>use skin localised samples ?</td></tr>
+  <tr><td>sampleVolume</td><td>Integer</td><td>volume of the samples.</td></tr>
+  <tr><td>timingChange</td><td>Boolean</td><td>is there a beatLength change ?</td></tr>
+  <tr><td>kiaiTimeActive</td><td>Boolean</td><td>is it a kiai section ?</td></tr>
+</table>
 
 ## Methods
 
