@@ -131,8 +131,9 @@ Parser.prototype.parseLine = function (line) {
       /**
        * Get soundTypes on slider edges
        */
-      var edgeSounds = (members[8] || '').split('|');
-      if (edgeSounds.length) {
+      if (members[8]) {
+        var edgeSounds = members[8].split('|');
+
         for (var i = 0, l = edgeSounds.length; i < l; i++) {
           var sound = edgeSounds[i];
           var edge  = [];
@@ -142,6 +143,10 @@ Parser.prototype.parseLine = function (line) {
           if (edge.length === 0) { edge.push('normal');  }
 
           hitobject.edgeSounds.push(edge);
+        }
+      } else {
+        for (var i = hitobject.repeatCount; i >= 0; i--) {
+          hitobject.edgeSounds.push(['normal']);
         }
       }
 
