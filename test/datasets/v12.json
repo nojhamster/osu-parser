@@ -176,6 +176,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -455,6 +458,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -653,6 +659,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -746,6 +755,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -911,6 +923,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -1446,6 +1461,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -3480,6 +3498,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -4148,6 +4169,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -4291,6 +4315,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -5684,6 +5711,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -7485,6 +7515,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "linear"
@@ -8164,6 +8197,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -8359,6 +8395,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -9308,6 +9347,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "linear"
@@ -9513,6 +9555,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "linear"
@@ -9535,6 +9580,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -9613,6 +9661,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -10070,6 +10121,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]

@@ -23,6 +23,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -126,6 +129,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -318,6 +324,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -655,6 +664,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -866,6 +878,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -1004,6 +1019,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -1145,6 +1163,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -1454,6 +1475,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -1818,6 +1842,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -2091,6 +2118,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -2262,6 +2292,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -2445,6 +2478,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -2658,6 +2694,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -2847,6 +2886,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -3018,6 +3060,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -3201,6 +3246,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -3415,6 +3463,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -3548,6 +3599,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -3676,6 +3730,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -3854,6 +3911,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -3991,6 +4051,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -4355,6 +4418,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -4483,6 +4549,15 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -4505,6 +4580,15 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -4606,6 +4690,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -4763,6 +4850,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -4926,6 +5016,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -5354,6 +5447,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -5505,6 +5601,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -5674,6 +5773,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -5837,6 +5939,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -5985,6 +6090,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -6199,6 +6307,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -6227,6 +6338,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -6253,6 +6367,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -6381,6 +6498,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -6421,6 +6541,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -6459,6 +6582,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -6688,6 +6814,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -6792,6 +6921,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -7087,6 +7219,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -7149,6 +7284,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -7238,6 +7376,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -7407,6 +7548,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -7590,6 +7734,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -7987,6 +8134,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -8146,6 +8296,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -8317,6 +8470,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -8669,6 +8825,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -8695,6 +8854,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -8752,6 +8914,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -8774,6 +8939,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -8912,6 +9080,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -8940,6 +9111,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -8966,6 +9140,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -9066,6 +9243,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -9092,6 +9272,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -9126,6 +9309,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -9212,6 +9398,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "pass-through"
@@ -9234,6 +9423,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]

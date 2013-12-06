@@ -168,6 +168,12 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -319,6 +325,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -386,6 +395,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -645,6 +657,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -718,6 +733,12 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -754,6 +775,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -831,6 +855,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -1689,6 +1716,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -1766,6 +1796,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -1989,6 +2022,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -2093,6 +2129,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -2222,6 +2261,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -2550,6 +2592,12 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -2806,6 +2854,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -3091,6 +3142,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -3151,6 +3205,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -3327,6 +3384,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
@@ -3953,6 +4013,12 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -4163,6 +4229,9 @@
       "edgeSounds": [
         [
           "normal"
+        ],
+        [
+          "normal"
         ]
       ],
       "curveType": "bezier"
@@ -4369,6 +4438,9 @@
         }
       ],
       "edgeSounds": [
+        [
+          "normal"
+        ],
         [
           "normal"
         ]
