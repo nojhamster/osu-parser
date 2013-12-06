@@ -1,5 +1,8 @@
 ## last changes (not published on npm)
 - fix number of slider edge sounds that could be wrong
+- parse object additions
+- parse sounds and additions on the edges of sliders
+- parse integer strings
 
 ## 0.0.5
 - removed objectType and soundType properties from hitobjects as it's useless for the final user
