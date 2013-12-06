@@ -182,7 +182,10 @@ Parser.prototype.parseLine = function (line) {
   default:
     if (!this.section) {
       match = /^osu file format (v[0-9]+)$/.exec(line);
-      if (match) { this.beatmap.fileFormat = match[1]; }
+      if (match) {
+        this.beatmap.fileFormat = match[1];
+        return;
+      }
     }
     /**
      * Exluding in events, timingpoints and hitobjects sections, lines are "key: value"
