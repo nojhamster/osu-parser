@@ -2,6 +2,7 @@
 
 var fs     = require('fs');
 var path   = require('path');
+var util   = require('util');
 var assert = require('assert');
 var parser = require('..');
 
@@ -14,10 +15,10 @@ function compareBeatmaps(obj1, obj2) {
     switch (p) {
       case 'hitObjects':
       case 'timingPoints':
-        assert.deepEqual(obj1[p], obj2[p], 'an array is faulty');
+        assert.deepEqual(obj1[p], obj2[p], util.format('%s was not parsed correctly', p));
         break;
       default:
-        assert.equal(obj1[p], obj2[p], p + ' is faulty');
+        assert.equal(obj1[p], obj2[p], util.format('Expecting %s to equal %s', p, obj2[p]));
     }
   }
 }
@@ -30,7 +31,7 @@ versions.forEach(function (version) {
     describe('the parser', function () {
       it('should correctly parse it from its path', function (done) {
         parser.parseFile(file, function (err, beatmap) {
-          assert.equal(err, undefined, 'an unexpected error occured');
+          assert.equal(err, undefined, util.format('An unexpected error occured : %j', err));
           compareBeatmaps(beatmap, result);
           done();
         });
@@ -42,7 +43,7 @@ versions.forEach(function (version) {
       });
       it('should correctly parse its content as a stream', function (done) {
         parser.parseStream(fs.createReadStream(file), function (err, beatmap) {
-          assert.equal(err, undefined, 'an unexpected error occured');
+          assert.equal(err, undefined, util.format('An unexpected error occured : %j', err));
           compareBeatmaps(beatmap, result);
           done();
         });
