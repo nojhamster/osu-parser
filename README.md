@@ -63,7 +63,7 @@ beatmap: {
 `y`: ordinate.  
 `startTime`: start offset.  
 `newCombo`: is it a new combo ? (boolean)  
-`soundTypes`: array of sound effects. It can contain : normal, whistle, finish, clap.
+`soundTypes`: array of sound effects. It can contain : normal, whistle, finish, clap.  
 
 ##### Slider specific properties
 `repeatCount`: number of repeats, starts at `1` for a single-way slider.  
@@ -122,8 +122,8 @@ Parse the content of a file as a string or a buffer.
 ```
 
 ## TODO
-- parse hitobjects additions
-- parse all slider properties
+- split tags into an array
+- translate the samplesetId of timing points
 - get the coordinates of the second slider circle
 - parse events
 - evaluate map difficulty ? (probably too complicated)
