@@ -1,7 +1,8 @@
 'use strict';
 
-var fs   = require('fs');
-var Lazy = require('lazy');
+var fs         = require('fs');
+var Lazy       = require('lazy');
+var slidercalc = require('./lib/slidercalc.js');
 
 function Parser() {
   this.beatmap = {
@@ -117,7 +118,7 @@ Parser.prototype.parseLine = function (line) {
       hitobject.repeatCount = parseInt(members[6]);
       hitobject.pixelLength = parseInt(members[7]);
       hitobject.additions   = this.parseAdditions(members[10]);
-      hitobject.pointsList  = [];
+      hitobject.pointsList  = [{ x: hitobject.x, y: hitobject.y }];
       hitobject.edges       = [];
 
       /**
@@ -161,6 +162,13 @@ Parser.prototype.parseLine = function (line) {
         }
 
         hitobject.edges.push(edge);
+      }
+
+      // get coordinates of the slider endpoint
+      var endPoint = slidercalc.getEndPoint(hitobject.curveType, hitobject.pixelLength, hitobject.pointsList);
+      if (endPoint) {
+        hitobject.x2 = Math.round(endPoint.x);
+        hitobject.y2 = Math.round(endPoint.y);
       }
     } else {
       // Unknown
