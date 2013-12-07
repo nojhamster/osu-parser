@@ -177,6 +177,7 @@ Parse the content of a file as a string or a buffer.
 - translate the samplesetId of timing points
 - get the coordinates of the second slider circle
 - parse events
+- compute max score
 - evaluate map difficulty ? (probably too complicated)
 - add a synchronous version of parseFile
 - support taiko, CTB and osu!mania ? (not sure that would be useful)
