@@ -6886,6 +6886,15 @@
   "Combo2": "255,255,196",
   "Combo3": "190,62,58",
   "SliderBorder": "255,255,255",
+  "tagsArray": [
+    "append",
+    "dark",
+    "at",
+    "dusk",
+    "cut",
+    "Hatsune",
+    "Miku"
+  ],
   "bpm": 93,
   "totalTime": 130,
   "drainingTime": 111

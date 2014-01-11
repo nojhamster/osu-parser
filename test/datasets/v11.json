@@ -14287,6 +14287,14 @@
   "Combo2": "0,128,255",
   "Combo3": "255,140,26",
   "SliderBorder": "0,0,0",
+  "tagsArray": [
+    "Niva",
+    "GOTK",
+    "hardcore",
+    "metalcore",
+    "The",
+    "Summoning"
+  ],
   "bpm": "180~184",
   "totalTime": 194,
   "drainingTime": 179

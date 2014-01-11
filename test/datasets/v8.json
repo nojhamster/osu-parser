@@ -5340,6 +5340,9 @@
   "Combo2": "255,166,17",
   "Combo3": "91,0,204",
   "Combo4": "255,62,187",
+  "tagsArray": [
+    "LA3"
+  ],
   "bpm": 156,
   "totalTime": 89,
   "drainingTime": 89

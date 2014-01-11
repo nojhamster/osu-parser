@@ -17363,6 +17363,11 @@
   "bgFilename": "BG.jpg",
   "Combo1": "0,64,128",
   "Combo2": "128,128,255",
+  "tagsArray": [
+    "Natteke",
+    "gowww",
+    "lepidopodus"
+  ],
   "bpm": 180,
   "totalTime": 182,
   "drainingTime": 163

@@ -15,6 +15,7 @@ function compareBeatmaps(obj1, obj2) {
     switch (p) {
       case 'hitObjects':
       case 'timingPoints':
+      case 'tagsArray':
         assert.deepEqual(obj1[p], obj2[p], util.format('%s was not parsed correctly', p));
         break;
       default:

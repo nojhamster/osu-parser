@@ -270,6 +270,10 @@ Parser.prototype.parseAdditions = function (str) {
  * @return {Object} beatmap
  */
 Parser.prototype.finalizeBeatmap = function () {
+  if (this.beatmap['Tags']) {
+    this.beatmap.tagsArray = this.beatmap['Tags'].split(' ');
+  }
+
   if (this.bpmMin && this.bpmMax) {
     if (this.bpmMin != this.bpmMax)
       this.beatmap.bpm = this.bpmMin + '~' + this.bpmMax;
