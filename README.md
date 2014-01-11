@@ -62,6 +62,7 @@ beatmap: {
   <tr><td>drainingTime</td><td>Integer</td><td>draining time in seconds.</td></tr>
   <tr><td>hitObjects</td><td>Array</td><td>list of all hit objects. See HitObject below.</td></tr>
   <tr><td>timingPoints</td><td>Array</td><td>list of all timing points. See TimingPoint below.</td></tr>
+  <tr><td>tagsArray</td><td>Array</td><td>tags splitted into an array, for convenience.</td></tr>
 </table>
 
 #### HitObject properties
@@ -173,7 +174,6 @@ Parse the content of a file as a string or a buffer.
 ```
 
 ## TODO
-- split tags into an array
 - translate the samplesetId of timing points
 - parse events
 - compute max score
