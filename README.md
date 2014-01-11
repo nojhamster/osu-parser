@@ -99,7 +99,7 @@ beatmap: {
   <tr><td>pixelLength</td><td>Integer</td><td>length in osu-relative pixels.</td></tr>
   <tr><td>curveType</td><td>String</td><td>can be catmull, bezier, linear or pass-through.</td></tr>
   <tr><td>points</td><td>Array</td><td>list of all points including the very first. Each point is an array of coordinates [x,y].</td></tr>
-  <tr><td>endPosition</td><td>Array</td><td>coordinates of the slider end ([x,y]).</td></tr>
+  <tr><td>endPosition</td><td>Array</td><td>coordinates of the slider end ([x,y]). (not calculated for catmull)</td></tr>
   <tr><td>edges</td><td>Array</td>
     <td>
       list of edges. The number of edges is <code>repeatCount + 1</code>. It has two properties :
@@ -175,7 +175,6 @@ Parse the content of a file as a string or a buffer.
 ## TODO
 - split tags into an array
 - translate the samplesetId of timing points
-- get the coordinates of the second slider circle
 - parse events
 - compute max score
 - evaluate map difficulty ? (probably too complicated)
