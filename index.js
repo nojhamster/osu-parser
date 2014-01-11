@@ -121,7 +121,7 @@ Parser.prototype.parseLine = function (line) {
       hitobject.pixelLength = parseInt(members[7]);
       hitobject.additions   = this.parseAdditions(members[10]);
       hitobject.edges       = [];
-      hitobject.pointsList  = [
+      hitobject.points      = [
         [hitobject.position[0], hitobject.position[1]]
       ];
 
@@ -134,7 +134,7 @@ Parser.prototype.parseLine = function (line) {
 
         for (var i = 1, l = points.length; i < l; i++) {
           var coordinates = points[i].split(':');
-          hitobject.pointsList.push([
+          hitobject.points.push([
             parseInt(coordinates[0]),
             parseInt(coordinates[1])
           ]);
@@ -169,9 +169,9 @@ Parser.prototype.parseLine = function (line) {
       }
 
       // get coordinates of the slider endpoint
-      var endPoint = slidercalc.getEndPoint(hitobject.curveType, hitobject.pixelLength, hitobject.pointsList);
+      var endPoint = slidercalc.getEndPoint(hitobject.curveType, hitobject.pixelLength, hitobject.points);
       if (endPoint && endPoint[0] && endPoint[1]) {
-        hitobject.endPoint = [
+        hitobject.endPosition = [
           Math.round(endPoint[0]),
           Math.round(endPoint[1])
         ];

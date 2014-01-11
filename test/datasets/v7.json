@@ -219,7 +219,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           176,
           120
@@ -230,7 +230,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         126,
         120
       ]
@@ -301,7 +301,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           304,
           248
@@ -312,7 +312,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         266,
         280
       ]
@@ -358,7 +358,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           192,
           208
@@ -369,7 +369,7 @@
         ]
       ],
       "curveType": "linear",
-      "endPoint": [
+      "endPosition": [
         178,
         160
       ]
@@ -421,7 +421,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           144,
           112
@@ -432,7 +432,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         144,
         162
       ]
@@ -483,7 +483,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           144,
           264
@@ -494,7 +494,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         94,
         264
       ]
@@ -572,7 +572,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           424,
           216
@@ -583,7 +583,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         424,
         166
       ]
@@ -739,7 +739,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           344,
           240
@@ -750,7 +750,7 @@
         ]
       ],
       "curveType": "linear",
-      "endPoint": [
+      "endPosition": [
         344,
         190
       ]
@@ -874,7 +874,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           88,
           96
@@ -889,7 +889,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         40,
         107
       ]
@@ -948,7 +948,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           96,
           264
@@ -963,7 +963,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         96,
         313
       ]
@@ -1014,7 +1014,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           240,
           288
@@ -1029,7 +1029,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         218,
         332
       ]
@@ -1075,7 +1075,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           240,
           136
@@ -1090,7 +1090,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         206,
         105
       ]
@@ -1129,7 +1129,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           104,
           104
@@ -1144,7 +1144,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         55,
         106
       ]
@@ -1190,7 +1190,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           304,
           136
@@ -1205,7 +1205,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         268,
         106
       ]
@@ -1290,7 +1290,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           128,
           288
@@ -1305,7 +1305,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         172,
         310
       ]
@@ -1344,7 +1344,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           72,
           288
@@ -1359,7 +1359,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         88,
         335
       ]
@@ -1521,7 +1521,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           272,
           264
@@ -1536,7 +1536,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         234,
         294
       ]
@@ -1640,7 +1640,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           336,
           184
@@ -1655,7 +1655,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         302,
         327
       ]
@@ -1746,7 +1746,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           192,
           184
@@ -1761,7 +1761,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         72,
         47
       ]
@@ -1852,7 +1852,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           232,
           256
@@ -1867,7 +1867,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         409,
         262
       ]
@@ -1984,7 +1984,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           280,
           320
@@ -1999,7 +1999,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         311,
         283
       ]
@@ -2038,7 +2038,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           232,
           320
@@ -2053,7 +2053,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         143,
         283
       ]
@@ -2118,7 +2118,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           184,
           160
@@ -2133,7 +2133,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         93,
         142
       ]
@@ -2198,7 +2198,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           328,
           112
@@ -2213,7 +2213,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         363,
         80
       ]
@@ -2252,7 +2252,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           376,
           200
@@ -2267,7 +2267,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         424,
         206
       ]
@@ -2300,7 +2300,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           280,
           208
@@ -2315,7 +2315,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         207,
         164
       ]
@@ -2400,7 +2400,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           344,
           40
@@ -2415,7 +2415,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         253,
         73
       ]
@@ -2487,7 +2487,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           104,
           168
@@ -2502,7 +2502,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         192,
         208
       ]
@@ -2619,7 +2619,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           224,
           72
@@ -2634,7 +2634,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         273,
         70
       ]
@@ -2667,7 +2667,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           208,
           120
@@ -2686,7 +2686,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         202,
         215
       ]
@@ -2790,7 +2790,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           248,
           88
@@ -2805,7 +2805,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         155,
         82
       ]
@@ -2883,7 +2883,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           120,
           184
@@ -2898,7 +2898,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         31,
         222
       ]
@@ -2983,7 +2983,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           408,
           120
@@ -2998,7 +2998,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         413,
         168
       ]
@@ -3037,7 +3037,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           328,
           224
@@ -3048,7 +3048,7 @@
         ]
       ],
       "curveType": "linear",
-      "endPoint": [
+      "endPosition": [
         317,
         273
       ]
@@ -3087,7 +3087,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           376,
           216
@@ -3102,7 +3102,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         469,
         192
       ]
@@ -3174,7 +3174,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           216,
           104
@@ -3189,7 +3189,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         302,
         58
       ]
@@ -3261,7 +3261,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           288,
           248
@@ -3276,7 +3276,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         191,
         241
       ]
@@ -3453,7 +3453,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           152,
           192
@@ -3464,7 +3464,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         102,
         192
       ]
@@ -3567,7 +3567,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           392,
           136
@@ -3578,7 +3578,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         442,
         136
       ]
@@ -3624,7 +3624,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           280,
           240
@@ -3635,7 +3635,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         230,
         240
       ]
@@ -3674,7 +3674,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           160,
           312
@@ -3689,7 +3689,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         113,
         311
       ]
@@ -3813,7 +3813,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           232,
           304
@@ -3828,7 +3828,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         183,
         306
       ]
@@ -3861,7 +3861,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           168,
           208
@@ -3876,7 +3876,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         259,
         325
       ]
@@ -3974,7 +3974,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           160,
           96
@@ -3989,7 +3989,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         111,
         96
       ]
@@ -4028,7 +4028,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           112,
           200
@@ -4043,7 +4043,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         152,
         228
       ]
@@ -4168,7 +4168,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           72,
           224
@@ -4183,7 +4183,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         39,
         257
       ]
@@ -4229,7 +4229,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           128,
           272
@@ -4240,7 +4240,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         178,
         272
       ]
@@ -4351,7 +4351,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           272,
           128
@@ -4366,7 +4366,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         312,
         155
       ]
@@ -4399,7 +4399,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           400,
           104
@@ -4414,7 +4414,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         283,
         193
       ]
@@ -4512,7 +4512,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           288,
           88
@@ -4527,7 +4527,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         244,
         107
       ]
@@ -4566,7 +4566,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           144,
           136
@@ -4581,7 +4581,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         150,
         88
       ]
@@ -4685,7 +4685,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           336,
           272
@@ -4696,7 +4696,7 @@
         ]
       ],
       "curveType": "linear",
-      "endPoint": [
+      "endPosition": [
         386,
         278
       ]
@@ -4735,7 +4735,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           336,
           168
@@ -4746,7 +4746,7 @@
         ]
       ],
       "curveType": "linear",
-      "endPoint": [
+      "endPosition": [
         383,
         152
       ]
@@ -4785,7 +4785,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           240,
           208
@@ -4800,7 +4800,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         151,
         290
       ]
@@ -4839,7 +4839,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           240,
           208
@@ -4854,7 +4854,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         384,
         132
       ]
@@ -4945,7 +4945,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           296,
           104
@@ -4960,7 +4960,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         226,
         271
       ]
@@ -5051,7 +5051,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           336
@@ -5066,7 +5066,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         399,
         231
       ]
@@ -5157,7 +5157,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           272,
           192
@@ -5176,7 +5176,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         146,
         172
       ]
@@ -5235,7 +5235,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           344,
           96
@@ -5250,7 +5250,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         296,
         97
       ]
@@ -5296,7 +5296,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           288
@@ -5307,7 +5307,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         256,
         338
       ]
@@ -5346,7 +5346,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           160,
           304
@@ -5357,7 +5357,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         131,
         345
       ]
@@ -5403,7 +5403,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           192
@@ -5414,7 +5414,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         287,
         153
       ]
@@ -5466,7 +5466,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           352,
           80
@@ -5477,7 +5477,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         380,
         38
       ]
@@ -5523,7 +5523,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           392,
           192
@@ -5534,7 +5534,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         442,
         192
       ]
@@ -5573,7 +5573,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           400,
           288
@@ -5584,7 +5584,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         442,
         314
       ]
@@ -5630,7 +5630,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           272,
           216
@@ -5645,7 +5645,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         269,
         170
       ]
@@ -5697,7 +5697,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           344,
           104
@@ -5708,7 +5708,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         382,
         72
       ]
@@ -5754,7 +5754,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           296,
           184
@@ -5765,7 +5765,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         254,
         210
       ]
@@ -5810,7 +5810,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           160,
           256
@@ -5821,7 +5821,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         118,
         282
       ]
@@ -5854,7 +5854,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           32,
           336
@@ -5865,7 +5865,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         74,
         310
       ]
@@ -6042,7 +6042,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           88
@@ -6053,7 +6053,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         256,
         38
       ]
@@ -6092,7 +6092,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           160,
           72
@@ -6103,7 +6103,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         132,
         30
       ]
@@ -6149,7 +6149,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           120,
           184
@@ -6160,7 +6160,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         170,
         184
       ]
@@ -6212,7 +6212,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           272,
           184
@@ -6223,7 +6223,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         322,
         184
       ]
@@ -6269,7 +6269,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           136,
           232
@@ -6280,7 +6280,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         182,
         212
       ]
@@ -6319,7 +6319,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           264,
           168
@@ -6330,7 +6330,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         309,
         146
       ]
@@ -6376,7 +6376,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           112,
           192
@@ -6391,7 +6391,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         116,
         157
       ]
@@ -6443,7 +6443,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           176,
           96
@@ -6454,7 +6454,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         198,
         51
       ]
@@ -6500,7 +6500,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           216,
           160
@@ -6511,7 +6511,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         258,
         186
       ]
@@ -6556,7 +6556,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           344,
           240
@@ -6567,7 +6567,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         387,
         265
       ]
@@ -6600,7 +6600,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           472,
           320
@@ -6611,7 +6611,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         430,
         294
       ]
@@ -6856,7 +6856,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           352,
           184
@@ -6867,7 +6867,7 @@
         ]
       ],
       "curveType": "linear",
-      "endPoint": [
+      "endPosition": [
         377,
         184
       ]
@@ -6965,7 +6965,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           128,
           184
@@ -6980,7 +6980,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         170,
         160
       ]
@@ -7013,7 +7013,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           280,
           184
@@ -7028,7 +7028,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         312,
         218
       ]
@@ -7132,7 +7132,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           208,
           104
@@ -7147,7 +7147,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         306,
         102
       ]
@@ -7238,7 +7238,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           360,
           160
@@ -7253,7 +7253,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         415,
         238
       ]
@@ -7312,7 +7312,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           240,
           152
@@ -7327,7 +7327,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         191,
         151
       ]
@@ -7360,7 +7360,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           296,
           208
@@ -7375,7 +7375,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         293,
         258
       ]
@@ -7408,7 +7408,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           352,
           152
@@ -7423,7 +7423,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         402,
         155
       ]
@@ -7456,7 +7456,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           296,
           96
@@ -7471,7 +7471,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         297,
         47
       ]
@@ -7522,7 +7522,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           296,
           152
@@ -7537,7 +7537,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         200,
         153
       ]
@@ -7570,7 +7570,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           88
@@ -7585,7 +7585,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         401,
         52
       ]
@@ -7618,7 +7618,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           424,
           152
@@ -7633,7 +7633,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         466,
         177
       ]
@@ -7666,7 +7666,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           200
@@ -7681,7 +7681,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         375,
         297
       ]
@@ -7779,7 +7779,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           312,
           144
@@ -7790,7 +7790,7 @@
         ]
       ],
       "curveType": "linear",
-      "endPoint": [
+      "endPosition": [
         362,
         144
       ]
@@ -7848,7 +7848,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           264,
           248
@@ -7859,7 +7859,7 @@
         ]
       ],
       "curveType": "linear",
-      "endPoint": [
+      "endPosition": [
         214,
         248
       ]
@@ -7957,7 +7957,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           424,
           256
@@ -7972,7 +7972,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         328,
         253
       ]
@@ -8070,7 +8070,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           272,
           56
@@ -8085,7 +8085,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         369,
         49
       ]
@@ -8183,7 +8183,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           136,
           288
@@ -8198,7 +8198,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         75,
         214
       ]
@@ -8276,7 +8276,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           392,
           88
@@ -8291,7 +8291,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         469,
         146
       ]
@@ -8363,7 +8363,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           160,
           280
@@ -8378,7 +8378,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         243,
         323
       ]
@@ -8411,7 +8411,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           244,
           322
@@ -8426,7 +8426,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         338,
         300
       ]
@@ -8472,7 +8472,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           344,
           96
@@ -8487,7 +8487,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         255,
         57
       ]
@@ -8520,7 +8520,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           254,
           57
@@ -8535,7 +8535,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         162,
         89
       ]
@@ -8634,7 +8634,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           128,
           168
@@ -8649,7 +8649,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         203,
         109
       ]
@@ -8682,7 +8682,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           204,
           109
@@ -8697,7 +8697,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         301,
         112
       ]
@@ -8730,7 +8730,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           248
@@ -8745,7 +8745,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         322,
         329
       ]
@@ -8778,7 +8778,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           321,
           330
@@ -8793,7 +8793,7 @@
         ]
       ],
       "curveType": "bezier",
-      "endPoint": [
+      "endPosition": [
         223,
         333
       ]

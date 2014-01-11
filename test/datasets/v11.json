@@ -31,7 +31,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           320,
           80
@@ -42,7 +42,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         398,
         125
       ]
@@ -75,7 +75,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           320,
           176
@@ -86,7 +86,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         366,
         253
       ]
@@ -119,7 +119,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           248
@@ -130,7 +130,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         338
       ]
@@ -163,7 +163,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           192,
           176
@@ -174,7 +174,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         146,
         253
       ]
@@ -207,7 +207,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           192,
           80
@@ -218,7 +218,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         114,
         125
       ]
@@ -303,7 +303,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           208
@@ -347,7 +347,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           408,
           168
@@ -391,7 +391,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           296,
           48
@@ -435,7 +435,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           137,
           95
@@ -479,7 +479,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           192,
           160
@@ -653,7 +653,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           464,
           336
@@ -697,7 +697,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           416,
           264
@@ -741,7 +741,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           336,
           72
@@ -797,7 +797,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           97,
           117
@@ -893,7 +893,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           216,
           248
@@ -937,7 +937,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           424,
           312
@@ -981,7 +981,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           384,
           232
@@ -1025,7 +1025,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           208,
           88
@@ -1173,7 +1173,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           128,
           128
@@ -1230,7 +1230,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           328,
           280
@@ -1287,7 +1287,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           204,
           200
@@ -1344,7 +1344,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           96,
           304
@@ -1427,7 +1427,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           72
@@ -1477,7 +1477,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           384,
           160
@@ -1538,7 +1538,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           240,
           160
@@ -1625,7 +1625,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           72
@@ -1669,7 +1669,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           72
@@ -1752,7 +1752,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           172,
           112
@@ -1796,7 +1796,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           88,
           68
@@ -1957,7 +1957,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           484,
           132
@@ -2014,7 +2014,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           176,
           84
@@ -2025,7 +2025,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         86,
         84
       ]
@@ -2058,7 +2058,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           144,
           256
@@ -2102,7 +2102,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           256
@@ -2152,7 +2152,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           328,
           104
@@ -2247,7 +2247,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           72,
           339
@@ -2343,7 +2343,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           336,
           76
@@ -2413,7 +2413,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           116
@@ -2424,7 +2424,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         206
       ]
@@ -2457,7 +2457,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           80,
           240
@@ -2501,7 +2501,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           432,
           144
@@ -2558,7 +2558,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           420,
           332
@@ -2647,7 +2647,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           144,
           113
@@ -2886,7 +2886,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           343,
           132
@@ -2930,7 +2930,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           328,
           316
@@ -2980,7 +2980,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           106,
           239
@@ -3102,7 +3102,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           432,
           88
@@ -3166,7 +3166,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           344,
           308
@@ -3216,7 +3216,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           154,
           216
@@ -3286,7 +3286,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           172,
           128
@@ -3297,7 +3297,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         161,
         84
       ]
@@ -3349,7 +3349,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           340,
           128
@@ -3360,7 +3360,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         351,
         84
       ]
@@ -3393,7 +3393,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           424,
           164
@@ -3441,7 +3441,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           160
@@ -3452,7 +3452,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         340
       ]
@@ -3491,7 +3491,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           88,
           164
@@ -3617,7 +3617,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           424,
           272
@@ -3680,7 +3680,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           155,
           309
@@ -3737,7 +3737,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           92,
           124
@@ -3950,7 +3950,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           324,
           76
@@ -3994,7 +3994,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           316,
           184
@@ -4038,7 +4038,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           142,
           319
@@ -4166,7 +4166,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           384,
           88
@@ -4230,7 +4230,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           336,
           184
@@ -4280,7 +4280,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           128,
           88
@@ -4350,7 +4350,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           188,
           176
@@ -4361,7 +4361,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         146,
         193
       ]
@@ -4413,7 +4413,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           324,
           176
@@ -4424,7 +4424,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         366,
         193
       ]
@@ -4457,7 +4457,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           468,
           100
@@ -4501,7 +4501,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           44,
           100
@@ -4545,7 +4545,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           299,
           234
@@ -4589,7 +4589,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           212,
           234
@@ -4795,7 +4795,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           216,
           340
@@ -4839,7 +4839,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           124,
           352
@@ -4909,7 +4909,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           84,
           84
@@ -4920,7 +4920,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         174,
         84
       ]
@@ -4953,7 +4953,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           428,
           84
@@ -4964,7 +4964,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         338,
         84
       ]
@@ -4997,7 +4997,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           244
@@ -5041,7 +5041,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           244
@@ -5098,7 +5098,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           336
@@ -5181,7 +5181,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           200,
           60
@@ -5225,7 +5225,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           76,
           204
@@ -5295,7 +5295,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           336,
           328
@@ -5306,7 +5306,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         248,
         308
       ]
@@ -5339,7 +5339,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           184,
           192
@@ -5350,7 +5350,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         274,
         192
       ]
@@ -5383,7 +5383,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           336,
           56
@@ -5394,7 +5394,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         248,
         76
       ]
@@ -5453,7 +5453,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           320,
           192
@@ -5464,7 +5464,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         410,
         192
       ]
@@ -5562,7 +5562,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           412,
           284
@@ -5645,7 +5645,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           128
@@ -5689,7 +5689,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           144,
           128
@@ -5739,7 +5739,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           184,
           280
@@ -5834,7 +5834,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           440,
           45
@@ -5930,7 +5930,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           176,
           308
@@ -6000,7 +6000,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           268
@@ -6011,7 +6011,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         178
       ]
@@ -6044,7 +6044,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           432,
           144
@@ -6088,7 +6088,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           80,
           240
@@ -6145,7 +6145,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           380,
           324
@@ -6234,7 +6234,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           196,
           266
@@ -6342,7 +6342,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           328,
           68
@@ -6353,7 +6353,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         345,
         110
       ]
@@ -6398,7 +6398,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           380,
           116
@@ -6409,7 +6409,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         397,
         158
       ]
@@ -6481,7 +6481,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           340,
           320
@@ -6537,7 +6537,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           76,
           260
@@ -6587,7 +6587,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           177,
           86
@@ -6721,7 +6721,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           348,
           344
@@ -6732,7 +6732,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         348,
         164
       ]
@@ -6765,7 +6765,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           164,
           40
@@ -6776,7 +6776,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         164,
         220
       ]
@@ -6815,7 +6815,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           348,
           344
@@ -6865,7 +6865,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           320,
           220
@@ -6876,7 +6876,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         342,
         181
       ]
@@ -6928,7 +6928,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           192,
           220
@@ -6939,7 +6939,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         170,
         181
       ]
@@ -6972,7 +6972,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           84,
           224
@@ -7016,7 +7016,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           192,
           220
@@ -7066,7 +7066,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           347,
           323
@@ -7188,7 +7188,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           420,
           208
@@ -7245,7 +7245,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           168,
           350
@@ -7315,7 +7315,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           134,
           109
@@ -7528,7 +7528,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           340,
           88
@@ -7572,7 +7572,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           340,
           264
@@ -7636,7 +7636,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           87,
           198
@@ -7764,7 +7764,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           80
@@ -7812,7 +7812,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           196
@@ -7823,7 +7823,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         188,
         196
       ]
@@ -7862,7 +7862,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           144,
           304
@@ -8001,7 +8001,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           332,
           80
@@ -8045,7 +8045,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           501,
           282
@@ -8095,7 +8095,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           272,
           136
@@ -8270,7 +8270,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           396,
           76
@@ -8314,7 +8314,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           336,
           248
@@ -8423,7 +8423,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           244
@@ -8480,7 +8480,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           144,
           244
@@ -8537,7 +8537,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           104
@@ -8633,7 +8633,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           328
@@ -8716,7 +8716,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           128,
           69
@@ -8774,7 +8774,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           48,
           168
@@ -8818,7 +8818,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           108,
           220
@@ -8862,7 +8862,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           288,
           168
@@ -8906,7 +8906,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           348,
           228
@@ -9042,7 +9042,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           48
@@ -9053,7 +9053,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         228
       ]
@@ -9086,7 +9086,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           56,
           224
@@ -9142,7 +9142,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           456,
           224
@@ -9198,7 +9198,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           316,
           120
@@ -9242,7 +9242,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           476,
           344
@@ -9253,7 +9253,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         401,
         295
       ]
@@ -9286,7 +9286,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           324,
           344
@@ -9297,7 +9297,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         299,
         258
       ]
@@ -9330,7 +9330,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           188,
           344
@@ -9341,7 +9341,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         213,
         258
       ]
@@ -9374,7 +9374,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           36,
           344
@@ -9385,7 +9385,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         111,
         295
       ]
@@ -9496,7 +9496,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           308,
           328
@@ -9540,7 +9540,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           276
@@ -9551,7 +9551,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         186
       ]
@@ -9584,7 +9584,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           204,
           328
@@ -9654,7 +9654,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           140,
           64
@@ -9698,7 +9698,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           372,
           64
@@ -9833,7 +9833,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           368,
           292
@@ -9844,7 +9844,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         458,
         292
       ]
@@ -9877,7 +9877,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           388,
           176
@@ -9888,7 +9888,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         329,
         108
       ]
@@ -9921,7 +9921,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           124,
           176
@@ -9932,7 +9932,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         183,
         108
       ]
@@ -9965,7 +9965,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           144,
           292
@@ -9976,7 +9976,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         54,
         292
       ]
@@ -10087,7 +10087,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           320
@@ -10098,7 +10098,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         230
       ]
@@ -10183,7 +10183,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           230
@@ -10194,7 +10194,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         320
       ]
@@ -10240,7 +10240,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           472,
           344
@@ -10284,7 +10284,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           340,
           140
@@ -10354,7 +10354,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           119,
           235
@@ -10476,7 +10476,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           428,
           196
@@ -10536,7 +10536,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           216,
           312
@@ -10586,7 +10586,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           20,
           180
@@ -10652,7 +10652,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           128,
           176
@@ -10663,7 +10663,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         142,
         133
       ]
@@ -10715,7 +10715,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           384,
           208
@@ -10726,7 +10726,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         370,
         251
       ]
@@ -10759,7 +10759,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           484,
           160
@@ -10807,7 +10807,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           324,
           248
@@ -10857,7 +10857,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           168,
           88
@@ -10983,7 +10983,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           364,
           192
@@ -11046,7 +11046,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           96,
           96
@@ -11057,7 +11057,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         19,
         142
       ]
@@ -11103,7 +11103,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           18,
           241
@@ -11114,7 +11114,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         95,
         287
       ]
@@ -11316,7 +11316,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           264,
           288
@@ -11360,7 +11360,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           340,
           236
@@ -11404,7 +11404,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           180,
           152
@@ -11532,7 +11532,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           208,
           272
@@ -11584,7 +11584,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           204,
           164
@@ -11634,7 +11634,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           300,
           272
@@ -11777,7 +11777,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           68
@@ -11821,7 +11821,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           373,
           238
@@ -11871,7 +11871,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           164,
           260
@@ -12008,7 +12008,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           212,
           124
@@ -12052,7 +12052,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           300,
           124
@@ -12174,7 +12174,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           40,
           356
@@ -12185,7 +12185,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         40,
         266
       ]
@@ -12218,7 +12218,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           128,
           200
@@ -12229,7 +12229,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         128,
         290
       ]
@@ -12314,7 +12314,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           412,
           152
@@ -12358,7 +12358,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           100,
           152
@@ -12402,7 +12402,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           120,
           244
@@ -12446,7 +12446,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           340,
           156
@@ -12457,7 +12457,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         124
       ]
@@ -12490,7 +12490,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           172,
           156
@@ -12501,7 +12501,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         124
       ]
@@ -12560,7 +12560,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           124
@@ -12571,7 +12571,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         214
       ]
@@ -12643,7 +12643,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           376,
           156
@@ -12687,7 +12687,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           136,
           156
@@ -12731,7 +12731,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           312,
           232
@@ -12775,7 +12775,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           200,
           232
@@ -12910,7 +12910,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           152,
           228
@@ -12954,7 +12954,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           360,
           228
@@ -13011,7 +13011,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           204
@@ -13022,7 +13022,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         256,
         114
       ]
@@ -13133,7 +13133,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           168,
           320
@@ -13144,7 +13144,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         255,
         296
       ]
@@ -13177,7 +13177,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           257,
           87
@@ -13188,7 +13188,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         344,
         64
       ]
@@ -13247,7 +13247,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           400,
           136
@@ -13258,7 +13258,7 @@
         ]
       ],
       "curveType": "pass-through",
-      "endPoint": [
+      "endPosition": [
         400,
         226
       ]
@@ -13304,7 +13304,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           112,
           248
@@ -13415,7 +13415,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           256,
           264
@@ -13459,7 +13459,7 @@
           "additions": {}
         }
       ],
-      "pointsList": [
+      "points": [
         [
           396,
           136
@@ -13557,7 +13557,7 @@
           }
         }
       ],
-      "pointsList": [
+      "points": [
         [
           464,
           196
