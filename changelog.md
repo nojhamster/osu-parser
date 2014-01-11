@@ -3,6 +3,9 @@
 - parse object additions
 - parse sounds and additions on the edges of sliders
 - parse integer strings
+- get bezier endpoint coordinates
+- points coordinates are now arrays of type [x,y]
+- replace hitobject.x and hitobject.y by hitobject.position ([x,y])
 
 ## 0.0.5
 - removed objectType and soundType properties from hitobjects as it's useless for the final user
