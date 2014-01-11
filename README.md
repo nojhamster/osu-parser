@@ -72,8 +72,7 @@ beatmap: {
     <th>description</th>
   </tr>
   <tr><td>objectName</td><td>String</td><td>circle, slider, spinner or unknown.</td></tr>
-  <tr><td>x</td><td>Integer</td><td>abscissa.</td></tr>
-  <tr><td>y</td><td>Integer</td><td>ordinate.</td></tr>
+  <tr><td>position</td><td>Array[Integer]</td><td>object position : [x,y]</td></tr>
   <tr><td>startTime</td><td>Integer</td><td>start offset.</td></tr>
   <tr><td>newCombo</td><td>Boolean</td><td>is it a new combo ?</td></tr>
   <tr><td>soundTypes</td><td>Array</td><td>list of sound effects. Those can be : <code>normal</code>, <code>whistle</code>, <code>finish</code>, <code>clap</code>.</td></tr>
@@ -97,9 +96,10 @@ beatmap: {
     <th>description</th>
   </tr>
   <tr><td>repeatCount</td><td>Integer</td><td>number of repeats, starts at <code>1</code> for a single-way slider.</td></tr>
-  <tr><td>pixelLength</td><td>Integer</td><td>length in pixel.</td></tr>
+  <tr><td>pixelLength</td><td>Integer</td><td>length in osu-relative pixels.</td></tr>
   <tr><td>curveType</td><td>String</td><td>can be catmull, bezier, linear or pass-through.</td></tr>
-  <tr><td>pointsList</td><td>Array</td><td>list of all points excluding the very first. Each point has <code>x</code> and <code>y</code> properties.</td></tr>
+  <tr><td>points</td><td>Array</td><td>list of all points including the very first. Each point is an array of coordinates [x,y].</td></tr>
+  <tr><td>endPosition</td><td>Array</td><td>coordinates of the slider end ([x,y]).</td></tr>
   <tr><td>edges</td><td>Array</td>
     <td>
       list of edges. The number of edges is <code>repeatCount + 1</code>. It has two properties :
