@@ -4,38 +4,32 @@
   "nbSpinners": 2,
   "hitObjects": [
     {
-      "x": 64,
-      "y": 40,
       "startTime": 442,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        64,
+        40
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 80,
-      "y": 184,
       "startTime": 826,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        80,
+        184
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 96,
-          "y": 328
-        },
-        {
-          "x": 256,
-          "y": 296
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -50,30 +44,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          80,
+          184
+        ],
+        [
+          96,
+          328
+        ],
+        [
+          256,
+          296
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        192,
+        302
+      ]
     },
     {
-      "x": 200,
-      "y": 232,
       "startTime": 1403,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        200,
+        232
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 312,
-          "y": 208
-        },
-        {
-          "x": 328,
-          "y": 88
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -88,41 +92,53 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          200,
+          232
+        ],
+        [
+          312,
+          208
+        ],
+        [
+          328,
+          88
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        323,
+        115
+      ]
     },
     {
-      "x": 392,
-      "y": 112,
       "startTime": 1980,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        392,
+        112
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 496,
-      "y": 208,
       "startTime": 2365,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        496,
+        208
+      ],
       "objectName": "slider",
       "repeatCount": 2,
       "pixelLength": 270,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 480,
-          "y": 376
-        },
-        {
-          "x": 264,
-          "y": 368
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -143,26 +159,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          496,
+          208
+        ],
+        [
+          480,
+          376
+        ],
+        [
+          264,
+          368
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        312,
+        367
+      ]
     },
     {
-      "x": 448,
-      "y": 32,
       "startTime": 3903,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        448,
+        32
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 270,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 248,
-          "y": 240
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -177,26 +207,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          448,
+          32
+        ],
+        [
+          248,
+          240
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        261,
+        227
+      ]
     },
     {
-      "x": 200,
-      "y": 192,
       "startTime": 4672,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        200,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 48,
-          "y": 48
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -211,74 +251,88 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          200,
+          192
+        ],
+        [
+          48,
+          48
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        69,
+        68
+      ]
     },
     {
-      "x": 32,
-      "y": 208,
       "startTime": 5441,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        32,
+        208
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 88,
-      "y": 336,
       "startTime": 5826,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        88,
+        336
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 232,
-      "y": 352,
       "startTime": 6211,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        232,
+        352
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 368,
-      "y": 312,
       "startTime": 6595,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        368,
+        312
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 472,
-      "y": 216,
       "startTime": 6980,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        472,
+        216
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 528,
-          "y": 120
-        },
-        {
-          "x": 464,
-          "y": 40
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -293,30 +347,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          472,
+          216
+        ],
+        [
+          528,
+          120
+        ],
+        [
+          464,
+          40
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        470,
+        47
+      ]
     },
     {
-      "x": 400,
-      "y": 16,
       "startTime": 7557,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        400,
+        16
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 336,
-          "y": 104
-        },
-        {
-          "x": 424,
-          "y": 208
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -331,30 +395,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          400,
+          16
+        ],
+        [
+          336,
+          104
+        ],
+        [
+          424,
+          208
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        405,
+        183
+      ]
     },
     {
-      "x": 472,
-      "y": 216,
       "startTime": 8134,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        472,
+        216
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 480,
-          "y": 272
-        },
-        {
-          "x": 400,
-          "y": 328
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -369,38 +443,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          472,
+          216
+        ],
+        [
+          480,
+          272
+        ],
+        [
+          400,
+          328
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        439,
+        296
+      ]
     },
     {
-      "x": 376,
-      "y": 336,
       "startTime": 8518,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        376,
+        336
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 360,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 264,
-          "y": 376
-        },
-        {
-          "x": 152,
-          "y": 336
-        },
-        {
-          "x": 112,
-          "y": 200
-        },
-        {
-          "x": 200,
-          "y": 128
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -415,26 +491,48 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          376,
+          336
+        ],
+        [
+          264,
+          376
+        ],
+        [
+          152,
+          336
+        ],
+        [
+          112,
+          200
+        ],
+        [
+          200,
+          128
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        175,
+        155
+      ]
     },
     {
-      "x": 240,
-      "y": 24,
       "startTime": 9672,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        240,
+        24
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 320,
-          "y": 80
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -449,30 +547,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          240,
+          24
+        ],
+        [
+          320,
+          80
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        314,
+        76
+      ]
     },
     {
-      "x": 384,
-      "y": 72,
       "startTime": 10057,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        384,
+        72
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 488,
-          "y": 104
-        },
-        {
-          "x": 512,
-          "y": 232
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -487,30 +591,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          384,
+          72
+        ],
+        [
+          488,
+          104
+        ],
+        [
+          512,
+          232
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        503,
+        196
+      ]
     },
     {
-      "x": 504,
-      "y": 344,
       "startTime": 10826,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        504,
+        344
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 384,
-          "y": 304
-        },
-        {
-          "x": 392,
-          "y": 176
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -525,30 +639,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          504,
+          344
+        ],
+        [
+          384,
+          304
+        ],
+        [
+          392,
+          176
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        393,
+        216
+      ]
     },
     {
-      "x": 384,
-      "y": 72,
       "startTime": 11595,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        384,
+        72
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 312,
-          "y": 64
-        },
-        {
-          "x": 280,
-          "y": 144
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -563,30 +687,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          384,
+          72
+        ],
+        [
+          312,
+          64
+        ],
+        [
+          280,
+          144
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        304,
+        103
+      ]
     },
     {
-      "x": 240,
-      "y": 136,
       "startTime": 11980,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        240,
+        136
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 176,
-          "y": 128
-        },
-        {
-          "x": 176,
-          "y": 40
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -601,30 +735,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          240,
+          136
+        ],
+        [
+          176,
+          128
+        ],
+        [
+          176,
+          40
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        180,
+        78
+      ]
     },
     {
-      "x": 128,
-      "y": 32,
       "startTime": 12365,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        128,
+        32
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 72,
-          "y": 40
-        },
-        {
-          "x": 56,
-          "y": 112
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -639,41 +783,53 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          128,
+          32
+        ],
+        [
+          72,
+          40
+        ],
+        [
+          56,
+          112
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        63,
+        88
+      ]
     },
     {
-      "x": 64,
-      "y": 160,
       "startTime": 12749,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        64,
+        160
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 128,
-      "y": 288,
       "startTime": 13134,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        128,
+        288
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 192,
-          "y": 384
-        },
-        {
-          "x": 352,
-          "y": 344
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -688,30 +844,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          128,
+          288
+        ],
+        [
+          192,
+          384
+        ],
+        [
+          352,
+          344
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        285,
+        355
+      ]
     },
     {
-      "x": 344,
-      "y": 320,
       "startTime": 13711,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        344,
+        320
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 264,
-          "y": 224
-        },
-        {
-          "x": 152,
-          "y": 256
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -726,30 +892,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          344,
+          320
+        ],
+        [
+          264,
+          224
+        ],
+        [
+          152,
+          256
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        187,
+        249
+      ]
     },
     {
-      "x": 128,
-      "y": 288,
       "startTime": 14288,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        128,
+        288
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 64,
-          "y": 280
-        },
-        {
-          "x": 64,
-          "y": 216
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -764,34 +940,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          128,
+          288
+        ],
+        [
+          64,
+          280
+        ],
+        [
+          64,
+          216
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        65,
+        234
+      ]
     },
     {
-      "x": 64,
-      "y": 160,
       "startTime": 14672,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        64,
+        160
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 360,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 112,
-          "y": 8
-        },
-        {
-          "x": 288,
-          "y": 8
-        },
-        {
-          "x": 320,
-          "y": 192
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -806,37 +988,57 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          64,
+          160
+        ],
+        [
+          112,
+          8
+        ],
+        [
+          288,
+          8
+        ],
+        [
+          320,
+          192
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        314,
+        164
+      ]
     },
     {
-      "x": 256,
-      "y": 296,
       "startTime": 15826,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        256,
+        296
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 112,
-      "y": 296,
       "startTime": 16211,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        112,
+        296
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 224,
-          "y": 136
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -851,26 +1053,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          112,
+          296
+        ],
+        [
+          224,
+          136
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        215,
+        149
+      ]
     },
     {
-      "x": 400,
-      "y": 296,
       "startTime": 16980,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        400,
+        296
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 288,
-          "y": 136
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -885,78 +1097,88 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          400,
+          296
+        ],
+        [
+          288,
+          136
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        297,
+        149
+      ]
     },
     {
-      "x": 392,
-      "y": 40,
       "startTime": 17749,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        392,
+        40
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 88,
       "startTime": 18134,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        256,
+        88
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 120,
-      "y": 40,
       "startTime": 18518,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        120,
+        40
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 24,
-      "y": 144,
       "startTime": 18903,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        24,
+        144
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 80,
-      "y": 280,
       "startTime": 19288,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        80,
+        280
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 104,
-          "y": 344
-        },
-        {
-          "x": 200,
-          "y": 352
-        },
-        {
-          "x": 224,
-          "y": 264
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -971,34 +1193,44 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          80,
+          280
+        ],
+        [
+          104,
+          344
+        ],
+        [
+          200,
+          352
+        ],
+        [
+          224,
+          264
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        218,
+        280
+      ]
     },
     {
-      "x": 296,
-      "y": 280,
       "startTime": 19865,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        296,
+        280
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 320,
-          "y": 344
-        },
-        {
-          "x": 416,
-          "y": 352
-        },
-        {
-          "x": 440,
-          "y": 264
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1013,45 +1245,57 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          296,
+          280
+        ],
+        [
+          320,
+          344
+        ],
+        [
+          416,
+          352
+        ],
+        [
+          440,
+          264
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        434,
+        280
+      ]
     },
     {
-      "x": 424,
-      "y": 208,
       "startTime": 20442,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        424,
+        208
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 320,
-      "y": 104,
       "startTime": 20826,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        320,
+        104
+      ],
       "objectName": "slider",
       "repeatCount": 2,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 304,
-          "y": 32
-        },
-        {
-          "x": 192,
-          "y": 32
-        },
-        {
-          "x": 192,
-          "y": 120
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1072,37 +1316,57 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          320,
+          104
+        ],
+        [
+          304,
+          32
+        ],
+        [
+          192,
+          32
+        ],
+        [
+          192,
+          120
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        193,
+        106
+      ]
     },
     {
-      "x": 256,
-      "y": 232,
       "startTime": 21980,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        256,
+        232
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 184,
-      "y": 360,
       "startTime": 22365,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        184,
+        360
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 8,
-          "y": 288
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1117,26 +1381,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          184,
+          360
+        ],
+        [
+          8,
+          288
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        17,
+        292
+      ]
     },
     {
-      "x": 328,
-      "y": 360,
       "startTime": 23134,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        328,
+        360
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 504,
-          "y": 288
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1151,140 +1425,166 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          328,
+          360
+        ],
+        [
+          504,
+          288
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        495,
+        292
+      ]
     },
     {
-      "x": 376,
-      "y": 208,
       "startTime": 23903,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        376,
+        208
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 288,
       "startTime": 24288,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        256,
+        288
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 136,
-      "y": 208,
       "startTime": 24672,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        136,
+        208
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 176,
-      "y": 144,
       "startTime": 24865,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        176,
+        144
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 192,
-      "y": 112,
       "startTime": 24961,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        192,
+        112
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 224,
-      "y": 96,
       "startTime": 25057,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        224,
+        96
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 88,
       "startTime": 25153,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        88
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 288,
-      "y": 96,
       "startTime": 25249,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        288,
+        96
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 320,
-      "y": 112,
       "startTime": 25345,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        320,
+        112
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 336,
-      "y": 144,
       "startTime": 25442,
       "newCombo": false,
       "soundTypes": [
         "finish"
       ],
+      "position": [
+        336,
+        144
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 48,
-      "y": 216,
       "startTime": 26211,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        48,
+        216
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 40,
-          "y": 272
-        },
-        {
-          "x": 88,
-          "y": 304
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1299,30 +1599,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          48,
+          216
+        ],
+        [
+          40,
+          272
+        ],
+        [
+          88,
+          304
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        78,
+        296
+      ]
     },
     {
-      "x": 152,
-      "y": 296,
       "startTime": 26595,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        152,
+        296
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 168,
-          "y": 232
-        },
-        {
-          "x": 112,
-          "y": 216
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1337,30 +1647,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          152,
+          296
+        ],
+        [
+          168,
+          232
+        ],
+        [
+          112,
+          216
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        123,
+        220
+      ]
     },
     {
-      "x": 48,
-      "y": 216,
       "startTime": 26980,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        48,
+        216
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 24,
-          "y": 152
-        },
-        {
-          "x": 88,
-          "y": 112
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1375,30 +1695,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          48,
+          216
+        ],
+        [
+          24,
+          152
+        ],
+        [
+          88,
+          112
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        62,
+        132
+      ]
     },
     {
-      "x": 120,
-      "y": 88,
       "startTime": 27365,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        120,
+        88
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 168,
-          "y": 40
-        },
-        {
-          "x": 232,
-          "y": 104
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1413,30 +1743,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          120,
+          88
+        ],
+        [
+          168,
+          40
+        ],
+        [
+          232,
+          104
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        202,
+        79
+      ]
     },
     {
-      "x": 248,
-      "y": 136,
       "startTime": 27749,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        248,
+        136
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 272,
-          "y": 192
-        },
-        {
-          "x": 344,
-          "y": 192
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1451,30 +1791,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          248,
+          136
+        ],
+        [
+          272,
+          192
+        ],
+        [
+          344,
+          192
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        316,
+        189
+      ]
     },
     {
-      "x": 384,
-      "y": 192,
       "startTime": 28134,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        384,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 456,
-          "y": 192
-        },
-        {
-          "x": 432,
-          "y": 264
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1489,30 +1839,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          384,
+          192
+        ],
+        [
+          456,
+          192
+        ],
+        [
+          432,
+          264
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        437,
+        245
+      ]
     },
     {
-      "x": 440,
-      "y": 320,
       "startTime": 28518,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        440,
+        320
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 368,
-          "y": 320
-        },
-        {
-          "x": 360,
-          "y": 256
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1527,26 +1887,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          440,
+          320
+        ],
+        [
+          368,
+          320
+        ],
+        [
+          360,
+          256
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        366,
+        280
+      ]
     },
     {
-      "x": 256,
-      "y": 320,
       "startTime": 28903,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        320
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 256,
-          "y": 224
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1561,30 +1935,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          256,
+          320
+        ],
+        [
+          256,
+          224
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        256,
+        230
+      ]
     },
     {
-      "x": 146,
-      "y": 279,
       "startTime": 29288,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        146,
+        279
+      ],
       "objectName": "slider",
       "repeatCount": 2,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 128,
-          "y": 328
-        },
-        {
-          "x": 72,
-          "y": 320
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1605,26 +1985,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          146,
+          279
+        ],
+        [
+          128,
+          328
+        ],
+        [
+          72,
+          320
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        75,
+        320
+      ]
     },
     {
-      "x": 40,
-      "y": 120,
       "startTime": 30057,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        40,
+        120
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 256,
-          "y": 184
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1639,26 +2033,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          40,
+          120
+        ],
+        [
+          256,
+          184
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        213,
+        171
+      ]
     },
     {
-      "x": 472,
-      "y": 120,
       "startTime": 30826,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        472,
+        120
+      ],
       "objectName": "slider",
       "repeatCount": 2,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 256,
-          "y": 184
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1679,26 +2083,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          472,
+          120
+        ],
+        [
+          256,
+          184
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        299,
+        171
+      ]
     },
     {
-      "x": 64,
-      "y": 192,
       "startTime": 32365,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        64,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 64,
-          "y": 88
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1713,26 +2127,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          64,
+          192
+        ],
+        [
+          64,
+          88
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        64,
+        102
+      ]
     },
     {
-      "x": 128,
-      "y": 192,
       "startTime": 32749,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        128,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 128,
-          "y": 304
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1747,26 +2171,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          128,
+          192
+        ],
+        [
+          128,
+          304
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        128,
+        282
+      ]
     },
     {
-      "x": 192,
-      "y": 192,
       "startTime": 33134,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        192,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 192,
-          "y": 88
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1781,26 +2215,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          192,
+          192
+        ],
+        [
+          192,
+          88
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        192,
+        102
+      ]
     },
     {
-      "x": 256,
-      "y": 192,
       "startTime": 33518,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 256,
-          "y": 288
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1815,26 +2259,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          256,
+          192
+        ],
+        [
+          256,
+          288
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        256,
+        282
+      ]
     },
     {
-      "x": 320,
-      "y": 192,
       "startTime": 33903,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        320,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 320,
-          "y": 80
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1849,26 +2303,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          320,
+          192
+        ],
+        [
+          320,
+          80
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        320,
+        102
+      ]
     },
     {
-      "x": 384,
-      "y": 192,
       "startTime": 34288,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        384,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 384,
-          "y": 296
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1883,26 +2347,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          384,
+          192
+        ],
+        [
+          384,
+          296
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        384,
+        282
+      ]
     },
     {
-      "x": 448,
-      "y": 192,
       "startTime": 34672,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        448,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 496,
-          "y": 16
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1917,26 +2391,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          448,
+          192
+        ],
+        [
+          496,
+          16
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        495,
+        18
+      ]
     },
     {
-      "x": 256,
-      "y": 192,
       "startTime": 35442,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 256,
-          "y": 376
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1951,26 +2435,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          256,
+          192
+        ],
+        [
+          256,
+          376
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        256,
+        372
+      ]
     },
     {
-      "x": 64,
-      "y": 192,
       "startTime": 36211,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        64,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 16,
-          "y": 16
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -1985,34 +2479,36 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          64,
+          192
+        ],
+        [
+          16,
+          16
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        17,
+        18
+      ]
     },
     {
-      "x": 200,
-      "y": 120,
       "startTime": 36980,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        200,
+        120
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 256,
-          "y": 192
-        },
-        {
-          "x": 256,
-          "y": 192
-        },
-        {
-          "x": 320,
-          "y": 112
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2027,26 +2523,44 @@
           "additions": {}
         }
       ],
-      "curveType": "linear"
+      "pointsList": [
+        [
+          200,
+          120
+        ],
+        [
+          256,
+          192
+        ],
+        [
+          256,
+          192
+        ],
+        [
+          320,
+          112
+        ]
+      ],
+      "curveType": "linear",
+      "endPoint": [
+        311,
+        262
+      ]
     },
     {
-      "x": 152,
-      "y": 344,
       "startTime": 38134,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        152,
+        344
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 80,
-          "y": 272
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2061,26 +2575,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          152,
+          344
+        ],
+        [
+          80,
+          272
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        88,
+        280
+      ]
     },
     {
-      "x": 216,
-      "y": 296,
       "startTime": 38518,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        216,
+        296
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 192,
-          "y": 200
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2095,26 +2619,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          216,
+          296
+        ],
+        [
+          192,
+          200
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        194,
+        209
+      ]
     },
     {
-      "x": 296,
-      "y": 296,
       "startTime": 38903,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        296,
+        296
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 320,
-          "y": 200
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2129,26 +2663,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          296,
+          296
+        ],
+        [
+          320,
+          200
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        318,
+        209
+      ]
     },
     {
-      "x": 360,
-      "y": 344,
       "startTime": 39288,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        360,
+        344
+      ],
       "objectName": "slider",
       "repeatCount": 2,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 432,
-          "y": 272
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2169,63 +2713,75 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          360,
+          344
+        ],
+        [
+          432,
+          272
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        424,
+        280
+      ]
     },
     {
-      "x": 112,
-      "y": 168,
       "startTime": 40057,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        112,
+        168
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 64,
       "startTime": 40442,
       "newCombo": false,
       "soundTypes": [
         "clap"
       ],
+      "position": [
+        256,
+        64
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 400,
-      "y": 168,
       "startTime": 40826,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        400,
+        168
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 120,
-      "y": 224,
       "startTime": 41595,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        120,
+        224
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 96,
-          "y": 360
-        },
-        {
-          "x": 288,
-          "y": 360
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2240,30 +2796,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          120,
+          224
+        ],
+        [
+          96,
+          360
+        ],
+        [
+          288,
+          360
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        212,
+        353
+      ]
     },
     {
-      "x": 392,
-      "y": 224,
       "startTime": 42365,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        392,
+        224
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 416,
-          "y": 360
-        },
-        {
-          "x": 224,
-          "y": 360
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2278,34 +2844,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          392,
+          224
+        ],
+        [
+          416,
+          360
+        ],
+        [
+          224,
+          360
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        300,
+        353
+      ]
     },
     {
-      "x": 120,
-      "y": 224,
       "startTime": 43134,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        120,
+        224
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 360,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 160,
-          "y": 88
-        },
-        {
-          "x": 376,
-          "y": 96
-        },
-        {
-          "x": 400,
-          "y": 248
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2320,96 +2892,122 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          120,
+          224
+        ],
+        [
+          160,
+          88
+        ],
+        [
+          376,
+          96
+        ],
+        [
+          400,
+          248
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        394,
+        224
+      ]
     },
     {
-      "x": 256,
-      "y": 344,
       "startTime": 44288,
       "newCombo": true,
       "soundTypes": [
         "clap"
       ],
+      "position": [
+        256,
+        344
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 48,
-      "y": 192,
       "startTime": 44672,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        48,
+        192
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 40,
       "startTime": 45057,
       "newCombo": false,
       "soundTypes": [
         "clap"
       ],
+      "position": [
+        256,
+        40
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 464,
-      "y": 192,
       "startTime": 45442,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        464,
+        192
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 24,
-      "y": 264,
       "startTime": 46211,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        24,
+        264
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 80,
-      "y": 96,
       "startTime": 46595,
       "newCombo": false,
       "soundTypes": [
         "clap"
       ],
+      "position": [
+        80,
+        96
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 136,
-      "y": 264,
       "startTime": 46980,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        136,
+        264
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 128,
-          "y": 368
-        },
-        {
-          "x": 264,
-          "y": 360
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2424,52 +3022,66 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          136,
+          264
+        ],
+        [
+          128,
+          368
+        ],
+        [
+          264,
+          360
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        255,
+        360
+      ]
     },
     {
-      "x": 488,
-      "y": 264,
       "startTime": 47749,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        488,
+        264
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 432,
-      "y": 96,
       "startTime": 48133,
       "newCombo": false,
       "soundTypes": [
         "clap"
       ],
+      "position": [
+        432,
+        96
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 376,
-      "y": 264,
       "startTime": 48518,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        376,
+        264
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 384,
-          "y": 368
-        },
-        {
-          "x": 248,
-          "y": 360
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2484,64 +3096,80 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          376,
+          264
+        ],
+        [
+          384,
+          368
+        ],
+        [
+          248,
+          360
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        257,
+        360
+      ]
     },
     {
-      "x": 152,
-      "y": 64,
       "startTime": 49288,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
-      "objectName": "circle",
-      "additions": {}
-    },
-    {
-      "x": 360,
-      "y": 64,
-      "startTime": 49672,
-      "newCombo": false,
-      "soundTypes": [
-        "clap"
+      "position": [
+        152,
+        64
       ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 192,
+      "startTime": 49672,
+      "newCombo": false,
+      "soundTypes": [
+        "clap"
+      ],
+      "position": [
+        360,
+        64
+      ],
+      "objectName": "circle",
+      "additions": {}
+    },
+    {
       "startTime": 50056,
       "newCombo": true,
       "soundTypes": [
         "normal"
+      ],
+      "position": [
+        256,
+        192
       ],
       "objectName": "spinner",
       "endTime": 52365,
       "additions": {}
     },
     {
-      "x": 24,
-      "y": 72,
       "startTime": 52749,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        24,
+        72
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 0,
-          "y": 128
-        },
-        {
-          "x": 80,
-          "y": 176
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2556,30 +3184,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          24,
+          72
+        ],
+        [
+          0,
+          128
+        ],
+        [
+          80,
+          176
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        47,
+        152
+      ]
     },
     {
-      "x": 24,
-      "y": 72,
       "startTime": 53134,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        24,
+        72
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 104,
-          "y": -24
-        },
-        {
-          "x": 192,
-          "y": 88
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2594,26 +3232,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          24,
+          72
+        ],
+        [
+          104,
+          -24
+        ],
+        [
+          192,
+          88
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        176,
+        69
+      ]
     },
     {
-      "x": 248,
-      "y": 128,
       "startTime": 53711,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        248,
+        128
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 248,
-          "y": 312
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2628,41 +3280,49 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          248,
+          128
+        ],
+        [
+          248,
+          312
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        248,
+        308
+      ]
     },
     {
-      "x": 160,
-      "y": 280,
       "startTime": 54288,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        160,
+        280
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 248,
-      "y": 128,
       "startTime": 54672,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        248,
+        128
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 360,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 496,
-          "y": 104
-        },
-        {
-          "x": 496,
-          "y": 384
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2677,41 +3337,53 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          248,
+          128
+        ],
+        [
+          496,
+          104
+        ],
+        [
+          496,
+          384
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        493,
+        326
+      ]
     },
     {
-      "x": 328,
-      "y": 256,
       "startTime": 55826,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        328,
+        256
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 144,
-      "y": 256,
       "startTime": 56211,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        144,
+        256
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 32,
-          "y": 224
-        },
-        {
-          "x": 32,
-          "y": 96
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2726,30 +3398,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          144,
+          256
+        ],
+        [
+          32,
+          224
+        ],
+        [
+          32,
+          96
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        34,
+        128
+      ]
     },
     {
-      "x": 88,
-      "y": 56,
       "startTime": 56788,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        88,
+        56
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 200,
-          "y": 80
-        },
-        {
-          "x": 192,
-          "y": 200
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2764,45 +3446,53 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          88,
+          56
+        ],
+        [
+          200,
+          80
+        ],
+        [
+          192,
+          200
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        193,
+        182
+      ]
     },
     {
-      "x": 144,
-      "y": 256,
       "startTime": 57365,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        144,
+        256
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 312,
-      "y": 312,
       "startTime": 57749,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        312,
+        312
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 360,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 448,
-          "y": 240
-        },
-        {
-          "x": 440,
-          "y": 104
-        },
-        {
-          "x": 296,
-          "y": 16
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2817,140 +3507,174 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          312,
+          312
+        ],
+        [
+          448,
+          240
+        ],
+        [
+          440,
+          104
+        ],
+        [
+          296,
+          16
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        313,
+        27
+      ]
     },
     {
-      "x": 168,
-      "y": 128,
       "startTime": 58903,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        168,
+        128
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 96,
-      "y": 296,
       "startTime": 59288,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        96,
+        296
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 24,
-      "y": 128,
       "startTime": 59672,
       "newCombo": false,
       "soundTypes": [
         "clap"
       ],
+      "position": [
+        24,
+        128
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 344,
-      "y": 296,
       "startTime": 60442,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        344,
+        296
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 416,
-      "y": 128,
       "startTime": 60827,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        416,
+        128
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 488,
-      "y": 296,
       "startTime": 61211,
       "newCombo": false,
       "soundTypes": [
         "clap"
       ],
+      "position": [
+        488,
+        296
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 32,
       "startTime": 61980,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        32
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 184,
-      "y": 200,
       "startTime": 62365,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        184,
+        200
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 256,
       "startTime": 62557,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        256
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 328,
-      "y": 200,
       "startTime": 62749,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        328,
+        200
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 480,
-      "y": 264,
       "startTime": 63134,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        480,
+        264
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 456,
-          "y": 376
-        },
-        {
-          "x": 272,
-          "y": 368
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -2965,30 +3689,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          480,
+          264
+        ],
+        [
+          456,
+          376
+        ],
+        [
+          272,
+          368
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        347,
+        365
+      ]
     },
     {
-      "x": 165,
-      "y": 365,
       "startTime": 63903,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        165,
+        365
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 40,
-          "y": 352
-        },
-        {
-          "x": 32,
-          "y": 256
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3003,41 +3737,53 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          165,
+          365
+        ],
+        [
+          40,
+          352
+        ],
+        [
+          32,
+          256
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        33,
+        265
+      ]
     },
     {
-      "x": 360,
-      "y": 64,
       "startTime": 65057,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        360,
+        64
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 360,
-      "y": 248,
       "startTime": 65442,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        360,
+        248
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 360,
-          "y": 368
-        },
-        {
-          "x": 224,
-          "y": 368
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3052,30 +3798,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          360,
+          248
+        ],
+        [
+          360,
+          368
+        ],
+        [
+          224,
+          368
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        252,
+        367
+      ]
     },
     {
-      "x": 360,
-      "y": 248,
       "startTime": 66018,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        360,
+        248
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 480,
-          "y": 248
-        },
-        {
-          "x": 480,
-          "y": 384
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3090,34 +3846,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          360,
+          248
+        ],
+        [
+          480,
+          248
+        ],
+        [
+          480,
+          384
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        479,
+        356
+      ]
     },
     {
-      "x": 360,
-      "y": 64,
       "startTime": 66788,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        360,
+        64
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 450,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 112,
-          "y": 64
-        },
-        {
-          "x": 112,
-          "y": 248
-        },
-        {
-          "x": 376,
-          "y": 248
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3132,37 +3894,57 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          360,
+          64
+        ],
+        [
+          112,
+          64
+        ],
+        [
+          112,
+          248
+        ],
+        [
+          376,
+          248
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        363,
+        248
+      ]
     },
     {
-      "x": 168,
-      "y": 48,
       "startTime": 68134,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        168,
+        48
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 24,
-      "y": 152,
       "startTime": 68518,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        24,
+        152
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 216,
-          "y": 256
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3177,26 +3959,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          24,
+          152
+        ],
+        [
+          216,
+          256
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        182,
+        238
+      ]
     },
     {
-      "x": 96,
-      "y": 272,
       "startTime": 69095,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        96,
+        272
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 288,
-          "y": 376
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3211,30 +4003,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          96,
+          272
+        ],
+        [
+          288,
+          376
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        254,
+        358
+      ]
     },
     {
-      "x": 432,
-      "y": 328,
       "startTime": 69865,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        432,
+        328
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 450,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 464,
-          "y": 40
-        },
-        {
-          "x": 128,
-          "y": 48
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3249,26 +4047,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          432,
+          328
+        ],
+        [
+          464,
+          40
+        ],
+        [
+          128,
+          48
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        168,
+        48
+      ]
     },
     {
-      "x": 64,
-      "y": 192,
       "startTime": 71211,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        64,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": -16,
-          "y": 112
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3283,26 +4095,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          64,
+          192
+        ],
+        [
+          -16,
+          112
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        0,
+        128
+      ]
     },
     {
-      "x": 224,
-      "y": 192,
       "startTime": 71595,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        224,
+        192
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 304,
-          "y": 112
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3317,26 +4139,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          224,
+          192
+        ],
+        [
+          304,
+          112
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        288,
+        128
+      ]
     },
     {
-      "x": 144,
-      "y": 288,
       "startTime": 71980,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        144,
+        288
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 144,
-          "y": 384
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3351,26 +4183,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          144,
+          288
+        ],
+        [
+          144,
+          384
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        144,
+        378
+      ]
     },
     {
-      "x": 511,
-      "y": 255,
       "startTime": 72749,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        511,
+        255
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 448,
-          "y": 192
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3385,26 +4227,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          511,
+          255
+        ],
+        [
+          448,
+          192
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        447,
+        191
+      ]
     },
     {
-      "x": 224,
-      "y": 255,
       "startTime": 73133,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        224,
+        255
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 288,
-          "y": 192
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3419,26 +4271,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          224,
+          255
+        ],
+        [
+          288,
+          192
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        288,
+        192
+      ]
     },
     {
-      "x": 368,
-      "y": 6,
       "startTime": 73518,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        368,
+        6
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 368,
-          "y": 96
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3453,104 +4315,128 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          368,
+          6
+        ],
+        [
+          368,
+          96
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        368,
+        96
+      ]
     },
     {
-      "x": 224,
-      "y": 256,
       "startTime": 74287,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        224,
+        256
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 176,
-      "y": 328,
       "startTime": 74480,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        176,
+        328
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 88,
-      "y": 352,
       "startTime": 74672,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        88,
+        352
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 0,
-      "y": 192,
       "startTime": 75057,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        0,
+        192
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 80,
-      "y": 160,
       "startTime": 75249,
       "newCombo": false,
       "soundTypes": [
         "whistle"
       ],
-      "objectName": "circle",
-      "additions": {}
-    },
-    {
-      "x": 192,
-      "y": 24,
-      "startTime": 75633,
-      "newCombo": false,
-      "soundTypes": [
-        "whistle"
+      "position": [
+        80,
+        160
       ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 192,
+      "startTime": 75633,
+      "newCombo": false,
+      "soundTypes": [
+        "whistle"
+      ],
+      "position": [
+        192,
+        24
+      ],
+      "objectName": "circle",
+      "additions": {}
+    },
+    {
       "startTime": 76018,
       "newCombo": true,
       "soundTypes": [
         "normal"
+      ],
+      "position": [
+        256,
+        192
       ],
       "objectName": "spinner",
       "endTime": 77749,
       "additions": {}
     },
     {
-      "x": 120,
-      "y": 32,
       "startTime": 78134,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        120,
+        32
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 32,
-          "y": 112
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3565,26 +4451,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          120,
+          32
+        ],
+        [
+          32,
+          112
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        53,
+        93
+      ]
     },
     {
-      "x": 152,
-      "y": 160,
       "startTime": 78518,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        152,
+        160
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 208,
-          "y": 256
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3599,26 +4495,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          152,
+          160
+        ],
+        [
+          208,
+          256
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        197,
+        238
+      ]
     },
     {
-      "x": 312,
-      "y": 272,
       "startTime": 78903,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        312,
+        272
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 264,
-          "y": 368
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3633,26 +4539,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          312,
+          272
+        ],
+        [
+          264,
+          368
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        272,
+        352
+      ]
     },
     {
-      "x": 384,
-      "y": 336,
       "startTime": 79288,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        384,
+        336
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 480,
-          "y": 304
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3667,26 +4583,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          384,
+          336
+        ],
+        [
+          480,
+          304
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        469,
+        308
+      ]
     },
     {
-      "x": 416,
-      "y": 200,
       "startTime": 79672,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        416,
+        200
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 488,
-          "y": 80
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3701,26 +4627,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          416,
+          200
+        ],
+        [
+          488,
+          80
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        462,
+        123
+      ]
     },
     {
-      "x": 344,
-      "y": 112,
       "startTime": 80057,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        344,
+        112
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 272,
-          "y": 40
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3735,30 +4671,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          344,
+          112
+        ],
+        [
+          272,
+          40
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        280,
+        48
+      ]
     },
     {
-      "x": 264,
-      "y": 168,
       "startTime": 80442,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        264,
+        168
+      ],
       "objectName": "slider",
       "repeatCount": 3,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 168,
-          "y": 120
-        },
-        {
-          "x": 80,
-          "y": 216
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3785,56 +4727,66 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          264,
+          168
+        ],
+        [
+          168,
+          120
+        ],
+        [
+          80,
+          216
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        99,
+        197
+      ]
     },
     {
-      "x": 40,
-      "y": 296,
       "startTime": 82365,
       "newCombo": true,
       "soundTypes": [
         "whistle"
       ],
+      "position": [
+        40,
+        296
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 256,
-      "y": 40,
       "startTime": 82749,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        40
+      ],
       "objectName": "circle",
       "additions": {}
     },
     {
-      "x": 472,
-      "y": 296,
       "startTime": 83133,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        472,
+        296
+      ],
       "objectName": "slider",
       "repeatCount": 2,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 472,
-          "y": 368
-        },
-        {
-          "x": 344,
-          "y": 376
-        },
-        {
-          "x": 344,
-          "y": 264
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3855,26 +4807,44 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          472,
+          296
+        ],
+        [
+          472,
+          368
+        ],
+        [
+          344,
+          376
+        ],
+        [
+          344,
+          264
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        348,
+        295
+      ]
     },
     {
-      "x": 144,
-      "y": 56,
       "startTime": 84288,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        144,
+        56
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 64,
-          "y": 144
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3889,26 +4859,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          144,
+          56
+        ],
+        [
+          64,
+          144
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        83,
+        123
+      ]
     },
     {
-      "x": 104,
-      "y": 256,
       "startTime": 84672,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        104,
+        256
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 168,
-          "y": 184
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3923,26 +4903,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          104,
+          256
+        ],
+        [
+          168,
+          184
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        164,
+        189
+      ]
     },
     {
-      "x": 256,
-      "y": 288,
       "startTime": 85057,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        288
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 376,
-          "y": 336
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -3957,30 +4947,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          256,
+          288
+        ],
+        [
+          376,
+          336
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        340,
+        321
+      ]
     },
     {
-      "x": 464,
-      "y": 264,
       "startTime": 85442,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        464,
+        264
+      ],
       "objectName": "slider",
       "repeatCount": 2,
       "pixelLength": 360,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 224,
-          "y": 264
-        },
-        {
-          "x": 248,
-          "y": 8
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -4001,26 +4997,40 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          464,
+          264
+        ],
+        [
+          224,
+          264
+        ],
+        [
+          248,
+          8
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        246,
+        41
+      ]
     },
     {
-      "x": 112,
-      "y": 344,
       "startTime": 87749,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        112,
+        344
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 180,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 112,
-          "y": 144
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -4035,26 +5045,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          112,
+          344
+        ],
+        [
+          112,
+          144
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        112,
+        164
+      ]
     },
     {
-      "x": 256,
-      "y": 64,
       "startTime": 88518,
       "newCombo": true,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        64
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 352,
-          "y": 16
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -4069,26 +5089,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          256,
+          64
+        ],
+        [
+          352,
+          16
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        336,
+        24
+      ]
     },
     {
-      "x": 384,
-      "y": 160,
       "startTime": 88903,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        384,
+        160
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 90,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 488,
-          "y": 160
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -4103,30 +5133,36 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          384,
+          160
+        ],
+        [
+          488,
+          160
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        474,
+        160
+      ]
     },
     {
-      "x": 256,
-      "y": 256,
       "startTime": 89288,
       "newCombo": false,
       "soundTypes": [
         "normal"
       ],
+      "position": [
+        256,
+        256
+      ],
       "objectName": "slider",
       "repeatCount": 1,
       "pixelLength": 315,
       "additions": {},
-      "pointsList": [
-        {
-          "x": 256,
-          "y": 384
-        },
-        {
-          "x": 520,
-          "y": 368
-        }
-      ],
       "edges": [
         {
           "soundTypes": [
@@ -4141,7 +5177,25 @@
           "additions": {}
         }
       ],
-      "curveType": "bezier"
+      "pointsList": [
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          384
+        ],
+        [
+          520,
+          368
+        ]
+      ],
+      "curveType": "bezier",
+      "endPoint": [
+        513,
+        368
+      ]
     }
   ],
   "timingPoints": [
