@@ -1,4 +1,7 @@
 ## last changes (not published on npm)
+nothing
+
+## 0.1.0
 - fix number of slider edge sounds that could be wrong
 - parse object additions
 - parse sounds and additions on the edges of sliders
