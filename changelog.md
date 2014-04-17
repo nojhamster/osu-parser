@@ -1,4 +1,7 @@
 ## last changes (not published on npm)
+nothing
+
+## 0.1.1
 - bpm (string or integer) replaced by bpmMin and bpmMax (integers)
 
 ## 0.1.0
