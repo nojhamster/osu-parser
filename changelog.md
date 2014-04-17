@@ -1,5 +1,5 @@
 ## last changes (not published on npm)
-nothing
+- bpm (string or integer) replaced by bpmMin and bpmMax (integers)
 
 ## 0.1.0
 - fix number of slider edge sounds that could be wrong

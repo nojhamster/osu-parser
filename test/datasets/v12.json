@@ -15618,6 +15618,8 @@
   "SliderMultiplier": "1.6",
   "SliderTickRate": "1",
   "bgFilename": "asdasd.jpg",
+  "bpmMin": 175,
+  "bpmMax": 175,
   "Combo1": "245,173,235",
   "Combo2": "0,132,196",
   "Combo3": "149,199,253",
@@ -15633,7 +15635,6 @@
     "kattypie",
     "lally"
   ],
-  "bpm": 175,
   "totalTime": 154,
   "drainingTime": 144
 }

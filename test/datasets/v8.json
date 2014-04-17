@@ -5336,6 +5336,8 @@
   "SliderMultiplier": "1.8",
   "SliderTickRate": "1",
   "bgFilename": "luminous arc 3.jpg",
+  "bpmMin": 156,
+  "bpmMax": 156,
   "Combo1": "34,79,255",
   "Combo2": "255,166,17",
   "Combo3": "91,0,204",
@@ -5343,7 +5345,6 @@
   "tagsArray": [
     "LA3"
   ],
-  "bpm": 156,
   "totalTime": 89,
   "drainingTime": 89
 }

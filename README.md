@@ -57,7 +57,8 @@ beatmap: {
   <tr><td>nbCircles</td><td>Integer</td><td>number of circles.</td></tr>
   <tr><td>nbSliders</td><td>Integer</td><td>number of sliders.</td></tr>
   <tr><td>nbSpinners</td><td>Integer</td><td>number of spinners.</td></tr>
-  <tr><td>bpm</td><td>Integer or String</td><td>a single number if constant (ex `150`), or min~max (ex `140~180`).<br/>This behaviour might change</td></tr>
+  <tr><td>bpmMin</td><td>Integer</td><td>minimum bpm.</td></tr>
+  <tr><td>bpmMax</td><td>Integer</td><td>maximum bpm.</td></tr>
   <tr><td>totalTime</td><td>Integer</td><td>total time in seconds (between the first timing point and the last object).</td></tr>
   <tr><td>drainingTime</td><td>Integer</td><td>draining time in seconds.</td></tr>
   <tr><td>hitObjects</td><td>Array</td><td>list of all hit objects. See HitObject below.</td></tr>

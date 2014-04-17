@@ -14283,6 +14283,8 @@
   "SliderMultiplier": "1.8",
   "SliderTickRate": "1",
   "bgFilename": "rrrr.jpg",
+  "bpmMin": 180,
+  "bpmMax": 180,
   "Combo1": "254,221,35",
   "Combo2": "0,128,255",
   "Combo3": "255,140,26",
@@ -14295,7 +14297,6 @@
     "The",
     "Summoning"
   ],
-  "bpm": "180~184",
   "totalTime": 194,
   "drainingTime": 179
 }

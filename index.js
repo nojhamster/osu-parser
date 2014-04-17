@@ -58,8 +58,8 @@ Parser.prototype.parseLine = function (line) {
       if (beatLength > 0) {
         // If positive, beatLength is the length of a beat in milliseconds
         var bpm = Math.round(60000 / beatLength);
-        if (!this.bpmMin || this.bpmMin > bpm) { this.bpmMin = bpm; }
-        if (!this.bpmMax || this.bpmMax < bpm) { this.bpmMax = bpm; }
+        this.beatmap.bpmMin = this.beatmap.bpmMin ? Math.min(this.bpmMin || null, bpm) : bpm;
+        this.beatmap.bpmMax = this.beatmap.bpmMax ? Math.min(this.bpmMax || null, bpm) : bpm;
         timingPoint.bpm = bpm;
       } else {
         // If negative, beatLength is a velocity factor
@@ -272,13 +272,6 @@ Parser.prototype.parseAdditions = function (str) {
 Parser.prototype.finalizeBeatmap = function () {
   if (this.beatmap['Tags']) {
     this.beatmap.tagsArray = this.beatmap['Tags'].split(' ');
-  }
-
-  if (this.bpmMin && this.bpmMax) {
-    if (this.bpmMin != this.bpmMax)
-      this.beatmap.bpm = this.bpmMin + '~' + this.bpmMax;
-    else
-      this.beatmap.bpm = this.bpmMax;
   }
 
   var hitObjects   = this.beatmap.hitObjects;

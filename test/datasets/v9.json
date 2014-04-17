@@ -17361,6 +17361,8 @@
   "SliderMultiplier": "2",
   "SliderTickRate": "1",
   "bgFilename": "BG.jpg",
+  "bpmMin": 180,
+  "bpmMax": 180,
   "Combo1": "0,64,128",
   "Combo2": "128,128,255",
   "tagsArray": [
@@ -17368,7 +17370,6 @@
     "gowww",
     "lepidopodus"
   ],
-  "bpm": 180,
   "totalTime": 182,
   "drainingTime": 163
 }

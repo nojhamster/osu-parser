@@ -9004,6 +9004,8 @@
   "SliderMultiplier": "0.999999999999999",
   "SliderTickRate": "2",
   "bgFilename": "BG.jpg",
+  "bpmMin": 130,
+  "bpmMax": 130,
   "Combo1": "203,174,41",
   "Combo2": "94,221,87",
   "Combo3": "128,128,255",
@@ -9014,7 +9016,6 @@
     "Studio",
     "Ghibli"
   ],
-  "bpm": 130,
   "totalTime": 207,
   "drainingTime": 197
 }

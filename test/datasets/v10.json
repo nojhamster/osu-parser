@@ -6882,6 +6882,8 @@
   "SliderMultiplier": "1.8",
   "SliderTickRate": "2",
   "bgFilename": "bg.jpg",
+  "bpmMin": 93,
+  "bpmMax": 93,
   "Combo1": "251,164,85",
   "Combo2": "255,255,196",
   "Combo3": "190,62,58",
@@ -6895,7 +6897,6 @@
     "Hatsune",
     "Miku"
   ],
-  "bpm": 93,
   "totalTime": 130,
   "drainingTime": 111
 }
