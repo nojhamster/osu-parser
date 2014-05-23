@@ -1,5 +1,6 @@
 ## last changes (not published on npm)
-nothing
+- [major] the beatmap is now divided into sections with timing properties and hitobjects
+- map length now starts from the very beginning and not from the first timingpoint
 
 ## 0.1.1
 - bpm (string or integer) replaced by bpmMin and bpmMax (integers)
