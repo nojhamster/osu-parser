@@ -9,8 +9,7 @@ function Parser() {
     nbCircles: 0,
     nbSliders: 0,
     nbSpinners: 0,
-    hitObjects: [],
-    timingPoints: []
+    sections: []
   };
 
   this.sectionReg     = /^\[([a-zA-Z0-9]+)\]$/;
@@ -23,6 +22,19 @@ function Parser() {
     P: "pass-through"
   };
 }
+
+/**
+ * Get the section an offset belongs to
+ * @param  {Integer} offset
+ * @return {Object}  section
+ */
+Parser.prototype.getSection = function (offset) {
+  var section;
+  for (var i = 0, l = this.beatmap.sections.length; i < l; i++) {
+    if (this.beatmap.sections[i].offset > offset) { return this.beatmap.sections[i]; }
+  };
+  return this.beatmap.sections[this.beatmap.sections.length - 1];
+};
 
 /**
  * Parse a single line and update the beatmap
@@ -42,31 +54,36 @@ Parser.prototype.parseLine = function (line) {
   case 'timingpoints':
     var members = line.split(',');
 
-    var timingPoint = {
-      offset:           members[0],
+    var section = {
+      offset:           parseInt(members[0]),
       beatLength:       members[1],
       timingSignature:  members[2],
       sampleSetId:      members[3],
       useCustomSamples: (members[4] == 1),
       sampleVolume:     members[5],
       timingChange:     (members[6] == 1),
-      kiaiTimeActive:   (members[7] == 1)
+      kiaiTimeActive:   (members[7] == 1),
+      hitObjects: []
     };
 
-    var beatLength = parseFloat(timingPoint.beatLength);
+    var beatLength = parseFloat(section.beatLength);
     if (!isNaN(beatLength) && beatLength != 0) {
       if (beatLength > 0) {
         // If positive, beatLength is the length of a beat in milliseconds
         var bpm = Math.round(60000 / beatLength);
         this.beatmap.bpmMin = this.beatmap.bpmMin ? Math.min(this.bpmMin || null, bpm) : bpm;
         this.beatmap.bpmMax = this.beatmap.bpmMax ? Math.min(this.bpmMax || null, bpm) : bpm;
-        timingPoint.bpm = bpm;
+        section.bpm = bpm;
       } else {
         // If negative, beatLength is a velocity factor
-        timingPoint.velocity = Math.abs(100 / beatLength);
+        section.velocity = Math.abs(100 / beatLength);
       }
     }
-    this.beatmap.timingPoints.push(timingPoint);
+
+    this.beatmap.sections.push(section)
+    this.beatmap.sections.sort(function (s1, s2) {
+      return (s1.offset < s2.offset ? -1 : 1);
+    });
     break;
   case 'hitobjects':
     var members = line.split(',');
@@ -181,7 +198,8 @@ Parser.prototype.parseLine = function (line) {
       hitobject.objectName = 'unknown';
     }
 
-    this.beatmap.hitObjects.push(hitobject);
+    var section = this.getSection(hitobject.startTime);
+    section.hitObjects.push(hitobject);
     break;
   case 'events':
     /**
@@ -274,13 +292,16 @@ Parser.prototype.finalizeBeatmap = function () {
     this.beatmap.tagsArray = this.beatmap['Tags'].split(' ');
   }
 
-  var hitObjects   = this.beatmap.hitObjects;
+  var firstSection = this.beatmap.sections[0];
+  var lastSection  = this.beatmap.sections[this.beatmap.sections.length - 1];
+  var hitObjects   = firstSection ? firstSection.hitObjects : [];
   var timingPoints = this.beatmap.timingPoints;
 
-  if (hitObjects.length && timingPoints.length) {
-    var firstTimingOffset     = timingPoints[0].offset;
-    var firstObjectOffset     = hitObjects[0].startTime;
-    var lastObjectOffset      = hitObjects[hitObjects.length-1].startTime;
+  if (firstSection && lastSection && firstSection.hitObjects.length && lastSection.hitObjects.length) {
+    // Fixme: first section could have no object (see v12.osu)
+    var firstTimingOffset     = firstSection.offset;
+    var firstObjectOffset     = firstSection.hitObjects[0].startTime;
+    var lastObjectOffset      = lastSection.hitObjects[lastSection.hitObjects.length - 1].startTime;
 
     this.beatmap.totalTime    = Math.ceil((lastObjectOffset - firstTimingOffset) / 1000);
     this.beatmap.drainingTime = Math.ceil((lastObjectOffset - firstObjectOffset - this.totalBreakTime) / 1000);
