@@ -292,19 +292,32 @@ Parser.prototype.finalizeBeatmap = function () {
     this.beatmap.tagsArray = this.beatmap['Tags'].split(' ');
   }
 
-  var firstSection = this.beatmap.sections[0];
-  var lastSection  = this.beatmap.sections[this.beatmap.sections.length - 1];
-  var hitObjects   = firstSection ? firstSection.hitObjects : [];
-  var timingPoints = this.beatmap.timingPoints;
+  var sections = this.beatmap.sections;
+  var firstObjectOffset;
+  var lastObjectOffset;
+  var lgt;
 
-  if (firstSection && lastSection && firstSection.hitObjects.length && lastSection.hitObjects.length) {
-    // Fixme: first section could have no object (see v12.osu)
-    var firstTimingOffset     = firstSection.offset;
-    var firstObjectOffset     = firstSection.hitObjects[0].startTime;
-    var lastObjectOffset      = lastSection.hitObjects[lastSection.hitObjects.length - 1].startTime;
+  //Get first object offset
+  for (var i = 0, l = sections.length; i < l; i++) {
+    lgt = sections[i].hitObjects.length;
+    if (lgt > 0) {
+      firstObjectOffset = sections[i].hitObjects[0].startTime;
+      break;
+    }
+  };
 
-    this.beatmap.totalTime    = Math.ceil((lastObjectOffset - firstTimingOffset) / 1000);
-    this.beatmap.drainingTime = Math.ceil((lastObjectOffset - firstObjectOffset - this.totalBreakTime) / 1000);
+  //Get last object offset
+  for (var i = sections.length - 1; i >= 0; i--) {
+    lgt = sections[i].hitObjects.length;
+    if (lgt > 0) {
+      lastObjectOffset = sections[i].hitObjects[lgt - 1].startTime;
+      break;
+    }
+  };
+
+  if (firstObjectOffset && lastObjectOffset) {
+    this.beatmap.totalTime    = Math.floor(lastObjectOffset / 1000);
+    this.beatmap.drainingTime = Math.floor((lastObjectOffset - firstObjectOffset - this.totalBreakTime) / 1000);
   } else {
     this.beatmap.totalTime    = 0;
     this.beatmap.drainingTime = 0;
@@ -347,7 +360,7 @@ exports.parseFile = function (file, callback) {
  */
 exports.parseStream = function (stream, callback) {
   var parser = new Parser();
-  var lazy = new Lazy(stream);
+  var lazy   = new Lazy(stream);
   lazy
   .map(String)
   .lines
