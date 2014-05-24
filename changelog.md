@@ -1,6 +1,8 @@
 ## last changes (not published on npm)
 - [major] the beatmap is now divided into sections with timing properties and hitobjects
 - map length now starts from the very beginning and not from the first timingpoint
+- timingSignature, sampleSetId and sampleVolume now parsed into Integers
+- beatLength now parsed into float
 
 ## 0.1.1
 - bpm (string or integer) replaced by bpmMin and bpmMax (integers)
