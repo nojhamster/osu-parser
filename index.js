@@ -56,27 +56,27 @@ Parser.prototype.parseLine = function (line) {
 
     var section = {
       offset:           parseInt(members[0]),
-      beatLength:       members[1],
-      timingSignature:  members[2],
-      sampleSetId:      members[3],
+      beatLength:       parseFloat(members[1]),
+      velocity:         1,
+      timingSignature:  parseInt(members[2]),
+      sampleSetId:      parseInt(members[3]),
       useCustomSamples: (members[4] == 1),
-      sampleVolume:     members[5],
+      sampleVolume:     parseInt(members[5]),
       timingChange:     (members[6] == 1),
       kiaiTimeActive:   (members[7] == 1),
       hitObjects: []
     };
 
-    var beatLength = parseFloat(section.beatLength);
-    if (!isNaN(beatLength) && beatLength != 0) {
-      if (beatLength > 0) {
+    if (!isNaN(section.beatLength) && section.beatLength != 0) {
+      if (section.beatLength > 0) {
         // If positive, beatLength is the length of a beat in milliseconds
-        var bpm = Math.round(60000 / beatLength);
+        var bpm             = Math.round(60000 / section.beatLength);
         this.beatmap.bpmMin = this.beatmap.bpmMin ? Math.min(this.bpmMin || null, bpm) : bpm;
         this.beatmap.bpmMax = this.beatmap.bpmMax ? Math.min(this.bpmMax || null, bpm) : bpm;
-        section.bpm = bpm;
+        section.bpm         = bpm;
       } else {
         // If negative, beatLength is a velocity factor
-        section.velocity = Math.abs(100 / beatLength);
+        section.velocity = Math.abs(100 / section.beatLength);
       }
     }
 
