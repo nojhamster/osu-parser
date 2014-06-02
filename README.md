@@ -32,18 +32,16 @@ npm install osu-parser
 
 ## The resulting object
 
-It contains all key/value pairs :
+Simple key/value entries like this...
 ```
 ...
 PreviewTime: 42860
 ...
 ```
+...are directly reachable as properties : 
 ```
-beatmap: {
-  ...
-  PreviewTime: 42860,
-  ...
-}
+console.log(beatmap['PreviewTime']);
+// prints 42860
 ```
 
 ### Additionnal beatmap properties :  
@@ -61,9 +59,28 @@ beatmap: {
   <tr><td>bpmMax</td><td>Integer</td><td>maximum bpm.</td></tr>
   <tr><td>totalTime</td><td>Integer</td><td>total time in seconds (between the first timing point and the last object).</td></tr>
   <tr><td>drainingTime</td><td>Integer</td><td>draining time in seconds.</td></tr>
-  <tr><td>hitObjects</td><td>Array</td><td>list of all hit objects. See HitObject below.</td></tr>
-  <tr><td>timingPoints</td><td>Array</td><td>list of all timing points. See TimingPoint below.</td></tr>
+  <tr><td>sections</td><td>Array</td><td>list of all sections. Sections are delimited by the timing points. See Section below.</td></tr>
   <tr><td>tagsArray</td><td>Array</td><td>tags splitted into an array, for convenience.</td></tr>
+</table>
+
+#### Section properties
+<table>
+  <tr>
+    <th>name</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+  <tr><td>offset</td><td>Integer</td><td>section offset in milliseconds. (i.e. starting timingpoint offset)</td></tr>
+  <tr><td>beatLength</td><td>Float</td><td>length of a single beat in milliseconds (float). If negative, it's a change of velocity.</td></tr>
+  <tr><td>bpm</td><td>Float</td><td>number of beats per minute. (only if beatLength is positive)</td></tr>
+  <tr><td>velocity</td><td>Float</td><td>velocity multiplicator. (1 if beatLength is positive)</td></tr>
+  <tr><td>timingSignature</td><td>Integer</td><td>3 = simple triple, 4 = simple quadruple (used in editor).</td></tr>
+  <tr><td>sampleSetId</td><td>Integer</td><td>sound samples. None = 0, Normal = 1, Soft = 2.</td></tr>
+  <tr><td>useCustomSamples</td><td>Boolean</td><td>use skin localised samples ?</td></tr>
+  <tr><td>sampleVolume</td><td>Integer</td><td>volume of the samples.</td></tr>
+  <tr><td>timingChange</td><td>Boolean</td><td>is there a beatLength change ?</td></tr>
+  <tr><td>kiaiTimeActive</td><td>Boolean</td><td>is it a kiai section ?</td></tr>
+  <tr><td>hitObjects</td><td>Array</td><td>list of all hitobjects in the section. See HitObject below.</td></tr>
 </table>
 
 #### HitObject properties
@@ -119,25 +136,6 @@ beatmap: {
     <th>description</th>
   </tr>
   <tr><td>endTime</td><td>Integer</td><td>end offset.</td></tr>
-</table>
-
-#### TimingPoint properties
-<table>
-  <tr>
-    <th>name</th>
-    <th>type</th>
-    <th>description</th>
-  </tr>
-  <tr><td>offset</td><td>Integer</td><td>section offset in milliseconds.</td></tr>
-  <tr><td>beatLength</td><td>Float</td><td>length of a single beat in milliseconds (float). If negative, it's a change of velocity.</td></tr>
-  <tr><td>bpm</td><td>Float</td><td>number of beats per minute. (only if beatLength is positive)</td></tr>
-  <tr><td>velocity</td><td>Float</td><td>velocity multiplicator. (only if beatLength is negative)</td></tr>
-  <tr><td>timingSignature</td><td>Integer</td><td>3 = simple triple, 4 = simple quadruple (used in editor).</td></tr>
-  <tr><td>sampleSetId</td><td>Integer</td><td>sound samples. None = 0, Normal = 1, Soft = 2.</td></tr>
-  <tr><td>useCustomSamples</td><td>Boolean</td><td>use skin localised samples ?</td></tr>
-  <tr><td>sampleVolume</td><td>Integer</td><td>volume of the samples.</td></tr>
-  <tr><td>timingChange</td><td>Boolean</td><td>is there a beatLength change ?</td></tr>
-  <tr><td>kiaiTimeActive</td><td>Boolean</td><td>is it a kiai section ?</td></tr>
 </table>
 
 ## Methods
