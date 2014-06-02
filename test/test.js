@@ -14,7 +14,7 @@ function compareBeatmaps(obj1, obj2) {
   for (var p in obj1) {
     switch (p) {
       case 'hitObjects':
-      case 'timingPoints':
+      case 'sections':
       case 'tagsArray':
         assert.deepEqual(obj1[p], obj2[p], util.format('%s was not parsed correctly', p));
         break;
