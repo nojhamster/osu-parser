@@ -4,55 +4,101 @@ var fs         = require('fs');
 var Lazy       = require('lazy');
 var slidercalc = require('./lib/slidercalc.js');
 
-function Parser() {
-  this.beatmap = {
+function beatmapParser() {
+  var beatmap = {
     nbCircles: 0,
     nbSliders: 0,
     nbSpinners: 0,
     sections: []
   };
 
-  this.sectionReg     = /^\[([a-zA-Z0-9]+)\]$/;
-  this.keyValReg      = /^([a-zA-Z0-9]+)[ ]*:[ ]*(.+)$/;
-  this.totalBreakTime = 0;
-  this.curveTypes     = {
+  var osuSection;
+  var bpmMin;
+  var bpmMax;
+  var members;
+
+  var timingLines    = [];
+  var objectLines    = [];
+  var eventsLines    = [];
+  var sectionReg     = /^\[([a-zA-Z0-9]+)\]$/;
+  var keyValReg      = /^([a-zA-Z0-9]+)[ ]*:[ ]*(.+)$/;
+  var totalBreakTime = 0;
+  var curveTypes     = {
     C: "catmull",
     B: "bezier",
     L: "linear",
     P: "pass-through"
   };
-}
 
-/**
- * Get the section an offset belongs to
- * @param  {Integer} offset
- * @return {Object}  section
- */
-Parser.prototype.getSection = function (offset) {
-  var section;
-  for (var i = 0, l = this.beatmap.sections.length; i < l; i++) {
-    if (this.beatmap.sections[i].offset > offset) { return this.beatmap.sections[Math.max(--i, 0)]; }
+  /**
+   * Get the section an offset belongs to
+   * @param  {Integer} offset
+   * @return {Object}  section
+   */
+  var getSection = function (offset) {
+    var section;
+    for (var i = 0, l = beatmap.sections.length; i < l; i++) {
+      if (beatmap.sections[i].offset > offset) { return beatmap.sections[Math.max(--i, 0)]; }
+    }
+    return beatmap.sections[beatmap.sections.length - 1];
   };
-  return this.beatmap.sections[this.beatmap.sections.length - 1];
-};
 
-/**
- * Parse a single line and update the beatmap
- * @param  {String|Buffer} line
- */
-Parser.prototype.parseLine = function (line) {
-  line = line.toString().trim();
-  if (!line) { return; }
+  /**
+   * Parse additions member
+   * @param  {String} str         additions member (sample:add:customSampleIndex:Volume:hitsound)
+   * @return {Object} additions   a list of additions
+   */
+  var parseAdditions = function (str) {
+    if (!str) return {};
 
-  var match = this.sectionReg.exec(line);
-  if (match) {
-    this.section = match[1].toLowerCase();
-    return;
-  }
+    var additions = {};
+    var adds      = str.split(':');
 
-  switch (this.section) {
-  case 'timingpoints':
-    var members = line.split(',');
+    if (adds[0] && adds[0] !== '0') {
+      var sample;
+      switch (adds[0]) {
+        case '1':
+          sample = 'normal';
+          break;
+        case '2':
+          sample = 'soft';
+          break;
+        case '3':
+          sample = 'drum';
+          break;
+      }
+      additions.sample = sample;
+    }
+
+    if (adds[1] && adds[1] !== '0') {
+      var addSample;
+      switch (adds[1]) {
+        case '1':
+          addSample = 'normal';
+          break;
+        case '2':
+          addSample = 'soft';
+          break;
+        case '3':
+          addSample = 'drum';
+          break;
+      }
+      additions.additionalSample = addSample;
+    }
+
+    if (adds[2] && adds[2] !== '0') { additions.customSampleIndex = parseInt(adds[2]); }
+    if (adds[3] && adds[3] !== '0') { additions.hitsoundVolume    = parseInt(adds[3]); }
+    if (adds[4])                    { additions.hitsound          = adds[4]; }
+
+    return additions;
+  };
+
+  /**
+   * Parse a timing line
+   * @param  {String} line
+   */
+  var parseTimingPoint = function (line) {
+    members = line.split(',');
 
     var section = {
       offset:           parseInt(members[0]),
@@ -67,26 +113,31 @@ Parser.prototype.parseLine = function (line) {
       hitObjects: []
     };
 
-    if (!isNaN(section.beatLength) && section.beatLength != 0) {
+    if (!isNaN(section.beatLength) && section.beatLength !== 0) {
       if (section.beatLength > 0) {
         // If positive, beatLength is the length of a beat in milliseconds
-        var bpm             = Math.round(60000 / section.beatLength);
-        this.beatmap.bpmMin = this.beatmap.bpmMin ? Math.min(this.bpmMin || null, bpm) : bpm;
-        this.beatmap.bpmMax = this.beatmap.bpmMax ? Math.min(this.bpmMax || null, bpm) : bpm;
-        section.bpm         = bpm;
+        var bpm        = Math.round(60000 / section.beatLength);
+        beatmap.bpmMin = beatmap.bpmMin ? Math.min(beatmap.bpmMin, bpm) : bpm;
+        beatmap.bpmMax = beatmap.bpmMax ? Math.max(beatmap.bpmMax, bpm) : bpm;
+        section.bpm    = bpm;
       } else {
         // If negative, beatLength is a velocity factor
         section.velocity = Math.abs(100 / section.beatLength);
       }
     }
 
-    this.beatmap.sections.push(section)
-    this.beatmap.sections.sort(function (s1, s2) {
+    beatmap.sections.push(section);
+    beatmap.sections.sort(function (s1, s2) {
       return (s1.offset < s2.offset ? -1 : 1);
     });
-    break;
-  case 'hitobjects':
-    var members = line.split(',');
+  };
+
+  /**
+   * Parse an object line
+   * @param  {String} line
+   */
+  var parseHitObject = function (line) {
+    members = line.split(',');
 
     var soundType  = members[4];
     var objectType = members[3];
@@ -99,7 +150,7 @@ Parser.prototype.parseLine = function (line) {
         parseInt(members[0]),
         parseInt(members[1])
       ]
-    }
+    };
 
     /**
      * sound type is a bitwise flag enum
@@ -121,22 +172,22 @@ Parser.prototype.parseLine = function (line) {
      */
     if ((objectType & 1) == 1) {
       // Circle
-      this.beatmap.nbCircles++;
+      beatmap.nbCircles++;
       hitobject.objectName = 'circle';
-      hitobject.additions  = this.parseAdditions(members[5]);
+      hitobject.additions  = parseAdditions(members[5]);
     } else if ((objectType & 8) == 8) {
       // Spinner
-      this.beatmap.nbSpinners++;
+      beatmap.nbSpinners++;
       hitobject.objectName = 'spinner';
       hitobject.endTime    = parseInt(members[5]);
-      hitobject.additions  = this.parseAdditions(members[6]);
+      hitobject.additions  = parseAdditions(members[6]);
     } else if ((objectType & 2) == 2) {
       // Slider
-      this.beatmap.nbSliders++;
+      beatmap.nbSliders++;
       hitobject.objectName  = 'slider';
       hitobject.repeatCount = parseInt(members[6]);
       hitobject.pixelLength = parseInt(members[7]);
-      hitobject.additions   = this.parseAdditions(members[10]);
+      hitobject.additions   = parseAdditions(members[10]);
       hitobject.edges       = [];
       hitobject.points      = [
         [hitobject.position[0], hitobject.position[1]]
@@ -147,7 +198,7 @@ Parser.prototype.parseLine = function (line) {
        */
       var points = (members[5] || '').split('|');
       if (points.length) {
-        hitobject.curveType = this.curveTypes[points[0]] || 'unknown';
+        hitobject.curveType = curveTypes[points[0]] || 'unknown';
 
         for (var i = 1, l = points.length; i < l; i++) {
           var coordinates = points[i].split(':');
@@ -166,14 +217,14 @@ Parser.prototype.parseLine = function (line) {
       /**
        Get soundTypes and additions for each slider edge
        */
-      for (var i = 0, l = hitobject.repeatCount + 1; i < l; i++) {
+      for (var j = 0, lgt = hitobject.repeatCount + 1; j < lgt; j++) {
         var edge = {
           soundTypes: [],
-          additions: this.parseAdditions(edgeAdditions[i])
+          additions: parseAdditions(edgeAdditions[j])
         };
 
-        if (edgeSounds[i]) {
-          var sound = edgeSounds[i];
+        if (edgeSounds[j]) {
+          var sound = edgeSounds[j];
           if ((sound & 2) == 2)             { edge.soundTypes.push('whistle'); }
           if ((sound & 4) == 4)             { edge.soundTypes.push('finish');  }
           if ((sound & 8) == 8)             { edge.soundTypes.push('clap');    }
@@ -198,10 +249,15 @@ Parser.prototype.parseLine = function (line) {
       hitobject.objectName = 'unknown';
     }
 
-    var section = this.getSection(hitobject.startTime);
-    section.hitObjects.push(hitobject);
-    break;
-  case 'events':
+    var matchingSection = getSection(hitobject.startTime);
+    matchingSection.hitObjects.push(hitobject);
+  };
+
+  /**
+   * Parse an event line
+   * @param  {String} line
+   */
+  var parseEvent = function (line) {
     /**
      * Background line : 0,0,"bg.jpg"
      * TODO: confirm that the second member is always zero
@@ -210,121 +266,110 @@ Parser.prototype.parseLine = function (line) {
      * second integer is start offset
      * third integer is end offset
      */
-    var members = line.split(',');
+    members = line.split(',');
 
     if (members[0] == '0' && members[1] == '0' && /^".*"$/.test(members[2])) {
-      this.beatmap.bgFilename = members[2].substring(1, members[2].length - 1);
+      beatmap.bgFilename = members[2].substring(1, members[2].length - 1);
     } else if (members[0] == '2' && /^[0-9]+$/.test(members[1]) && /^[0-9]+$/.test(members[2])) {
-      this.totalBreakTime += (members[2] - members[1]);
+      totalBreakTime += (members[2] - members[1]);
     }
-    break;
-  default:
-    if (!this.section) {
-      match = /^osu file format (v[0-9]+)$/.exec(line);
-      if (match) {
-        this.beatmap.fileFormat = match[1];
-        return;
+  };
+
+  /**
+   * Read a single line, parse when key/value, store when needed further parsing
+   * @param  {String|Buffer} line
+   */
+  var readLine = function (line) {
+    line = line.toString().trim();
+    if (!line) { return; }
+
+    var match = sectionReg.exec(line);
+    if (match) {
+      osuSection = match[1].toLowerCase();
+      return;
+    }
+
+    switch (osuSection) {
+    case 'timingpoints':
+      timingLines.push(line);
+      break;
+    case 'hitobjects':
+      objectLines.push(line);
+      break;
+    case 'events':
+      eventsLines.push(line);
+      break;
+    default:
+      if (!osuSection) {
+        match = /^osu file format (v[0-9]+)$/.exec(line);
+        if (match) {
+          beatmap.fileFormat = match[1];
+          return;
+        }
+      }
+
+      /**
+       * Exluding in events, timingpoints and hitobjects sections, lines are "key: value"
+       */
+      match = keyValReg.exec(line);
+      if (match) { beatmap[match[1]] = match[2]; }
+    }
+  };
+
+  /**
+   * Compute everything that require the file to be completely parsed and return the beatmap
+   * @return {Object} beatmap
+   */
+  var buildBeatmap = function () {
+    if (beatmap.Tags) {
+      beatmap.tagsArray = beatmap.Tags.split(' ');
+    }
+
+    eventsLines.forEach(parseEvent);
+    timingLines.forEach(parseTimingPoint);
+    objectLines.forEach(parseHitObject);
+
+    var sections = beatmap.sections;
+    var firstObjectOffset;
+    var lastObjectOffset;
+    var lgt;
+
+    //Get first object offset
+    for (var i = 0, l = sections.length; i < l; i++) {
+      lgt = sections[i].hitObjects.length;
+      if (lgt > 0) {
+        firstObjectOffset = sections[i].hitObjects[0].startTime;
+        break;
       }
     }
-    /**
-     * Exluding in events, timingpoints and hitobjects sections, lines are "key: value"
-     */
-    match = this.keyValReg.exec(line);
-    if (match) { this.beatmap[match[1]] = match[2]; }
-  }
-}
 
-/**
- * Parse additions member
- * @param  {String} str         additions member (sample:add:customSampleIndex:Volume:hitsound)
- * @return {Object} additions   a list of additions
- */
-Parser.prototype.parseAdditions = function (str) {
-  if (!str) return {};
-
-  var additions = {};
-  var adds      = str.split(':');
-
-  if (adds[0] && adds[0] !== '0') {
-    var sample;
-    switch (adds[0]) {
-      case '1':
-        sample = 'normal';
+    //Get last object offset
+    for (var j = sections.length - 1; j >= 0; j--) {
+      lgt = sections[j].hitObjects.length;
+      if (lgt > 0) {
+        lastObjectOffset = sections[j].hitObjects[lgt - 1].startTime;
         break;
-      case '2':
-        sample = 'soft';
-        break;
-      case '3':
-        sample = 'drum';
-        break;
+      }
     }
-    additions.sample = sample;
-  }
 
-  if (adds[1] && adds[1] !== '0') {
-    var addSample;
-    switch (adds[1]) {
-      case '1':
-        addSample = 'normal';
-        break;
-      case '2':
-        addSample = 'soft';
-        break;
-      case '3':
-        addSample = 'drum';
-        break;
+    if (firstObjectOffset && lastObjectOffset) {
+      beatmap.totalTime    = Math.floor(lastObjectOffset / 1000);
+      beatmap.drainingTime = Math.floor((lastObjectOffset - firstObjectOffset - totalBreakTime) / 1000);
+    } else {
+      beatmap.totalTime    = 0;
+      beatmap.drainingTime = 0;
     }
-    additions.additionalSample = addSample;
-  }
 
-  if (adds[2] && adds[2] !== '0') { additions.customSampleIndex = parseInt(adds[2]); }
-  if (adds[3] && adds[3] !== '0') { additions.hitsoundVolume    = parseInt(adds[3]); }
-  if (adds[4])                    { additions.hitsound          = adds[4]; }
-
-  return additions;
-}
-/**
- * Compute everything that require the file to be completely parsed and return the beatmap
- * @return {Object} beatmap
- */
-Parser.prototype.finalizeBeatmap = function () {
-  if (this.beatmap['Tags']) {
-    this.beatmap.tagsArray = this.beatmap['Tags'].split(' ');
-  }
-
-  var sections = this.beatmap.sections;
-  var firstObjectOffset;
-  var lastObjectOffset;
-  var lgt;
-
-  //Get first object offset
-  for (var i = 0, l = sections.length; i < l; i++) {
-    lgt = sections[i].hitObjects.length;
-    if (lgt > 0) {
-      firstObjectOffset = sections[i].hitObjects[0].startTime;
-      break;
-    }
+    return beatmap;
   };
 
-  //Get last object offset
-  for (var i = sections.length - 1; i >= 0; i--) {
-    lgt = sections[i].hitObjects.length;
-    if (lgt > 0) {
-      lastObjectOffset = sections[i].hitObjects[lgt - 1].startTime;
-      break;
-    }
+  return {
+    readLine: readLine,
+    buildBeatmap: buildBeatmap
   };
-
-  if (firstObjectOffset && lastObjectOffset) {
-    this.beatmap.totalTime    = Math.floor(lastObjectOffset / 1000);
-    this.beatmap.drainingTime = Math.floor((lastObjectOffset - firstObjectOffset - this.totalBreakTime) / 1000);
-  } else {
-    this.beatmap.totalTime    = 0;
-    this.beatmap.drainingTime = 0;
-  }
-
-  return this.beatmap;
 }
+
+
 
 /**
  * Parse a .osu file
@@ -338,16 +383,20 @@ exports.parseFile = function (file, callback) {
       return;
     }
 
-    var parser = new Parser();
+    var parser = beatmapParser();
 
     var lazy = new Lazy(fs.createReadStream(file));
     lazy
     .map(String)
     .lines
-    .forEach(function (line) { parser.parseLine(line); });
+    .forEach(function (line) { parser.readLine(line); });
+
+    lazy.on('error', function (err) {
+      callback(err);
+    });
 
     lazy.on('end', function () {
-      var beatmap = parser.finalizeBeatmap();
+      var beatmap = parser.buildBeatmap();
       callback(null, beatmap);
     });
   });
@@ -359,19 +408,19 @@ exports.parseFile = function (file, callback) {
  * @param  {Function} callback(err, beatmap)
  */
 exports.parseStream = function (stream, callback) {
-  var parser = new Parser();
+  var parser = beatmapParser();
   var lazy   = new Lazy(stream);
   lazy
   .map(String)
   .lines
-  .forEach(function (line) { parser.parseLine(line); });
+  .forEach(function (line) { parser.readLine(line); });
 
   lazy.on('error', function (err) {
     callback(err);
   });
 
   lazy.on('end', function () {
-    var beatmap = parser.finalizeBeatmap();
+    var beatmap = parser.buildBeatmap();
     callback(null, beatmap);
   });
 };
@@ -382,10 +431,10 @@ exports.parseStream = function (stream, callback) {
  * @return {Object} beatmap
  */
 exports.parseContent = function (content) {
-  var parser = new Parser();
+  var parser = beatmapParser();
   content.toString().split(/[\n\r]+/).forEach(function (line) {
-    parser.parseLine(line);
+    parser.readLine(line);
   });
 
-  return parser.finalizeBeatmap();
+  return parser.buildBeatmap();
 };
