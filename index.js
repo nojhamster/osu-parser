@@ -31,7 +31,7 @@ function Parser() {
 Parser.prototype.getSection = function (offset) {
   var section;
   for (var i = 0, l = this.beatmap.sections.length; i < l; i++) {
-    if (this.beatmap.sections[i].offset > offset) { return this.beatmap.sections[--i]; }
+    if (this.beatmap.sections[i].offset > offset) { return this.beatmap.sections[Math.max(--i, 0)]; }
   };
   return this.beatmap.sections[this.beatmap.sections.length - 1];
 };
