@@ -3,6 +3,7 @@
 - map length now starts from the very beginning and not from the first timingpoint
 - timingSignature, sampleSetId and sampleVolume now parsed into Integers
 - beatLength now parsed into float
+- maxCombo calculated
 
 ## 0.1.1
 - bpm (string or integer) replaced by bpmMin and bpmMax (integers)
