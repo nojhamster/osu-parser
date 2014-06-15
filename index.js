@@ -276,6 +276,34 @@ function beatmapParser() {
   };
 
   /**
+   * Browse objects and compute max combo
+   */
+  var computeMaxCombo = function () {
+    var maxCombo         = 0;
+    var sliderMultiplier = parseFloat(beatmap.SliderMultiplier);
+    var sliderTickRate   = parseInt(beatmap.SliderTickRate, 10);
+
+    beatmap.sections.forEach(function (section) {
+      var osupxPerBeat = sliderMultiplier * 100 * section.velocity;
+      var tickLength   = osupxPerBeat / sliderTickRate;
+
+      section.hitObjects.forEach(function (hitObject) {
+        switch (hitObject.objectName) {
+          case 'spinner':
+          case 'circle':
+            maxCombo++;
+            break;
+          case 'slider':
+            var tickPerSide = Math.ceil((Math.floor(hitObject.pixelLength / tickLength * 100) / 100) - 1);
+            maxCombo += (hitObject.edges.length - 1) * (tickPerSide + 1) + 1;  // 1 combo for each tick and endpoint
+        }
+      });
+    });
+
+    beatmap.maxCombo = maxCombo;
+  };
+
+  /**
    * Read a single line, parse when key/value, store when needed further parsing
    * @param  {String|Buffer} line
    */
@@ -328,6 +356,7 @@ function beatmapParser() {
     eventsLines.forEach(parseEvent);
     timingLines.forEach(parseTimingPoint);
     objectLines.forEach(parseHitObject);
+    computeMaxCombo();
 
     var sections = beatmap.sections;
     var firstObjectOffset;
