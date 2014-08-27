@@ -268,8 +268,14 @@ function beatmapParser() {
      */
     members = line.split(',');
 
-    if (members[0] == '0' && members[1] == '0' && /^".*"$/.test(members[2])) {
-      beatmap.bgFilename = members[2].substring(1, members[2].length - 1);
+    if (members[0] == '0' && members[1] == '0' && members[2]) {
+      var bgName = members[2].trim();
+
+      if (bgName.charAt(0) == '"' && bgName.charAt(bgName.length - 1) == '"') {
+        beatmap.bgFilename = bgName.substring(1, bgName.length - 1);
+      } else {
+        beatmap.bgFilename = bgName;
+      }
     } else if (members[0] == '2' && /^[0-9]+$/.test(members[1]) && /^[0-9]+$/.test(members[2])) {
       totalBreakTime += (members[2] - members[1]);
     }
@@ -304,7 +310,7 @@ function beatmapParser() {
   };
 
   /**
-   * Read a single line, parse when key/value, store when needed further parsing
+   * Read a single line, parse when key/value, store when further parsing needed
    * @param  {String|Buffer} line
    */
   var readLine = function (line) {
