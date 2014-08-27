@@ -13,19 +13,6 @@
       "sampleVolume": 50,
       "timingChange": true,
       "kiaiTimeActive": false,
-      "hitObjects": [],
-      "bpm": 180
-    },
-    {
-      "offset": 15519,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 1,
-      "useCustomSamples": true,
-      "sampleVolume": 30,
-      "timingChange": false,
-      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 10853,
@@ -545,16 +532,17 @@
           "objectName": "circle",
           "additions": {}
         }
-      ]
+      ],
+      "bpm": 180
     },
     {
-      "offset": 15686,
+      "offset": 15519,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 35,
+      "sampleVolume": 30,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -587,13 +575,13 @@
       ]
     },
     {
-      "offset": 15853,
+      "offset": 15686,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 40,
+      "sampleVolume": 35,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -626,13 +614,13 @@
       ]
     },
     {
-      "offset": 16019,
+      "offset": 15853,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 45,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -665,13 +653,13 @@
       ]
     },
     {
-      "offset": 16186,
+      "offset": 16019,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 50,
+      "sampleVolume": 45,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -704,13 +692,13 @@
       ]
     },
     {
-      "offset": 21019,
+      "offset": 16186,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 35,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -1159,13 +1147,13 @@
       ]
     },
     {
-      "offset": 21186,
+      "offset": 21019,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 40,
+      "sampleVolume": 35,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -1198,13 +1186,13 @@
       ]
     },
     {
-      "offset": 21352,
+      "offset": 21186,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 45,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -1237,13 +1225,13 @@
       ]
     },
     {
-      "offset": 21519,
+      "offset": 21352,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 50,
+      "sampleVolume": 45,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -1276,13 +1264,13 @@
       ]
     },
     {
-      "offset": 35852,
+      "offset": 21519,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
-      "useCustomSamples": false,
-      "sampleVolume": 40,
+      "useCustomSamples": true,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -2363,13 +2351,13 @@
       ]
     },
     {
-      "offset": 37519,
+      "offset": 35852,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
-      "useCustomSamples": true,
-      "sampleVolume": 50,
+      "useCustomSamples": false,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -2536,13 +2524,13 @@
       ]
     },
     {
-      "offset": 41519,
+      "offset": 37519,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 30,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -2833,13 +2821,13 @@
       ]
     },
     {
-      "offset": 41936,
+      "offset": 41519,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 35,
+      "sampleVolume": 30,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -2911,13 +2899,13 @@
       ]
     },
     {
-      "offset": 42186,
+      "offset": 41936,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 40,
+      "sampleVolume": 35,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -2963,13 +2951,13 @@
       ]
     },
     {
-      "offset": 42519,
+      "offset": 42186,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 45,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -3028,15 +3016,15 @@
       ]
     },
     {
-      "offset": 42852,
+      "offset": 42519,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 50,
+      "sampleVolume": 45,
       "timingChange": false,
-      "kiaiTimeActive": true,
+      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 42519,
@@ -3080,13 +3068,13 @@
       ]
     },
     {
-      "offset": 52352,
+      "offset": 42852,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 30,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -3988,13 +3976,13 @@
       ]
     },
     {
-      "offset": 52769,
+      "offset": 52352,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 35,
+      "sampleVolume": 30,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -4053,13 +4041,13 @@
       ]
     },
     {
-      "offset": 53019,
+      "offset": 52769,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 40,
+      "sampleVolume": 35,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -4105,13 +4093,13 @@
       ]
     },
     {
-      "offset": 53269,
+      "offset": 53019,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 45,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -4157,13 +4145,13 @@
       ]
     },
     {
-      "offset": 53519,
+      "offset": 53269,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 50,
+      "sampleVolume": 45,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -4209,7 +4197,7 @@
       ]
     },
     {
-      "offset": 61519,
+      "offset": 53519,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
@@ -4217,7 +4205,7 @@
       "useCustomSamples": true,
       "sampleVolume": 50,
       "timingChange": false,
-      "kiaiTimeActive": false,
+      "kiaiTimeActive": true,
       "hitObjects": [
         {
           "startTime": 53519,
@@ -4970,13 +4958,13 @@
       ]
     },
     {
-      "offset": 63519,
+      "offset": 61519,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 20,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -4999,6 +4987,18 @@
       ]
     },
     {
+      "offset": 63519,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 1,
+      "useCustomSamples": true,
+      "sampleVolume": 20,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": []
+    },
+    {
       "offset": 64186,
       "beatLength": -100,
       "velocity": 1,
@@ -5006,18 +5006,6 @@
       "sampleSetId": 1,
       "useCustomSamples": true,
       "sampleVolume": 50,
-      "timingChange": false,
-      "kiaiTimeActive": false,
-      "hitObjects": []
-    },
-    {
-      "offset": 89186,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 1,
-      "useCustomSamples": false,
-      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -6144,13 +6132,13 @@
       ]
     },
     {
-      "offset": 90852,
+      "offset": 89186,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
-      "useCustomSamples": true,
-      "sampleVolume": 50,
+      "useCustomSamples": false,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -6317,13 +6305,13 @@
       ]
     },
     {
-      "offset": 94852,
+      "offset": 90852,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 30,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -6614,13 +6602,13 @@
       ]
     },
     {
-      "offset": 95186,
+      "offset": 94852,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 35,
+      "sampleVolume": 30,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -6679,13 +6667,13 @@
       ]
     },
     {
-      "offset": 95519,
+      "offset": 95186,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 40,
+      "sampleVolume": 35,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -6748,13 +6736,13 @@
       ]
     },
     {
-      "offset": 95852,
+      "offset": 95519,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 45,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -6817,15 +6805,15 @@
       ]
     },
     {
-      "offset": 96186,
+      "offset": 95852,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 50,
+      "sampleVolume": 45,
       "timingChange": false,
-      "kiaiTimeActive": true,
+      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 95852,
@@ -6869,13 +6857,13 @@
       ]
     },
     {
-      "offset": 105686,
+      "offset": 96186,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 30,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -7760,13 +7748,13 @@
       ]
     },
     {
-      "offset": 105936,
+      "offset": 105686,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 35,
+      "sampleVolume": 30,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -7799,13 +7787,13 @@
       ]
     },
     {
-      "offset": 106186,
+      "offset": 105936,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 40,
+      "sampleVolume": 35,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -7851,13 +7839,13 @@
       ]
     },
     {
-      "offset": 106519,
+      "offset": 106186,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 45,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -7916,13 +7904,13 @@
       ]
     },
     {
-      "offset": 106852,
+      "offset": 106519,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 50,
+      "sampleVolume": 45,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -7981,15 +7969,15 @@
       ]
     },
     {
-      "offset": 114852,
+      "offset": 106852,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 30,
+      "sampleVolume": 50,
       "timingChange": false,
-      "kiaiTimeActive": false,
+      "kiaiTimeActive": true,
       "hitObjects": [
         {
           "startTime": 106852,
@@ -8670,14 +8658,14 @@
       ]
     },
     {
-      "offset": 117519,
-      "beatLength": 326.086956521739,
+      "offset": 114852,
+      "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 50,
-      "timingChange": true,
+      "sampleVolume": 30,
+      "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
         {
@@ -8694,18 +8682,17 @@
           "endTime": 116852,
           "additions": {}
         }
-      ],
-      "bpm": 184
+      ]
     },
     {
-      "offset": 118660,
-      "beatLength": -133.333333333333,
-      "velocity": 0.7500000000000019,
+      "offset": 117519,
+      "beatLength": 326.086956521739,
+      "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
       "sampleVolume": 50,
-      "timingChange": false,
+      "timingChange": true,
       "kiaiTimeActive": false,
       "hitObjects": [
         {
@@ -8760,12 +8747,13 @@
           "objectName": "circle",
           "additions": {}
         }
-      ]
+      ],
+      "bpm": 184
     },
     {
-      "offset": 119964,
-      "beatLength": -100,
-      "velocity": 1,
+      "offset": 118660,
+      "beatLength": -133.333333333333,
+      "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
@@ -8864,9 +8852,9 @@
       ]
     },
     {
-      "offset": 121269,
-      "beatLength": -133.333333333333,
-      "velocity": 0.7500000000000019,
+      "offset": 119964,
+      "beatLength": -100,
+      "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
@@ -8942,9 +8930,9 @@
       ]
     },
     {
-      "offset": 123551,
-      "beatLength": -100,
-      "velocity": 1,
+      "offset": 121269,
+      "beatLength": -133.333333333333,
+      "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
@@ -9056,9 +9044,9 @@
       ]
     },
     {
-      "offset": 124529,
-      "beatLength": -133.333333333333,
-      "velocity": 0.7500000000000019,
+      "offset": 123551,
+      "beatLength": -100,
+      "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
@@ -9082,9 +9070,9 @@
       ]
     },
     {
-      "offset": 125182,
-      "beatLength": -100,
-      "velocity": 1,
+      "offset": 124529,
+      "beatLength": -133.333333333333,
+      "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
@@ -9139,13 +9127,13 @@
       ]
     },
     {
-      "offset": 139203,
-      "beatLength": -133.333333333333,
-      "velocity": 0.7500000000000019,
+      "offset": 125182,
+      "beatLength": -100,
+      "velocity": 1,
       "timingSignature": 4,
-      "sampleSetId": 2,
+      "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 40,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -9345,11 +9333,11 @@
       ]
     },
     {
-      "offset": 143605,
-      "beatLength": -100,
-      "velocity": 1,
+      "offset": 139203,
+      "beatLength": -133.333333333333,
+      "velocity": 0.7500000000000019,
       "timingSignature": 4,
-      "sampleSetId": 1,
+      "sampleSetId": 2,
       "useCustomSamples": true,
       "sampleVolume": 40,
       "timingChange": false,
@@ -9549,6 +9537,18 @@
     },
     {
       "offset": 143605,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 1,
+      "useCustomSamples": true,
+      "sampleVolume": 40,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": []
+    },
+    {
+      "offset": 143605,
       "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
@@ -9556,19 +9556,6 @@
       "useCustomSamples": true,
       "sampleVolume": 50,
       "timingChange": true,
-      "kiaiTimeActive": false,
-      "hitObjects": [],
-      "bpm": 180
-    },
-    {
-      "offset": 148938,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 1,
-      "useCustomSamples": true,
-      "sampleVolume": 50,
-      "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
         {
@@ -9849,16 +9836,17 @@
           ],
           "curveType": "pass-through"
         }
-      ]
+      ],
+      "bpm": 180
     },
     {
-      "offset": 153771,
+      "offset": 148938,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 40,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -10378,13 +10366,13 @@
       ]
     },
     {
-      "offset": 154021,
+      "offset": 153771,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 45,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -10430,13 +10418,13 @@
       ]
     },
     {
-      "offset": 154271,
+      "offset": 154021,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 50,
+      "sampleVolume": 45,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -10482,7 +10470,7 @@
       ]
     },
     {
-      "offset": 159604,
+      "offset": 154271,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
@@ -10490,7 +10478,7 @@
       "useCustomSamples": true,
       "sampleVolume": 50,
       "timingChange": false,
-      "kiaiTimeActive": true,
+      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 154271,
@@ -10902,13 +10890,13 @@
       ]
     },
     {
-      "offset": 169104,
+      "offset": 159604,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 30,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -11822,13 +11810,13 @@
       ]
     },
     {
-      "offset": 169354,
+      "offset": 169104,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 35,
+      "sampleVolume": 30,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -11861,13 +11849,13 @@
       ]
     },
     {
-      "offset": 169604,
+      "offset": 169354,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 40,
+      "sampleVolume": 35,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -11913,13 +11901,13 @@
       ]
     },
     {
-      "offset": 169938,
+      "offset": 169604,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 45,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -11978,13 +11966,13 @@
       ]
     },
     {
-      "offset": 170271,
+      "offset": 169938,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 50,
+      "sampleVolume": 45,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -12043,7 +12031,7 @@
       ]
     },
     {
-      "offset": 178271,
+      "offset": 170271,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
@@ -12051,7 +12039,7 @@
       "useCustomSamples": true,
       "sampleVolume": 50,
       "timingChange": false,
-      "kiaiTimeActive": false,
+      "kiaiTimeActive": true,
       "hitObjects": [
         {
           "startTime": 170271,
@@ -12716,7 +12704,20 @@
           ],
           "objectName": "circle",
           "additions": {}
-        },
+        }
+      ]
+    },
+    {
+      "offset": 178271,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 1,
+      "useCustomSamples": true,
+      "sampleVolume": 50,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": [
         {
           "startTime": 178271,
           "newCombo": true,
@@ -14398,9 +14399,6 @@
   "ApproachRate": "9",
   "SliderMultiplier": "1.8",
   "SliderTickRate": "1",
-  "bgFilename": "rrrr.jpg",
-  "bpmMin": 180,
-  "bpmMax": 180,
   "Combo1": "254,221,35",
   "Combo2": "0,128,255",
   "Combo3": "255,140,26",
@@ -14413,6 +14411,10 @@
     "The",
     "Summoning"
   ],
+  "bgFilename": "rrrr.jpg",
+  "bpmMin": 180,
+  "bpmMax": 184,
+  "maxCombo": 783,
   "totalTime": 204,
   "drainingTime": 178
 }

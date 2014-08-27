@@ -74,21 +74,7 @@
             192,
             302
           ]
-        }
-      ],
-      "bpm": 156
-    },
-    {
-      "offset": 46019,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 2,
-      "useCustomSamples": false,
-      "sampleVolume": 80,
-      "timingChange": false,
-      "kiaiTimeActive": false,
-      "hitObjects": [
+        },
         {
           "startTime": 1403,
           "newCombo": false,
@@ -2993,16 +2979,17 @@
           "objectName": "circle",
           "additions": {}
         }
-      ]
+      ],
+      "bpm": 156
     },
     {
-      "offset": 47557,
+      "offset": 46019,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": false,
-      "sampleVolume": 90,
+      "sampleVolume": 80,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -3083,13 +3070,13 @@
       ]
     },
     {
-      "offset": 49096,
+      "offset": 47557,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": false,
-      "sampleVolume": 100,
+      "sampleVolume": 90,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -3170,13 +3157,13 @@
       ]
     },
     {
-      "offset": 49865,
+      "offset": 49096,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": false,
-      "sampleVolume": 10,
+      "sampleVolume": 100,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -3209,13 +3196,13 @@
       ]
     },
     {
-      "offset": 52557,
+      "offset": 49865,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": false,
-      "sampleVolume": 100,
+      "sampleVolume": 10,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -3236,7 +3223,7 @@
       ]
     },
     {
-      "offset": 53134,
+      "offset": 52557,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
@@ -3244,7 +3231,7 @@
       "useCustomSamples": false,
       "sampleVolume": 100,
       "timingChange": false,
-      "kiaiTimeActive": true,
+      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 52749,
@@ -3297,7 +3284,7 @@
       ]
     },
     {
-      "offset": 78134,
+      "offset": 53134,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
@@ -3305,7 +3292,7 @@
       "useCustomSamples": false,
       "sampleVolume": 100,
       "timingChange": false,
-      "kiaiTimeActive": false,
+      "kiaiTimeActive": true,
       "hitObjects": [
         {
           "startTime": 53134,
@@ -4529,13 +4516,13 @@
       ]
     },
     {
-      "offset": 88327,
+      "offset": 78134,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": false,
-      "sampleVolume": 50,
+      "sampleVolume": 100,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -5180,13 +5167,13 @@
       ]
     },
     {
-      "offset": 89961,
+      "offset": 88327,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": false,
-      "sampleVolume": 20,
+      "sampleVolume": 50,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -5327,6 +5314,18 @@
           ]
         }
       ]
+    },
+    {
+      "offset": 89961,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 2,
+      "useCustomSamples": false,
+      "sampleVolume": 20,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": []
     }
   ],
   "fileFormat": "v8",
@@ -5354,9 +5353,6 @@
   "ApproachRate": "7",
   "SliderMultiplier": "1.8",
   "SliderTickRate": "1",
-  "bgFilename": "luminous arc 3.jpg",
-  "bpmMin": 156,
-  "bpmMax": 156,
   "Combo1": "34,79,255",
   "Combo2": "255,166,17",
   "Combo3": "91,0,204",
@@ -5364,6 +5360,10 @@
   "tagsArray": [
     "LA3"
   ],
+  "bgFilename": "luminous arc 3.jpg",
+  "bpmMin": 156,
+  "bpmMax": 156,
+  "maxCombo": 272,
   "totalTime": 89,
   "drainingTime": 88
 }

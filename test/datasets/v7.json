@@ -13,19 +13,6 @@
       "sampleVolume": 29,
       "timingChange": true,
       "kiaiTimeActive": false,
-      "hitObjects": [],
-      "bpm": 130
-    },
-    {
-      "offset": 53885,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 2,
-      "useCustomSamples": false,
-      "sampleVolume": 49,
-      "timingChange": false,
-      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 6025,
@@ -2028,7 +2015,20 @@
             283
           ]
         }
-      ]
+      ],
+      "bpm": 130
+    },
+    {
+      "offset": 53885,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 2,
+      "useCustomSamples": false,
+      "sampleVolume": 49,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": []
     },
     {
       "offset": 54011,
@@ -2040,18 +2040,6 @@
       "sampleVolume": 47,
       "timingChange": false,
       "kiaiTimeActive": true,
-      "hitObjects": []
-    },
-    {
-      "offset": 83091,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 2,
-      "useCustomSamples": false,
-      "sampleVolume": 40,
-      "timingChange": false,
-      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 54025,
@@ -3464,6 +3452,18 @@
       ]
     },
     {
+      "offset": 83091,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 2,
+      "useCustomSamples": false,
+      "sampleVolume": 40,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": []
+    },
+    {
       "offset": 83207,
       "beatLength": -100,
       "velocity": 1,
@@ -3471,18 +3471,6 @@
       "sampleSetId": 1,
       "useCustomSamples": true,
       "sampleVolume": 51,
-      "timingChange": false,
-      "kiaiTimeActive": false,
-      "hitObjects": []
-    },
-    {
-      "offset": 129578,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 1,
-      "useCustomSamples": true,
-      "sampleVolume": 73,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -5332,6 +5320,18 @@
       ]
     },
     {
+      "offset": 129578,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 1,
+      "useCustomSamples": true,
+      "sampleVolume": 73,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": []
+    },
+    {
       "offset": 129707,
       "beatLength": -100,
       "velocity": 1,
@@ -5341,18 +5341,6 @@
       "sampleVolume": 71,
       "timingChange": false,
       "kiaiTimeActive": true,
-      "hitObjects": []
-    },
-    {
-      "offset": 159255,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 1,
-      "useCustomSamples": true,
-      "sampleVolume": 58,
-      "timingChange": false,
-      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 129717,
@@ -6849,9 +6837,9 @@
       ]
     },
     {
-      "offset": 175630,
-      "beatLength": -200,
-      "velocity": 0.5,
+      "offset": 159255,
+      "beatLength": -100,
+      "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
@@ -7052,13 +7040,13 @@
       ]
     },
     {
-      "offset": 178164,
-      "beatLength": -100,
-      "velocity": 1,
+      "offset": 175630,
+      "beatLength": -200,
+      "velocity": 0.5,
       "timingSignature": 4,
-      "sampleSetId": 2,
-      "useCustomSamples": false,
-      "sampleVolume": 27,
+      "sampleSetId": 1,
+      "useCustomSamples": true,
+      "sampleVolume": 58,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -7174,13 +7162,13 @@
       ]
     },
     {
-      "offset": 186693,
+      "offset": 178164,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": false,
-      "sampleVolume": 39,
+      "sampleVolume": 27,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -7683,13 +7671,13 @@
       ]
     },
     {
-      "offset": 193053,
+      "offset": 186693,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
-      "sampleSetId": 1,
-      "useCustomSamples": true,
-      "sampleVolume": 51,
+      "sampleSetId": 2,
+      "useCustomSamples": false,
+      "sampleVolume": 39,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -8018,15 +8006,15 @@
       ]
     },
     {
-      "offset": 194322,
+      "offset": 193053,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 75,
+      "sampleVolume": 51,
       "timingChange": false,
-      "kiaiTimeActive": true,
+      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 193178,
@@ -8096,15 +8084,15 @@
       ]
     },
     {
-      "offset": 207255,
+      "offset": 194322,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
       "useCustomSamples": true,
-      "sampleVolume": 51,
+      "sampleVolume": 75,
       "timingChange": false,
-      "kiaiTimeActive": false,
+      "kiaiTimeActive": true,
       "hitObjects": [
         {
           "startTime": 194332,
@@ -8747,13 +8735,13 @@
       ]
     },
     {
-      "offset": 209003,
+      "offset": 207255,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
-      "sampleSetId": 2,
-      "useCustomSamples": false,
-      "sampleVolume": 35,
+      "sampleSetId": 1,
+      "useCustomSamples": true,
+      "sampleVolume": 51,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -8795,7 +8783,20 @@
           ],
           "objectName": "circle",
           "additions": {}
-        },
+        }
+      ]
+    },
+    {
+      "offset": 209003,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 2,
+      "useCustomSamples": false,
+      "sampleVolume": 35,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": [
         {
           "startTime": 209101,
           "newCombo": false,
@@ -9028,9 +9029,6 @@
   "OverallDifficulty": "6",
   "SliderMultiplier": "0.999999999999999",
   "SliderTickRate": "2",
-  "bgFilename": "BG.jpg",
-  "bpmMin": 130,
-  "bpmMax": 130,
   "Combo1": "203,174,41",
   "Combo2": "94,221,87",
   "Combo3": "128,128,255",
@@ -9041,6 +9039,10 @@
     "Studio",
     "Ghibli"
   ],
+  "bgFilename": "BG.jpg",
+  "bpmMin": 130,
+  "bpmMax": 130,
+  "maxCombo": 635,
   "totalTime": 212,
   "drainingTime": 196
 }

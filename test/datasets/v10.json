@@ -13,19 +13,6 @@
       "sampleVolume": 40,
       "timingChange": true,
       "kiaiTimeActive": false,
-      "hitObjects": [],
-      "bpm": 93
-    },
-    {
-      "offset": 19952,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 2,
-      "useCustomSamples": true,
-      "sampleVolume": 40,
-      "timingChange": false,
-      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 597,
@@ -1279,16 +1266,17 @@
             186
           ]
         }
-      ]
+      ],
+      "bpm": 93
     },
     {
-      "offset": 21243,
+      "offset": 19952,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": true,
-      "sampleVolume": 65,
+      "sampleVolume": 40,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -1373,13 +1361,13 @@
       ]
     },
     {
-      "offset": 24146,
+      "offset": 21243,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": true,
-      "sampleVolume": 5,
+      "sampleVolume": 65,
       "timingChange": false,
       "kiaiTimeActive": false,
       "hitObjects": [
@@ -1414,24 +1402,24 @@
       ]
     },
     {
+      "offset": 24146,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 2,
+      "useCustomSamples": true,
+      "sampleVolume": 5,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": []
+    },
+    {
       "offset": 41726,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
       "useCustomSamples": true,
-      "sampleVolume": 60,
-      "timingChange": false,
-      "kiaiTimeActive": false,
-      "hitObjects": []
-    },
-    {
-      "offset": 63661,
-      "beatLength": -100,
-      "velocity": 1,
-      "timingSignature": 4,
-      "sampleSetId": 2,
-      "useCustomSamples": false,
       "sampleVolume": 60,
       "timingChange": false,
       "kiaiTimeActive": false,
@@ -2863,12 +2851,12 @@
       ]
     },
     {
-      "offset": 64307,
+      "offset": 63661,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": true,
+      "useCustomSamples": false,
       "sampleVolume": 60,
       "timingChange": false,
       "kiaiTimeActive": false,
@@ -2902,12 +2890,12 @@
       ]
     },
     {
-      "offset": 64952,
+      "offset": 64307,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": false,
+      "useCustomSamples": true,
       "sampleVolume": 60,
       "timingChange": false,
       "kiaiTimeActive": false,
@@ -2963,12 +2951,12 @@
       ]
     },
     {
-      "offset": 65274,
+      "offset": 64952,
       "beatLength": -100,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": true,
+      "useCustomSamples": false,
       "sampleVolume": 60,
       "timingChange": false,
       "kiaiTimeActive": false,
@@ -2989,15 +2977,15 @@
       ]
     },
     {
-      "offset": 86081,
-      "beatLength": -76.9230769230769,
-      "velocity": 1.3000000000000003,
+      "offset": 65274,
+      "beatLength": -100,
+      "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": false,
-      "sampleVolume": 80,
+      "useCustomSamples": true,
+      "sampleVolume": 60,
       "timingChange": false,
-      "kiaiTimeActive": true,
+      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 65436,
@@ -4145,15 +4133,15 @@
       ]
     },
     {
-      "offset": 95113,
+      "offset": 86081,
       "beatLength": -76.9230769230769,
       "velocity": 1.3000000000000003,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": true,
+      "useCustomSamples": false,
       "sampleVolume": 80,
       "timingChange": false,
-      "kiaiTimeActive": false,
+      "kiaiTimeActive": true,
       "hitObjects": [
         {
           "startTime": 86081,
@@ -4771,7 +4759,7 @@
       ]
     },
     {
-      "offset": 96403,
+      "offset": 95113,
       "beatLength": -76.9230769230769,
       "velocity": 1.3000000000000003,
       "timingSignature": 4,
@@ -4779,7 +4767,7 @@
       "useCustomSamples": true,
       "sampleVolume": 80,
       "timingChange": false,
-      "kiaiTimeActive": true,
+      "kiaiTimeActive": false,
       "hitObjects": [
         {
           "startTime": 95436,
@@ -4862,12 +4850,12 @@
       ]
     },
     {
-      "offset": 96887,
+      "offset": 96403,
       "beatLength": -76.9230769230769,
       "velocity": 1.3000000000000003,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": false,
+      "useCustomSamples": true,
       "sampleVolume": 80,
       "timingChange": false,
       "kiaiTimeActive": true,
@@ -4929,12 +4917,12 @@
       ]
     },
     {
-      "offset": 106242,
+      "offset": 96887,
       "beatLength": -76.9230769230769,
       "velocity": 1.3000000000000003,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": true,
+      "useCustomSamples": false,
       "sampleVolume": 80,
       "timingChange": false,
       "kiaiTimeActive": true,
@@ -5499,13 +5487,13 @@
       ]
     },
     {
-      "offset": 106887,
+      "offset": 106242,
       "beatLength": -76.9230769230769,
       "velocity": 1.3000000000000003,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": false,
-      "sampleVolume": 90,
+      "useCustomSamples": true,
+      "sampleVolume": 80,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -5551,13 +5539,13 @@
       ]
     },
     {
-      "offset": 114952,
+      "offset": 106887,
       "beatLength": -76.9230769230769,
       "velocity": 1.3000000000000003,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": true,
-      "sampleVolume": 80,
+      "useCustomSamples": false,
+      "sampleVolume": 90,
       "timingChange": false,
       "kiaiTimeActive": true,
       "hitObjects": [
@@ -6012,12 +6000,12 @@
       ]
     },
     {
-      "offset": 116081,
+      "offset": 114952,
       "beatLength": -76.9230769230769,
       "velocity": 1.3000000000000003,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": false,
+      "useCustomSamples": true,
       "sampleVolume": 80,
       "timingChange": false,
       "kiaiTimeActive": true,
@@ -6103,12 +6091,12 @@
       ]
     },
     {
-      "offset": 127049,
+      "offset": 116081,
       "beatLength": -76.9230769230769,
       "velocity": 1.3000000000000003,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": true,
+      "useCustomSamples": false,
       "sampleVolume": 80,
       "timingChange": false,
       "kiaiTimeActive": true,
@@ -6800,15 +6788,15 @@
       ]
     },
     {
-      "offset": 127694,
-      "beatLength": -100,
-      "velocity": 1,
+      "offset": 127049,
+      "beatLength": -76.9230769230769,
+      "velocity": 1.3000000000000003,
       "timingSignature": 4,
       "sampleSetId": 2,
-      "useCustomSamples": false,
-      "sampleVolume": 40,
+      "useCustomSamples": true,
+      "sampleVolume": 80,
       "timingChange": false,
-      "kiaiTimeActive": false,
+      "kiaiTimeActive": true,
       "hitObjects": [
         {
           "startTime": 127049,
@@ -6866,6 +6854,18 @@
       ]
     },
     {
+      "offset": 127694,
+      "beatLength": -100,
+      "velocity": 1,
+      "timingSignature": 4,
+      "sampleSetId": 2,
+      "useCustomSamples": false,
+      "sampleVolume": 40,
+      "timingChange": false,
+      "kiaiTimeActive": false,
+      "hitObjects": []
+    },
+    {
       "offset": 129952,
       "beatLength": -100,
       "velocity": 1,
@@ -6918,9 +6918,6 @@
   "ApproachRate": "6",
   "SliderMultiplier": "1.8",
   "SliderTickRate": "2",
-  "bgFilename": "bg.jpg",
-  "bpmMin": 93,
-  "bpmMax": 93,
   "Combo1": "251,164,85",
   "Combo2": "255,255,196",
   "Combo3": "190,62,58",
@@ -6934,6 +6931,10 @@
     "Hatsune",
     "Miku"
   ],
+  "bgFilename": "bg.jpg",
+  "bpmMin": 93,
+  "bpmMax": 93,
+  "maxCombo": 394,
   "totalTime": 127,
   "drainingTime": 110
 }
