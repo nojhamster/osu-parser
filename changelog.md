@@ -4,6 +4,7 @@
 - timingSignature, sampleSetId and sampleVolume now parsed into Integers
 - beatLength now parsed into float
 - maxCombo calculated
+- fix background filename not found if not quoted
 
 ## 0.1.1
 - bpm (string or integer) replaced by bpmMin and bpmMax (integers)

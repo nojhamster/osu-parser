@@ -57,6 +57,7 @@ console.log(beatmap['PreviewTime']);
   <tr><td>nbSpinners</td><td>Integer</td><td>number of spinners.</td></tr>
   <tr><td>bpmMin</td><td>Integer</td><td>minimum bpm.</td></tr>
   <tr><td>bpmMax</td><td>Integer</td><td>maximum bpm.</td></tr>
+  <tr><td>maxCombo</td><td>Integer</td><td>maximum combo.</td></tr>
   <tr><td>totalTime</td><td>Integer</td><td>total time in seconds (between the first timing point and the last object).</td></tr>
   <tr><td>drainingTime</td><td>Integer</td><td>draining time in seconds.</td></tr>
   <tr><td>sections</td><td>Array</td><td>list of all sections. Sections are delimited by the timing points. See Section below.</td></tr>
