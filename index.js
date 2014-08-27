@@ -282,6 +282,42 @@ function beatmapParser() {
   };
 
   /**
+   * Compute the total time and the draining time of the beatmap
+   */
+  var computeDuration = function () {
+    var sections = beatmap.sections;
+    var firstObjectOffset;
+    var lastObjectOffset;
+    var lgt;
+
+    //Get first object offset
+    for (var i = 0, l = sections.length; i < l; i++) {
+      lgt = sections[i].hitObjects.length;
+      if (lgt > 0) {
+        firstObjectOffset = sections[i].hitObjects[0].startTime;
+        break;
+      }
+    }
+
+    //Get last object offset
+    for (var j = sections.length - 1; j >= 0; j--) {
+      lgt = sections[j].hitObjects.length;
+      if (lgt > 0) {
+        lastObjectOffset = sections[j].hitObjects[lgt - 1].startTime;
+        break;
+      }
+    }
+
+    if (firstObjectOffset && lastObjectOffset) {
+      beatmap.totalTime    = Math.floor(lastObjectOffset / 1000);
+      beatmap.drainingTime = Math.floor((lastObjectOffset - firstObjectOffset - totalBreakTime) / 1000);
+    } else {
+      beatmap.totalTime    = 0;
+      beatmap.drainingTime = 0;
+    }
+  };
+
+  /**
    * Browse objects and compute max combo
    */
   var computeMaxCombo = function () {
@@ -362,38 +398,9 @@ function beatmapParser() {
     eventsLines.forEach(parseEvent);
     timingLines.forEach(parseTimingPoint);
     objectLines.forEach(parseHitObject);
+
     computeMaxCombo();
-
-    var sections = beatmap.sections;
-    var firstObjectOffset;
-    var lastObjectOffset;
-    var lgt;
-
-    //Get first object offset
-    for (var i = 0, l = sections.length; i < l; i++) {
-      lgt = sections[i].hitObjects.length;
-      if (lgt > 0) {
-        firstObjectOffset = sections[i].hitObjects[0].startTime;
-        break;
-      }
-    }
-
-    //Get last object offset
-    for (var j = sections.length - 1; j >= 0; j--) {
-      lgt = sections[j].hitObjects.length;
-      if (lgt > 0) {
-        lastObjectOffset = sections[j].hitObjects[lgt - 1].startTime;
-        break;
-      }
-    }
-
-    if (firstObjectOffset && lastObjectOffset) {
-      beatmap.totalTime    = Math.floor(lastObjectOffset / 1000);
-      beatmap.drainingTime = Math.floor((lastObjectOffset - firstObjectOffset - totalBreakTime) / 1000);
-    } else {
-      beatmap.totalTime    = 0;
-      beatmap.drainingTime = 0;
-    }
+    computeDuration();
 
     return beatmap;
   };
