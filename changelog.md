@@ -7,6 +7,7 @@
 - add breakTimes array
 - green timing points now have a bpm inherited from the previous timing point
 - if slider endPosition can not be calculated, it's set to the position of the last point
+- pass-through endPosition calculated using bezier algorithm if more than 3 points
 
 ## 0.1.1
 - bpm (string or integer) replaced by bpmMin and bpmMax (integers)
