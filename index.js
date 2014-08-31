@@ -10,6 +10,7 @@ function beatmapParser() {
     nbSliders: 0,
     nbSpinners: 0,
     timingPoints: [],
+    breakTimes: [],
     hitObjects: []
   };
 
@@ -23,7 +24,6 @@ function beatmapParser() {
   var eventsLines    = [];
   var sectionReg     = /^\[([a-zA-Z0-9]+)\]$/;
   var keyValReg      = /^([a-zA-Z0-9]+)[ ]*:[ ]*(.+)$/;
-  var totalBreakTime = 0;
   var curveTypes     = {
     C: "catmull",
     B: "bezier",
@@ -260,7 +260,10 @@ function beatmapParser() {
         beatmap.bgFilename = bgName;
       }
     } else if (members[0] == '2' && /^[0-9]+$/.test(members[1]) && /^[0-9]+$/.test(members[2])) {
-      totalBreakTime += (members[2] - members[1]);
+      beatmap.breakTimes.push({
+        startTime: parseInt(members[1]),
+        endTime: parseInt(members[2])
+      });
     }
   };
 
@@ -270,6 +273,12 @@ function beatmapParser() {
   var computeDuration = function () {
     var firstObject = beatmap.hitObjects[0];
     var lastObject  = beatmap.hitObjects[beatmap.hitObjects.length - 1];
+
+    var totalBreakTime = 0;
+
+    beatmap.breakTimes.forEach(function (breakTime) {
+      totalBreakTime += (breakTime.endTime - breakTime.startTime);
+    });
 
     if (firstObject && lastObject) {
       beatmap.totalTime    = Math.floor(lastObject.startTime / 1000);
@@ -372,6 +381,7 @@ function beatmapParser() {
     timingLines.forEach(parseTimingPoint);
     objectLines.forEach(parseHitObject);
 
+    beatmap.breakTimes.sort(function (a, b) { return (a.startTime > b.startTime ? 1 : -1); });
     beatmap.timingPoints.sort(function (a, b) { return (a.offset > b.offset ? 1 : -1); });
     beatmap.hitObjects.sort(function (a, b) { return (a.startTime > b.startTime ? 1 : -1); });
 
