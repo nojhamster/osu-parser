@@ -14,7 +14,8 @@ function compareBeatmaps(obj1, obj2) {
   for (var p in obj1) {
     switch (p) {
       case 'hitObjects':
-      case 'sections':
+      case 'timingPoints':
+      case 'breakTimes':
       case 'tagsArray':
         assert.deepEqual(obj1[p], obj2[p], util.format('%s was not parsed correctly', p));
         break;
@@ -25,10 +26,10 @@ function compareBeatmaps(obj1, obj2) {
 }
 
 versions.forEach(function (version) {
-  var file   = path.join(__dirname, 'datasets', 'v' + version + '.osu');
-  var result = JSON.parse(fs.readFileSync(path.join(__dirname, 'datasets', 'v' + version + '.json')));
-
   describe('Given a v' + version + ' osu file', function () {
+    var file   = path.join(__dirname, 'datasets', 'v' + version + '.osu');
+    var result = JSON.parse(fs.readFileSync(path.join(__dirname, 'datasets', 'v' + version + '.json')));
+
     describe('the parser', function () {
       it('should correctly parse it from its path', function (done) {
         parser.parseFile(file, function (err, beatmap) {
