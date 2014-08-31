@@ -126,7 +126,7 @@ function beatmapParser() {
     var soundType  = members[4];
     var objectType = members[3];
 
-    var hitobject = {
+    var hitObject = {
       startTime:  parseInt(members[2]),
       newCombo:   ((objectType & 4) == 4),
       soundTypes: [],
@@ -143,10 +143,10 @@ function beatmapParser() {
      * 4 : finish
      * 8 : clap
      */
-    if ((soundType & 2) == 2)              { hitobject.soundTypes.push('whistle'); }
-    if ((soundType & 4) == 4)              { hitobject.soundTypes.push('finish');  }
-    if ((soundType & 8) == 8)              { hitobject.soundTypes.push('clap');    }
-    if (hitobject.soundTypes.length === 0) { hitobject.soundTypes.push('normal'); }
+    if ((soundType & 2) == 2)              { hitObject.soundTypes.push('whistle'); }
+    if ((soundType & 4) == 4)              { hitObject.soundTypes.push('finish');  }
+    if ((soundType & 8) == 8)              { hitObject.soundTypes.push('clap');    }
+    if (hitObject.soundTypes.length === 0) { hitObject.soundTypes.push('normal'); }
 
     /**
      * object type is a bitwise flag enum
@@ -157,24 +157,24 @@ function beatmapParser() {
     if ((objectType & 1) == 1) {
       // Circle
       beatmap.nbCircles++;
-      hitobject.objectName = 'circle';
-      hitobject.additions  = parseAdditions(members[5]);
+      hitObject.objectName = 'circle';
+      hitObject.additions  = parseAdditions(members[5]);
     } else if ((objectType & 8) == 8) {
       // Spinner
       beatmap.nbSpinners++;
-      hitobject.objectName = 'spinner';
-      hitobject.endTime    = parseInt(members[5]);
-      hitobject.additions  = parseAdditions(members[6]);
+      hitObject.objectName = 'spinner';
+      hitObject.endTime    = parseInt(members[5]);
+      hitObject.additions  = parseAdditions(members[6]);
     } else if ((objectType & 2) == 2) {
       // Slider
       beatmap.nbSliders++;
-      hitobject.objectName  = 'slider';
-      hitobject.repeatCount = parseInt(members[6]);
-      hitobject.pixelLength = parseInt(members[7]);
-      hitobject.additions   = parseAdditions(members[10]);
-      hitobject.edges       = [];
-      hitobject.points      = [
-        [hitobject.position[0], hitobject.position[1]]
+      hitObject.objectName  = 'slider';
+      hitObject.repeatCount = parseInt(members[6]);
+      hitObject.pixelLength = parseInt(members[7]);
+      hitObject.additions   = parseAdditions(members[10]);
+      hitObject.edges       = [];
+      hitObject.points      = [
+        [hitObject.position[0], hitObject.position[1]]
       ];
 
       /**
@@ -182,11 +182,11 @@ function beatmapParser() {
        */
       var points = (members[5] || '').split('|');
       if (points.length) {
-        hitobject.curveType = curveTypes[points[0]] || 'unknown';
+        hitObject.curveType = curveTypes[points[0]] || 'unknown';
 
         for (var i = 1, l = points.length; i < l; i++) {
           var coordinates = points[i].split(':');
-          hitobject.points.push([
+          hitObject.points.push([
             parseInt(coordinates[0]),
             parseInt(coordinates[1])
           ]);
@@ -201,7 +201,7 @@ function beatmapParser() {
       /**
        Get soundTypes and additions for each slider edge
        */
-      for (var j = 0, lgt = hitobject.repeatCount + 1; j < lgt; j++) {
+      for (var j = 0, lgt = hitObject.repeatCount + 1; j < lgt; j++) {
         var edge = {
           soundTypes: [],
           additions: parseAdditions(edgeAdditions[j])
@@ -217,23 +217,26 @@ function beatmapParser() {
           edge.soundTypes.push('normal');
         }
 
-        hitobject.edges.push(edge);
+        hitObject.edges.push(edge);
       }
 
       // get coordinates of the slider endpoint
-      var endPoint = slidercalc.getEndPoint(hitobject.curveType, hitobject.pixelLength, hitobject.points);
+      var endPoint = slidercalc.getEndPoint(hitObject.curveType, hitObject.pixelLength, hitObject.points);
       if (endPoint && endPoint[0] && endPoint[1]) {
-        hitobject.endPosition = [
+        hitObject.endPosition = [
           Math.round(endPoint[0]),
           Math.round(endPoint[1])
         ];
+      } else {
+        // If endPosition could not be calculated, approximate it by setting it to the last point
+        hitObject.endPosition = hitObject.points[hitObjects.points.length - 1];
       }
     } else {
       // Unknown
-      hitobject.objectName = 'unknown';
+      hitObject.objectName = 'unknown';
     }
 
-    beatmap.hitObjects.push(hitobject);
+    beatmap.hitObjects.push(hitObject);
   };
 
   /**
