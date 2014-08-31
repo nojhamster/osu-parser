@@ -61,6 +61,7 @@ console.log(beatmap['PreviewTime']);
   <tr><td>totalTime</td><td>Integer</td><td>total time in seconds (between the first timing point and the last object).</td></tr>
   <tr><td>drainingTime</td><td>Integer</td><td>draining time in seconds.</td></tr>
   <tr><td>tagsArray</td><td>Array</td><td>tags splitted into an array, for convenience.</td></tr>
+  <tr><td>breakTimes</td><td>Array</td><td>list of all break times. Each has `startTime` and `endTime` properties.</td></tr>
   <tr><td>timingPoints</td><td>Array</td><td>list of all timing points. See TimingPoint below.</td></tr>
   <tr><td>hitObjects</td><td>Array</td><td>list of all hitobjects. See HitObject below.</td></tr>
 </table>
