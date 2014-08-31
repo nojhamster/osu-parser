@@ -229,7 +229,7 @@ function beatmapParser() {
         ];
       } else {
         // If endPosition could not be calculated, approximate it by setting it to the last point
-        hitObject.endPosition = hitObject.points[hitObjects.points.length - 1];
+        hitObject.endPosition = hitObject.points[hitObject.points.length - 1];
       }
     } else {
       // Unknown
