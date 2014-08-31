@@ -24,7 +24,7 @@ npm install osu-parser
 
 ```javascript
   var parser = require('osu-parser');
-  
+
   parser.parseFile('path/to/map.osu', function (err, beatmap) {
     console.log(beatmap);
   });
@@ -38,13 +38,13 @@ Simple key/value entries like this...
 PreviewTime: 42860
 ...
 ```
-...are directly reachable as properties : 
+...are directly reachable as properties :
 ```
 console.log(beatmap['PreviewTime']);
 // prints 42860
 ```
 
-### Additionnal beatmap properties :  
+### Additionnal beatmap properties :
 <table>
   <tr>
     <th>name</th>
@@ -60,11 +60,12 @@ console.log(beatmap['PreviewTime']);
   <tr><td>maxCombo</td><td>Integer</td><td>maximum combo.</td></tr>
   <tr><td>totalTime</td><td>Integer</td><td>total time in seconds (between the first timing point and the last object).</td></tr>
   <tr><td>drainingTime</td><td>Integer</td><td>draining time in seconds.</td></tr>
-  <tr><td>sections</td><td>Array</td><td>list of all sections. Sections are delimited by the timing points. See Section below.</td></tr>
   <tr><td>tagsArray</td><td>Array</td><td>tags splitted into an array, for convenience.</td></tr>
+  <tr><td>timingPoints</td><td>Array</td><td>list of all timing points. See TimingPoint below.</td></tr>
+  <tr><td>hitObjects</td><td>Array</td><td>list of all hitobjects. See HitObject below.</td></tr>
 </table>
 
-#### Section properties
+#### TimingPoint properties
 <table>
   <tr>
     <th>name</th>
@@ -81,7 +82,6 @@ console.log(beatmap['PreviewTime']);
   <tr><td>sampleVolume</td><td>Integer</td><td>volume of the samples.</td></tr>
   <tr><td>timingChange</td><td>Boolean</td><td>is there a beatLength change ?</td></tr>
   <tr><td>kiaiTimeActive</td><td>Boolean</td><td>is it a kiai section ?</td></tr>
-  <tr><td>hitObjects</td><td>Array</td><td>list of all hitobjects in the section. See HitObject below.</td></tr>
 </table>
 
 #### HitObject properties
@@ -145,7 +145,7 @@ console.log(beatmap['PreviewTime']);
 Parse the given file. The callback returns (error, beatmap).
 ```javascript
   var parser = require('osu-parser');
-  
+
   parser.parseFile('path/to/map.osu', function (err, beatmap) {
     console.log(beatmap);
   });
@@ -157,7 +157,7 @@ Parse a stream containing a file content. The callback returns (error, beatmap).
   var parser = require('osu-parser');
   var fs     = require('fs');
   var stream = fs.createReadStream('path/to/map.osu');
-  
+
   parser.parseStream(stream, function (err, beatmap) {
     console.log(beatmap);
   });
@@ -169,7 +169,7 @@ Parse the content of a file as a string or a buffer.
   var parser  = require('osu-parser');
   var fs      = require('fs');
   var content = fs.readFileSync('path/to/map.osu');
-  
+
   var beatmap = parser.parseContent(content);
 ```
 
