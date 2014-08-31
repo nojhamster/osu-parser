@@ -1,4 +1,7 @@
 ## last changes (not published on npm)
+nothing
+
+## 0.2.0
 - map length now starts from the very beginning and not from the first timingpoint
 - timingSignature, sampleSetId and sampleVolume now parsed into Integers
 - beatLength now parsed into float
