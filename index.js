@@ -9,7 +9,8 @@ function beatmapParser() {
     nbCircles: 0,
     nbSliders: 0,
     nbSpinners: 0,
-    sections: []
+    timingPoints: [],
+    hitObjects: []
   };
 
   var osuSection;
@@ -28,19 +29,6 @@ function beatmapParser() {
     B: "bezier",
     L: "linear",
     P: "pass-through"
-  };
-
-  /**
-   * Get the section an offset belongs to
-   * @param  {Integer} offset
-   * @return {Object}  section
-   */
-  var getSection = function (offset) {
-    var section;
-    for (var i = 0, l = beatmap.sections.length; i < l; i++) {
-      if (beatmap.sections[i].offset > offset) { return beatmap.sections[Math.max(--i, 0)]; }
-    }
-    return beatmap.sections[beatmap.sections.length - 1];
   };
 
   /**
@@ -100,7 +88,7 @@ function beatmapParser() {
   var parseTimingPoint = function (line) {
     members = line.split(',');
 
-    var section = {
+    var timingPoint = {
       offset:           parseInt(members[0]),
       beatLength:       parseFloat(members[1]),
       velocity:         1,
@@ -109,27 +97,23 @@ function beatmapParser() {
       useCustomSamples: (members[4] == 1),
       sampleVolume:     parseInt(members[5]),
       timingChange:     (members[6] == 1),
-      kiaiTimeActive:   (members[7] == 1),
-      hitObjects: []
+      kiaiTimeActive:   (members[7] == 1)
     };
 
-    if (!isNaN(section.beatLength) && section.beatLength !== 0) {
-      if (section.beatLength > 0) {
+    if (!isNaN(timingPoint.beatLength) && timingPoint.beatLength !== 0) {
+      if (timingPoint.beatLength > 0) {
         // If positive, beatLength is the length of a beat in milliseconds
-        var bpm        = Math.round(60000 / section.beatLength);
+        var bpm        = Math.round(60000 / timingPoint.beatLength);
         beatmap.bpmMin = beatmap.bpmMin ? Math.min(beatmap.bpmMin, bpm) : bpm;
         beatmap.bpmMax = beatmap.bpmMax ? Math.max(beatmap.bpmMax, bpm) : bpm;
-        section.bpm    = bpm;
+        timingPoint.bpm    = bpm;
       } else {
         // If negative, beatLength is a velocity factor
-        section.velocity = Math.abs(100 / section.beatLength);
+        timingPoint.velocity = Math.abs(100 / timingPoint.beatLength);
       }
     }
 
-    beatmap.sections.push(section);
-    beatmap.sections.sort(function (s1, s2) {
-      return (s1.offset < s2.offset ? -1 : 1);
-    });
+    beatmap.timingPoints.push(timingPoint);
   };
 
   /**
@@ -249,8 +233,7 @@ function beatmapParser() {
       hitobject.objectName = 'unknown';
     }
 
-    var matchingSection = getSection(hitobject.startTime);
-    matchingSection.hitObjects.push(hitobject);
+    beatmap.hitObjects.push(hitobject);
   };
 
   /**
@@ -285,32 +268,12 @@ function beatmapParser() {
    * Compute the total time and the draining time of the beatmap
    */
   var computeDuration = function () {
-    var sections = beatmap.sections;
-    var firstObjectOffset;
-    var lastObjectOffset;
-    var lgt;
+    var firstObject = beatmap.hitObjects[0];
+    var lastObject  = beatmap.hitObjects[beatmap.hitObjects.length - 1];
 
-    //Get first object offset
-    for (var i = 0, l = sections.length; i < l; i++) {
-      lgt = sections[i].hitObjects.length;
-      if (lgt > 0) {
-        firstObjectOffset = sections[i].hitObjects[0].startTime;
-        break;
-      }
-    }
-
-    //Get last object offset
-    for (var j = sections.length - 1; j >= 0; j--) {
-      lgt = sections[j].hitObjects.length;
-      if (lgt > 0) {
-        lastObjectOffset = sections[j].hitObjects[lgt - 1].startTime;
-        break;
-      }
-    }
-
-    if (firstObjectOffset && lastObjectOffset) {
-      beatmap.totalTime    = Math.floor(lastObjectOffset / 1000);
-      beatmap.drainingTime = Math.floor((lastObjectOffset - firstObjectOffset - totalBreakTime) / 1000);
+    if (firstObject && lastObject) {
+      beatmap.totalTime    = Math.floor(lastObject.startTime / 1000);
+      beatmap.drainingTime = Math.floor((lastObject.startTime - firstObject.startTime - totalBreakTime) / 1000);
     } else {
       beatmap.totalTime    = 0;
       beatmap.drainingTime = 0;
@@ -321,25 +284,35 @@ function beatmapParser() {
    * Browse objects and compute max combo
    */
   var computeMaxCombo = function () {
+    if (beatmap.timingPoints.length === 0) { return; }
+
     var maxCombo         = 0;
     var sliderMultiplier = parseFloat(beatmap.SliderMultiplier);
     var sliderTickRate   = parseInt(beatmap.SliderTickRate, 10);
 
-    beatmap.sections.forEach(function (section) {
-      var osupxPerBeat = sliderMultiplier * 100 * section.velocity;
+    var timingPoints  = beatmap.timingPoints;
+    var currentTiming = timingPoints[0];
+    var nextOffset    = timingPoints[1] ? timingPoints[1].offset : Infinity;
+    var i = 1;
+
+    beatmap.hitObjects.forEach(function (hitObject) {
+      if (hitObject.startTime >= nextOffset) {
+        currentTiming = timingPoints[i++];
+        nextOffset = timingPoints[i] ? timingPoints[i].offset : Infinity;
+      }
+
+      var osupxPerBeat = sliderMultiplier * 100 * currentTiming.velocity;
       var tickLength   = osupxPerBeat / sliderTickRate;
 
-      section.hitObjects.forEach(function (hitObject) {
-        switch (hitObject.objectName) {
-          case 'spinner':
-          case 'circle':
-            maxCombo++;
-            break;
-          case 'slider':
-            var tickPerSide = Math.ceil((Math.floor(hitObject.pixelLength / tickLength * 100) / 100) - 1);
-            maxCombo += (hitObject.edges.length - 1) * (tickPerSide + 1) + 1;  // 1 combo for each tick and endpoint
-        }
-      });
+      switch (hitObject.objectName) {
+        case 'spinner':
+        case 'circle':
+          maxCombo++;
+          break;
+        case 'slider':
+          var tickPerSide = Math.ceil((Math.floor(hitObject.pixelLength / tickLength * 100) / 100) - 1);
+          maxCombo += (hitObject.edges.length - 1) * (tickPerSide + 1) + 1;  // 1 combo for each tick and endpoint
+      }
     });
 
     beatmap.maxCombo = maxCombo;
@@ -379,7 +352,7 @@ function beatmapParser() {
       }
 
       /**
-       * Exluding in events, timingpoints and hitobjects sections, lines are "key: value"
+       * Apart from events, timingpoints and hitobjects sections, lines are "key: value"
        */
       match = keyValReg.exec(line);
       if (match) { beatmap[match[1]] = match[2]; }
@@ -398,6 +371,9 @@ function beatmapParser() {
     eventsLines.forEach(parseEvent);
     timingLines.forEach(parseTimingPoint);
     objectLines.forEach(parseHitObject);
+
+    beatmap.timingPoints.sort(function (a, b) { return (a.offset > b.offset ? 1 : -1); });
+    beatmap.hitObjects.sort(function (a, b) { return (a.startTime > b.startTime ? 1 : -1); });
 
     computeMaxCombo();
     computeDuration();
