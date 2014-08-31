@@ -6,6 +6,7 @@
 - fix background filename not found if not quoted
 - add breakTimes array
 - green timing points now have a bpm inherited from the previous timing point
+- if slider endPosition can not be calculated, it's set to the position of the last point
 
 ## 0.1.1
 - bpm (string or integer) replaced by bpmMin and bpmMax (integers)
