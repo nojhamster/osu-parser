@@ -385,6 +385,14 @@ function beatmapParser() {
     beatmap.timingPoints.sort(function (a, b) { return (a.offset > b.offset ? 1 : -1); });
     beatmap.hitObjects.sort(function (a, b) { return (a.startTime > b.startTime ? 1 : -1); });
 
+    var timingPoints = beatmap.timingPoints;
+
+    for (var i = 1, l = timingPoints.length; i < l; i++) {
+      if (!timingPoints[i].hasOwnProperty('bpm')) {
+        timingPoints[i].bpm = timingPoints[i - 1].bpm;
+      }
+    }
+
     computeMaxCombo();
     computeDuration();
 

@@ -75,7 +75,7 @@ console.log(beatmap['PreviewTime']);
   </tr>
   <tr><td>offset</td><td>Integer</td><td>section offset in milliseconds. (i.e. starting timingpoint offset)</td></tr>
   <tr><td>beatLength</td><td>Float</td><td>length of a single beat in milliseconds (float). If negative, it's a change of velocity.</td></tr>
-  <tr><td>bpm</td><td>Float</td><td>number of beats per minute. (only if beatLength is positive)</td></tr>
+  <tr><td>bpm</td><td>Float</td><td>number of beats per minute.</td></tr>
   <tr><td>velocity</td><td>Float</td><td>velocity multiplicator. (1 if beatLength is positive)</td></tr>
   <tr><td>timingSignature</td><td>Integer</td><td>3 = simple triple, 4 = simple quadruple (used in editor).</td></tr>
   <tr><td>sampleSetId</td><td>Integer</td><td>sound samples. None = 0, Normal = 1, Soft = 2.</td></tr>

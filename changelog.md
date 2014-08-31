@@ -5,6 +5,7 @@
 - maxCombo calculated
 - fix background filename not found if not quoted
 - add breakTimes array
+- green timing points now have a bpm inherited from the previous timing point
 
 ## 0.1.1
 - bpm (string or integer) replaced by bpmMin and bpmMax (integers)
