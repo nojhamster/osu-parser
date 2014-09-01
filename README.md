@@ -73,7 +73,7 @@ console.log(beatmap['PreviewTime']);
     <th>type</th>
     <th>description</th>
   </tr>
-  <tr><td>offset</td><td>Integer</td><td>section offset in milliseconds. (i.e. starting timingpoint offset)</td></tr>
+  <tr><td>offset</td><td>Integer</td><td>offset in milliseconds. (i.e. starting timingpoint offset)</td></tr>
   <tr><td>beatLength</td><td>Float</td><td>length of a single beat in milliseconds (float). If negative, it's a change of velocity.</td></tr>
   <tr><td>bpm</td><td>Float</td><td>number of beats per minute.</td></tr>
   <tr><td>velocity</td><td>Float</td><td>velocity multiplicator. (1 if beatLength is positive)</td></tr>
