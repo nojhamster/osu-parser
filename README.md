@@ -58,7 +58,7 @@ console.log(beatmap['PreviewTime']);
   <tr><td>bpmMin</td><td>Integer</td><td>minimum bpm.</td></tr>
   <tr><td>bpmMax</td><td>Integer</td><td>maximum bpm.</td></tr>
   <tr><td>maxCombo</td><td>Integer</td><td>maximum combo.</td></tr>
-  <tr><td>totalTime</td><td>Integer</td><td>total time in seconds (between the first timing point and the last object).</td></tr>
+  <tr><td>totalTime</td><td>Integer</td><td>total time in seconds.</td></tr>
   <tr><td>drainingTime</td><td>Integer</td><td>draining time in seconds.</td></tr>
   <tr><td>tagsArray</td><td>Array</td><td>tags splitted into an array, for convenience.</td></tr>
   <tr><td>breakTimes</td><td>Array</td><td>list of all break times. Each has <code>startTime</code> and <code>endTime</code> properties.</td></tr>
