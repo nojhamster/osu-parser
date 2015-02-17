@@ -118,6 +118,8 @@ console.log(beatmap['PreviewTime']);
   </tr>
   <tr><td>repeatCount</td><td>Integer</td><td>number of repeats, starts at <code>1</code> for a single-way slider.</td></tr>
   <tr><td>pixelLength</td><td>Integer</td><td>length in osu-relative pixels.</td></tr>
+  <tr><td>duration</td><td>Integer</td><td>duration in milliseconds, rounded to the upper integer.</td></tr>
+  <tr><td>endTime</td><td>Integer</td><td>end offset.</td></tr>
   <tr><td>curveType</td><td>String</td><td>can be catmull, bezier, linear or pass-through.</td></tr>
   <tr><td>points</td><td>Array</td><td>list of all points including the very first. Each point is an array of coordinates [x,y].</td></tr>
   <tr><td>endPosition</td><td>Array</td><td>coordinates of the slider end ([x,y]). (not calculated for catmull)</td></tr>

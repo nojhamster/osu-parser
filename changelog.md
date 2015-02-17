@@ -1,5 +1,6 @@
 ## last changes (not published on npm)
 - streams are now read without lazy
+- add duration and endTime to sliders
 
 ## 0.2.0
 - map length now starts from the very beginning and not from the first timingpoint
