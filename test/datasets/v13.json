@@ -2629,6 +2629,8 @@
           264
         ]
       ],
+      "duration": 182,
+      "endTime": 1609,
       "curveType": "linear",
       "endPosition": [
         160,
@@ -2703,6 +2705,8 @@
           200
         ]
       ],
+      "duration": 364,
+      "endTime": 2518,
       "curveType": "pass-through",
       "endPosition": [
         497,
@@ -2803,6 +2807,8 @@
           48
         ]
       ],
+      "duration": 182,
+      "endTime": 3427,
       "curveType": "pass-through",
       "endPosition": [
         150,
@@ -2864,6 +2870,8 @@
           146
         ]
       ],
+      "duration": 182,
+      "endTime": 3790,
       "curveType": "pass-through",
       "endPosition": [
         142,
@@ -2925,6 +2933,8 @@
           300
         ]
       ],
+      "duration": 182,
+      "endTime": 4154,
       "curveType": "pass-through",
       "endPosition": [
         126,
@@ -2969,6 +2979,8 @@
           332
         ]
       ],
+      "duration": 364,
+      "endTime": 4700,
       "curveType": "linear",
       "endPosition": [
         460,
@@ -3026,6 +3038,8 @@
           236
         ]
       ],
+      "duration": 90,
+      "endTime": 5062,
       "curveType": "linear",
       "endPosition": [
         389,
@@ -3126,6 +3140,8 @@
           285
         ]
       ],
+      "duration": 182,
+      "endTime": 5972,
       "curveType": "pass-through",
       "endPosition": [
         416,
@@ -3241,6 +3257,8 @@
           352
         ]
       ],
+      "duration": 364,
+      "endTime": 6881,
       "curveType": "pass-through",
       "endPosition": [
         158,
@@ -3366,6 +3384,8 @@
           336
         ]
       ],
+      "duration": 136,
+      "endTime": 10290,
       "curveType": "linear",
       "endPosition": [
         258,
@@ -3436,6 +3456,8 @@
           188
         ]
       ],
+      "duration": 136,
+      "endTime": 11017,
       "curveType": "linear",
       "endPosition": [
         482,
@@ -3510,6 +3532,8 @@
           244
         ]
       ],
+      "duration": 272,
+      "endTime": 11880,
       "curveType": "pass-through",
       "endPosition": [
         184,
@@ -3567,6 +3591,8 @@
           72
         ]
       ],
+      "duration": 136,
+      "endTime": 12472,
       "curveType": "linear",
       "endPosition": [
         54,
@@ -3611,6 +3637,8 @@
           290
         ]
       ],
+      "duration": 136,
+      "endTime": 12835,
       "curveType": "linear",
       "endPosition": [
         221,
@@ -3674,6 +3702,8 @@
           20
         ]
       ],
+      "duration": 272,
+      "endTime": 13517,
       "curveType": "linear",
       "endPosition": [
         309,
@@ -3770,6 +3800,8 @@
           276
         ]
       ],
+      "duration": 136,
+      "endTime": 14653,
       "curveType": "linear",
       "endPosition": [
         301,
@@ -3818,6 +3850,8 @@
           360
         ]
       ],
+      "duration": 136,
+      "endTime": 15017,
       "curveType": "pass-through",
       "endPosition": [
         219,
@@ -3862,6 +3896,8 @@
           186
         ]
       ],
+      "duration": 136,
+      "endTime": 15381,
       "curveType": "linear",
       "endPosition": [
         66,
@@ -3936,6 +3972,8 @@
           48
         ]
       ],
+      "duration": 272,
+      "endTime": 16244,
       "curveType": "pass-through",
       "endPosition": [
         277,
@@ -3980,6 +4018,8 @@
           56
         ]
       ],
+      "duration": 136,
+      "endTime": 16653,
       "curveType": "linear",
       "endPosition": [
         417,
@@ -4067,6 +4107,8 @@
           196
         ]
       ],
+      "duration": 136,
+      "endTime": 17563,
       "curveType": "pass-through",
       "endPosition": [
         428,
@@ -4167,6 +4209,8 @@
           184
         ]
       ],
+      "duration": 136,
+      "endTime": 19017,
       "curveType": "pass-through",
       "endPosition": [
         94,
@@ -4278,6 +4322,8 @@
           276
         ]
       ],
+      "duration": 154,
+      "endTime": 20490,
       "curveType": "linear",
       "endPosition": [
         295,
@@ -4322,6 +4368,8 @@
           138
         ]
       ],
+      "duration": 154,
+      "endTime": 20853,
       "curveType": "linear",
       "endPosition": [
         237,
@@ -4366,6 +4414,8 @@
           360
         ]
       ],
+      "duration": 154,
+      "endTime": 21217,
       "curveType": "linear",
       "endPosition": [
         283,
@@ -4410,6 +4460,8 @@
           90
         ]
       ],
+      "duration": 154,
+      "endTime": 21580,
       "curveType": "linear",
       "endPosition": [
         169,
@@ -4473,6 +4525,8 @@
           288
         ]
       ],
+      "duration": 309,
+      "endTime": 22463,
       "curveType": "pass-through",
       "endPosition": [
         68,
@@ -4521,6 +4575,8 @@
           212
         ]
       ],
+      "duration": 154,
+      "endTime": 22853,
       "curveType": "pass-through",
       "endPosition": [
         195,
@@ -4565,6 +4621,8 @@
           204
         ]
       ],
+      "duration": 102,
+      "endTime": 23104,
       "curveType": "linear",
       "endPosition": [
         332,
@@ -4628,6 +4686,8 @@
           356
         ]
       ],
+      "duration": 309,
+      "endTime": 23917,
       "curveType": "pass-through",
       "endPosition": [
         275,
@@ -4715,6 +4775,8 @@
           176
         ]
       ],
+      "duration": 309,
+      "endTime": 25008,
       "curveType": "linear",
       "endPosition": [
         143,
@@ -4817,6 +4879,8 @@
           80
         ]
       ],
+      "duration": 154,
+      "endTime": 25944,
       "curveType": "pass-through",
       "endPosition": [
         472,
@@ -4932,6 +4996,8 @@
           364
         ]
       ],
+      "duration": 154,
+      "endTime": 26853,
       "curveType": "pass-through",
       "endPosition": [
         459,
@@ -5017,6 +5083,8 @@
           188
         ]
       ],
+      "duration": 154,
+      "endTime": 27762,
       "curveType": "linear",
       "endPosition": [
         338,
@@ -5145,6 +5213,8 @@
           122
         ]
       ],
+      "duration": 154,
+      "endTime": 29217,
       "curveType": "pass-through",
       "endPosition": [
         120,
@@ -5232,6 +5302,8 @@
           254
         ]
       ],
+      "duration": 154,
+      "endTime": 29762,
       "curveType": "pass-through",
       "endPosition": [
         174,
@@ -5321,6 +5393,8 @@
           29
         ]
       ],
+      "duration": 309,
+      "endTime": 30826,
       "curveType": "pass-through",
       "endPosition": [
         295,
@@ -5369,6 +5443,8 @@
           208
         ]
       ],
+      "duration": 154,
+      "endTime": 31217,
       "curveType": "pass-through",
       "endPosition": [
         339,
@@ -5458,6 +5534,8 @@
           340
         ]
       ],
+      "duration": 154,
+      "endTime": 32126,
       "curveType": "pass-through",
       "endPosition": [
         141,
@@ -5508,6 +5586,8 @@
           158
         ]
       ],
+      "duration": 154,
+      "endTime": 32490,
       "curveType": "pass-through",
       "endPosition": [
         227,
@@ -5558,6 +5638,8 @@
           320
         ]
       ],
+      "duration": 154,
+      "endTime": 32853,
       "curveType": "pass-through",
       "endPosition": [
         209,
@@ -5861,6 +5943,8 @@
           200
         ]
       ],
+      "duration": 182,
+      "endTime": 35063,
       "curveType": "pass-through",
       "endPosition": [
         441,
@@ -5905,6 +5989,8 @@
           292
         ]
       ],
+      "duration": 90,
+      "endTime": 35335,
       "curveType": "linear",
       "endPosition": [
         407,
@@ -5949,6 +6035,8 @@
           268
         ]
       ],
+      "duration": 90,
+      "endTime": 35517,
       "curveType": "linear",
       "endPosition": [
         327,
@@ -5993,6 +6081,8 @@
           228
         ]
       ],
+      "duration": 90,
+      "endTime": 35698,
       "curveType": "linear",
       "endPosition": [
         259,
@@ -6037,6 +6127,8 @@
           168
         ]
       ],
+      "duration": 90,
+      "endTime": 35880,
       "curveType": "linear",
       "endPosition": [
         227,
@@ -6081,6 +6173,8 @@
           96
         ]
       ],
+      "duration": 90,
+      "endTime": 36062,
       "curveType": "linear",
       "endPosition": [
         250,
@@ -6125,6 +6219,8 @@
           88
         ]
       ],
+      "duration": 90,
+      "endTime": 36244,
       "curveType": "linear",
       "endPosition": [
         329,
@@ -6385,6 +6481,8 @@
           368
         ]
       ],
+      "duration": 182,
+      "endTime": 37972,
       "curveType": "pass-through",
       "endPosition": [
         146,
@@ -6429,6 +6527,8 @@
           136
         ]
       ],
+      "duration": 90,
+      "endTime": 38244,
       "curveType": "linear",
       "endPosition": [
         59,
@@ -6473,6 +6573,8 @@
           126
         ]
       ],
+      "duration": 90,
+      "endTime": 38426,
       "curveType": "linear",
       "endPosition": [
         128,
@@ -6517,6 +6619,8 @@
           124
         ]
       ],
+      "duration": 90,
+      "endTime": 38607,
       "curveType": "linear",
       "endPosition": [
         63,
@@ -6561,6 +6665,8 @@
           114
         ]
       ],
+      "duration": 90,
+      "endTime": 38789,
       "curveType": "linear",
       "endPosition": [
         132,
@@ -6607,6 +6713,8 @@
           112
         ]
       ],
+      "duration": 90,
+      "endTime": 38971,
       "curveType": "linear",
       "endPosition": [
         67,
@@ -6651,6 +6759,8 @@
           102
         ]
       ],
+      "duration": 90,
+      "endTime": 39153,
       "curveType": "linear",
       "endPosition": [
         136,
@@ -6701,6 +6811,8 @@
           184
         ]
       ],
+      "duration": 182,
+      "endTime": 39427,
       "curveType": "pass-through",
       "endPosition": [
         277,
@@ -6914,6 +7026,8 @@
           304
         ]
       ],
+      "duration": 90,
+      "endTime": 40789,
       "curveType": "linear",
       "endPosition": [
         256,
@@ -6958,6 +7072,8 @@
           216
         ]
       ],
+      "duration": 90,
+      "endTime": 41062,
       "curveType": "linear",
       "endPosition": [
         410,
@@ -7002,6 +7118,8 @@
           216
         ]
       ],
+      "duration": 90,
+      "endTime": 41335,
       "curveType": "linear",
       "endPosition": [
         102,
@@ -7046,6 +7164,8 @@
           68
         ]
       ],
+      "duration": 90,
+      "endTime": 41607,
       "curveType": "linear",
       "endPosition": [
         256,
@@ -7096,6 +7216,8 @@
           36
         ]
       ],
+      "duration": 182,
+      "endTime": 41972,
       "curveType": "pass-through",
       "endPosition": [
         457,
@@ -7557,6 +7679,8 @@
           260
         ]
       ],
+      "duration": 364,
+      "endTime": 46881,
       "curveType": "pass-through",
       "endPosition": [
         355,
@@ -7646,6 +7770,8 @@
           344
         ]
       ],
+      "duration": 272,
+      "endTime": 48244,
       "curveType": "linear",
       "endPosition": [
         169,
@@ -7707,6 +7833,8 @@
           240
         ]
       ],
+      "duration": 182,
+      "endTime": 48699,
       "curveType": "pass-through",
       "endPosition": [
         136,
@@ -7792,6 +7920,8 @@
           232
         ]
       ],
+      "duration": 182,
+      "endTime": 49609,
       "curveType": "linear",
       "endPosition": [
         78,
@@ -7890,6 +8020,8 @@
           304
         ]
       ],
+      "duration": 182,
+      "endTime": 50699,
       "curveType": "linear",
       "endPosition": [
         362,
@@ -7934,6 +8066,8 @@
           255
         ]
       ],
+      "duration": 67,
+      "endTime": 50857,
       "curveType": "linear",
       "endPosition": [
         436,
@@ -7984,6 +8118,8 @@
           56
         ]
       ],
+      "duration": 364,
+      "endTime": 51245,
       "curveType": "pass-through",
       "endPosition": [
         484,
@@ -8127,6 +8263,8 @@
           344
         ]
       ],
+      "duration": 364,
+      "endTime": 52700,
       "curveType": "pass-through",
       "endPosition": [
         75,
@@ -8281,6 +8419,8 @@
           176
         ]
       ],
+      "duration": 364,
+      "endTime": 54518,
       "curveType": "pass-through",
       "endPosition": [
         352,
@@ -8338,6 +8478,8 @@
           120
         ]
       ],
+      "duration": 182,
+      "endTime": 55063,
       "curveType": "linear",
       "endPosition": [
         240,
@@ -8416,6 +8558,8 @@
           147
         ]
       ],
+      "duration": 182,
+      "endTime": 55790,
       "curveType": "pass-through",
       "endPosition": [
         55,
@@ -8576,6 +8720,8 @@
           120
         ]
       ],
+      "duration": 242,
+      "endTime": 56941,
       "curveType": "pass-through",
       "endPosition": [
         267,
@@ -8630,6 +8776,8 @@
           232
         ]
       ],
+      "duration": 242,
+      "endTime": 57305,
       "curveType": "pass-through",
       "endPosition": [
         445,
@@ -8684,6 +8832,8 @@
           300
         ]
       ],
+      "duration": 242,
+      "endTime": 57669,
       "curveType": "pass-through",
       "endPosition": [
         212,
@@ -8738,6 +8888,8 @@
           153
         ]
       ],
+      "duration": 242,
+      "endTime": 58032,
       "curveType": "pass-through",
       "endPosition": [
         148,
@@ -8792,6 +8944,8 @@
           100
         ]
       ],
+      "duration": 242,
+      "endTime": 58396,
       "curveType": "pass-through",
       "endPosition": [
         333,
@@ -8846,6 +9000,8 @@
           304
         ]
       ],
+      "duration": 242,
+      "endTime": 58759,
       "curveType": "pass-through",
       "endPosition": [
         335,
@@ -8900,6 +9056,8 @@
           232
         ]
       ],
+      "duration": 242,
+      "endTime": 59123,
       "curveType": "pass-through",
       "endPosition": [
         176,
@@ -8948,6 +9106,8 @@
           244
         ]
       ],
+      "duration": 182,
+      "endTime": 59427,
       "curveType": "pass-through",
       "endPosition": [
         434,
@@ -9219,6 +9379,8 @@
           200
         ]
       ],
+      "duration": 182,
+      "endTime": 62336,
       "curveType": "linear",
       "endPosition": [
         42,
@@ -9269,6 +9431,8 @@
           236
         ]
       ],
+      "duration": 364,
+      "endTime": 62881,
       "curveType": "pass-through",
       "endPosition": [
         281,
@@ -9438,6 +9602,8 @@
           64
         ]
       ],
+      "duration": 364,
+      "endTime": 64336,
       "curveType": "pass-through",
       "endPosition": [
         55,
@@ -9495,6 +9661,8 @@
           272
         ]
       ],
+      "duration": 90,
+      "endTime": 64789,
       "curveType": "linear",
       "endPosition": [
         81,
@@ -9539,6 +9707,8 @@
           316
         ]
       ],
+      "duration": 90,
+      "endTime": 64971,
       "curveType": "linear",
       "endPosition": [
         177,
@@ -9589,6 +9759,8 @@
           304
         ]
       ],
+      "duration": 182,
+      "endTime": 65245,
       "curveType": "pass-through",
       "endPosition": [
         378,
@@ -9635,6 +9807,8 @@
           208
         ]
       ],
+      "duration": 182,
+      "endTime": 65608,
       "curveType": "linear",
       "endPosition": [
         393,
@@ -9695,6 +9869,8 @@
           185
         ]
       ],
+      "duration": 242,
+      "endTime": 66032,
       "curveType": "pass-through",
       "endPosition": [
         302,
@@ -9739,6 +9915,8 @@
           240
         ]
       ],
+      "duration": 90,
+      "endTime": 66244,
       "curveType": "linear",
       "endPosition": [
         121,
@@ -9783,6 +9961,8 @@
           163
         ]
       ],
+      "duration": 90,
+      "endTime": 66425,
       "curveType": "linear",
       "endPosition": [
         73,
@@ -9854,6 +10034,8 @@
           53
         ]
       ],
+      "duration": 178,
+      "endTime": 66877,
       "curveType": "linear",
       "endPosition": [
         255,
@@ -9911,6 +10093,8 @@
           212
         ]
       ],
+      "duration": 90,
+      "endTime": 67334,
       "curveType": "linear",
       "endPosition": [
         414,
@@ -9955,6 +10139,8 @@
           292
         ]
       ],
+      "duration": 90,
+      "endTime": 67516,
       "curveType": "linear",
       "endPosition": [
         424,
@@ -10001,6 +10187,8 @@
           340
         ]
       ],
+      "duration": 90,
+      "endTime": 67698,
       "curveType": "linear",
       "endPosition": [
         288,
@@ -10045,6 +10233,8 @@
           264
         ]
       ],
+      "duration": 90,
+      "endTime": 67880,
       "curveType": "linear",
       "endPosition": [
         294,
@@ -10195,6 +10385,8 @@
           64
         ]
       ],
+      "duration": 90,
+      "endTime": 68789,
       "curveType": "linear",
       "endPosition": [
         178,
@@ -10239,6 +10431,8 @@
           134
         ]
       ],
+      "duration": 90,
+      "endTime": 68971,
       "curveType": "linear",
       "endPosition": [
         106,
@@ -10283,6 +10477,8 @@
           148
         ]
       ],
+      "duration": 90,
+      "endTime": 69153,
       "curveType": "linear",
       "endPosition": [
         206,
@@ -10327,6 +10523,8 @@
           218
         ]
       ],
+      "duration": 90,
+      "endTime": 69335,
       "curveType": "linear",
       "endPosition": [
         134,
@@ -10377,6 +10575,8 @@
           295
         ]
       ],
+      "duration": 182,
+      "endTime": 69608,
       "curveType": "pass-through",
       "endPosition": [
         188,
@@ -10460,6 +10660,8 @@
           324
         ]
       ],
+      "duration": 182,
+      "endTime": 70154,
       "curveType": "linear",
       "endPosition": [
         466,
@@ -10519,6 +10721,8 @@
           172
         ]
       ],
+      "duration": 90,
+      "endTime": 70607,
       "curveType": "linear",
       "endPosition": [
         390,
@@ -10563,6 +10767,8 @@
           40
         ]
       ],
+      "duration": 90,
+      "endTime": 70789,
       "curveType": "linear",
       "endPosition": [
         382,
@@ -10713,6 +10919,8 @@
           228
         ]
       ],
+      "duration": 90,
+      "endTime": 71698,
       "curveType": "linear",
       "endPosition": [
         57,
@@ -10757,6 +10965,8 @@
           271
         ]
       ],
+      "duration": 90,
+      "endTime": 71880,
       "curveType": "linear",
       "endPosition": [
         159,
@@ -10802,6 +11012,8 @@
           200
         ]
       ],
+      "duration": 90,
+      "endTime": 72062,
       "curveType": "linear",
       "endPosition": [
         157,
@@ -10846,6 +11058,8 @@
           304
         ]
       ],
+      "duration": 90,
+      "endTime": 72244,
       "curveType": "linear",
       "endPosition": [
         68,
@@ -11104,6 +11318,8 @@
           136
         ]
       ],
+      "duration": 182,
+      "endTime": 73972,
       "curveType": "pass-through",
       "endPosition": [
         457,
@@ -11167,6 +11383,8 @@
           264
         ]
       ],
+      "duration": 90,
+      "endTime": 74425,
       "curveType": "linear",
       "endPosition": [
         332,
@@ -11333,6 +11551,8 @@
           380
         ]
       ],
+      "duration": 182,
+      "endTime": 75426,
       "curveType": "pass-through",
       "endPosition": [
         286,
@@ -11396,6 +11616,8 @@
           280
         ]
       ],
+      "duration": 90,
+      "endTime": 75880,
       "curveType": "linear",
       "endPosition": [
         467,
@@ -11562,6 +11784,8 @@
           56
         ]
       ],
+      "duration": 364,
+      "endTime": 77063,
       "curveType": "pass-through",
       "endPosition": [
         103,
@@ -11629,6 +11853,8 @@
           361
         ]
       ],
+      "duration": 242,
+      "endTime": 77668,
       "curveType": "pass-through",
       "endPosition": [
         191,
@@ -11673,6 +11899,8 @@
           292
         ]
       ],
+      "duration": 90,
+      "endTime": 77880,
       "curveType": "linear",
       "endPosition": [
         339,
@@ -11719,6 +11947,8 @@
           207
         ]
       ],
+      "duration": 90,
+      "endTime": 78062,
       "curveType": "linear",
       "endPosition": [
         451,
@@ -11791,6 +12021,8 @@
           74
         ]
       ],
+      "duration": 178,
+      "endTime": 78513,
       "curveType": "linear",
       "endPosition": [
         370,
@@ -11848,6 +12080,8 @@
           71
         ]
       ],
+      "duration": 90,
+      "endTime": 78971,
       "curveType": "linear",
       "endPosition": [
         83,
@@ -11892,6 +12126,8 @@
           143
         ]
       ],
+      "duration": 90,
+      "endTime": 79153,
       "curveType": "linear",
       "endPosition": [
         19,
@@ -11936,6 +12172,8 @@
           165
         ]
       ],
+      "duration": 90,
+      "endTime": 79334,
       "curveType": "linear",
       "endPosition": [
         194,
@@ -11980,6 +12218,8 @@
           93
         ]
       ],
+      "duration": 90,
+      "endTime": 79516,
       "curveType": "linear",
       "endPosition": [
         258,
@@ -12236,6 +12476,8 @@
           336
         ]
       ],
+      "duration": 90,
+      "endTime": 81153,
       "curveType": "linear",
       "endPosition": [
         91,
@@ -12282,6 +12524,8 @@
           245
         ]
       ],
+      "duration": 90,
+      "endTime": 81334,
       "curveType": "linear",
       "endPosition": [
         80,
@@ -12384,6 +12628,8 @@
           173
         ]
       ],
+      "duration": 90,
+      "endTime": 81880,
       "curveType": "linear",
       "endPosition": [
         328,
@@ -12430,6 +12676,8 @@
           86
         ]
       ],
+      "duration": 90,
+      "endTime": 82062,
       "curveType": "linear",
       "endPosition": [
         416,
@@ -12476,6 +12724,8 @@
           50
         ]
       ],
+      "duration": 90,
+      "endTime": 82244,
       "curveType": "linear",
       "endPosition": [
         315,
@@ -12522,6 +12772,8 @@
           210
         ]
       ],
+      "duration": 90,
+      "endTime": 82425,
       "curveType": "linear",
       "endPosition": [
         423,
@@ -12572,6 +12824,8 @@
           284
         ]
       ],
+      "duration": 182,
+      "endTime": 82699,
       "curveType": "pass-through",
       "endPosition": [
         185,
@@ -12890,6 +13144,8 @@
           3
         ]
       ],
+      "duration": 136,
+      "endTime": 88471,
       "curveType": "pass-through",
       "endPosition": [
         399,
@@ -12944,6 +13200,8 @@
           122
         ]
       ],
+      "duration": 272,
+      "endTime": 88971,
       "curveType": "pass-through",
       "endPosition": [
         253,
@@ -13031,6 +13289,8 @@
           334
         ]
       ],
+      "duration": 203,
+      "endTime": 89993,
       "curveType": "pass-through",
       "endPosition": [
         226,
@@ -13075,6 +13335,8 @@
           244
         ]
       ],
+      "duration": 136,
+      "endTime": 90290,
       "curveType": "linear",
       "endPosition": [
         195,
@@ -13158,6 +13420,8 @@
           331
         ]
       ],
+      "duration": 136,
+      "endTime": 91380,
       "curveType": "linear",
       "endPosition": [
         424,
@@ -13215,6 +13479,8 @@
           338
         ]
       ],
+      "duration": 136,
+      "endTime": 92108,
       "curveType": "linear",
       "endPosition": [
         418,
@@ -13285,6 +13551,8 @@
           244
         ]
       ],
+      "duration": 136,
+      "endTime": 92835,
       "curveType": "linear",
       "endPosition": [
         198,
@@ -13339,6 +13607,8 @@
           327
         ]
       ],
+      "duration": 180,
+      "endTime": 93243,
       "curveType": "pass-through",
       "endPosition": [
         125,
@@ -13387,6 +13657,8 @@
           48
         ]
       ],
+      "duration": 272,
+      "endTime": 93698,
       "curveType": "pass-through",
       "endPosition": [
         75,
@@ -13448,6 +13720,8 @@
           329
         ]
       ],
+      "duration": 272,
+      "endTime": 94426,
       "curveType": "pass-through",
       "endPosition": [
         236,
@@ -13496,6 +13770,8 @@
           58
         ]
       ],
+      "duration": 136,
+      "endTime": 95017,
       "curveType": "pass-through",
       "endPosition": [
         360,
@@ -13570,6 +13846,8 @@
           216
         ]
       ],
+      "duration": 408,
+      "endTime": 96016,
       "curveType": "pass-through",
       "endPosition": [
         38,
@@ -13657,6 +13935,8 @@
           172
         ]
       ],
+      "duration": 182,
+      "endTime": 97245,
       "curveType": "pass-through",
       "endPosition": [
         93,
@@ -13705,6 +13985,8 @@
           212
         ]
       ],
+      "duration": 182,
+      "endTime": 97608,
       "curveType": "pass-through",
       "endPosition": [
         419,
@@ -13753,6 +14035,8 @@
           369
         ]
       ],
+      "duration": 182,
+      "endTime": 97972,
       "curveType": "pass-through",
       "endPosition": [
         159,
@@ -13801,6 +14085,8 @@
           15
         ]
       ],
+      "duration": 182,
+      "endTime": 98336,
       "curveType": "pass-through",
       "endPosition": [
         353,
@@ -13951,6 +14237,8 @@
           231
         ]
       ],
+      "duration": 90,
+      "endTime": 99334,
       "curveType": "linear",
       "endPosition": [
         378,
@@ -13995,6 +14283,8 @@
           345
         ]
       ],
+      "duration": 90,
+      "endTime": 99516,
       "curveType": "linear",
       "endPosition": [
         354,
@@ -14039,6 +14329,8 @@
           329
         ]
       ],
+      "duration": 90,
+      "endTime": 99698,
       "curveType": "linear",
       "endPosition": [
         156,
@@ -14083,6 +14375,8 @@
           233
         ]
       ],
+      "duration": 90,
+      "endTime": 99880,
       "curveType": "linear",
       "endPosition": [
         107,
@@ -14133,6 +14427,8 @@
           188
         ]
       ],
+      "duration": 364,
+      "endTime": 100336,
       "curveType": "pass-through",
       "endPosition": [
         381,
@@ -14274,6 +14570,8 @@
           181
         ]
       ],
+      "duration": 182,
+      "endTime": 101608,
       "curveType": "linear",
       "endPosition": [
         137,
@@ -14361,6 +14659,8 @@
           217
         ]
       ],
+      "duration": 364,
+      "endTime": 102336,
       "curveType": "pass-through",
       "endPosition": [
         461,
@@ -14437,6 +14737,8 @@
           105
         ]
       ],
+      "duration": 182,
+      "endTime": 103063,
       "curveType": "pass-through",
       "endPosition": [
         70,
@@ -14563,6 +14865,8 @@
           228
         ]
       ],
+      "duration": 182,
+      "endTime": 104154,
       "curveType": "pass-through",
       "endPosition": [
         90,
@@ -14667,6 +14971,8 @@
           163
         ]
       ],
+      "duration": 364,
+      "endTime": 105427,
       "curveType": "pass-through",
       "endPosition": [
         321,
@@ -14726,6 +15032,8 @@
           110
         ]
       ],
+      "duration": 182,
+      "endTime": 105972,
       "curveType": "linear",
       "endPosition": [
         172,
@@ -14798,6 +15106,8 @@
           244
         ]
       ],
+      "duration": 90,
+      "endTime": 106789,
       "curveType": "linear",
       "endPosition": [
         380,
@@ -14842,6 +15152,8 @@
           331
         ]
       ],
+      "duration": 90,
+      "endTime": 106971,
       "curveType": "linear",
       "endPosition": [
         443,
@@ -14886,6 +15198,8 @@
           325
         ]
       ],
+      "duration": 90,
+      "endTime": 107153,
       "curveType": "linear",
       "endPosition": [
         347,
@@ -15142,6 +15456,8 @@
           116
         ]
       ],
+      "duration": 90,
+      "endTime": 108789,
       "curveType": "linear",
       "endPosition": [
         104,
@@ -15186,6 +15502,8 @@
           252
         ]
       ],
+      "duration": 90,
+      "endTime": 108971,
       "curveType": "linear",
       "endPosition": [
         71,
@@ -15232,6 +15550,8 @@
           367
         ]
       ],
+      "duration": 90,
+      "endTime": 109153,
       "curveType": "linear",
       "endPosition": [
         135,
@@ -15280,6 +15600,8 @@
           353
         ]
       ],
+      "duration": 90,
+      "endTime": 109334,
       "curveType": "linear",
       "endPosition": [
         259,
@@ -15436,6 +15758,8 @@
           347
         ]
       ],
+      "duration": 90,
+      "endTime": 110244,
       "curveType": "linear",
       "endPosition": [
         389,
@@ -15480,6 +15804,8 @@
           281
         ]
       ],
+      "duration": 90,
+      "endTime": 110425,
       "curveType": "linear",
       "endPosition": [
         265,
@@ -15526,6 +15852,8 @@
           336
         ]
       ],
+      "duration": 90,
+      "endTime": 110607,
       "curveType": "linear",
       "endPosition": [
         140,
@@ -15574,6 +15902,8 @@
           265
         ]
       ],
+      "duration": 90,
+      "endTime": 110789,
       "curveType": "linear",
       "endPosition": [
         134,
@@ -15730,6 +16060,8 @@
           48
         ]
       ],
+      "duration": 90,
+      "endTime": 111698,
       "curveType": "linear",
       "endPosition": [
         346,
@@ -15774,6 +16106,8 @@
           125
         ]
       ],
+      "duration": 90,
+      "endTime": 111880,
       "curveType": "linear",
       "endPosition": [
         422,
@@ -15820,6 +16154,8 @@
           126
         ]
       ],
+      "duration": 90,
+      "endTime": 112062,
       "curveType": "linear",
       "endPosition": [
         331,
@@ -15868,6 +16204,8 @@
           39
         ]
       ],
+      "duration": 90,
+      "endTime": 112244,
       "curveType": "linear",
       "endPosition": [
         435,
@@ -16024,6 +16362,8 @@
           350
         ]
       ],
+      "duration": 90,
+      "endTime": 113153,
       "curveType": "linear",
       "endPosition": [
         477,
@@ -16068,6 +16408,8 @@
           331
         ]
       ],
+      "duration": 90,
+      "endTime": 113334,
       "curveType": "linear",
       "endPosition": [
         205,
@@ -16114,6 +16456,8 @@
           237
         ]
       ],
+      "duration": 90,
+      "endTime": 113516,
       "curveType": "linear",
       "endPosition": [
         466,
@@ -16162,6 +16506,8 @@
           218
         ]
       ],
+      "duration": 90,
+      "endTime": 113698,
       "curveType": "linear",
       "endPosition": [
         194,
@@ -16218,6 +16564,8 @@
           113
         ]
       ],
+      "duration": 242,
+      "endTime": 114032,
       "curveType": "pass-through",
       "endPosition": [
         415,
@@ -16276,6 +16624,8 @@
           115
         ]
       ],
+      "duration": 242,
+      "endTime": 114396,
       "curveType": "pass-through",
       "endPosition": [
         133,
@@ -16339,6 +16689,8 @@
           218
         ]
       ],
+      "duration": 90,
+      "endTime": 114880,
       "curveType": "linear",
       "endPosition": [
         249,

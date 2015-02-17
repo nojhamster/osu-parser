@@ -417,6 +417,8 @@
           120
         ]
       ],
+      "duration": 462,
+      "endTime": 11333,
       "curveType": "bezier",
       "endPosition": [
         126,
@@ -499,6 +501,8 @@
           288
         ]
       ],
+      "duration": 693,
+      "endTime": 13179,
       "curveType": "bezier",
       "endPosition": [
         266,
@@ -556,6 +560,8 @@
           152
         ]
       ],
+      "duration": 231,
+      "endTime": 14102,
       "curveType": "linear",
       "endPosition": [
         178,
@@ -619,6 +625,8 @@
           176
         ]
       ],
+      "duration": 462,
+      "endTime": 15256,
       "curveType": "bezier",
       "endPosition": [
         144,
@@ -681,6 +689,8 @@
           264
         ]
       ],
+      "duration": 924,
+      "endTime": 16872,
       "curveType": "bezier",
       "endPosition": [
         94,
@@ -770,6 +780,8 @@
           160
         ]
       ],
+      "duration": 462,
+      "endTime": 18717,
       "curveType": "bezier",
       "endPosition": [
         424,
@@ -937,6 +949,8 @@
           176
         ]
       ],
+      "duration": 462,
+      "endTime": 22410,
       "curveType": "linear",
       "endPosition": [
         344,
@@ -1076,6 +1090,8 @@
           112
         ]
       ],
+      "duration": 231,
+      "endTime": 25179,
       "curveType": "bezier",
       "endPosition": [
         40,
@@ -1150,6 +1166,8 @@
           314
         ]
       ],
+      "duration": 231,
+      "endTime": 26332,
       "curveType": "bezier",
       "endPosition": [
         96,
@@ -1216,6 +1234,8 @@
           332
         ]
       ],
+      "duration": 924,
+      "endTime": 27949,
       "curveType": "bezier",
       "endPosition": [
         218,
@@ -1277,6 +1297,8 @@
           104
         ]
       ],
+      "duration": 231,
+      "endTime": 28871,
       "curveType": "bezier",
       "endPosition": [
         206,
@@ -1331,6 +1353,8 @@
           112
         ]
       ],
+      "duration": 462,
+      "endTime": 29794,
       "curveType": "bezier",
       "endPosition": [
         55,
@@ -1392,6 +1416,8 @@
           104
         ]
       ],
+      "duration": 231,
+      "endTime": 30948,
       "curveType": "bezier",
       "endPosition": [
         268,
@@ -1492,6 +1518,8 @@
           312
         ]
       ],
+      "duration": 231,
+      "endTime": 32563,
       "curveType": "bezier",
       "endPosition": [
         172,
@@ -1546,6 +1574,8 @@
           344
         ]
       ],
+      "duration": 462,
+      "endTime": 33487,
       "curveType": "bezier",
       "endPosition": [
         88,
@@ -1723,6 +1753,8 @@
           296
         ]
       ],
+      "duration": 693,
+      "endTime": 37410,
       "curveType": "bezier",
       "endPosition": [
         234,
@@ -1842,6 +1874,8 @@
           336
         ]
       ],
+      "duration": 1847,
+      "endTime": 41102,
       "curveType": "bezier",
       "endPosition": [
         302,
@@ -1948,6 +1982,8 @@
           40
         ]
       ],
+      "duration": 1847,
+      "endTime": 44795,
       "curveType": "bezier",
       "endPosition": [
         72,
@@ -2054,6 +2090,8 @@
           256
         ]
       ],
+      "duration": 1847,
+      "endTime": 48487,
       "curveType": "bezier",
       "endPosition": [
         409,
@@ -2186,6 +2224,8 @@
           280
         ]
       ],
+      "duration": 924,
+      "endTime": 53795,
       "curveType": "bezier",
       "endPosition": [
         311,
@@ -2240,6 +2280,8 @@
           264
         ]
       ],
+      "duration": 914,
+      "endTime": 54939,
       "curveType": "bezier",
       "endPosition": [
         143,
@@ -2320,6 +2362,8 @@
           144
         ]
       ],
+      "duration": 914,
+      "endTime": 56785,
       "curveType": "bezier",
       "endPosition": [
         93,
@@ -2400,6 +2444,8 @@
           64
         ]
       ],
+      "duration": 462,
+      "endTime": 58179,
       "curveType": "bezier",
       "endPosition": [
         363,
@@ -2454,6 +2500,8 @@
           200
         ]
       ],
+      "duration": 462,
+      "endTime": 59102,
       "curveType": "bezier",
       "endPosition": [
         424,
@@ -2502,6 +2550,8 @@
           152
         ]
       ],
+      "duration": 457,
+      "endTime": 60020,
       "curveType": "bezier",
       "endPosition": [
         207,
@@ -2602,6 +2652,8 @@
           72
         ]
       ],
+      "duration": 457,
+      "endTime": 61866,
       "curveType": "bezier",
       "endPosition": [
         253,
@@ -2689,6 +2741,8 @@
           208
         ]
       ],
+      "duration": 457,
+      "endTime": 63712,
       "curveType": "bezier",
       "endPosition": [
         192,
@@ -2821,6 +2875,8 @@
           72
         ]
       ],
+      "duration": 462,
+      "endTime": 66717,
       "curveType": "bezier",
       "endPosition": [
         273,
@@ -2873,6 +2929,8 @@
           224
         ]
       ],
+      "duration": 457,
+      "endTime": 67405,
       "curveType": "bezier",
       "endPosition": [
         202,
@@ -2992,6 +3050,8 @@
           96
         ]
       ],
+      "duration": 914,
+      "endTime": 69708,
       "curveType": "bezier",
       "endPosition": [
         155,
@@ -3085,6 +3145,8 @@
           240
         ]
       ],
+      "duration": 914,
+      "endTime": 71554,
       "curveType": "bezier",
       "endPosition": [
         31,
@@ -3185,6 +3247,8 @@
           184
         ]
       ],
+      "duration": 231,
+      "endTime": 73179,
       "curveType": "bezier",
       "endPosition": [
         413,
@@ -3235,6 +3299,8 @@
           296
         ]
       ],
+      "duration": 462,
+      "endTime": 74102,
       "curveType": "linear",
       "endPosition": [
         317,
@@ -3289,6 +3355,8 @@
           184
         ]
       ],
+      "duration": 914,
+      "endTime": 75246,
       "curveType": "bezier",
       "endPosition": [
         469,
@@ -3376,6 +3444,8 @@
           56
         ]
       ],
+      "duration": 457,
+      "endTime": 76635,
       "curveType": "bezier",
       "endPosition": [
         302,
@@ -3463,6 +3533,8 @@
           232
         ]
       ],
+      "duration": 457,
+      "endTime": 78482,
       "curveType": "bezier",
       "endPosition": [
         191,
@@ -3651,6 +3723,8 @@
           192
         ]
       ],
+      "duration": 231,
+      "endTime": 86102,
       "curveType": "bezier",
       "endPosition": [
         102,
@@ -3765,6 +3839,8 @@
           136
         ]
       ],
+      "duration": 924,
+      "endTime": 88872,
       "curveType": "bezier",
       "endPosition": [
         442,
@@ -3822,6 +3898,8 @@
           240
         ]
       ],
+      "duration": 231,
+      "endTime": 89794,
       "curveType": "bezier",
       "endPosition": [
         230,
@@ -3876,6 +3954,8 @@
           310
         ]
       ],
+      "duration": 462,
+      "endTime": 90717,
       "curveType": "bezier",
       "endPosition": [
         113,
@@ -4015,6 +4095,8 @@
           304
         ]
       ],
+      "duration": 231,
+      "endTime": 93486,
       "curveType": "bezier",
       "endPosition": [
         183,
@@ -4063,6 +4145,8 @@
           328
         ]
       ],
+      "duration": 693,
+      "endTime": 94641,
       "curveType": "bezier",
       "endPosition": [
         259,
@@ -4176,6 +4260,8 @@
           96
         ]
       ],
+      "duration": 231,
+      "endTime": 97179,
       "curveType": "bezier",
       "endPosition": [
         111,
@@ -4230,6 +4316,8 @@
           232
         ]
       ],
+      "duration": 462,
+      "endTime": 98102,
       "curveType": "bezier",
       "endPosition": [
         152,
@@ -4370,6 +4458,8 @@
           280
         ]
       ],
+      "duration": 231,
+      "endTime": 100871,
       "curveType": "bezier",
       "endPosition": [
         39,
@@ -4427,6 +4517,8 @@
           272
         ]
       ],
+      "duration": 231,
+      "endTime": 101794,
       "curveType": "bezier",
       "endPosition": [
         178,
@@ -4553,6 +4645,8 @@
           168
         ]
       ],
+      "duration": 231,
+      "endTime": 104563,
       "curveType": "bezier",
       "endPosition": [
         312,
@@ -4601,6 +4695,8 @@
           194
         ]
       ],
+      "duration": 693,
+      "endTime": 105717,
       "curveType": "bezier",
       "endPosition": [
         283,
@@ -4714,6 +4810,8 @@
           112
         ]
       ],
+      "duration": 231,
+      "endTime": 108255,
       "curveType": "bezier",
       "endPosition": [
         244,
@@ -4768,6 +4866,8 @@
           72
         ]
       ],
+      "duration": 462,
+      "endTime": 109179,
       "curveType": "bezier",
       "endPosition": [
         150,
@@ -4883,6 +4983,8 @@
           280
         ]
       ],
+      "duration": 462,
+      "endTime": 111717,
       "curveType": "linear",
       "endPosition": [
         386,
@@ -4933,6 +5035,8 @@
           152
         ]
       ],
+      "duration": 462,
+      "endTime": 112640,
       "curveType": "linear",
       "endPosition": [
         383,
@@ -4987,6 +5091,8 @@
           296
         ]
       ],
+      "duration": 1385,
+      "endTime": 114486,
       "curveType": "bezier",
       "endPosition": [
         151,
@@ -5041,6 +5147,8 @@
           128
         ]
       ],
+      "duration": 1847,
+      "endTime": 116795,
       "curveType": "bezier",
       "endPosition": [
         384,
@@ -5147,6 +5255,8 @@
           272
         ]
       ],
+      "duration": 1847,
+      "endTime": 120487,
       "curveType": "bezier",
       "endPosition": [
         226,
@@ -5253,6 +5363,8 @@
           224
         ]
       ],
+      "duration": 1847,
+      "endTime": 124179,
       "curveType": "bezier",
       "endPosition": [
         399,
@@ -5363,6 +5475,8 @@
           176
         ]
       ],
+      "duration": 1847,
+      "endTime": 127871,
       "curveType": "bezier",
       "endPosition": [
         146,
@@ -5437,6 +5551,8 @@
           112
         ]
       ],
+      "duration": 231,
+      "endTime": 129255,
       "curveType": "bezier",
       "endPosition": [
         296,
@@ -5494,6 +5610,8 @@
           352
         ]
       ],
+      "duration": 231,
+      "endTime": 130409,
       "curveType": "bezier",
       "endPosition": [
         256,
@@ -5544,6 +5662,8 @@
           360
         ]
       ],
+      "duration": 462,
+      "endTime": 131333,
       "curveType": "bezier",
       "endPosition": [
         131,
@@ -5601,6 +5721,8 @@
           152
         ]
       ],
+      "duration": 231,
+      "endTime": 132256,
       "curveType": "bezier",
       "endPosition": [
         287,
@@ -5664,6 +5786,8 @@
           32
         ]
       ],
+      "duration": 462,
+      "endTime": 133179,
       "curveType": "bezier",
       "endPosition": [
         380,
@@ -5721,6 +5845,8 @@
           192
         ]
       ],
+      "duration": 231,
+      "endTime": 134102,
       "curveType": "bezier",
       "endPosition": [
         442,
@@ -5771,6 +5897,8 @@
           328
         ]
       ],
+      "duration": 462,
+      "endTime": 135025,
       "curveType": "bezier",
       "endPosition": [
         442,
@@ -5832,6 +5960,8 @@
           160
         ]
       ],
+      "duration": 231,
+      "endTime": 135948,
       "curveType": "bezier",
       "endPosition": [
         269,
@@ -5895,6 +6025,8 @@
           64
         ]
       ],
+      "duration": 462,
+      "endTime": 136871,
       "curveType": "bezier",
       "endPosition": [
         382,
@@ -5952,6 +6084,8 @@
           224
         ]
       ],
+      "duration": 231,
+      "endTime": 137794,
       "curveType": "bezier",
       "endPosition": [
         254,
@@ -6008,6 +6142,8 @@
           296
         ]
       ],
+      "duration": 693,
+      "endTime": 138948,
       "curveType": "bezier",
       "endPosition": [
         118,
@@ -6052,6 +6188,8 @@
           296
         ]
       ],
+      "duration": 231,
+      "endTime": 139640,
       "curveType": "bezier",
       "endPosition": [
         74,
@@ -6240,6 +6378,8 @@
           38
         ]
       ],
+      "duration": 231,
+      "endTime": 145179,
       "curveType": "bezier",
       "endPosition": [
         256,
@@ -6290,6 +6430,8 @@
           24
         ]
       ],
+      "duration": 462,
+      "endTime": 146102,
       "curveType": "bezier",
       "endPosition": [
         132,
@@ -6347,6 +6489,8 @@
           184
         ]
       ],
+      "duration": 231,
+      "endTime": 147025,
       "curveType": "bezier",
       "endPosition": [
         170,
@@ -6410,6 +6554,8 @@
           184
         ]
       ],
+      "duration": 462,
+      "endTime": 147948,
       "curveType": "bezier",
       "endPosition": [
         322,
@@ -6467,6 +6613,8 @@
           208
         ]
       ],
+      "duration": 231,
+      "endTime": 148871,
       "curveType": "bezier",
       "endPosition": [
         182,
@@ -6517,6 +6665,8 @@
           136
         ]
       ],
+      "duration": 462,
+      "endTime": 149794,
       "curveType": "bezier",
       "endPosition": [
         309,
@@ -6578,6 +6728,8 @@
           155
         ]
       ],
+      "duration": 231,
+      "endTime": 150717,
       "curveType": "bezier",
       "endPosition": [
         116,
@@ -6641,6 +6793,8 @@
           48
         ]
       ],
+      "duration": 462,
+      "endTime": 151640,
       "curveType": "bezier",
       "endPosition": [
         198,
@@ -6698,6 +6852,8 @@
           200
         ]
       ],
+      "duration": 231,
+      "endTime": 152563,
       "curveType": "bezier",
       "endPosition": [
         258,
@@ -6754,6 +6910,8 @@
           272
         ]
       ],
+      "duration": 693,
+      "endTime": 153717,
       "curveType": "bezier",
       "endPosition": [
         387,
@@ -6798,6 +6956,8 @@
           280
         ]
       ],
+      "duration": 231,
+      "endTime": 154409,
       "curveType": "bezier",
       "endPosition": [
         430,
@@ -7054,6 +7214,8 @@
           184
         ]
       ],
+      "duration": 924,
+      "endTime": 173102,
       "curveType": "linear",
       "endPosition": [
         377,
@@ -7167,6 +7329,8 @@
           160
         ]
       ],
+      "duration": 231,
+      "endTime": 176102,
       "curveType": "bezier",
       "endPosition": [
         170,
@@ -7215,6 +7379,8 @@
           224
         ]
       ],
+      "duration": 231,
+      "endTime": 177025,
       "curveType": "bezier",
       "endPosition": [
         312,
@@ -7334,6 +7500,8 @@
           104
         ]
       ],
+      "duration": 914,
+      "endTime": 180246,
       "curveType": "bezier",
       "endPosition": [
         306,
@@ -7440,6 +7608,8 @@
           248
         ]
       ],
+      "duration": 914,
+      "endTime": 182323,
       "curveType": "bezier",
       "endPosition": [
         415,
@@ -7514,6 +7684,8 @@
           152
         ]
       ],
+      "duration": 231,
+      "endTime": 183486,
       "curveType": "bezier",
       "endPosition": [
         191,
@@ -7562,6 +7734,8 @@
           272
         ]
       ],
+      "duration": 231,
+      "endTime": 183948,
       "curveType": "bezier",
       "endPosition": [
         293,
@@ -7610,6 +7784,8 @@
           152
         ]
       ],
+      "duration": 231,
+      "endTime": 184409,
       "curveType": "bezier",
       "endPosition": [
         402,
@@ -7658,6 +7834,8 @@
           40
         ]
       ],
+      "duration": 231,
+      "endTime": 184871,
       "curveType": "bezier",
       "endPosition": [
         297,
@@ -7724,6 +7902,8 @@
           160
         ]
       ],
+      "duration": 1828,
+      "endTime": 186929,
       "curveType": "bezier",
       "endPosition": [
         200,
@@ -7772,6 +7952,8 @@
           48
         ]
       ],
+      "duration": 231,
+      "endTime": 187640,
       "curveType": "bezier",
       "endPosition": [
         401,
@@ -7820,6 +8002,8 @@
           192
         ]
       ],
+      "duration": 231,
+      "endTime": 188332,
       "curveType": "bezier",
       "endPosition": [
         466,
@@ -7868,6 +8052,8 @@
           320
         ]
       ],
+      "duration": 457,
+      "endTime": 189251,
       "curveType": "bezier",
       "endPosition": [
         375,
@@ -7977,6 +8163,8 @@
           144
         ]
       ],
+      "duration": 231,
+      "endTime": 191332,
       "curveType": "linear",
       "endPosition": [
         362,
@@ -8046,6 +8234,8 @@
           248
         ]
       ],
+      "duration": 693,
+      "endTime": 192948,
       "curveType": "linear",
       "endPosition": [
         214,
@@ -8159,6 +8349,8 @@
           253
         ]
       ],
+      "duration": 457,
+      "endTime": 194789,
       "curveType": "bezier",
       "endPosition": [
         328,
@@ -8272,6 +8464,8 @@
           56
         ]
       ],
+      "duration": 457,
+      "endTime": 196635,
       "curveType": "bezier",
       "endPosition": [
         369,
@@ -8385,6 +8579,8 @@
           212
         ]
       ],
+      "duration": 457,
+      "endTime": 198482,
       "curveType": "bezier",
       "endPosition": [
         75,
@@ -8478,6 +8674,8 @@
           152
         ]
       ],
+      "duration": 914,
+      "endTime": 200785,
       "curveType": "bezier",
       "endPosition": [
         469,
@@ -8565,6 +8763,8 @@
           320
         ]
       ],
+      "duration": 457,
+      "endTime": 202174,
       "curveType": "bezier",
       "endPosition": [
         243,
@@ -8613,6 +8813,8 @@
           296
         ]
       ],
+      "duration": 457,
+      "endTime": 202866,
       "curveType": "bezier",
       "endPosition": [
         338,
@@ -8674,6 +8876,8 @@
           56
         ]
       ],
+      "duration": 457,
+      "endTime": 204020,
       "curveType": "bezier",
       "endPosition": [
         255,
@@ -8722,6 +8926,8 @@
           97
         ]
       ],
+      "duration": 457,
+      "endTime": 204712,
       "curveType": "bezier",
       "endPosition": [
         162,
@@ -8836,6 +9042,8 @@
           104
         ]
       ],
+      "duration": 457,
+      "endTime": 209558,
       "curveType": "bezier",
       "endPosition": [
         203,
@@ -8884,6 +9092,8 @@
           116
         ]
       ],
+      "duration": 457,
+      "endTime": 210251,
       "curveType": "bezier",
       "endPosition": [
         301,
@@ -8932,6 +9142,8 @@
           336
         ]
       ],
+      "duration": 457,
+      "endTime": 211405,
       "curveType": "bezier",
       "endPosition": [
         322,
@@ -8980,6 +9192,8 @@
           330
         ]
       ],
+      "duration": 457,
+      "endTime": 212097,
       "curveType": "bezier",
       "endPosition": [
         223,
