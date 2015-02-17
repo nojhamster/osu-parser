@@ -31,6 +31,17 @@ function beatmapParser() {
   };
 
   /**
+   * Get the timing point affecting a specific offset
+   * @param  {Integer} offset
+   * @return {Object} timingPoint
+   */
+  var getTimingPoint = function (offset) {
+    for (var i = 0, l = beatmap.timingPoints.length; i < l; i++) {
+      if (beatmap.timingPoints[i].offset <= offset) { return beatmap.timingPoints[i]; }
+    }
+  };
+
+  /**
    * Parse additions member
    * @param  {String} str         additions member (sample:add:customSampleIndex:Volume:hitsound)
    * @return {Object} additions   a list of additions
@@ -177,6 +188,18 @@ function beatmapParser() {
       ];
 
       /**
+       * Calculate slider duration
+       */
+      var timing = getTimingPoint(hitObject.startTime);
+
+      if (timing) {
+        var pxPerBeat      = beatmap.SliderMultiplier * 100 * timing.velocity;
+        var beatsNumber    = (hitObject.pixelLength * hitObject.repeatCount) / pxPerBeat;
+        hitObject.duration = Math.ceil(beatsNumber * timing.beatLength);
+        hitObject.endTime  = hitObject.startTime + hitObject.duration;
+      }
+
+      /**
        * Parse slider points
        */
       var points = (members[5] || '').split('|');
@@ -198,7 +221,7 @@ function beatmapParser() {
       if (members[9]) { edgeAdditions = members[9].split('|'); }
 
       /**
-       Get soundTypes and additions for each slider edge
+       * Get soundTypes and additions for each slider edge
        */
       for (var j = 0, lgt = hitObject.repeatCount + 1; j < lgt; j++) {
         var edge = {
@@ -380,12 +403,10 @@ function beatmapParser() {
     }
 
     eventsLines.forEach(parseEvent);
-    timingLines.forEach(parseTimingPoint);
-    objectLines.forEach(parseHitObject);
-
     beatmap.breakTimes.sort(function (a, b) { return (a.startTime > b.startTime ? 1 : -1); });
+
+    timingLines.forEach(parseTimingPoint);
     beatmap.timingPoints.sort(function (a, b) { return (a.offset > b.offset ? 1 : -1); });
-    beatmap.hitObjects.sort(function (a, b) { return (a.startTime > b.startTime ? 1 : -1); });
 
     var timingPoints = beatmap.timingPoints;
 
@@ -394,6 +415,9 @@ function beatmapParser() {
         timingPoints[i].bpm = timingPoints[i - 1].bpm;
       }
     }
+
+    objectLines.forEach(parseHitObject);
+    beatmap.hitObjects.sort(function (a, b) { return (a.startTime > b.startTime ? 1 : -1); });
 
     computeMaxCombo();
     computeDuration();
