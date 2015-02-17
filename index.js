@@ -1,7 +1,6 @@
 'use strict';
 
 var fs         = require('fs');
-var Lazy       = require('lazy');
 var slidercalc = require('./lib/slidercalc.js');
 
 function beatmapParser() {
@@ -423,20 +422,24 @@ exports.parseFile = function (file, callback) {
     }
 
     var parser = beatmapParser();
+    var stream = fs.createReadStream(file);
+    var buffer = '';
 
-    var lazy = new Lazy(fs.createReadStream(file));
-    lazy
-    .map(String)
-    .lines
-    .forEach(function (line) { parser.readLine(line); });
 
-    lazy.on('error', function (err) {
+    stream.on('data', function (chunk) {
+      buffer   += chunk;
+      var lines = buffer.split(/\r?\n/);
+      buffer    = lines.pop() || '';
+      lines.forEach(parser.readLine);
+    });
+
+    stream.on('error', function (err) {
       callback(err);
     });
 
-    lazy.on('end', function () {
-      var beatmap = parser.buildBeatmap();
-      callback(null, beatmap);
+    stream.on('end', function () {
+      buffer.split(/\r?\n/).forEach(parser.readLine);
+      callback(null, parser.buildBeatmap());
     });
   });
 };
@@ -448,19 +451,22 @@ exports.parseFile = function (file, callback) {
  */
 exports.parseStream = function (stream, callback) {
   var parser = beatmapParser();
-  var lazy   = new Lazy(stream);
-  lazy
-  .map(String)
-  .lines
-  .forEach(function (line) { parser.readLine(line); });
+  var buffer = '';
 
-  lazy.on('error', function (err) {
+  stream.on('data', function (chunk) {
+    buffer   += chunk.toString();
+    var lines = buffer.split(/\r?\n/);
+    buffer    = lines.pop() || '';
+    lines.forEach(parser.readLine);
+  });
+
+  stream.on('error', function (err) {
     callback(err);
   });
 
-  lazy.on('end', function () {
-    var beatmap = parser.buildBeatmap();
-    callback(null, beatmap);
+  stream.on('end', function () {
+    buffer.split(/\r?\n/).forEach(parser.readLine);
+    callback(null, parser.buildBeatmap());
   });
 };
 

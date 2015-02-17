@@ -6,9 +6,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {
-    "lazy": "~1.0.11"
-  },
   "devDependencies": {
     "mocha": "*"
   },

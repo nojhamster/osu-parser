@@ -1,5 +1,5 @@
 ## last changes (not published on npm)
-nothing
+- streams are now read without lazy
 
 ## 0.2.0
 - map length now starts from the very beginning and not from the first timingpoint
