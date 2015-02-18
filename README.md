@@ -179,11 +179,7 @@ Parse the content of a file as a string or a buffer.
 ## TODO
 - translate the samplesetId of timing points
 - parse events
-- compute max score
-- evaluate map difficulty ? (probably too complicated)
+- make tests more reliable
 - add a synchronous version of parseFile
-- support taiko, CTB and osu!mania ? (not sure that would be useful)
 - make it usable in a browser ? (not sure that would be useful)
 - ...
-
-**Feel free to make suggestions !**
