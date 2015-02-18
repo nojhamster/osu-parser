@@ -10,10 +10,13 @@ function beatmapParser() {
     nbSpinners: 0,
     timingPoints: [],
     breakTimes: [],
-    hitObjects: []
+    hitObjects: [],
+    storyboard: {}
   };
 
   var osuSection;
+  var currentSprite;
+  var currentLoop;
   var bpmMin;
   var bpmMax;
   var members;
@@ -28,6 +31,58 @@ function beatmapParser() {
     B: "bezier",
     L: "linear",
     P: "pass-through"
+  };
+
+  var eventTypes = {
+    'f':  'fade',
+    'm':  'move',
+    'mx': 'move-x',
+    'my': 'move-y',
+    's':  'scale',
+    'v':  'vector-scale',
+    'r':  'rotate',
+    'c':  'colour',
+    'l':  'loop',
+    't':  'trigger',
+    'p':  'parameters'
+  };
+
+  var easings = {
+    '0':  'linear',
+    '1':  'easing-out',
+    '2':  'easing-in',
+    '3':  'quad-in',
+    '4':  'quad-out',
+    '5':  'quad-in/out',
+    '6':  'cubic-in',
+    '7':  'cubic-out',
+    '8':  'cubic-in/out',
+    '9':  'quart-in',
+    '10': 'quart-out',
+    '11': 'quart-in/out',
+    '12': 'quint-in',
+    '13': 'quint-out',
+    '14': 'quint-in/out',
+    '15': 'sine-in',
+    '16': 'sine-out',
+    '17': 'sine-in/out',
+    '18': 'expo-in',
+    '19': 'expo-out',
+    '20': 'expo-in/out',
+    '21': 'circ-in',
+    '22': 'circ-out',
+    '23': 'circ-in/out',
+    '24': 'elastic-in',
+    '25': 'elastic-out',
+    '26': 'elastic-half-out',
+    '27': 'elastic-quarter-out',
+    '28': 'elastic-in/out',
+    '29': 'back-in',
+    '30': 'back-out',
+    '31': 'back-in/out',
+    '32': 'bounce-in',
+    '33': 'bounce-out',
+    '34': 'bounce-in/out'
   };
 
   /**
@@ -276,7 +331,16 @@ function beatmapParser() {
      */
     members = line.split(',');
 
-    if (members[0] == '0' && members[1] == '0' && members[2]) {
+    if (members.length < 1) { return; }
+
+    var firstMember = members[0].toLowerCase().trim();
+
+    /**
+     * Background
+     */
+    if (firstMember == '0') {
+      if (members.length < 3) { return; }
+
       var bgName = members[2].trim();
 
       if (bgName.charAt(0) == '"' && bgName.charAt(bgName.length - 1) == '"') {
@@ -284,11 +348,144 @@ function beatmapParser() {
       } else {
         beatmap.bgFilename = bgName;
       }
-    } else if (members[0] == '2' && /^[0-9]+$/.test(members[1]) && /^[0-9]+$/.test(members[2])) {
-      beatmap.breakTimes.push({
-        startTime: parseInt(members[1]),
-        endTime: parseInt(members[2])
-      });
+      return;
+    }
+
+    /**
+     * Breaktime
+     */
+    if (firstMember == '2') {
+      var startTime = parseInt(members[1]);
+      var endTime = parseInt(members[2]);
+      if (!isNaN(startTime) && !isNaN(endTime)) {
+        beatmap.breakTimes.push({
+          startTime: startTime,
+          endTime: endTime
+        });
+      }
+      return;
+    }
+
+    /**
+     * Storyboard layer
+     * Animation|Sprite,"layer","origin","filepath",x,y,frameCount,frameDelay,looptype
+     */
+    if (firstMember == 'sprite' || firstMember == 'animation') {
+      if (members.length < 6) { return; }
+
+      var layerName = members[1].toLowerCase();
+      if (!beatmap.storyboard.hasOwnProperty([layerName])) { beatmap.storyboard[layerName] = []; }
+
+      var spriteObject = {
+        type: firstMember,
+        origin: members[2].toLowerCase(),
+        x: parseInt(members[4]),
+        y: parseInt(members[5]),
+        events: []
+      };
+
+      if (members[6]) { spriteObject.frameCount = parseInt(members[6]); }
+      if (members[7]) { spriteObject.frameDelay = parseInt(members[7]); }
+      if (members[8]) { spriteObject.loopType   = members[8].toLowerCase(); }
+
+      var filePath = members[3].trim();
+      if (filePath.charAt(0) == '"' && filePath.charAt(filePath.length - 1) == '"') {
+        spriteObject.filePath = filePath.substring(1, filePath.length - 1);
+      } else {
+        spriteObject.filePath = filePath;
+      }
+
+      currentSprite = spriteObject;
+      beatmap.storyboard[layerName].push(spriteObject);
+      return;
+    }
+
+    /**
+     * Storyboard event
+     * _event,easing,starttime,endtime,[params]
+     *
+     * TODO: handle shorthands
+     */
+    if (/^_*[a-z]{1,2}$/.test(firstMember)) {
+      if (!currentSprite) { return; }
+
+      /**
+       * Loop
+       */
+      if (firstMember == 'l') {
+        currentLoop = {
+          type: 'loop',
+          startTime: parseInt(members[1]),
+          loopCount: parseInt(members[2]),
+          events: []
+        };
+        currentSprite.events.push(currentLoop);
+        return;
+      }
+
+      /**
+       * Trigger
+       */
+      if (firstMember == 't') {
+        currentLoop = {
+          type: 'trigger',
+          startTime: parseInt(members[2]),
+          loopCount: parseInt(members[3]),
+          events: []
+        };
+        currentSprite.events.push(currentLoop);
+        return;
+      }
+
+      /**
+       * Parameters
+       */
+      // if (firstMember == 'p') {
+      // }
+
+      var osuEvent = {
+        type: eventTypes[firstMember],
+        startTime: parseInt(members[2]),
+        endTime: parseInt(members[3]),
+        easing: easings[members[1]]
+      };
+
+
+      switch (osuEvent.type) {
+        case 'move':
+        case 'vector-scale': // (width and height separately)
+          osuEvent.from = [parseFloat(members[4]), parseFloat(members[5])];
+          osuEvent.to   = [parseFloat(members[6]), parseFloat(members[7])];
+          break;
+        case 'scale':
+        case 'fade':
+        case 'rotate': // (values in radians)
+        case 'move-x':
+        case 'move-y':
+          osuEvent.from = parseFloat(members[4]);
+          osuEvent.to   = parseFloat(members[5]);
+          break;
+        case 'colour':
+          osuEvent.from = {
+            r: parseFloat(members[4]),
+            g: parseFloat(members[5]),
+            b: parseFloat(members[6])
+          };
+          osuEvent.to = {
+            r: parseFloat(members[7]),
+            g: parseFloat(members[8]),
+            b: parseFloat(members[9])
+          };
+          break;
+      }
+
+      var inLoop = (members[0].substr(0,2).replace('__', '  ') === '  ');
+
+      if (inLoop) {
+        if (currentLoop) { currentLoop.events.push(osuEvent); }
+      } else {
+        currentSprite.events.push(osuEvent);
+      }
     }
   };
 
@@ -357,8 +554,8 @@ function beatmapParser() {
    * @param  {String|Buffer} line
    */
   var readLine = function (line) {
-    line = line.toString().trim();
-    if (!line) { return; }
+    line = line.toString();
+    if (!line.trim()) { return; }
 
     var match = sectionReg.exec(line);
     if (match) {
