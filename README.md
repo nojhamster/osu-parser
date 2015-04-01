@@ -79,7 +79,7 @@ console.log(beatmap['PreviewTime']);
   <tr><td>velocity</td><td>Float</td><td>velocity multiplicator.</td></tr>
   <tr><td>timingSignature</td><td>Integer</td><td>3 = simple triple, 4 = simple quadruple (used in editor).</td></tr>
   <tr><td>sampleSetId</td><td>Integer</td><td>sound samples. None = 0, Normal = 1, Soft = 2.</td></tr>
-  <tr><td>useCustomSamples</td><td>Boolean</td><td>use skin localised samples ?</td></tr>
+  <tr><td>customSampleIndex</td><td>Integer</td><td>index of the custom sound samples. (<code>0</code> if none)</td></tr>
   <tr><td>sampleVolume</td><td>Integer</td><td>volume of the samples.</td></tr>
   <tr><td>timingChange</td><td>Boolean</td><td>is there a beatLength change ?</td></tr>
   <tr><td>kiaiTimeActive</td><td>Boolean</td><td>is it a kiai section ?</td></tr>
