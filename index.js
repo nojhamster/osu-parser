@@ -99,15 +99,15 @@ function beatmapParser() {
     members = line.split(',');
 
     var timingPoint = {
-      offset:           parseInt(members[0]),
-      beatLength:       parseFloat(members[1]),
-      velocity:         1,
-      timingSignature:  parseInt(members[2]),
-      sampleSetId:      parseInt(members[3]),
-      useCustomSamples: (members[4] == 1),
-      sampleVolume:     parseInt(members[5]),
-      timingChange:     (members[6] == 1),
-      kiaiTimeActive:   (members[7] == 1)
+      offset:            parseInt(members[0]),
+      beatLength:        parseFloat(members[1]),
+      velocity:          1,
+      timingSignature:   parseInt(members[2]),
+      sampleSetId:       parseInt(members[3]),
+      customSampleIndex: parseInt(members[4]),
+      sampleVolume:      parseInt(members[5]),
+      timingChange:      (members[6] == 1),
+      kiaiTimeActive:    (members[7] == 1)
     };
 
     if (!isNaN(timingPoint.beatLength) && timingPoint.beatLength !== 0) {
