@@ -1,6 +1,6 @@
 {
   "name": "osu-parser",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "converts osu files into javascript objects",
   "main": "index.js",
   "scripts": {
