@@ -17,7 +17,7 @@
     },
     {
       "offset": 32019,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -29,7 +29,7 @@
     },
     {
       "offset": 51769,
-      "beatLength": -200,
+      "beatLength": 333.333333333333,
       "velocity": 0.5,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -41,7 +41,7 @@
     },
     {
       "offset": 52435,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -53,7 +53,7 @@
     },
     {
       "offset": 85352,
-      "beatLength": -200,
+      "beatLength": 333.333333333333,
       "velocity": 0.5,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -65,7 +65,7 @@
     },
     {
       "offset": 96019,
-      "beatLength": -133.333333333333,
+      "beatLength": 333.333333333333,
       "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -77,7 +77,7 @@
     },
     {
       "offset": 104269,
-      "beatLength": -133.333333333333,
+      "beatLength": 333.333333333333,
       "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -89,7 +89,7 @@
     },
     {
       "offset": 104602,
-      "beatLength": -133.333333333333,
+      "beatLength": 333.333333333333,
       "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -101,7 +101,7 @@
     },
     {
       "offset": 104935,
-      "beatLength": -133.333333333333,
+      "beatLength": 333.333333333333,
       "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -113,7 +113,7 @@
     },
     {
       "offset": 105102,
-      "beatLength": -133.333333333333,
+      "beatLength": 333.333333333333,
       "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -125,7 +125,7 @@
     },
     {
       "offset": 107435,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -137,7 +137,7 @@
     },
     {
       "offset": 107685,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -149,7 +149,7 @@
     },
     {
       "offset": 128852,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -161,7 +161,7 @@
     },
     {
       "offset": 129019,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -173,7 +173,7 @@
     },
     {
       "offset": 149685,
-      "beatLength": -200,
+      "beatLength": 333.333333333333,
       "velocity": 0.5,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -185,7 +185,7 @@
     },
     {
       "offset": 150351,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -197,7 +197,7 @@
     },
     {
       "offset": 150435,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -4830,8 +4830,8 @@
           208
         ]
       ],
-      "duration": 250,
-      "endTime": 52102,
+      "duration": 500,
+      "endTime": 52352,
       "curveType": "bezier",
       "endPosition": [
         256,
@@ -7489,8 +7489,8 @@
           96
         ]
       ],
-      "duration": 167,
-      "endTime": 85519,
+      "duration": 334,
+      "endTime": 85686,
       "curveType": "bezier",
       "endPosition": [
         212,
@@ -7535,8 +7535,8 @@
           96
         ]
       ],
-      "duration": 167,
-      "endTime": 86019,
+      "duration": 334,
+      "endTime": 86186,
       "curveType": "bezier",
       "endPosition": [
         300,
@@ -7667,8 +7667,8 @@
           320
         ]
       ],
-      "duration": 167,
-      "endTime": 87686,
+      "duration": 334,
+      "endTime": 87853,
       "curveType": "bezier",
       "endPosition": [
         263,
@@ -7721,8 +7721,8 @@
           256
         ]
       ],
-      "duration": 167,
-      "endTime": 88186,
+      "duration": 334,
+      "endTime": 88353,
       "curveType": "bezier",
       "endPosition": [
         311,
@@ -7775,8 +7775,8 @@
           64
         ]
       ],
-      "duration": 167,
-      "endTime": 88686,
+      "duration": 334,
+      "endTime": 88853,
       "curveType": "bezier",
       "endPosition": [
         263,
@@ -7821,8 +7821,8 @@
           48
         ]
       ],
-      "duration": 84,
-      "endTime": 89103,
+      "duration": 167,
+      "endTime": 89186,
       "curveType": "bezier",
       "endPosition": [
         110,
@@ -7867,8 +7867,8 @@
           160
         ]
       ],
-      "duration": 167,
-      "endTime": 89519,
+      "duration": 334,
+      "endTime": 89686,
       "curveType": "bezier",
       "endPosition": [
         244,
@@ -7913,8 +7913,8 @@
           288
         ]
       ],
-      "duration": 167,
-      "endTime": 90019,
+      "duration": 334,
+      "endTime": 90186,
       "curveType": "bezier",
       "endPosition": [
         204,
@@ -8045,8 +8045,8 @@
           96
         ]
       ],
-      "duration": 167,
-      "endTime": 91686,
+      "duration": 334,
+      "endTime": 91853,
       "curveType": "bezier",
       "endPosition": [
         249,
@@ -8099,8 +8099,8 @@
           144
         ]
       ],
-      "duration": 167,
-      "endTime": 92186,
+      "duration": 334,
+      "endTime": 92353,
       "curveType": "bezier",
       "endPosition": [
         43,
@@ -8153,8 +8153,8 @@
           208
         ]
       ],
-      "duration": 167,
-      "endTime": 92686,
+      "duration": 334,
+      "endTime": 92853,
       "curveType": "bezier",
       "endPosition": [
         261,
@@ -8246,8 +8246,8 @@
           96
         ]
       ],
-      "duration": 167,
-      "endTime": 93852,
+      "duration": 334,
+      "endTime": 94019,
       "curveType": "bezier",
       "endPosition": [
         407,
@@ -8300,8 +8300,8 @@
           144
         ]
       ],
-      "duration": 167,
-      "endTime": 94352,
+      "duration": 334,
+      "endTime": 94519,
       "curveType": "bezier",
       "endPosition": [
         200,
@@ -8354,8 +8354,8 @@
           240
         ]
       ],
-      "duration": 167,
-      "endTime": 94852,
+      "duration": 334,
+      "endTime": 95019,
       "curveType": "bezier",
       "endPosition": [
         352,
@@ -8426,8 +8426,8 @@
           160
         ]
       ],
-      "duration": 167,
-      "endTime": 95686,
+      "duration": 334,
+      "endTime": 95853,
       "curveType": "bezier",
       "endPosition": [
         236,
@@ -8480,8 +8480,8 @@
           96
         ]
       ],
-      "duration": 249,
-      "endTime": 96268,
+      "duration": 332,
+      "endTime": 96351,
       "curveType": "bezier",
       "endPosition": [
         84,
@@ -8526,8 +8526,8 @@
           216
         ]
       ],
-      "duration": 62,
-      "endTime": 96581,
+      "duration": 83,
+      "endTime": 96602,
       "curveType": "bezier",
       "endPosition": [
         46,
@@ -8582,8 +8582,8 @@
           312
         ]
       ],
-      "duration": 247,
-      "endTime": 96932,
+      "duration": 329,
+      "endTime": 97014,
       "curveType": "bezier",
       "endPosition": [
         117,
@@ -8641,8 +8641,8 @@
           248
         ]
       ],
-      "duration": 124,
-      "endTime": 97476,
+      "duration": 165,
+      "endTime": 97517,
       "curveType": "bezier",
       "endPosition": [
         250,
@@ -8687,8 +8687,8 @@
           168
         ]
       ],
-      "duration": 124,
-      "endTime": 97809,
+      "duration": 165,
+      "endTime": 97850,
       "curveType": "bezier",
       "endPosition": [
         214,
@@ -8733,8 +8733,8 @@
           88
         ]
       ],
-      "duration": 124,
-      "endTime": 98143,
+      "duration": 165,
+      "endTime": 98184,
       "curveType": "bezier",
       "endPosition": [
         250,
@@ -8813,8 +8813,8 @@
           216
         ]
       ],
-      "duration": 249,
-      "endTime": 98934,
+      "duration": 332,
+      "endTime": 99017,
       "curveType": "bezier",
       "endPosition": [
         461,
@@ -8867,8 +8867,8 @@
           320
         ]
       ],
-      "duration": 249,
-      "endTime": 99434,
+      "duration": 332,
+      "endTime": 99517,
       "curveType": "bezier",
       "endPosition": [
         332,
@@ -8919,8 +8919,8 @@
           352
         ]
       ],
-      "duration": 124,
-      "endTime": 99809,
+      "duration": 165,
+      "endTime": 99850,
       "curveType": "bezier",
       "endPosition": [
         211,
@@ -8965,8 +8965,8 @@
           248
         ]
       ],
-      "duration": 62,
-      "endTime": 100081,
+      "duration": 83,
+      "endTime": 100102,
       "curveType": "bezier",
       "endPosition": [
         122,
@@ -9011,8 +9011,8 @@
           184
         ]
       ],
-      "duration": 62,
-      "endTime": 100247,
+      "duration": 83,
+      "endTime": 100268,
       "curveType": "bezier",
       "endPosition": [
         116,
@@ -9057,8 +9057,8 @@
           120
         ]
       ],
-      "duration": 62,
-      "endTime": 100414,
+      "duration": 83,
+      "endTime": 100435,
       "curveType": "bezier",
       "endPosition": [
         114,
@@ -9103,8 +9103,8 @@
           56
         ]
       ],
-      "duration": 62,
-      "endTime": 100580,
+      "duration": 83,
+      "endTime": 100601,
       "curveType": "bezier",
       "endPosition": [
         108,
@@ -9155,8 +9155,8 @@
           0
         ]
       ],
-      "duration": 124,
-      "endTime": 100809,
+      "duration": 165,
+      "endTime": 100850,
       "curveType": "bezier",
       "endPosition": [
         107,
@@ -9214,8 +9214,8 @@
           32
         ]
       ],
-      "duration": 124,
-      "endTime": 101476,
+      "duration": 165,
+      "endTime": 101517,
       "curveType": "bezier",
       "endPosition": [
         210,
@@ -9266,8 +9266,8 @@
           104
         ]
       ],
-      "duration": 247,
-      "endTime": 101932,
+      "duration": 329,
+      "endTime": 102014,
       "curveType": "bezier",
       "endPosition": [
         346,
@@ -9329,8 +9329,8 @@
           272
         ]
       ],
-      "duration": 124,
-      "endTime": 102809,
+      "duration": 165,
+      "endTime": 102850,
       "curveType": "bezier",
       "endPosition": [
         432,
@@ -9379,8 +9379,8 @@
           320
         ]
       ],
-      "duration": 124,
-      "endTime": 103143,
+      "duration": 165,
+      "endTime": 103184,
       "curveType": "bezier",
       "endPosition": [
         318,
@@ -9435,8 +9435,8 @@
           248
         ]
       ],
-      "duration": 247,
-      "endTime": 103599,
+      "duration": 329,
+      "endTime": 103681,
       "curveType": "bezier",
       "endPosition": [
         198,
@@ -9485,8 +9485,8 @@
           64
         ]
       ],
-      "duration": 249,
-      "endTime": 104268,
+      "duration": 332,
+      "endTime": 104351,
       "curveType": "bezier",
       "endPosition": [
         179,
@@ -9569,8 +9569,8 @@
           160
         ]
       ],
-      "duration": 624,
-      "endTime": 105809,
+      "duration": 832,
+      "endTime": 106017,
       "curveType": "bezier",
       "endPosition": [
         416,
@@ -14027,8 +14027,8 @@
           128
         ]
       ],
-      "duration": 334,
-      "endTime": 150019,
+      "duration": 667,
+      "endTime": 150352,
       "curveType": "bezier",
       "endPosition": [
         256,

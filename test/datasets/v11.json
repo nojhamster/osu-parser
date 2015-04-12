@@ -17,7 +17,7 @@
     },
     {
       "offset": 15519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -29,7 +29,7 @@
     },
     {
       "offset": 15686,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -41,7 +41,7 @@
     },
     {
       "offset": 15853,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -53,7 +53,7 @@
     },
     {
       "offset": 16019,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -65,7 +65,7 @@
     },
     {
       "offset": 16186,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -77,7 +77,7 @@
     },
     {
       "offset": 21019,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -89,7 +89,7 @@
     },
     {
       "offset": 21186,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -101,7 +101,7 @@
     },
     {
       "offset": 21352,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -113,7 +113,7 @@
     },
     {
       "offset": 21519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -125,7 +125,7 @@
     },
     {
       "offset": 35852,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -137,7 +137,7 @@
     },
     {
       "offset": 37519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -149,7 +149,7 @@
     },
     {
       "offset": 41519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -161,7 +161,7 @@
     },
     {
       "offset": 41936,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -173,7 +173,7 @@
     },
     {
       "offset": 42186,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -185,7 +185,7 @@
     },
     {
       "offset": 42519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -197,7 +197,7 @@
     },
     {
       "offset": 42852,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -209,7 +209,7 @@
     },
     {
       "offset": 52352,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -221,7 +221,7 @@
     },
     {
       "offset": 52769,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -233,7 +233,7 @@
     },
     {
       "offset": 53019,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -245,7 +245,7 @@
     },
     {
       "offset": 53269,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -257,7 +257,7 @@
     },
     {
       "offset": 53519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -269,7 +269,7 @@
     },
     {
       "offset": 61519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -281,7 +281,7 @@
     },
     {
       "offset": 63519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -293,7 +293,7 @@
     },
     {
       "offset": 64186,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -305,7 +305,7 @@
     },
     {
       "offset": 89186,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -317,7 +317,7 @@
     },
     {
       "offset": 90852,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -329,7 +329,7 @@
     },
     {
       "offset": 94852,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -341,7 +341,7 @@
     },
     {
       "offset": 95186,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -353,7 +353,7 @@
     },
     {
       "offset": 95519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -365,7 +365,7 @@
     },
     {
       "offset": 95852,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -377,7 +377,7 @@
     },
     {
       "offset": 96186,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -389,7 +389,7 @@
     },
     {
       "offset": 105686,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -401,7 +401,7 @@
     },
     {
       "offset": 105936,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -413,7 +413,7 @@
     },
     {
       "offset": 106186,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -425,7 +425,7 @@
     },
     {
       "offset": 106519,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -437,7 +437,7 @@
     },
     {
       "offset": 106852,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -449,7 +449,7 @@
     },
     {
       "offset": 114852,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -473,7 +473,7 @@
     },
     {
       "offset": 118660,
-      "beatLength": -133.333333333333,
+      "beatLength": 326.086956521739,
       "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -485,7 +485,7 @@
     },
     {
       "offset": 119964,
-      "beatLength": -100,
+      "beatLength": 326.086956521739,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -497,7 +497,7 @@
     },
     {
       "offset": 121269,
-      "beatLength": -133.333333333333,
+      "beatLength": 326.086956521739,
       "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -509,7 +509,7 @@
     },
     {
       "offset": 123551,
-      "beatLength": -100,
+      "beatLength": 326.086956521739,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -521,7 +521,7 @@
     },
     {
       "offset": 124529,
-      "beatLength": -133.333333333333,
+      "beatLength": 326.086956521739,
       "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -533,7 +533,7 @@
     },
     {
       "offset": 125182,
-      "beatLength": -100,
+      "beatLength": 326.086956521739,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -545,7 +545,7 @@
     },
     {
       "offset": 139203,
-      "beatLength": -133.333333333333,
+      "beatLength": 326.086956521739,
       "velocity": 0.7500000000000019,
       "timingSignature": 4,
       "sampleSetId": 2,
@@ -557,7 +557,7 @@
     },
     {
       "offset": 143605,
-      "beatLength": -100,
+      "beatLength": 326.086956521739,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -581,7 +581,7 @@
     },
     {
       "offset": 148938,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -593,7 +593,7 @@
     },
     {
       "offset": 153771,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -605,7 +605,7 @@
     },
     {
       "offset": 154021,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -617,7 +617,7 @@
     },
     {
       "offset": 154271,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -629,7 +629,7 @@
     },
     {
       "offset": 159604,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -641,7 +641,7 @@
     },
     {
       "offset": 169104,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -653,7 +653,7 @@
     },
     {
       "offset": 169354,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -665,7 +665,7 @@
     },
     {
       "offset": 169604,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -677,7 +677,7 @@
     },
     {
       "offset": 169938,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -689,7 +689,7 @@
     },
     {
       "offset": 170271,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -701,7 +701,7 @@
     },
     {
       "offset": 178271,
-      "beatLength": -100,
+      "beatLength": 333.333333333333,
       "velocity": 1,
       "timingSignature": 4,
       "sampleSetId": 1,
@@ -9596,8 +9596,8 @@
           312
         ]
       ],
-      "duration": 500,
-      "endTime": 119160,
+      "duration": 653,
+      "endTime": 119313,
       "curveType": "pass-through",
       "endPosition": [
         393,
@@ -9646,8 +9646,8 @@
           133
         ]
       ],
-      "duration": 250,
-      "endTime": 119725,
+      "duration": 327,
+      "endTime": 119802,
       "curveType": "pass-through",
       "endPosition": [
         331,
@@ -9761,8 +9761,8 @@
           40
         ]
       ],
-      "duration": 500,
-      "endTime": 121932,
+      "duration": 653,
+      "endTime": 122085,
       "curveType": "pass-through",
       "endPosition": [
         363,
@@ -9824,8 +9824,8 @@
           92
         ]
       ],
-      "duration": 375,
-      "endTime": 123437,
+      "duration": 488,
+      "endTime": 123550,
       "curveType": "pass-through",
       "endPosition": [
         92,
@@ -9887,8 +9887,8 @@
           266
         ]
       ],
-      "duration": 500,
-      "endTime": 125192,
+      "duration": 653,
+      "endTime": 125345,
       "curveType": "pass-through",
       "endPosition": [
         429,
@@ -9989,8 +9989,8 @@
           52
         ]
       ],
-      "duration": 667,
-      "endTime": 127316,
+      "duration": 653,
+      "endTime": 127302,
       "curveType": "pass-through",
       "endPosition": [
         384,
@@ -10078,8 +10078,8 @@
           328
         ]
       ],
-      "duration": 667,
-      "endTime": 128620,
+      "duration": 653,
+      "endTime": 128606,
       "curveType": "pass-through",
       "endPosition": [
         256,
@@ -10142,8 +10142,8 @@
           168
         ]
       ],
-      "duration": 250,
-      "endTime": 139453,
+      "duration": 327,
+      "endTime": 139530,
       "curveType": "pass-through",
       "endPosition": [
         166,
@@ -10192,8 +10192,8 @@
           217
         ]
       ],
-      "duration": 250,
-      "endTime": 139942,
+      "duration": 327,
+      "endTime": 140019,
       "curveType": "pass-through",
       "endPosition": [
         226,
@@ -10242,8 +10242,8 @@
           170
         ]
       ],
-      "duration": 250,
-      "endTime": 140432,
+      "duration": 327,
+      "endTime": 140509,
       "curveType": "pass-through",
       "endPosition": [
         406,
@@ -10292,8 +10292,8 @@
           230
         ]
       ],
-      "duration": 250,
-      "endTime": 140921,
+      "duration": 327,
+      "endTime": 140998,
       "curveType": "pass-through",
       "endPosition": [
         466,
