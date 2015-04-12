@@ -74,7 +74,7 @@ console.log(beatmap['PreviewTime']);
     <th>description</th>
   </tr>
   <tr><td>offset</td><td>Integer</td><td>offset in milliseconds.</td></tr>
-  <tr><td>beatLength</td><td>Float</td><td>length of a single beat in milliseconds. If negative, it's a change of velocity.</td></tr>
+  <tr><td>beatLength</td><td>Float</td><td>length of a single beat in milliseconds. Inherited from previous timing point if negative.</td></tr>
   <tr><td>bpm</td><td>Float</td><td>number of beats per minute. Inherited from previous timing point if beatLength is negative.</td></tr>
   <tr><td>velocity</td><td>Float</td><td>velocity multiplicator.</td></tr>
   <tr><td>timingSignature</td><td>Integer</td><td>3 = simple triple, 4 = simple quadruple (used in editor).</td></tr>

@@ -1,3 +1,7 @@
+## 0.3.2
+- Fix slider duration calculated with the wrong timing point
+- Timing points now inherit the previous beatLength if it's negative
+
 ## 0.3.0
 - streams are now read without lazy
 - add duration and endTime to sliders
