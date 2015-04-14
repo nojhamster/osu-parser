@@ -39,6 +39,7 @@ function beatmapParser() {
     for (var i = beatmap.timingPoints.length - 1; i >= 0; i--) {
       if (beatmap.timingPoints[i].offset <= offset) { return beatmap.timingPoints[i]; }
     }
+    return beatmap.timingPoints[0];
   };
 
   /**
