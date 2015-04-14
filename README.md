@@ -52,6 +52,7 @@ console.log(beatmap['PreviewTime']);
     <th>description</th>
   </tr>
   <tr><td>fileFormat</td><td>String</td><td>osu file format (v7, v12...).</td></tr>
+  <tr><td>bgFilename</td><td>String</td><td>name of the background image.</td></tr>
   <tr><td>nbCircles</td><td>Integer</td><td>number of circles.</td></tr>
   <tr><td>nbSliders</td><td>Integer</td><td>number of sliders.</td></tr>
   <tr><td>nbSpinners</td><td>Integer</td><td>number of spinners.</td></tr>
