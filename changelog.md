@@ -1,3 +1,6 @@
+## 0.3.3
+- fix slider calculations failing if it starts before the first timing point
+
 ## 0.3.2
 - Fix slider duration calculated with the wrong timing point
 - Timing points now inherit the previous beatLength if it's negative
