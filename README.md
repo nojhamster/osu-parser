@@ -102,7 +102,7 @@ console.log(beatmap['PreviewTime']);
     <td>
       hitobject specific additions. It can have those properties :
       <br/>-<code>sample</code>: object specific sample. It can be : <code>soft</code>, <code>normal</code>, <code>drum</code>.
-      <br/>-<code>additionalSample</code>: a sample to add along with the current one. It can be : <code>soft</code>, <code>normal</code>, <code>drum</code>.
+      <br/>-<code>additionalSample</code>: the sample to use for additional sounds (finish, whistle, clap). It can be : <code>soft</code>, <code>normal</code>, <code>drum</code>.
       <br/>-<code>customSampleIndex</code>: index of the custom sample to use (ex: normal-2).
       <br/>-<code>hitsoundVolume</code>: specific volume for this object (require <code>hitsound</code> to be an existing file).
       <br/>-<code>hitsound</code>: a file to use as hitsound. It disables all other hitsounds.
